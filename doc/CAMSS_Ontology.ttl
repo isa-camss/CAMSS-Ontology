@@ -1,0 +1,39 @@
+@prefix camsso: <http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix cav: <http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#> .
+@prefix cssv: <http://data.europa.eu/w21/e1f84ab1-bad6-4e95-b37a-e54ba7dfc551#> .
+
+@base <http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea> .
+
+<http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea> rdf:type owl:Ontology;
+                                                                  owl:versionIRI cav:camsso ;
+                                                                  owl:imports <http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c> ,
+																  <http://data.europa.eu/w21/e1f84ab1-bad6-4e95-b37a-e54ba7dfc551> ;											  
+                                                                  cc:attributionName "European Commission" ;
+                                                                  dct:date "2021-04-31+00:00"^^xsd:date ;
+                                                                  dct:description "This module provides the definitions for the Common Assessment Method for Standards and Specifications (CAMSS) Ontology."@en ;
+                                                                  dct:license <http://creativecommons.org/licenses/by-sa/4.0/> ;
+                                                                  dct:title "CAMSS Ontology"@en ;
+                                                                  vann:preferredNamespacePrefix "camsso" ;
+                                                                  vann:preferredNamespaceUri "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#" ;
+                                                                  rdfs:label "CAMSS Ontology"@en ;
+                                                                  rdfs:seeAlso <https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/camss-ontology> ;
+                                                                  owl:versionInfo """v1.0.0"""  .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#assesses
+camsso:assesses rdf:type owl:ObjectProperty ;
+             rdfs:domain cav:Assessment ;
+             rdfs:range cssv:Specification ;
+             rdfs:comment "The reference to the asset(s) that are the object of the assessment."@en ;
+             rdfs:isDefinedBy <http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea> ;
+             rdfs:label "Assesses"@en ;
+             skos:definition "The reference to the asset(s) that are the object of the assessment."@en ;
+             skos:prefLabel "Assesses"@en .
