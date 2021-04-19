@@ -1,0 +1,4072 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> . 
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix cav: <http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#> .
+@prefix camsso: <http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix : <http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#> .
+
+
+##############
+# Assessment #
+##############
+
+:TriplesMap a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMap rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{assessment_id}"
+].
+
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Assessment"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate cav:contextualisedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{scenario_id}"
+  ]
+].
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate cav:performedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate cav:resultsIn;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A1_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A2_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A3_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A4_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A5_I}",                  
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A6_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A7_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A8_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A9_I}",                  
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A10_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A11_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A12_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A14_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A14_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A15_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A16_I}",                  
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A17_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A18_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A19_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A20_I}",                  
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A21_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A22_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A23_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A24_I}",                                    
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A25_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A26_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A28_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A28_I}",                  
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A29_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A30_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A31_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A32_I}",                                    
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A33_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A34_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A35_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A36_I}",                  
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A37_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A38_I}",
+                  "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A39_I}"
+  ]
+].
+
+############
+# Scenario #
+############
+
+:TriplesMapScenario a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapScenario rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{scenario_id}"
+].
+
+
+:TriplesMapScenario rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Scenario"
+  ]
+].
+
+:TriplesMapScenario rr:predicateObjectMap [
+  rr:predicate dct:title;
+  rr:objectMap [
+      rr:template "{scenario}" ; rr:language "en"
+  ]
+].
+
+
+################
+# Statement A1 #
+################
+
+:TriplesMapA1 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA1 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A1_I}"
+].
+
+:TriplesMapA1 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA1 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A1_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA1 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A1_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA1 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A1_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA1 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+################
+# Statement A2 #
+################
+
+:TriplesMapA2 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA2 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A2_I}"
+].
+
+:TriplesMapA2 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA2 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A2_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA2 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A2_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA2 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A2_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA2 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+################
+# Statement A3 #
+################
+
+:TriplesMapA3 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA3 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A3_I}"
+].
+
+:TriplesMapA3 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA3 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A3_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA3 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A3_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA3 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A3_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA3 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+################
+# Statement A4 #
+################
+
+:TriplesMapA4 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA4 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A4_I}"
+].
+
+:TriplesMapA4 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA4 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A4_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA4 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A4_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA4 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A4_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA4 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+################
+# Statement A5 #
+################
+
+:TriplesMapA5 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA5 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A5_I}"
+].
+
+:TriplesMapA5 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA5 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A5_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA5 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A5_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA5 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A5_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA5 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+################
+# Statement A6 #
+################
+
+:TriplesMapA6 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA6 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A6_I}"
+].
+
+:TriplesMapA6 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA6 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A6_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA6 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A6_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA6 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A6_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA6 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+################
+# Statement A7 #
+################
+
+:TriplesMapA7 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA7 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A7_I}"
+].
+
+:TriplesMapA7 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA7 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A7_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA7 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A7_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA7 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A7_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA7 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+################
+# Statement A8 #
+################
+
+:TriplesMapA8 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA8 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A8_I}"
+].
+
+:TriplesMapA8 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA8 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A8_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA8 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A8_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA8 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A8_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA8 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+################
+# Statement A9 #
+################
+
+:TriplesMapA9 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA9 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A9_I}"
+].
+
+:TriplesMapA9 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA9 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A9_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA9 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A9_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA9 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A9_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA9 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A10 #
+#################
+
+:TriplesMapA10 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA10 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A10_I}"
+].
+
+:TriplesMapA10 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA10 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A10_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA10 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A10_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA10 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A10_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA10 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A11 #
+#################
+
+:TriplesMapA11 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA11 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A11_I}"
+].
+
+:TriplesMapA11 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA11 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A11_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA11 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A11_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA11 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A11_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA11 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A12 #
+#################
+
+:TriplesMapA12 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA12 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A12_I}"
+].
+
+:TriplesMapA12 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA12 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A12_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA12 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A12_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA12 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A12_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA12 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A13 #
+#################
+
+:TriplesMapA13 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA13 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A14_I}"
+].
+
+:TriplesMapA13 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA13 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A13_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA13 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A13_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA13 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A13_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA13 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+
+#################
+# Statement A14 #
+#################
+
+:TriplesMapA14 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA14 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A14_I}"
+].
+
+:TriplesMapA14 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA14 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A14_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA14 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A14_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA14 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A14_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA14 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+
+#################
+# Statement A15 #
+#################
+
+:TriplesMapA15 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA15 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A15_I}"
+].
+
+:TriplesMapA15 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA15 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A15_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA15 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A15_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA15 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A15_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA15 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+
+#################
+# Statement A16 #
+#################
+
+:TriplesMapA16 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA16 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A16_I}"
+].
+
+:TriplesMapA16 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA16 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A16_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA16 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A16_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA16 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A16_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA16 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A17 #
+#################
+
+:TriplesMapA17 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA17 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A17_I}"
+].
+
+:TriplesMapA17 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA17 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A17_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA17 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A17_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA17 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A17_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA17 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A18 #
+#################
+
+:TriplesMapA18 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA18 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A18_I}"
+].
+
+:TriplesMapA18 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA18 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A18_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA18 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A18_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA18 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A18_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA18 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A19 #
+#################
+
+:TriplesMapA19 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA19 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A19_I}"
+].
+
+:TriplesMapA19 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA19 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A19_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA19 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A19_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA19 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A19_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA19 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A20 #
+#################
+
+:TriplesMapA20 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA20 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A20_I}"
+].
+
+:TriplesMapA20 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA20 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A20_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA20 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A20_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA20 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A20_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA20 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A21 #
+#################
+
+:TriplesMapA21 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA21 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A21_I}"
+].
+
+:TriplesMapA21 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA21 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A21_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA21 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A21_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA21 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A21_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA21 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A22 #
+#################
+
+:TriplesMapA22 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA22 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A22_I}"
+].
+
+:TriplesMapA22 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA22 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A22_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA22 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A22_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA22 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A22_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA22 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A23 #
+#################
+
+:TriplesMapA23 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA23 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A23_I}"
+].
+
+:TriplesMapA23 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA23 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A23_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA23 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A23_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA23 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A23_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA23 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A24 #
+#################
+
+:TriplesMapA24 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA24 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A24_I}"
+].
+
+:TriplesMapA24 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA24 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A24_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA24 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A24_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA24 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A24_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA24 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A25 #
+#################
+
+:TriplesMapA25 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA25 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A25_I}"
+].
+
+:TriplesMapA25 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA25 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A25_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA25 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A25_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA25 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A25_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA25 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A26 #
+#################
+
+:TriplesMapA26 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA26 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A26_I}"
+].
+
+:TriplesMapA26 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA26 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A26_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA26 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A26_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA26 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A26_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA26 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A27 #
+#################
+
+:TriplesMapA27 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA27 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A27_I}"
+].
+
+:TriplesMapA27 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA27 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A27_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA27 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A27_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA27 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A27_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA27 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A28 #
+#################
+
+:TriplesMapA28 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA28 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A28_I}"
+].
+
+:TriplesMapA28 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA28 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A28_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA28 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A28_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA28 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A28_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA28 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A29 #
+#################
+
+:TriplesMapA29 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA29 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A29_I}"
+].
+
+:TriplesMapA29 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA29 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A29_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA29 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A29_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA29 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A29_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA29 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A30 #
+#################
+
+:TriplesMapA30 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA30 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A30_I}"
+].
+
+:TriplesMapA30 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA30 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A30_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA30 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A30_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA30 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A30_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA30 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A31 #
+#################
+
+:TriplesMapA31 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA31 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A31_I}"
+].
+
+:TriplesMapA31 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA31 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A31_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA31 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A31_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA31 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A31_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA31 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A32 #
+#################
+
+:TriplesMapA32 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA32 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A32_I}"
+].
+
+:TriplesMapA32 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA32 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A32_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA32 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A32_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA32 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A32_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA32 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A33 #
+#################
+
+:TriplesMapA33 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA33 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A33_I}"
+].
+
+:TriplesMapA33 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA33 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A33_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA33 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A33_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA33 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A33_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA33 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A34 #
+#################
+
+:TriplesMapA34 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA34 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A34_I}"
+].
+
+:TriplesMapA34 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA34 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A34_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA34 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A34_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA34 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A34_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA34 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A35 #
+#################
+
+:TriplesMapA35 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA35 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A35_I}"
+].
+
+:TriplesMapA35 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA35 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A35_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA35 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A35_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA35 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A35_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA35 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A36 #
+#################
+
+:TriplesMapA36 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA36 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A36_I}"
+].
+
+:TriplesMapA36 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA36 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A36_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA36 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A36_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA36 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A36_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA36 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A37 #
+#################
+
+:TriplesMapA37 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA37 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A37_I}"
+].
+
+:TriplesMapA37 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA37 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A37_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA37 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A37_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA37 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A37_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA37 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A38 #
+#################
+
+:TriplesMapA38 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA38 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A38_I}"
+].
+
+:TriplesMapA38 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA38 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A38_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA38 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A38_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA38 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A38_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA38 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+#################
+# Statement A39 #
+#################
+
+:TriplesMapA39 a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+# An_I holds the Statement ID
+:TriplesMapA39 rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a375-e48704ac79ea#{A39_I}"
+].
+
+:TriplesMapA39 rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapA39 rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{A39_J}" ; rr:language "en"
+  ]
+].
+
+# An_C holds the Criterion ID, which was defined in the namespace of CAMSS, too.
+# Beware that the individuals of Criteria are instantiated by CAMSS, therefore they
+# reside in the CAMSS namespace
+
+:TriplesMapA39 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A39_C}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA39 rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A39_S}"
+  ]
+].
+
+#An_S holds the ID of the Score related to this Statement
+:TriplesMapA39 rr:predicateObjectMap [
+  rr:predicate cav:formulatedBy;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].
+
+
+################
+# Score A1_S #
+################
+
+:TriplesMapA1_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA1_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A1_S}"
+].
+
+:TriplesMapA1_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA1_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A1_V}" ; rr:datatype xsd:int
+  ]
+].
+
+################
+# Score A2_S #
+################
+
+:TriplesMapA2_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA2_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A2_S}"
+].
+
+:TriplesMapA2_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA2_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A2_V}" ; rr:datatype xsd:int
+  ]
+].
+
+################
+# Score A3_S #
+################
+
+:TriplesMapA3_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA3_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A3_S}"
+].
+
+:TriplesMapA3_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA3_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A3_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A4_S #
+##############
+
+:TriplesMapA4_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA4_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A4_S}"
+].
+
+:TriplesMapA4_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA4_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A4_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A5_S #
+##############
+
+:TriplesMapA5_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA5_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A5_S}"
+].
+
+:TriplesMapA5_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA5_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A5_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A6_S #
+##############
+
+:TriplesMapA6_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA6_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A6_S}"
+].
+
+:TriplesMapA6_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA6_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A6_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A7_S #
+##############
+
+:TriplesMapA7_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA7_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A7_S}"
+].
+
+:TriplesMapA7_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA7_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A7_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A8_S #
+##############
+
+:TriplesMapA8_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA8_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A8_S}"
+].
+
+:TriplesMapA8_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA8_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A8_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A9_S #
+##############
+
+:TriplesMapA9_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA9_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A9_S}"
+].
+
+:TriplesMapA9_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA9_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A9_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A10_S #
+##############
+
+:TriplesMapA10_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA10_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A10_S}"
+].
+
+:TriplesMapA10_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA10_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A10_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A11_S #
+##############
+
+:TriplesMapA11_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA11_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A11_S}"
+].
+
+:TriplesMapA11_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA11_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A11_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A12_S #
+##############
+
+:TriplesMapA12_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA12_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A12_S}"
+].
+
+:TriplesMapA12_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA12_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A12_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A13_S #
+##############
+
+:TriplesMapA13_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA13_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A13_S}"
+].
+
+:TriplesMapA13_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA13_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A13_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A14_S #
+##############
+
+:TriplesMapA14_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA14_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A14_S}"
+].
+
+:TriplesMapA14_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA14_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A14_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A15_S #
+##############
+
+:TriplesMapA15_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA15_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A15_S}"
+].
+
+:TriplesMapA15_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA15_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A15_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A16_S #
+##############
+
+:TriplesMapA16_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA16_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A16_S}"
+].
+
+:TriplesMapA16_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA16_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A16_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A17_S #
+##############
+
+:TriplesMapA17_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA17_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A17_S}"
+].
+
+:TriplesMapA17_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA17_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A17_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A18_S #
+##############
+
+:TriplesMapA18_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA18_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A18_S}"
+].
+
+:TriplesMapA18_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA18_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A18_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A19_S #
+##############
+
+:TriplesMapA19_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA19_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A19_S}"
+].
+
+:TriplesMapA19_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA19_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A19_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A20_S #
+##############
+
+:TriplesMapA20_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA20_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A20_S}"
+].
+
+:TriplesMapA20_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA20_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A20_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A21_S #
+##############
+
+:TriplesMapA21_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA21_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A21_S}"
+].
+
+:TriplesMapA21_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA21_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A21_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A22_S #
+##############
+
+:TriplesMapA22_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA22_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A22_S}"
+].
+
+:TriplesMapA22_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA22_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A22_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A23_S #
+##############
+
+:TriplesMapA23_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA23_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A23_S}"
+].
+
+:TriplesMapA23_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA23_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A23_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A24_S #
+##############
+
+:TriplesMapA24_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA24_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A24_S}"
+].
+
+:TriplesMapA24_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA24_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A24_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A25_S #
+##############
+
+:TriplesMapA25_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA25_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A25_S}"
+].
+
+:TriplesMapA25_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA25_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A25_V}" ; rr:datatype xsd:int
+  ]
+].
+
+
+##############
+# Score A26_S #
+##############
+
+:TriplesMapA26_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA26_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A26_S}"
+].
+
+:TriplesMapA26_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA26_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A26_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A27_S #
+##############
+
+:TriplesMapA27_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA27_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A27_S}"
+].
+
+:TriplesMapA27_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA27_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A27_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A28_S #
+##############
+
+:TriplesMapA28_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA28_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A28_S}"
+].
+
+:TriplesMapA28_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA28_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A28_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A29_S #
+##############
+
+:TriplesMapA29_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA29_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A29_S}"
+].
+
+:TriplesMapA29_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA29_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A29_V}" ; rr:datatype xsd:int
+  ]
+].
+
+##############
+# Score A30_S #
+##############
+
+:TriplesMapA30_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA30_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A30_S}"
+].
+
+:TriplesMapA30_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA30_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A30_V}" ; rr:datatype xsd:int
+  ]
+].
+
+###############
+# Score A31_S #
+###############
+
+:TriplesMapA31_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA31_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A31_S}"
+].
+
+:TriplesMapA31_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA31_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A31_V}" ; rr:datatype xsd:int
+  ]
+].
+
+###############
+# Score A32_S #
+###############
+
+:TriplesMapA32_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA32_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A32_S}"
+].
+
+:TriplesMapA32_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA32_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A32_V}" ; rr:datatype xsd:int
+  ]
+].
+
+
+###############
+# Score A33_S #
+###############
+
+:TriplesMapA33_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA33_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A33_S}"
+].
+
+:TriplesMapA33_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA33_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A33_V}" ; rr:datatype xsd:int
+  ]
+].
+
+###############
+# Score A34_S #
+###############
+
+:TriplesMapA34_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA34_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A34_S}"
+].
+
+:TriplesMapA34_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA34_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A34_V}" ; rr:datatype xsd:int
+  ]
+].
+
+###############
+# Score A35_S #
+###############
+
+:TriplesMapA35_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA35_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A35_S}"
+].
+
+:TriplesMapA35_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA35_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A35_V}" ; rr:datatype xsd:int
+  ]
+].
+
+###############
+# Score A36_S #
+###############
+
+:TriplesMapA36_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA36_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A36_S}"
+].
+
+:TriplesMapA36_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA36_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A36_V}" ; rr:datatype xsd:int
+  ]
+].
+
+###############
+# Score A37_S #
+###############
+
+:TriplesMapA37_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA37_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A37_S}"
+].
+
+:TriplesMapA37_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA37_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A37_V}" ; rr:datatype xsd:int
+  ]
+].
+
+###############
+# Score A38_S #
+###############
+
+:TriplesMapA38_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA38_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A38_S}"
+].
+
+:TriplesMapA38_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA38_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A38_V}" ; rr:datatype xsd:int
+  ]
+].
+
+###############
+# Score A39_S #
+###############
+
+:TriplesMapA39_S a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapA39_S rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{A39_S}"
+].
+
+:TriplesMapA39_S rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapA39_S rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{A39_V}" ; rr:datatype xsd:int
+  ]
+].
+
+
+#################################
+# Submitter Organizational Unit #
+#################################
+
+:TriplesMapSubmitter a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+
+:TriplesMapSubmitter rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+].
+
+:TriplesMapSubmitter rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+      rr:template "http://www.w3.org/ns/org#OrganizationalUnit"
+  ]
+].
+
+:TriplesMapSubmitter rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+      rr:template "{L1}" ; rr:language "en"
+  ]
+].
+
+:TriplesMapSubmitter rr:predicateObjectMap [
+  rr:predicate org:unitOf;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_org_id}"
+  ]
+].
+
+:TriplesMapSubmitter rr:predicateObjectMap [
+  rr:predicate vcard:hasEmail;
+  rr:objectMap [
+      rr:template "{L6}" ; rr:datatype xsd:string
+  ]
+].
+
+
+:TriplesMapSubmitter rr:predicateObjectMap [
+  rr:predicate vcard:hasTelephone;
+  rr:objectMap [
+      rr:template "{L5}" ; rr:datatype xsd:string
+  ]
+].
+
+############################
+# Submitter Organizational #
+############################
+
+:TriplesMapSubmitterOrg a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+
+:TriplesMapSubmitterOrg rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_org_id}"
+].
+
+:TriplesMapSubmitterOrg rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+      rr:template "http://www.w3.org/ns/org#Organization"
+  ]
+].
+
+:TriplesMapSubmitterOrg rr:predicateObjectMap [
+  rr:predicate skos:prefLabel;
+  rr:objectMap [
+      rr:template "{L2}" ; rr:language "en"
+  ]
+].
+
+:TriplesMapSubmitterOrg rr:predicateObjectMap [
+  rr:predicate org:hasUnit;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{submitter_unit_id}"
+  ]
+].

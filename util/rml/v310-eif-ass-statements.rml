@@ -1,0 +1,136 @@
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix cav: <http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#> .
+@prefix camsso: <http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#> .
+@prefix : <http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#> .
+
+
+##############
+# Assessment #
+##############
+
+:TriplesMap a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif-ass-statements.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMap rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{ass_id}"
+].
+
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate rdf:type;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Assessment"
+  ]
+].
+
+
+:TriplesMap rr:predicateObjectMap [
+  rr:predicate cav:resultsIn;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{statement_id}"
+  ]
+].
+
+############
+# Statement#
+############
+
+:TriplesMapStatement a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif-ass-statements.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapStatement rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{statement_id}"
+].
+
+:TriplesMapStatement rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Statement"
+  ]
+].
+
+:TriplesMapStatement rr:predicateObjectMap [
+  rr:predicate cav:judgement;
+  rr:objectMap [
+      rr:template "{statement}" ; rr:language "en"
+  ]
+].
+
+# Refers to Criterion
+
+:TriplesMapStatement rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{criterion_id}"
+  ]
+].
+
+# Refers to Score
+:TriplesMapStatement rr:predicateObjectMap [
+  rr:predicate cav:refersTo;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{score_id}"
+  ]
+].
+
+
+#########
+# Score #
+#########
+
+:TriplesMapScore a rr:TriplesMap;
+  rml:logicalSource [
+    rml:source [
+      a csvw:Table;
+      csvw:url "./out/v310-eif-ass-statements.csv";
+      csvw:dialect [ 
+        a csvw:Dialect;
+        csvw:delimiter ","
+      ]
+    ];
+    rml:referenceFormulation ql:CSV
+  ].
+
+:TriplesMapScore rr:subjectMap [
+  rr:template "http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#{score_id}"
+].
+
+:TriplesMapScore rr:predicateObjectMap [
+  rr:predicate rdf:type ;
+  rr:objectMap [
+      rr:template "http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#Score"
+  ]
+].
+
+:TriplesMapScore rr:predicateObjectMap [
+  rr:predicate cav:value ;
+  rr:objectMap [
+      rr:template "{score_value}" ; rr:datatype xsd:int
+  ]
+].
+
