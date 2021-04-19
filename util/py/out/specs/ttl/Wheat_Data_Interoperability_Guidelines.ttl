@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+rsc:1971151aa9a51d1ffebd8db8774b92f2d57f46bb05b9b6de8d056d16479f8ac2 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy rsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Wheat Data Interoperability Guidelines "@en ;
+    dcat:distribution rsc:82ab06b4-5a36-4da0-a0b2-d331ed85279a .
+
+rsc:70f3aaaa-66eb-43c1-8444-3b77eb8f11b7 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf rsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+rsc:82ab06b4-5a36-4da0-a0b2-d331ed85279a a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.rd-alliance.org/node/752/outputs"^^xsd:anyURI .
+
+rsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "Other SDO/SSO"^^xsd:string .
+

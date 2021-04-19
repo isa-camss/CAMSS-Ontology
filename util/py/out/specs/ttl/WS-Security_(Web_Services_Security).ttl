@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+rsc:0525f64dfe93f08c86035f6f7c91baf6d5a1fbc3768e502a1f16f95691a1a9aa a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy rsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    dct:title "WS-Security (Web Services Security)"@en ;
+    dcat:distribution rsc:5c4c657e-909a-4ca7-80d9-08f6d36a7438 .
+
+rsc:63b0710a-7467-43a9-9754-02af6e7f9332 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf rsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    schema:email "CAMSS@everis.com" .
+
+rsc:5c4c657e-909a-4ca7-80d9-08f6d36a7438 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=wss"^^xsd:anyURI .
+
+rsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "OASIS (https://www.oasis-open.org/)"^^xsd:string .
+

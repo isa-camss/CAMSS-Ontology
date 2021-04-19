@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+rsc:67b21c8b-accc-4f73-a97b-71fc292761d1 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf rsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "CAMSS@everis.com" .
+
+rsc:9507d4ac72d66333e672b706dec4d4c278150753852ba3bb607554dc9bfb64f9 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy rsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "Transport Layer Security (TLS)"@en ;
+    dcat:distribution rsc:b8f6de6b-8ff4-4d9e-864b-d1432de70519 .
+
+rsc:b8f6de6b-8ff4-4d9e-864b-d1432de70519 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://tools.ietf.org/html/rfc5246"^^xsd:anyURI .
+
+rsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "IETF (https://www.ietf.org/)"^^xsd:string .
+

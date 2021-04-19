@@ -1,0 +1,514 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:93d10834b70f3499467882e3ad318f09710eb9dc98ce98741b7713b9bc264705 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:5b74bd3147b4848bbffdf2b72b231eb4fcff0e3e35e4b780f650a8783e9a4b8e ;
+    camss:assessmentDate "1001-01-01"^^xsd:date ;
+    camss:submissionDate "2019-10-31"^^xsd:date ;
+    camss:toolVersion tool:3.0.0 ;
+    cav:contextualisedBy sc:s-fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd ;
+    cav:resultsIn camssa:0264a243-46fc-4eb2-a36b-b561c3684dcf,
+        camssa:192099ab-fe7f-4e3d-bb22-d2b220d28f92,
+        camssa:1e493681-6b25-4413-ba8f-ba34de80ca8b,
+        camssa:2398c58c-b8aa-4a40-b02a-143cf9f504f5,
+        camssa:24064969-2407-4a47-b3a9-be4f0d5fa2c8,
+        camssa:27a0e8ee-ee4e-4e2f-811f-d4e813bb650b,
+        camssa:2995e371-92a9-48a4-b6e3-1e8c731871d4,
+        camssa:326fca31-8dd8-4106-bf3f-4468b3b07b70,
+        camssa:3b872885-a107-42fe-b9e2-b071f3551a52,
+        camssa:3c642b61-ee77-4608-be93-af7c459f7d76,
+        camssa:41b9593a-01f4-41ca-b454-98eb005f3c74,
+        camssa:47e34f48-c232-40b2-98d8-9a325d5fb8f0,
+        camssa:4e334557-0682-4f8d-97a2-1fc27e2b7729,
+        camssa:5565bfdd-ebe4-479e-8adc-d62588800d16,
+        camssa:58d19f4b-cdf9-4516-9230-24768aed9330,
+        camssa:66906118-20ab-49c6-a2e6-736808e979de,
+        camssa:6a9361fc-c925-47a7-994f-7f143e8e09ea,
+        camssa:7286ff12-fa75-41bb-8df1-b9595c796627,
+        camssa:76240090-35c3-4b21-b2cb-a3fa55a94fb2,
+        camssa:7e3d9047-e2ad-4449-8ebe-3f1ba1554012,
+        camssa:8c77d24a-83d6-4138-957e-1bcbfa32d9d9,
+        camssa:94aedb41-6249-46a2-b2bc-73e8631cfbfa,
+        camssa:9edb9810-9dc4-4378-9358-e0e4564a2650,
+        camssa:a18b56f3-8610-493e-b04b-da19c124e1d2,
+        camssa:a5df823e-e982-4d60-86a3-eab28afe6cc7,
+        camssa:bec08083-b499-4181-b925-26cbabde9f0f,
+        camssa:c190c6f5-04ce-4268-bf5f-687b0608925c,
+        camssa:cd68318f-f2eb-490e-ba5b-1ab2648f8b78,
+        camssa:d3c8ce4a-2368-42b9-b9f2-eeb057f3799b,
+        camssa:dc19b917-601a-454a-a82e-4a14c99f29eb,
+        camssa:dc22a35b-90f7-43c2-bd77-b158445f0c01,
+        camssa:ee5f65a9-097e-434d-9b1b-01c733687d79,
+        camssa:ef21a4b7-eeaf-4294-90fe-434cf808ab40,
+        camssa:ef97881e-5d19-4857-a600-13b885314384,
+        camssa:f111d315-8b49-4908-aaa4-ceb87c195428,
+        camssa:f728a55d-0428-4137-bab8-cef2b92d817b,
+        camssa:f76c130a-5755-43a0-83e7-64402272f290 ;
+    cav:status status:Complete ;
+    dct:title "Domain Name System (DNS)"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:044e6556-e1d4-4ed8-b3c2-639371d1b0ff ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:0264a243-46fc-4eb2-a36b-b561c3684dcf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification is not related to the publication of public data as open data. Therefore this criterion is not applicable to this specification. "@en ;
+    cav:refersTo camssa:e0ce218f-ff03-45ba-af91-664bab77ca79 .
+
+camssa:044e6556-e1d4-4ed8-b3c2-639371d1b0ff a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com " .
+
+camssa:106bc17c-60be-4636-bba0-3cc7739220c0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a64b01ca9e737c550b205ba3a8a46b3fcfc9447b648ba8ef15d62d3ada26141 ;
+    cav:value "2"^^xsd:int .
+
+camssa:10df96e2-fa3c-4363-a2fd-df595a46a1da a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-58010a47630ff9ea23336bf3fc558deff59905e0292551fcabc95740082cb378 ;
+    cav:value "1"^^xsd:int .
+
+camssa:1530c92d-2196-426f-a730-602a6aad48fd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ef096f898c938883daab1b22e784cfaf985b5e5c855e170ecf6eab6f37b01b50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:192099ab-fe7f-4e3d-bb22-d2b220d28f92 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, DNS is  a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. DNS is therefore licensed on a royalty-free basis.
+
+See:                                                                                                                                               https://tools.ietf.org/html/1034                                                                           https://tools.ietf.org/html/1035                                                                                         https://trustee.ietf.org/     """@en ;
+    cav:refersTo camssa:1530c92d-2196-426f-a730-602a6aad48fd .
+
+camssa:1caa6354-c4e1-420f-81bb-1bd8ac98432e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a67ecbc29e70e62b18dba3ae4f8d1f91d5b3196777dbf8b58c6713cd517eb768 ;
+    cav:value "1"^^xsd:int .
+
+camssa:1d37b653-7ea4-4b96-8c33-45c43072d80d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e9e0cf4a339c837607828404dd0e9b360d643528fcc1df488a95ca67166acea3 ;
+    cav:value "1"^^xsd:int .
+
+camssa:1e493681-6b25-4413-ba8f-ba34de80ca8b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of DNS is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:c7f84cce-6905-4eff-a516-7dc0cb19d21f .
+
+camssa:2016a8a6-19b7-493e-9ea9-36eab3318173 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b45c8f7e446b1343c6b6961290d2106768aa43c1f123f5e436d0255c003abb50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:2398c58c-b8aa-4a40-b02a-143cf9f504f5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DNS is recommended by 7 Member States.
+
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards                                                                                                                       """@en ;
+    cav:refersTo camssa:3a711d1f-f73d-44a1-b170-a66b7fa37856 .
+
+camssa:24064969-2407-4a47-b3a9-be4f0d5fa2c8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of DNS is not related to the implementation of the once-only principle."@en ;
+    cav:refersTo camssa:cd4d9e78-b26f-4e92-a1b5-916ef353c151 .
+
+camssa:27a0e8ee-ee4e-4e2f-811f-d4e813bb650b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DNS is publicly available for implementation and use for free on IETF's webpage.
+
+See:
+https://tools.ietf.org/html/1034                                                                           https://tools.ietf.org/html/1035                                                                                                    """@en ;
+    cav:refersTo camssa:2016a8a6-19b7-493e-9ea9-36eab3318173 .
+
+camssa:2995e371-92a9-48a4-b6e3-1e8c731871d4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of DNS is not related to the delivery of multilingual services. Therefore this criterion is not applicable specification."@en ;
+    cav:refersTo camssa:aa671280-d956-4b2d-afee-33222cf40ad9 .
+
+camssa:2dc01beb-1dc3-4fbc-8f89-691f23bb7493 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6ec33e201b803a1cc0150c0da8dc42b2a0f1029cf31e7a2c0fc81d1d8336ef36 ;
+    cav:value "2"^^xsd:int .
+
+camssa:326fca31-8dd8-4106-bf3f-4468b3b07b70 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After being evaluated compliant with the regulation on standardisation 1025/2012, DNS has been identified by Commission Implementing Decision and included in the European list of ICT Standards for e-procurement.
+
+See: 
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en """@en ;
+    cav:refersTo camssa:e05eab97-33fc-4617-a8a8-80b29d893693 .
+
+camssa:3a711d1f-f73d-44a1-b170-a66b7fa37856 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b4f0d1b7f1d41c70797fa200c6fc73ac01f2f1659319e5cb1cebe8f5e79c1fcb ;
+    cav:value "1"^^xsd:int .
+
+camssa:3b872885-a107-42fe-b9e2-b071f3551a52 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The DNS specification includes the data structures of data communication used by the system."@en ;
+    cav:refersTo camssa:9e5654d8-69c6-4153-b756-69ec783fb301 .
+
+camssa:3c642b61-ee77-4608-be93-af7c459f7d76 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "DNS is a sector agnostic specification."@en ;
+    cav:refersTo camssa:7e46644a-2ff5-4c5e-8469-b8f9b1457b48 .
+
+camssa:3c652b22-d43a-4871-8b18-94b4079d9bbb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39e7870e79b2999a8b61c97f0c356312b88174320d6464fce5639e57ec0de011 ;
+    cav:value "1"^^xsd:int .
+
+camssa:41b9593a-01f4-41ca-b454-98eb005f3c74 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By allowing the association of information with a domain, DNS facilitate the identification of interfaces. 
+
+Practically, instead of having a list of interfaces as "IP Addresses", DNS allows the identification "by name" of domain. """@en ;
+    cav:refersTo camssa:c80de810-5b45-4fea-8149-7c5ebba4194b .
+
+camssa:474fdb9e-ecd0-4e6c-8a59-1e7170d18f98 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0229101dfe08cbe58da1e454363d30a8178a2e120466c8db23965488cae5c8b1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:47e34f48-c232-40b2-98d8-9a325d5fb8f0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "DNS facilitates the implementation and use of any solution using domains, including innovative solutions."@en ;
+    cav:refersTo camssa:f44b6c68-a446-49bd-abc2-32b9c1b75641 .
+
+camssa:4e334557-0682-4f8d-97a2-1fc27e2b7729 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of DNS is not related to  e-accessibility. Therefore this criterion is not applicable specification."@en ;
+    cav:refersTo camssa:106bc17c-60be-4636-bba0-3cc7739220c0 .
+
+camssa:4efb7f3c-0815-4525-8cc4-edc2fda92797 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1d35b341bcafc21377ae6ac358b9dc087e8ad32870012c2743e49e4566440f41 ;
+    cav:value "2"^^xsd:int .
+
+camssa:5565bfdd-ebe4-479e-8adc-d62588800d16 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DNS is available on JoinUp as a reusable solution.
+
+See: 
+https://joinup.ec.europa.eu/solution/dns-rfc-1034-rfc-1035-domain-name-system/about"""@en ;
+    cav:refersTo camssa:b664747e-9583-4a4a-9979-19e064db29d6 .
+
+camssa:58d19f4b-cdf9-4516-9230-24768aed9330 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF has a formal review and approval so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications.
+
+Each distinct version of an Internet standards-related specification is published as part of the "Request for Comments" (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications.
+
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's "Internet-Drafts" directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.
+
+See:
+https://www.ietf.org/standards/process/ 
+https://tools.ietf.org/html/rfc2026"""@en ;
+    cav:refersTo camssa:5bd29935-c5c1-4487-8002-513965af4e37 .
+
+camssa:5bd29935-c5c1-4487-8002-513965af4e37 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:60731d5f-d466-44a6-80e7-114d36625378 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-093c1e09f5a65e4cba0247dcab5a8f4854f3e512db336b1855b9a4c48d3659e0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:66906118-20ab-49c6-a2e6-736808e979de a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The IETF is a consensus-based group, and authority to act on behalf of the community requires a high degree of consensus and the continued consent of the community. The process of creating and Internet Standard is straightforward: a specification undergoes a period of development and several iterations of review by the Internet community and revision based upon experience, is adopted as a Standard by the appropriate body... and is published. In practice, the process is more complicated, due to (1) the difficulty of creating specifications of high technical quality; (2) the need to consider the interests of all of the affected parties; (3) the importance of establishing widespread community consensus; and (4) the difficulty of evaluating the utility of a particular specification for the Internet community. The goals of the Internet Standards Process are:
+- Technical excellence;
+- prior implementation and testing;
+- clear, concise, and easily understood documentation;
+- openness and fairness; and 
+- timeliness.
+The goal of technical competence, the requirement for prior implementation and testing, and the need to allow all interested parties to comment all require significant time and effort. The Internet Standards Process is intended to balance these conflicting goals. The process is believed to be as short and simple as possible without sacrificing technical excellence, thorough testing before adoption of a standard, or openness and fairness.
+
+See:
+https://www.ietf.org/standards/process/"""@en ;
+    cav:refersTo camssa:85b61238-81d0-49ab-8b2e-84a65820e584 .
+
+camssa:6a9361fc-c925-47a7-994f-7f143e8e09ea a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DNS is already associated to an EIRA ABB in the European Library Of Specifications (ELIS). More specifically, DNS can define the interoperability aspects of the "Network Service" and "Network Component" ABBs of the EIRA Technical View.
+
+See: 
+https://joinup.ec.europa.eu/solution/elis/distribution/eliscataloguev100betaxlsx"""@en ;
+    cav:refersTo camssa:7d07a935-3cd9-47c8-95ba-7ba07a0a939c .
+
+camssa:6b662cf7-28c9-42b9-bb37-552d066dacd6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "2"^^xsd:int .
+
+camssa:6ec8dc24-2b23-42a5-a415-49686d686071 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1435ad894742693c2b99e329ef12399cd411ed6900f49b9658fd2231de3f201a ;
+    cav:value "1"^^xsd:int .
+
+camssa:6f6667d7-d9ca-4536-9f91-6bbc2f8da5a7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4a006ad6785e066d16c13daf48a60ee43ec33d1de1b06613c8e656ccf330a6d5 ;
+    cav:value "1"^^xsd:int .
+
+camssa:7286ff12-fa75-41bb-8df1-b9595c796627 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DNS is publicly available for implementation and use, and therefore for everyone to study, for free on IETF's webpage.
+
+See:                                                                                                                                             https://tools.ietf.org/html/1034                                                                           https://tools.ietf.org/html/1035     """@en ;
+    cav:refersTo camssa:6f6667d7-d9ca-4536-9f91-6bbc2f8da5a7 .
+
+camssa:76240090-35c3-4b21-b2cb-a3fa55a94fb2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of DNS is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:4efb7f3c-0815-4525-8cc4-edc2fda92797 .
+
+camssa:7d07a935-3cd9-47c8-95ba-7ba07a0a939c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5839144ecfb6c41a2c3cf5c1e86a6b3ad7a9e3ec9c4efa5650a6e7b9e3586335 ;
+    cav:value "1"^^xsd:int .
+
+camssa:7e3d9047-e2ad-4449-8ebe-3f1ba1554012 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of DNS is not related with data portability. Therefore, this criterion is not applicable for this specification. 
+
+"""@en ;
+    cav:refersTo camssa:2dc01beb-1dc3-4fbc-8f89-691f23bb7493 .
+
+camssa:7e46644a-2ff5-4c5e-8469-b8f9b1457b48 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-41c6fd2dadb03cc64aad82cfa14f545c084f1a955a3ab7a61aab416a138c5dce ;
+    cav:value "1"^^xsd:int .
+
+camssa:85b61238-81d0-49ab-8b2e-84a65820e584 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:8c77d24a-83d6-4138-957e-1bcbfa32d9d9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DNS is a de-facto standard. Therefore, it is sufficiently mature and has sufficient market acceptance for its use in the development of products and services.                                                          
+
+See: 
+https://tools.ietf.org/html/1034                                                                           https://tools.ietf.org/html/1035                                                                                                                                                                                                 https://developers.google.com/speed/public-dns                                               https://www.opendns.com/                                                     """@en ;
+    cav:refersTo camssa:1caa6354-c4e1-420f-81bb-1bd8ac98432e .
+
+camssa:94aedb41-6249-46a2-b2bc-73e8631cfbfa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As all the IETF specifications, DNS is licensed on a Royalty-free basis according to the documents “Rights Contributors Provide to the IETF Trust” and ”IETF Trust's Legal Provisions Relating to IETF Documents”
+See: 
+https://trustee.ietf.org/ 
+"""@en ;
+    cav:refersTo camssa:ed73a797-cb91-4544-b1d9-2ff9652c4901 .
+
+camssa:9d04f5ec-394e-4712-9caa-48e8865a7ac1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-450e8a1f4cffbbf3de202e37bd642f098174559028df90ccc657473a6086bc0b ;
+    cav:value "2"^^xsd:int .
+
+camssa:9e5654d8-69c6-4153-b756-69ec783fb301 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a0101cb11c30c1bbf94adb74479472f2a40c53ccc4b442180fece91506c20a9d ;
+    cav:value "1"^^xsd:int .
+
+camssa:9edb9810-9dc4-4378-9358-e0e4564a2650 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "DNS is independent of any specification and can be implemented without dependencies with technologies or platforms. "@en ;
+    cav:refersTo camssa:c4593e79-1289-45e0-bde8-c1b659f56c04 .
+
+camssa:a18b56f3-8610-493e-b04b-da19c124e1d2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "By allowing the association of information with domain names, DNS facilitates their comprehension and enhances their visibility in a network."@en ;
+    cav:refersTo camssa:af6657dd-8027-467b-a9b8-ce0af7800577 .
+
+camssa:a5df823e-e982-4d60-86a3-eab28afe6cc7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of DNS is not related to the publication of public data as open data. Therefore this criterion is not applicable to this specification. "@en ;
+    cav:refersTo camssa:9d04f5ec-394e-4712-9caa-48e8865a7ac1 .
+
+camssa:aa671280-d956-4b2d-afee-33222cf40ad9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19c639047dab46befb5839503733c8f1e7ed8278f788a089d11d2caee84a8f7c ;
+    cav:value "2"^^xsd:int .
+
+camssa:ae274470-850c-4950-8ab9-8416712a348a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-396b6535162f7bba7733ebcc30d2e467321ce07cd8e48b86ab8201acf27031f9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:af6657dd-8027-467b-a9b8-ce0af7800577 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-105c699a138c27ab9a1af9174253cd7488b278f700acdbb1bdbcc3e0b9c5ec3d ;
+    cav:value "1"^^xsd:int .
+
+camssa:b664747e-9583-4a4a-9979-19e064db29d6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4017a1ae4d077fbb3847280a1c20b41bf00c32d65fc9beaa2bea8cce550ac463 ;
+    cav:value "1"^^xsd:int .
+
+camssa:b74c7db9-758b-40bf-bfed-bd6bf63ae061 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3671439b412291ce208a0ade6313c64aeb2942059c7543ca39322c56458bcf96 ;
+    cav:value "1"^^xsd:int .
+
+camssa:bec08083-b499-4181-b925-26cbabde9f0f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After being evaluated compliant with the regulation on standardisation 1025/2012, DNS has been identified by Commission Implementing Decision.
+
+See:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
+    cav:refersTo camssa:1d37b653-7ea4-4b96-8c33-45c43072d80d .
+
+camssa:c16ca610-34b6-4477-8240-633cc8ff5ce7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-83d21357ecad07668ab7f2010aefed3cebb92dab384eeae6eb7aa77def06cfc3 ;
+    cav:value "2"^^xsd:int .
+
+camssa:c190c6f5-04ce-4268-bf5f-687b0608925c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After being evaluated compliant with the regulation on standardisation 1025/2012, DNS has been identified by Commission Implementing Decision. During the evaluation process, all the Member States are invited to share their doubts. The positive evaluation of DNS and its identification is considered an interoperability agreement.
+
+See:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en
+See:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en
+"""@en ;
+    cav:refersTo camssa:ae274470-850c-4950-8ab9-8416712a348a .
+
+camssa:c30112aa-6654-4f0c-a0c3-7ff2e26223ff a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d7be9f0dd52944e6c25f5469c86355a42ae446838bd9759b4986d21f7db4814b ;
+    cav:value "1"^^xsd:int .
+
+camssa:c4593e79-1289-45e0-bde8-c1b659f56c04 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e8c3529a6146f0b0d269112be717ba4e9c5979ea4f43f57d217c0f998d26ce17 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c7f84cce-6905-4eff-a516-7dc0cb19d21f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-73a8058bec757a2fdb0f8513c2f11841e982cbef76c3be82af67707c294da8b8 ;
+    cav:value "2"^^xsd:int .
+
+camssa:c80de810-5b45-4fea-8149-7c5ebba4194b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f41cca0d171e6f64dbc2bdeae9fbc87f2ea51ac00185b22114d59ab8a06e78d0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:cd0c6e55-98f8-4896-85b2-8197496152bf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a1eafd9c95081eeabe19f0511239b88139f02f95e2349049eeea058a89c80f49 ;
+    cav:value "1"^^xsd:int .
+
+camssa:cd4d9e78-b26f-4e92-a1b5-916ef353c151 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-01e6c1ce016de128117697d51a8fdaebb57c1f50343c081dfd72e2fbc56733a8 ;
+    cav:value "2"^^xsd:int .
+
+camssa:cd68318f-f2eb-490e-ba5b-1ab2648f8b78 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DNS is included in the catalogue of recommended specifications of 7 Member States.
+
+See CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:b74c7db9-758b-40bf-bfed-bd6bf63ae061 .
+
+camssa:d3c8ce4a-2368-42b9-b9f2-eeb057f3799b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "DNS does not hamper the scalability of the systems implementing it. In fact, by allowing the association of a name to a domain, the maintenance and identification of domains is facilitated."@en ;
+    cav:refersTo camssa:6ec8dc24-2b23-42a5-a415-49686d686071 .
+
+camssa:dc19b917-601a-454a-a82e-4a14c99f29eb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The standard or specification is included in 3 national catalogues. They belong to Member States which comply with at least 4 out of 5 sections of the EIF according to the NIFO factsheets (e.g. the Netherlands, Spain and Sweden)
+
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:c30112aa-6654-4f0c-a0c3-7ff2e26223ff .
+
+camssa:dc22a35b-90f7-43c2-bd77-b158445f0c01 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of DNS is not related to long term preservation of electronic records. Therefore this criterion is considered not applicable to this specification.
+"""@en ;
+    cav:refersTo camssa:c16ca610-34b6-4477-8240-633cc8ff5ce7 .
+
+camssa:e05eab97-33fc-4617-a8a8-80b29d893693 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0c9dd43038136296b52f50e05f9d6eef39f7b8018517224007990b15be2eb19e ;
+    cav:value "1"^^xsd:int .
+
+camssa:e0ce218f-ff03-45ba-af91-664bab77ca79 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b6ba3f2f556446c68c55833e72b217be87ad5f0dd07744e2c39c6070aff6c10f ;
+    cav:value "2"^^xsd:int .
+
+camssa:ed73a797-cb91-4544-b1d9-2ff9652c4901 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e370a4af17e89cbb70bb5079082a1e21cdee85435c8fc30b12a8987f18db367f ;
+    cav:value "1"^^xsd:int .
+
+camssa:ee5f65a9-097e-434d-9b1b-01c733687d79 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DNS is maintained by IETF which is an international community developing open standards.
+
+See:
+https://www.ietf.org/about/"""@en ;
+    cav:refersTo camssa:474fdb9e-ecd0-4e6c-8a59-1e7170d18f98 .
+
+camssa:ef21a4b7-eeaf-4294-90fe-434cf808ab40 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """DNS is widely used for EU cross-border projects. For instance, it is used by TESTA, the data communication network service operated by the European Commission.
+
+See:                                                                                                                                                https://ec.europa.eu/isa2/sites/isa/files/testa_overview_-_july_2018.pdf 
+"""@en ;
+    cav:refersTo camssa:cd0c6e55-98f8-4896-85b2-8197496152bf .
+
+camssa:ef97881e-5d19-4857-a600-13b885314384 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are tools assessing the conformity of implementations of the DNS.
+
+See:
+https://gitlab.isc.org/isc-projects/DNS-Compliance-Testing """@en ;
+    cav:refersTo camssa:60731d5f-d466-44a6-80e7-114d36625378 .
+
+camssa:f111d315-8b49-4908-aaa4-ceb87c195428 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are existing studies assessing the effectiveness of DNS.
+
+See:                                                                                                                                                 https://ccronline.sigcomm.org/wp-content/uploads/2017/01/p36-hao.pdf        https://www.researchgate.net/profile/Alessio_Merlo/publication/221271469_A_Comparative_Performance_Evaluation_of_DNS_Tunneling_Tools/links/00b4951c1e5065b0e6000000/A-Comparative-Performance-Evaluation-of-DNS-Tunneling-Tools.pdf                                                                                                                 https://www.researchgate.net/publication/235996771_Performance_assessment_and_analysis_of_DNS_tunneling_tools                                                                      https://ccronline.sigcomm.org/wp-content/uploads/2017/01/p36-hao.pdf                                                                                                                                                        """@en ;
+    cav:refersTo camssa:10df96e2-fa3c-4363-a2fd-df595a46a1da .
+
+camssa:f44b6c68-a446-49bd-abc2-32b9c1b75641 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cf1de0bf03a8ee372af0deddf9ef5c4609f5a7bb9c7e001c89d887c6789eaf56 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f728a55d-0428-4137-bab8-cef2b92d817b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By associating a name to an IP, DNS facilitates the identification of the content of domains and therefore, reduces administrative burden.
+"""@en ;
+    cav:refersTo camssa:3c652b22-d43a-4871-8b18-94b4079d9bbb .
+
+camssa:f76c130a-5755-43a0-83e7-64402272f290 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of DNS is not related to  secure and trustworthy data exchange. Therefore this criterion is not applicable specification."@en ;
+    cav:refersTo camssa:6b662cf7-28c9-42b9-bb37-552d066dacd6 .
+

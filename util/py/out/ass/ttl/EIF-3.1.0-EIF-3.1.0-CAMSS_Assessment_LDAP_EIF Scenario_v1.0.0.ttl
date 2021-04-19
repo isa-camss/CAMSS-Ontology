@@ -1,0 +1,615 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:2afa1d1e0a617a1be6041b6643a70f35cca92858b46be793f81cb8dd68e1ed54 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:b4ae8cf6c3010eac5434606441e7bb6a001d0ed7034ff64b1311b481df048991 ;
+    camss:assessmentDate "2020-06-30"^^xsd:date ;
+    camss:submissionDate "2020-06-30"^^xsd:date ;
+    camss:toolVersion tool:3.1.0 ;
+    cav:contextualisedBy sc:s-fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd ;
+    cav:resultsIn camssa:018643c5-d536-47c8-b8c9-a5bc763bf3c7,
+        camssa:01c8e1d3-9b3c-4eff-83cd-c0b501e1c277,
+        camssa:0260b814-5926-4783-9da9-591f4f383336,
+        camssa:042360ad-0ece-46c1-aa43-592144e8c910,
+        camssa:066083a1-a2df-45a5-b57f-d7e539dd9b3b,
+        camssa:0ae16503-9123-46c8-bba7-2bfc0af3eacd,
+        camssa:0b67fde9-3286-4b3b-9a9c-094902af921f,
+        camssa:102910a9-7ada-47d9-9e46-016d8815015c,
+        camssa:10d60ab3-8003-4933-bd6e-001a486ec19f,
+        camssa:18f5395a-5b8b-443a-a9cb-f8edde11b8cb,
+        camssa:1b7ceb07-1268-4f88-a2ca-a124e1a286d9,
+        camssa:21b73c43-ad2d-48cb-a5cd-b63e7d3e4b5c,
+        camssa:233df262-d509-45d1-9a01-16aa94eebd26,
+        camssa:2b1729b7-3f52-41b6-8760-a1400edbb97f,
+        camssa:3479b0a2-8270-4e23-8701-1d9f79a4d3f9,
+        camssa:359a913d-a123-49aa-a924-f87b9cac6ff0,
+        camssa:46fbcf0e-b2db-41b9-9163-657df79d71ae,
+        camssa:5619c7e0-eca4-48ae-9e02-07a42336b025,
+        camssa:56cfdeab-33aa-46f5-8596-86bef6f08425,
+        camssa:6a5144f0-875d-4913-b0e7-a3561b44857f,
+        camssa:6adcc8f7-7891-4b98-a1e7-e8542d485e4d,
+        camssa:77252856-971a-42ab-9eec-cf588967244d,
+        camssa:79f65fb9-b0a6-41d7-afc7-523b4a185b02,
+        camssa:9f9e4c8a-3672-4047-8d18-ae8e8aa07c41,
+        camssa:a5c6bafc-f301-487e-835b-6014d0bedde7,
+        camssa:a6a2139f-6a2e-40cc-8ee0-1500e0ccb23d,
+        camssa:aad40be8-16f9-4b83-8738-e09c47273811,
+        camssa:b26a5695-2a69-45e0-acdc-b9ef1e6503c4,
+        camssa:cf52424a-441e-426b-8e2a-10ee210d85bd,
+        camssa:d169ebf0-dde1-42f5-b4f4-8f10e4e76a60,
+        camssa:d1f1daef-ecee-42d9-8374-316dddbc7414,
+        camssa:d5809cc2-3303-47b3-9703-d961fc48989c,
+        camssa:dd24adb0-1a7a-4ff7-aefe-0af0e88a0a86,
+        camssa:de582f1b-2f23-4dfa-a785-d626a374d4d8,
+        camssa:e600b22b-0c96-4272-bc12-607a6ba5fe71,
+        camssa:e7450059-fdc6-4ace-bde5-e92338fb77d1,
+        camssa:fa5e6cb0-7e83-4bfc-9553-cf0248379f59,
+        camssa:fd781bf5-a867-47ff-9833-166dc71187d2,
+        camssa:fdeefe82-7385-42cf-8844-14540c2897c7 ;
+    cav:status status:Complete ;
+    dct:title "Lightweight Directory Access Protocol (LDAP)"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:cc95de94-0c20-4aec-8573-cb8cb1aa1224 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:0071df4b-5f8a-4155-ad8e-9afd41d7154a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39ffef052c31580b50b418f3991e9de7db4dc182fcf96f5a447d7f8e09560612 ;
+    cav:value "0"^^xsd:int .
+
+camssa:018643c5-d536-47c8-b8c9-a5bc763bf3c7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of LDAP is not related to e-accessibility. Therefore, this criterion is considered not applicable specification. 
+
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511"""@en ;
+    cav:refersTo camssa:10e1fe88-2018-4673-8f93-080eecc6630f .
+
+camssa:01c8e1d3-9b3c-4eff-83cd-c0b501e1c277 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LDAP is an application protocol for accessing and maintaining distributed directory information services over the net, it is independent of implementation.
+The specification allows many applications and services to connect to the LDAP server to validate users, which reduces the administrative burden of the system administrators and the users. As it is widely supported the implementation of the LDAP would not hamper the interoperability between systems and services.
+
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511"""@en ;
+    cav:refersTo camssa:4c51edcb-076e-45b4-a364-55c647a5788e .
+
+camssa:0260b814-5926-4783-9da9-591f4f383336 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After searching in the different official European websites, there is no evidence of any cross-border project that use LDAP nor explicit agreements involving the usage of the specification."@en ;
+    cav:refersTo camssa:0071df4b-5f8a-4155-ad8e-9afd41d7154a .
+
+camssa:042360ad-0ece-46c1-aa43-592144e8c910 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LDAP is a business domain agnostic specification that can be reused in a cross-domain way.
+
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511"""@en ;
+    cav:refersTo camssa:75be821a-af22-4d57-ba39-9674d1d1e2d7 .
+
+camssa:066083a1-a2df-45a5-b57f-d7e539dd9b3b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of LDAP is not related to the visibility of administrative information, data or services. Therefore, this criterion is not applicable to this specification.
+
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511"""@en ;
+    cav:refersTo camssa:a36afab6-d6b3-4804-856b-38c01a14988b .
+
+camssa:0ae16503-9123-46c8-bba7-2bfc0af3eacd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LDAP is still excellent with authenticating Linux-based applications including many open source solutions, for example: OpenVPN, Jenkins, Kubernetes. It is often used to complement Active Directory (AD) as a directory services protocol. Therefore, it is demonstrated that LDAP has enough market acceptance for its use in the development of products and services.
+
+LDAP used with OpenVPN:
+https://openvpn.net/vpn-server-resources/openvpn-access-server-on-active-directory-via-ldap/"""@en ;
+    cav:refersTo camssa:454eaee0-ae6a-491e-8493-2c217b323e5c .
+
+camssa:0b67fde9-3286-4b3b-9a9c-094902af921f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LDAP can be found for free along within the European Collaborative Platform, Joinup.
+
+LDAP in Joinup platform:
+https://joinup.ec.europa.eu/solution/lightweight-directory-access-protocol/distribution/rfc4511-lightweight-directory-access-protocol-ldap-protocol"""@en ;
+    cav:refersTo camssa:ef6bba00-9cc3-4fc5-bd11-68e5ec8d4f98 .
+
+camssa:0d373760-1728-4785-823d-a1f1ee2ec9a2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ffdbd22af1ff3c1ebb100043d062a3df160007af761caf0a8c9f50f02e609c9e ;
+    cav:value "1"^^xsd:int .
+
+camssa:102910a9-7ada-47d9-9e46-016d8815015c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After being evaluated compliant with the regulation on standardisation 1025/2012, LDAPv3 has been identified by Commission Implementing Decision. During the evaluation process, all the Member States are invited to share their doubts. The positive evaluation of LDAPv3 and its identification is considered an interoperability agreement.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
+    cav:refersTo camssa:56ab46a8-7a43-4132-baf0-abc525da5849 .
+
+camssa:10d60ab3-8003-4933-bd6e-001a486ec19f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LDAP is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, LDAP can define the interoperability aspects of the “Service Registration Service” and “Service Registry Component” ABBs of the EIRA Technical Infrastructure View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
+    cav:refersTo camssa:9cfc2107-df95-4397-8e17-7503913503aa .
+
+camssa:10e1fe88-2018-4673-8f93-080eecc6630f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fef5941bab92019b7692f8544de94715a42ed9ff76d89cbec4fb6f9821611925 ;
+    cav:value "2"^^xsd:int .
+
+camssa:18f5395a-5b8b-443a-a9cb-f8edde11b8cb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By using LDAP, the system administrator is prevented from providing several authentication accounts for accessing distributed directories, the user does not have to deal with several credentials. This fact helps to adapt the specification to user’s needs without hampering the scalability of systems._x000D_
+_x000D_
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511"""@en ;
+    cav:refersTo camssa:504fc5cb-0ca0-4e8e-80a4-295f01be65fb .
+
+camssa:1b7ceb07-1268-4f88-a2ca-a124e1a286d9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 8 Member States' catalogues of recommended specifications. This Member States are Croatia, France, Germany, Greece, Malta, Netherlands, Spain and Sweden.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:c6e6694f-8d3b-4e6f-b2f3-04ed84bbbf32 .
+
+camssa:21060888-2a61-40bf-9eb0-5d6ff0e747fe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc5bd9a7d0b2acc7f246522414fd5f5d579b977180bb04fa60a545cb35dae90f ;
+    cav:value "1"^^xsd:int .
+
+camssa:21b73c43-ad2d-48cb-a5cd-b63e7d3e4b5c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, LDAP is a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. LDAP is therefore licensed on a royalty-free basis.
+No IPR disclosures have been submitted directly on the LDAP specification (RFC 4511).
+
+Intellectual Property Rights in IETF:
+https://tools.ietf.org/html/rfc3668"""@en ;
+    cav:refersTo camssa:4aa177c4-b138-44bb-b445-a15e27f57161 .
+
+camssa:233df262-d509-45d1-9a01-16aa94eebd26 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LDAP is included in 3 national catalogues of recommended specifications. They belong to the Netherlands, Spain and Sweden.
+The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets. 
+
+National catalogue the Netherlands: 
+https://www.forumstandaardisatie.nl/open-standaarden
+
+National catalogue Spain:
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#CATALOGOESTANDARES
+
+National catalogue Sweden:
+https://www.avropa.se/globalassets/dokument/open-it-standards.pdf?_t_id=1B2M2Y8AsgTpgAmY7PhCfg%3d%3d&_t_q=standards&_t_tags=language%3asv%2csiteid%3a95d515a5-23ca-47bf-87a9-07b10d8ac360&_t_ip=178.139.72.144&_t_hit.id=Avropa_Core_Models_Media_GenericMedia/_ff07d720-f793-44b0-994d-27e79b28f6bd&_t_hit.pos=7
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:c23b03da-f292-4649-8a0e-6ff86864ef8f .
+
+camssa:296cff32-b7ef-45b2-b30d-67f92e122517 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-53abe85b1365f86aa58a25566e54e082ea2d70ee8d9fbaf09ccab20af30f3332 ;
+    cav:value "1"^^xsd:int .
+
+camssa:2b1729b7-3f52-41b6-8760-a1400edbb97f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of LDAP is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification. 
+
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511"""@en ;
+    cav:refersTo camssa:625fa8fb-3a28-483c-936a-8e6d2e160a7f .
+
+camssa:2be89d0a-575e-4315-8073-09c6c3b80593 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c967c90bfc7bc13426924eca012de349ae51d4e8f652fe64bfbec2cccc8c8146 ;
+    cav:value "0"^^xsd:int .
+
+camssa:3479b0a2-8270-4e23-8701-1d9f79a4d3f9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The once-only principle is an e-government concept that aims to ensure that citizens, institutions, and companies only have to provide certain standard information to the authorities and administrations once.
+LDAP fosters the OOP in terms of accessibility by allowing administrations stakeholders to keep the contact and access to different distributed services without providing personal data for authentication more than strictly needed. 
+
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511"""@en ;
+    cav:refersTo camssa:a7cea717-3f0d-4f91-b546-50e3044d142d .
+
+camssa:359a913d-a123-49aa-a924-f87b9cac6ff0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is available for its use and implementation at the IETF's webpage defined in several RFCs. 
+
+LDAP - The Protocol W3C reference:
+https://tools.ietf.org/html/rfc4511
+
+LDAP - Technical Specification W3C reference:
+https://tools.ietf.org/html/rfc4510
+
+LDAP - Schema for User Applications W3C reference:
+https://tools.ietf.org/html/rfc4519"""@en ;
+    cav:refersTo camssa:36756410-309e-4577-bc27-1d94fc6a011f .
+
+camssa:36756410-309e-4577-bc27-1d94fc6a011f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2cedd44f05183dae5548108bdeace2c092b84c7c5d89c475b0741ddae7fc7b2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:3af72d49-5ac1-49b8-b455-532f4bea213a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6bedf555bffb837990b9eb353447fa116eb9d2384770b1dd3de46d3c5901d4f4 ;
+    cav:value "1"^^xsd:int .
+
+camssa:3f930cd1-84c1-4ee5-8bdf-13a02d30c8a5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:454eaee0-ae6a-491e-8493-2c217b323e5c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d129862d6c9639e131c7d5eef095af16ef94d57ec0d52f955bf909ba8ec688e8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:46fbcf0e-b2db-41b9-9163-657df79d71ae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF has a formal review and approval so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications.
+Each distinct version of an Internet standards-related specification is published as part of the "Request for Comments" (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications.
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's "Internet-Drafts" directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.
+
+Standard process IETF:
+https://www.ietf.org/standards/process/ 
+
+Internet Best Current Practices IETF:
+https://tools.ietf.org/html/rfc2026"""@en ;
+    cav:refersTo camssa:3f930cd1-84c1-4ee5-8bdf-13a02d30c8a5 .
+
+camssa:49ec9e4c-889a-4300-b2b8-75a49a99528b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c09094de9d71f12686896827a205db683b6df58fa363bc5be2a7d99989e7dd0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:4aa177c4-b138-44bb-b445-a15e27f57161 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a81c4b8658f57e819297eb0b7977407f8d814c6fe749c74a8ac497277ca7d9d8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:4c51edcb-076e-45b4-a364-55c647a5788e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ab64f97c21ac8b84c75d6f52a89765b1c8fd1856d2d2060926d05e94f306a88d ;
+    cav:value "1"^^xsd:int .
+
+camssa:504fc5cb-0ca0-4e8e-80a4-295f01be65fb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ba46c76c10ad769a23ce4a9a34cb4d96a00407d5fc14ad1c791a870be7563c2b ;
+    cav:value "1"^^xsd:int .
+
+camssa:55084001-8f08-4278-b497-3da7f96f564d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:5619c7e0-eca4-48ae-9e02-07a42336b025 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LDAP is not related to the publication of public data as open data. Therefore, this criterion is not applicable to this specification.
+
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511"""@en ;
+    cav:refersTo camssa:c1534479-5dc5-4470-a1bf-a880f1369a87 .
+
+camssa:56ab46a8-7a43-4132-baf0-abc525da5849 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5df7a9f6081c945a22f500aa0ba2c452b8b9cd9497bd643ac76c39d34a18c319 ;
+    cav:value "1"^^xsd:int .
+
+camssa:56cfdeab-33aa-46f5-8596-86bef6f08425 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is no conformity test coming from the IETF, but there are existing free online documents that will help you validate LDAP specification when it is implemented. However, it is a manual process that does not provide 100% automatic validation. 
+
+IBM testing LDAP authentication settings:
+https://www.ibm.com/support/knowledgecenter/SSZQFR_2.2.5/doc/iwd/ldap_test_settings.html
+
+Test LDAP configurations:
+https://docs.microfocus.com/itom/Operations_Orchestration:10.80/Develop/Working_with_API/Testing_LDAP_Configurations"""@en ;
+    cav:refersTo camssa:2be89d0a-575e-4315-8073-09c6c3b80593 .
+
+camssa:625fa8fb-3a28-483c-936a-8e6d2e160a7f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8a34a40e5bc5436b3530d898d75a57cf0488591887b31a5169499fe78952d84c ;
+    cav:value "2"^^xsd:int .
+
+camssa:6a5144f0-875d-4913-b0e7-a3561b44857f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, LDAP is a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. LDAP is therefore licensed on a royalty-free basis.
+
+Intellectual Property Rights in IETF:
+https://tools.ietf.org/html/rfc3668"""@en ;
+    cav:refersTo camssa:fee98da6-1f13-4289-a41e-f1826113d596 .
+
+camssa:6adcc8f7-7891-4b98-a1e7-e8542d485e4d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LDAP can be used independently of any other technical specifications or operating system. However, it is often used to complement Active Directory (AD) as a directory services protocol.
+
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511
+
+LDAP with Active Directory: 
+https://www.solarwindsmsp.com/blog/difference-between-ldap-ad"""@en ;
+    cav:refersTo camssa:fe466e39-d4a4-4482-838d-4e0e11220878 .
+
+camssa:75be821a-af22-4d57-ba39-9674d1d1e2d7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3aec34db3622bf18675b8216d0fc1d68fc7eeb501b4f3326402038a3ceb95c21 ;
+    cav:value "1"^^xsd:int .
+
+camssa:77252856-971a-42ab-9eec-cf588967244d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """8 Member States are recommending LDAP in their ICT National Catalogues. This Member States are Croatia, France, Germany, Greece, Malta, Netherlands, Spain and Sweden.
+ 
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:49ec9e4c-889a-4300-b2b8-75a49a99528b .
+
+camssa:79f65fb9-b0a6-41d7-afc7-523b4a185b02 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is excellent for accessing and maintaining distributed directory information services over internet. The main function of LDAP is to help users connect to their IT resources safely. Because of this, they are often used in public administrations and have become staples of the identity management industry.
+
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511"""@en ;
+    cav:refersTo camssa:ed872511-f550-41af-85d7-00e1a374b59d .
+
+camssa:8fdf6b31-0a35-4eca-9275-2d6b7e247521 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b21a3eb972a2119979bc57368474efa809e8dd16cede48bc492e8b64da1abee9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:98c0037b-c978-45fa-aa34-d448c4652852 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-33ea90f5c1bb01d4398c57d03a25934dc5722d5ddbc98a43911ea4fb302ec54c ;
+    cav:value "2"^^xsd:int .
+
+camssa:9cfc2107-df95-4397-8e17-7503913503aa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d28663fdb5deb361d5ad773d7b7ece3c6acf8d2eb7a1222a60cb08df4c93aac ;
+    cav:value "1"^^xsd:int .
+
+camssa:9f9e4c8a-3672-4047-8d18-ae8e8aa07c41 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LDAP is maintained and developed by IETF which is an international community developing open standards. 
+
+Developer community IETF:
+https://www.ietf.org/about/"""@en ;
+    cav:refersTo camssa:8fdf6b31-0a35-4eca-9275-2d6b7e247521 .
+
+camssa:a36afab6-d6b3-4804-856b-38c01a14988b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19598487b8ba278c3438dcfd74b74d9aad51beac08c53dbf40bf108ed09e72b2 ;
+    cav:value "2"^^xsd:int .
+
+camssa:a5c6bafc-f301-487e-835b-6014d0bedde7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are existing documentation and studies assessing the effectiveness and efficiency of LDAP. It is a comparison between LDAP 2 and LDAP 3. As well, the study shows the improvement of the different versions over time as resulting in more efficient protocol.
+
+Difference between LDAP2 and LDAP3:
+https://docs.microsoft.com/en-us/previous-versions/windows/desktop/ldap/differences-between-ldap-2-and-ldap-3"""@en ;
+    cav:refersTo camssa:21060888-2a61-40bf-9eb0-5d6ff0e747fe .
+
+camssa:a697c003-6eb4-42fe-81c2-8a209d9f23cb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4ac14cafe608f1dbe7e48f96edd7574c55f0aac2c2e99ede0418dae7225977af ;
+    cav:value "2"^^xsd:int .
+
+camssa:a6a2139f-6a2e-40cc-8ee0-1500e0ccb23d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LDAP was created in 1993 and quickly became one of the foundational authentication protocols used by IT network. The fact that in 1998, OpenLDAP 1.0 was implemented as an open source version of LDAP made it very popular. Therefore, it is demonstrated that LDAP has enough maturity for its use in the development of products and services.
+
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511"""@en ;
+    cav:refersTo camssa:3af72d49-5ac1-49b8-b455-532f4bea213a .
+
+camssa:a7cea717-3f0d-4f91-b546-50e3044d142d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-624bc49501d58649e27cae4fb89fb5a56844685e54c5ce1625633894f8f752e1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:aad40be8-16f9-4b83-8738-e09c47273811 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of LDAP is not related to the comprehensibility of administrative information, data or services. Therefore, this criterion is not applicable to this specification.
+
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511"""@en ;
+    cav:refersTo camssa:ad31728a-9cc8-4969-8552-76c076fc1f9e .
+
+camssa:ad31728a-9cc8-4969-8552-76c076fc1f9e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7ab883158b51681c78f90d1a00bbb3840aa2c86e309a9abd1ad6e6eedb5e2735 ;
+    cav:value "2"^^xsd:int .
+
+camssa:ad905c8b-1886-44fc-8527-1e5f00dd76ad a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8954ddabf37f4899562b9ea4c8f0bbf204f3e48c9203043bc231f368092396a2 ;
+    cav:value "0"^^xsd:int .
+
+camssa:b26a5695-2a69-45e0-acdc-b9ef1e6503c4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of LDAP is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511"""@en ;
+    cav:refersTo camssa:c6d53847-2849-4b93-af1d-f2ac02b8f75f .
+
+camssa:c098d8d3-6266-4875-9994-feaf613792e7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-138786a6e7517e10b94e83ec3b3e7ac79b4c49dcbeaef8d8e993c8df0d173529 ;
+    cav:value "2"^^xsd:int .
+
+camssa:c1534479-5dc5-4470-a1bf-a880f1369a87 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-02333ef99fbcb4f101a106bcf97c9559888756b085b1729b7c2ac9626dc4bc63 ;
+    cav:value "2"^^xsd:int .
+
+camssa:c23b03da-f292-4649-8a0e-6ff86864ef8f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8eb17470327d32b3bb523447fe72ee5c60ddb03e81dae318b485fbe05f48a844 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c6d53847-2849-4b93-af1d-f2ac02b8f75f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c265ca0c56e0f29a34039d496ba707b5486ccf6d445f9f058c19b4ece977861f ;
+    cav:value "2"^^xsd:int .
+
+camssa:c6e6694f-8d3b-4e6f-b2f3-04ed84bbbf32 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-838030847fa0adf54939e3feaac0ac2510924c54035e1cb671b223b54b02fd70 ;
+    cav:value "1"^^xsd:int .
+
+camssa:cadeaa54-475a-4211-8608-478169eccd59 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-31bf959b6c4a983ec70eb87e0177f2739575ebce42c7c3b95b9012ef3bfe673e ;
+    cav:value "1"^^xsd:int .
+
+camssa:cc95de94-0c20-4aec-8573-cb8cb1aa1224 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:cf52424a-441e-426b-8e2a-10ee210d85bd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification allows user to access and maintain distributed directories information over the Internet, which reduces the administrative burden of the system administrators and the users. By ensuring the access to different directory services, it fosters the implementation of digital services, supporting the principle of digital-first. 
+
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511"""@en ;
+    cav:refersTo camssa:0d373760-1728-4785-823d-a1f1ee2ec9a2 .
+
+camssa:d169ebf0-dde1-42f5-b4f4-8f10e4e76a60 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of LDAP is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification.
+
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511"""@en ;
+    cav:refersTo camssa:98c0037b-c978-45fa-aa34-d448c4652852 .
+
+camssa:d1f1daef-ecee-42d9-8374-316dddbc7414 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LDAP is an application protocol for accessing and maintaining distributed directory information services over an Internet Protocol network, which defines the authentication user schema which allows and fosters its reuse in a cross-sector manner. However, it is not defining a data model. 
+
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511"""@en ;
+    cav:refersTo camssa:ad905c8b-1886-44fc-8527-1e5f00dd76ad .
+
+camssa:d5809cc2-3303-47b3-9703-d961fc48989c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of LDAP is not related to the  delivery of multilingual public services. Therefore, this criterion is not applicable to the specification. 
+
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511"""@en ;
+    cav:refersTo camssa:a697c003-6eb4-42fe-81c2-8a209d9f23cb .
+
+camssa:d8ab18df-bd50-4d2b-8e66-397cc7ddfbe1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-21276471c1781fa2c7e78c8e03851e076b840beddbf5cf64f53b54b8855a01b8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:dd24adb0-1a7a-4ff7-aefe-0af0e88a0a86 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After being evaluated compliant with the regulation on standardisation 1025/2012, LDAPv3 has been identified by Commission Implementing Decision and included in the European list of ICT Standards for e-procurement.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
+    cav:refersTo camssa:f5ece2c5-fe0f-4ac1-a166-653cfc245481 .
+
+camssa:de582f1b-2f23-4dfa-a785-d626a374d4d8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After being evaluated compliant with the regulation on standardisation 1025/2012, LDAPv3 has been identified by Commission Implementing Decision.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
+    cav:refersTo camssa:296cff32-b7ef-45b2-b30d-67f92e122517 .
+
+camssa:e600b22b-0c96-4272-bc12-607a6ba5fe71 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """At the moment of performing the assessment, LDAP is widely used at businesses and organizations worldwide for directory-based authentication. These types of resources are included in the development of platforms and services, including innovative solutions. 
+
+LDAP with Active Directory:
+https://www.windows-active-directory.com/active-directory-ldap.html"""@en ;
+    cav:refersTo camssa:d8ab18df-bd50-4d2b-8e66-397cc7ddfbe1 .
+
+camssa:e7450059-fdc6-4ace-bde5-e92338fb77d1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """LDAP is publicly available for implementation and use, and therefore for everyone to study, for free on IETF webpage.
+
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511"""@en ;
+    cav:refersTo camssa:cadeaa54-475a-4211-8608-478169eccd59 .
+
+camssa:ed872511-f550-41af-85d7-00e1a374b59d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "1"^^xsd:int .
+
+camssa:ef6bba00-9cc3-4fc5-bd11-68e5ec8d4f98 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17bea234285e6e633e4e21105358610ad5f5f0eaaf82f4bd50cb64ec11538984 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f2301b82-c6f5-40ef-adca-08f078de7170 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6d48464387e608d3022bd07338cd3859acfb0f84139186a979ef3b96baa51086 ;
+    cav:value "2"^^xsd:int .
+
+camssa:f5ece2c5-fe0f-4ac1-a166-653cfc245481 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a18abe4842e04b608025fd70e54c3db5c2a10130c0dab0495479e7d5effb55d ;
+    cav:value "1"^^xsd:int .
+
+camssa:fa5e6cb0-7e83-4bfc-9553-cf0248379f59 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of LDAP is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511"""@en ;
+    cav:refersTo camssa:f2301b82-c6f5-40ef-adca-08f078de7170 .
+
+camssa:fd781bf5-a867-47ff-9833-166dc71187d2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The IETF is a consensus-based group, and authority to act on behalf of the community requires a high degree of consensus and the continued consent of the community. The process of creating and Internet Standard is straightforward: a specification undergoes a period of development and several iterations of review by the Internet community and revision based upon experience, is adopted as a Standard by the appropriate body... and is published. In practice, the process is more complicated, due to (1) the difficulty of creating specifications of high technical quality; (2) the need to consider the interests of all the affected parties; (3) the importance of establishing widespread community consensus; and (4) the difficulty of evaluating the utility of a particular specification for the Internet community. The goals of the Internet Standards Process are:
+- Technical excellence;
+- prior implementation and testing;
+- clear, concise, and easily understood documentation;
+- openness and fairness; and 
+- timeliness.
+The goal of technical competence, the requirement for prior implementation and testing, and the need to allow all interested parties to comment all require significant time and effort. The Internet Standards Process is intended to balance these conflicting goals. The process is believed to be as short and simple as possible without sacrificing technical excellence, thorough testing before adoption of a standard, or openness and fairness.
+
+Standard process IETF:
+https://www.ietf.org/standards/process/"""@en ;
+    cav:refersTo camssa:55084001-8f08-4278-b497-3da7f96f564d .
+
+camssa:fdeefe82-7385-42cf-8844-14540c2897c7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of LDAP is not related to the publication of public data as linked open data. Therefore, this criterion is not applicable to this specification.
+
+LDAP IETF reference:
+https://tools.ietf.org/html/rfc4511
+
+Five star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html"""@en ;
+    cav:refersTo camssa:c098d8d3-6266-4875-9994-feaf613792e7 .
+
+camssa:fe466e39-d4a4-4482-838d-4e0e11220878 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5879b43fc249f0098f3ed687235f432f71bf0c11bd3aa95e063dfdacd64606c8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:fee98da6-1f13-4289-a41e-f1826113d596 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1cd71a7b6d54631ba58cc8b0655a443d696f49ec74a0f4cccc871de7789d6a60 ;
+    cav:value "1"^^xsd:int .
+

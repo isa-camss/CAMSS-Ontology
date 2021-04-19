@@ -1,0 +1,30 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+rsc:e392a4f6-d884-421b-b08d-120581d9238a a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf rsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+rsc:fa1ca0429a628b89323bf5677343ada8ad700197ca9a3d467e79de87beda3149 a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy rsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Portable Document Format/A (PDF/A)"@en ;
+    dcat:distribution rsc:fb61496c-2513-4384-bb99-3e5cd7ec99a9 .
+
+rsc:fb61496c-2513-4384-bb99-3e5cd7ec99a9 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL """https://www.iso.org/standard/38920.html
+https://www.iso.org/standard/50655.html"""^^xsd:anyURI .
+
+rsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "Other SDO/SSO"^^xsd:string .
+

@@ -1,0 +1,507 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:d55bf93aa2a8a11faeeb0dcbaf63e261da65fc37f931b79853b7bea28c5224e2 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:4ac03729ce6059a948f986d308360c552166a22ef62b90dc47d0f735371830a2 ;
+    camss:assessmentDate "1201-01-01"^^xsd:date ;
+    camss:submissionDate "2019-12-31"^^xsd:date ;
+    camss:toolVersion tool:3.0.0 ;
+    cav:contextualisedBy sc:s-fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd ;
+    cav:resultsIn camssa:0221e582-32f3-4b66-93fe-d75c6c310424,
+        camssa:03a39c05-c9b3-493d-beaf-1f505575a491,
+        camssa:0adb6f5a-b18c-4d5b-8029-d06ffe0c1bc7,
+        camssa:12c8bcb6-58a3-4f62-81bc-8040efe4bf66,
+        camssa:16384627-379f-4097-96d4-c5be2fafa246,
+        camssa:2047a316-6047-41c2-949c-16dcb9d15b0f,
+        camssa:2b0a2169-d1c2-4dec-bdc2-f3d15ba3127d,
+        camssa:3315a42e-eedf-47bf-ab8c-5672c41c89bc,
+        camssa:4693acd1-6f00-46ad-9149-6bce1ac547f7,
+        camssa:528f0e83-8590-4503-98a2-f78c1b13864b,
+        camssa:5bea88b0-f4aa-4060-a41f-232b45de3cd8,
+        camssa:5d4692b4-ae95-465a-8264-56777068b498,
+        camssa:656e5315-cbd7-48db-ae71-12282b308718,
+        camssa:6619ea05-c58c-4be3-9090-6e2a03bdbcd8,
+        camssa:76c6014b-abe6-4a51-8acd-95786d09ce51,
+        camssa:7f0fefd7-b3e3-41f5-9176-fa9621156108,
+        camssa:86d5bf39-52fe-4889-9287-4b5595e4b98d,
+        camssa:96c12b3c-b114-43aa-ba9b-4ef0790be3a5,
+        camssa:9796e6bf-e2c9-47ed-be24-4a2eff436cb8,
+        camssa:9ad8c2e9-fe95-4aa3-bc51-acabab44a1f0,
+        camssa:a022ac71-bbe8-4cbb-89b7-582f4caf677e,
+        camssa:a63ceaab-cce7-4cd0-8626-3655fbef22a8,
+        camssa:a657ff2c-71b7-466d-afd5-9ad6b1a7b3f2,
+        camssa:a6b306ca-bf0d-4a19-b9b8-44460360ce84,
+        camssa:aef34c11-6360-409b-a308-761e8dc509fd,
+        camssa:b94ce837-e8ad-4f9d-8d06-752e19d453cb,
+        camssa:c5e0489f-0189-43b9-a8a6-96770019eec5,
+        camssa:cab25ec0-14b1-422e-9961-278e71977b3c,
+        camssa:cb6250b9-d269-4fbd-b2d0-3def97a4accc,
+        camssa:d186966e-3a3b-49d3-8e9e-79c42d69492f,
+        camssa:d4169675-4313-45a8-be51-68db24a3440a,
+        camssa:da98ec40-bc85-4bd5-a64d-81ebca063c73,
+        camssa:e2661db3-218a-40cf-9a1d-43b6791ea593,
+        camssa:ef5a7d85-4b8b-4fd9-80b7-f3e3097c5c69,
+        camssa:f026aa17-ed60-4a11-a035-aceae698f689,
+        camssa:f3c407ff-3694-4113-bad0-ecb50de829e7,
+        camssa:f4a28ac7-93a2-4a38-9d74-c0bc5542c948 ;
+    cav:status status:Complete ;
+    dct:title "SAML 2.0 (Security Assertion Markup Language (SAML) V2.0)"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:284a00aa-703d-4f8f-8697-9bbbd3f109de ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:0221e582-32f3-4b66-93fe-d75c6c310424 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SAML 2.0 is included in the Slovakian national catalogue of recommended specifications. The National Interoperability Framework (NIF) of Slovakia is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets
+
+See: 
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:d152d44e-f3bd-4589-a43f-99b7bc023a7f .
+
+camssa:03a39c05-c9b3-493d-beaf-1f505575a491 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SAML 2.0 can be used independently from any other technical specifications or operating system. The specification has been developed by OASIS Security Services Technical Committee independently from any specific platforms or technologies. Even though SAML 2.0 is XML based specifications, as XML is a well-known specification it does not cause technological dependency. 
+
+See:
+https://developers.onelogin.com/saml
+http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html"""@en ;
+    cav:refersTo camssa:98a60e15-571d-4f11-9080-21d2d4d8acc1 .
+
+camssa:04f5e42d-729e-4c0a-96fa-4c56d0e36b35 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "1"^^xsd:int .
+
+camssa:06f493b6-3d2d-4214-b20e-e09915ea5ef6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-41c6fd2dadb03cc64aad82cfa14f545c084f1a955a3ab7a61aab416a138c5dce ;
+    cav:value "1"^^xsd:int .
+
+camssa:0adb6f5a-b18c-4d5b-8029-d06ffe0c1bc7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of SAML 2.0 is not related to the publication of data as Linked Open Data. Therefore, this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:d8bc1887-3c1f-485e-ae89-bb032d30cda2 .
+
+camssa:12c8bcb6-58a3-4f62-81bc-8040efe4bf66 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of SAML 2.0 is not related to e-accessibility. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:c47f5d25-1a62-4b6d-8f43-6ade9efc7c6e .
+
+camssa:1454b56c-9ff0-40da-b338-6e26965c8ea2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cf1de0bf03a8ee372af0deddf9ef5c4609f5a7bb9c7e001c89d887c6789eaf56 ;
+    cav:value "1"^^xsd:int .
+
+camssa:15681307-ff86-458b-a548-2233e8f89f57 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ef096f898c938883daab1b22e784cfaf985b5e5c855e170ecf6eab6f37b01b50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:16384627-379f-4097-96d4-c5be2fafa246 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of SAML 2.0 is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:f9c0b3f1-9e31-494a-8f63-70d9f61b928e .
+
+camssa:2047a316-6047-41c2-949c-16dcb9d15b0f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SAML 2.0 is not available at any European or National platform for its use and implementation. Despite this, the specification is available at OASIS’s webpage. 
+
+See:
+http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html"""@en ;
+    cav:refersTo camssa:38384d3e-0231-4790-9222-ca0de9fd5e6a .
+
+camssa:264b355e-e854-4c3d-832f-e023a54a7f6a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-396b6535162f7bba7733ebcc30d2e467321ce07cd8e48b86ab8201acf27031f9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:26e277d0-c55f-431b-a131-72b021fe3b0e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b45c8f7e446b1343c6b6961290d2106768aa43c1f123f5e436d0255c003abb50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:284a00aa-703d-4f8f-8697-9bbbd3f109de a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:2b0a2169-d1c2-4dec-bdc2-f3d15ba3127d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification was carried out in 2001 and has been developed and maintained by OASIS. It has suffered 1 minor update (SAML 1.1) and a major one (SAML 2.0). This fact demonstrates the maturity of the specification that is being assessed. Moreover, it is also implemented by IT vendors and suppliers having a market dominance. For instance, SAML 2.0 is implemented by Microsoft for the Microsoft Azure Active Directory and by Amazon for Amazon Web Services. Therefore, it is demonstrated that SAML 2.0 has enough maturity and market acceptance for its use in the development of products and services."@en ;
+    cav:refersTo camssa:a143ebca-435f-4006-a0e9-2430629233ff .
+
+camssa:3315a42e-eedf-47bf-ab8c-5672c41c89bc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """2 Member States are recommending SAML 2.0 in their ICT National Catalogues. 
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:655a1752-6914-45b1-8670-608b0c763065 .
+
+camssa:3746f8dd-5954-45c7-a3c0-3d39ce35857b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e370a4af17e89cbb70bb5079082a1e21cdee85435c8fc30b12a8987f18db367f ;
+    cav:value "1"^^xsd:int .
+
+camssa:38384d3e-0231-4790-9222-ca0de9fd5e6a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4017a1ae4d077fbb3847280a1c20b41bf00c32d65fc9beaa2bea8cce550ac463 ;
+    cav:value "1"^^xsd:int .
+
+camssa:38feb25f-6513-4cd6-8f39-a6f5e31b4850 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:4693acd1-6f00-46ad-9149-6bce1ac547f7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "At the moment of performing the assessment, SAML 2.0 is widely used to secure and authenticate access to the internal and external platforms as eases the single sign-on (SSO). These types of resources are included in the development of platforms and services, including innovative solutions. "@en ;
+    cav:refersTo camssa:1454b56c-9ff0-40da-b338-6e26965c8ea2 .
+
+camssa:528f0e83-8590-4503-98a2-f78c1b13864b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "SAML 2.0 is not included in any catalogue of standards at supra-national level."@en ;
+    cav:refersTo camssa:57f06cb7-a7f7-4adc-8c75-d3294d4e174c .
+
+camssa:57f06cb7-a7f7-4adc-8c75-d3294d4e174c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0c9dd43038136296b52f50e05f9d6eef39f7b8018517224007990b15be2eb19e ;
+    cav:value "0"^^xsd:int .
+
+camssa:5a17a564-d7d3-4bf6-8fcc-1cf4b6d70a44 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-105c699a138c27ab9a1af9174253cd7488b278f700acdbb1bdbcc3e0b9c5ec3d ;
+    cav:value "1"^^xsd:int .
+
+camssa:5bea88b0-f4aa-4060-a41f-232b45de3cd8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "SAML 2.0 is not defining a cross-sector reusable data model. The specification defines a schema for the assertions that are involved in SAML performance but it cannot be considered as a data model. "@en ;
+    cav:refersTo camssa:dd00663f-6439-41b8-9f13-2cef66194d6c .
+
+camssa:5d4692b4-ae95-465a-8264-56777068b498 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OASIS has defined a clear Technical Committee (hereby TC) process where all the stakeholders involved have the opportunity to participate in the development of the specification development process. 
+All the information related to a TC activity is hosted and can be consulted. 
+See: 
+https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26"""@en ;
+    cav:refersTo camssa:cb8d7674-99ef-4fe7-9698-db16572539b8 .
+
+camssa:5fdc7c4e-1fe4-4164-8235-a6a4d8f9cc62 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f41cca0d171e6f64dbc2bdeae9fbc87f2ea51ac00185b22114d59ab8a06e78d0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:62b8c583-3189-4e3d-a062-eb78ab1fe43b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0229101dfe08cbe58da1e454363d30a8178a2e120466c8db23965488cae5c8b1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:655a1752-6914-45b1-8670-608b0c763065 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b4f0d1b7f1d41c70797fa200c6fc73ac01f2f1659319e5cb1cebe8f5e79c1fcb ;
+    cav:value "1"^^xsd:int .
+
+camssa:656e5315-cbd7-48db-ae71-12282b308718 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of SAML 2.0 is not related to the long-term preservation of electronic records and other kinds of information. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:bf1c5772-61ac-4987-b13f-13d96f9265d8 .
+
+camssa:6619ea05-c58c-4be3-9090-6e2a03bdbcd8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The use of SAML 2.0 has been agreed for the eiDAS technical subgroup to use the specification on the eiD Building Block to support eiDAS regulation. The regulation 910/2014 is a document that implies all the Member States and their responsibilities as public services providers. Therefore, the agreement for using SAML 2.0 as part of the eiD Building to support eiDAS regulation can be understood as an agreement involving public services providers. 
+
+See: 
+https://ec.europa.eu/futurium/en/content/eidas-regulation-regulation-eu-ndeg9102014"""@en ;
+    cav:refersTo camssa:264b355e-e854-4c3d-832f-e023a54a7f6a .
+
+camssa:67b148ab-402d-459f-9ac3-a1e94ae8ca0a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-093c1e09f5a65e4cba0247dcab5a8f4854f3e512db336b1855b9a4c48d3659e0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:76c6014b-abe6-4a51-8acd-95786d09ce51 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OASIS is a non-profit consortium that drives the development, convergence and adoption of open standards for the global information society, SAML 2.0 is developed and maintained by OASIS consortium. 
+
+See:
+https://www.oasis-open.org/org"""@en ;
+    cav:refersTo camssa:62b8c583-3189-4e3d-a062-eb78ab1fe43b .
+
+camssa:7833a4d3-32a1-4878-a1c9-8c901a3e7b36 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1435ad894742693c2b99e329ef12399cd411ed6900f49b9658fd2231de3f201a ;
+    cav:value "1"^^xsd:int .
+
+camssa:7aefeccf-998b-4ac0-9189-f638cdc7c0aa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1d35b341bcafc21377ae6ac358b9dc087e8ad32870012c2743e49e4566440f41 ;
+    cav:value "2"^^xsd:int .
+
+camssa:7f0fefd7-b3e3-41f5-9176-fa9621156108 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are several existing documents and studies assessing SAML 2.0 features and capabilities and efficiency. Broadly speaking, the studies are focused on the capability to enable Single Sign-on and its benefits. 
+See:
+https://www.researchgate.net/publication/221609828_Formal_analysis_of_SAML_20_web_browser_single_sign-on
+https://www.researchgate.net/publication/45872317_Web_single_sign-on_authentication_using_SAML"""@en ;
+    cav:refersTo camssa:b9a546e3-cac3-4f74-b7fb-314a893db7eb .
+
+camssa:7f3b39c9-3b8a-4798-9489-d03f992e05b4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5839144ecfb6c41a2c3cf5c1e86a6b3ad7a9e3ec9c4efa5650a6e7b9e3586335 ;
+    cav:value "1"^^xsd:int .
+
+camssa:7fc3420b-6687-4852-8cab-837ceb583ae8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4a006ad6785e066d16c13daf48a60ee43ec33d1de1b06613c8e656ccf330a6d5 ;
+    cav:value "1"^^xsd:int .
+
+camssa:86d5bf39-52fe-4889-9287-4b5595e4b98d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification allows the exchange of authentication and authorization data between parties. It is mainly used to ensure single sign-on (SSO).  It extends SSO across security domains independently from any platform which prevents non-interoperable proprietary technologies. For instance, a relevant implementation of SAML 2.0 is SAML Web Browser SSO profile. This profile was specified to promote interoperability by allowing the authentication to service providers through external identity providers. "@en ;
+    cav:refersTo camssa:04f5e42d-729e-4c0a-96fa-4c56d0e36b35 .
+
+camssa:87a732e5-9ff9-4068-b4f1-6aa9a4d123cf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39e7870e79b2999a8b61c97f0c356312b88174320d6464fce5639e57ec0de011 ;
+    cav:value "1"^^xsd:int .
+
+camssa:96c12b3c-b114-43aa-ba9b-4ef0790be3a5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of SAML 2.0 is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:d963e1ba-80bb-43f2-a15b-907d811bc846 .
+
+camssa:9796e6bf-e2c9-47ed-be24-4a2eff436cb8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The application of the once-only principle in all EU Member States public administrations aims at reducing the administrative burden. To achieve this, interoperability between public administrations is a sine qua non condition.
+
+SAML 2.0 is a format that allows seamless cross-border interoperability between systems, independent of implementation. 
+
+The specification allows cross-domain single sign-on, which reduces the administrative burden of the system administrators and the users. By using SAML 2.0, avoid the user to deal with several credentials nor provide information twice. """@en ;
+    cav:refersTo camssa:fc275828-3e45-467c-bc25-07c590fd63d2 .
+
+camssa:98a60e15-571d-4f11-9080-21d2d4d8acc1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e8c3529a6146f0b0d269112be717ba4e9c5979ea4f43f57d217c0f998d26ce17 ;
+    cav:value "1"^^xsd:int .
+
+camssa:9ad8c2e9-fe95-4aa3-bc51-acabab44a1f0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of SAML 2.0 is not related to the availability of interfaces. The specifications aim to authenticate and authorise access to resources or services. "@en ;
+    cav:refersTo camssa:5fdc7c4e-1fe4-4164-8235-a6a4d8f9cc62 .
+
+camssa:a022ac71-bbe8-4cbb-89b7-582f4caf677e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SAML 2.0 is a format that allows seamless cross-border interoperability between systems, independent of implementation. 
+
+The specification allows cross-domain single sign-on, which reduces the administrative burden of the system administrators and the users. As well, providing authentication across sectors and platforms allows administrations and stakeholders to exchange and reuse data fostering the data portability across borders. """@en ;
+    cav:refersTo camssa:ed028318-4b0f-4530-b7ec-f5ad81dfcddb .
+
+camssa:a143ebca-435f-4006-a0e9-2430629233ff a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a67ecbc29e70e62b18dba3ae4f8d1f91d5b3196777dbf8b58c6713cd517eb768 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a246f85a-ef0e-4f44-9d9c-0538badcfcc9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e9e0cf4a339c837607828404dd0e9b360d643528fcc1df488a95ca67166acea3 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a6153a22-1fb1-46c3-9e94-7d2249514a54 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a1eafd9c95081eeabe19f0511239b88139f02f95e2349049eeea058a89c80f49 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a63ceaab-cce7-4cd0-8626-3655fbef22a8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The OASIS Security Services Technical Committee, in charge of the development of SAML 2.0, operates under RF on RAND Mode of the OASIS IPR Policy. The specification is licensed on a Royalty-free and (F)RAND basis.
+
+See:
+https://www.oasis-open.org/committees/security/ipr.php 
+https://www.oasis-open.org/policies-guidelines/ipr"""@en ;
+    cav:refersTo camssa:15681307-ff86-458b-a548-2233e8f89f57 .
+
+camssa:a657ff2c-71b7-466d-afd5-9ad6b1a7b3f2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SAML 2.0 is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). Specifically, SAML 2.0 can define the interoperability aspects of the "Identity management Component", “Identity Management Service”, “Access Management Component”, and “Access Management Service” ABBs of the EIRA Technical View.
+See: 
+https://joinup.ec.europa.eu/solution/elis/distribution/eliscataloguev100betaxlsx"""@en ;
+    cav:refersTo camssa:7f3b39c9-3b8a-4798-9489-d03f992e05b4 .
+
+camssa:a6b306ca-bf0d-4a19-b9b8-44460360ce84 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OASIS has defined a clear Technical Committee (hereby TC) process where all the stakeholders involved have the opportunity to participate in the development of the specification development process. 
+All the information related to a TC activity is hosted and can be consulted. 
+See: 
+https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26"""@en ;
+    cav:refersTo camssa:38feb25f-6513-4cd6-8f39-a6f5e31b4850 .
+
+camssa:a7f018b3-1ed0-4d23-ad8a-dc99fb48b651 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b6ba3f2f556446c68c55833e72b217be87ad5f0dd07744e2c39c6070aff6c10f ;
+    cav:value "2"^^xsd:int .
+
+camssa:aef34c11-6360-409b-a308-761e8dc509fd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SAML 2.0 is available for its study and use at OASIS’s webpage. Therefore it can be reused by the organisations, administrations, open communities, etc. that developed it.
+
+See:
+http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html"""@en ;
+    cav:refersTo camssa:26e277d0-c55f-431b-a131-72b021fe3b0e .
+
+camssa:b94ce837-e8ad-4f9d-8d06-752e19d453cb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By using SAML 2.0, the system administrator is prevented from providing several authentication tokens and, the user does not have to deal with several credentials. This fact helps to adapt the specification to user’s needs without hampering the scalability of systems. 
+
+In addition, SAML 2.0 allows the exchange of authentication and authorization data between parties. It is mainly used to ensure single sign-on (SSO).  It extends SSO across security domains independently from any platform which prevents non-interoperable proprietary technologies."""@en ;
+    cav:refersTo camssa:7833a4d3-32a1-4878-a1c9-8c901a3e7b36 .
+
+camssa:b9a546e3-cac3-4f74-b7fb-314a893db7eb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-58010a47630ff9ea23336bf3fc558deff59905e0292551fcabc95740082cb378 ;
+    cav:value "1"^^xsd:int .
+
+camssa:bf1c5772-61ac-4987-b13f-13d96f9265d8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-83d21357ecad07668ab7f2010aefed3cebb92dab384eeae6eb7aa77def06cfc3 ;
+    cav:value "2"^^xsd:int .
+
+camssa:c47f5d25-1a62-4b6d-8f43-6ade9efc7c6e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a64b01ca9e737c550b205ba3a8a46b3fcfc9447b648ba8ef15d62d3ada26141 ;
+    cav:value "2"^^xsd:int .
+
+camssa:c5e0489f-0189-43b9-a8a6-96770019eec5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of SAML 2.0 is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:7aefeccf-998b-4ac0-9189-f638cdc7c0aa .
+
+camssa:c6cae7d2-af7b-4db4-ac5b-c40fd47bf9d3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3671439b412291ce208a0ade6313c64aeb2942059c7543ca39322c56458bcf96 ;
+    cav:value "1"^^xsd:int .
+
+camssa:cab25ec0-14b1-422e-9961-278e71977b3c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "SAML 2.0 is a business domain agnostic specification."@en ;
+    cav:refersTo camssa:06f493b6-3d2d-4214-b20e-e09915ea5ef6 .
+
+camssa:cb6250b9-d269-4fbd-b2d0-3def97a4accc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SAML 2.0 has been assessed by CAMSS Team in the context of MSP scenario, which is fully compliant with the Standardisation Regulation 1025/2012.
+See: 
+https://joinup.ec.europa.eu/solution/camss-assessment-saml-20-msp-scenario"""@en ;
+    cav:refersTo camssa:a246f85a-ef0e-4f44-9d9c-0538badcfcc9 .
+
+camssa:cb8d7674-99ef-4fe7-9698-db16572539b8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:d152d44e-f3bd-4589-a43f-99b7bc023a7f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d7be9f0dd52944e6c25f5469c86355a42ae446838bd9759b4986d21f7db4814b ;
+    cav:value "1"^^xsd:int .
+
+camssa:d186966e-3a3b-49d3-8e9e-79c42d69492f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "By allowing the authentication for using services SAML 2.0 fosters visibility by simplifying access to administrations’ services. Moreover, it can be used internally by public officers which enhances the decision-making process.  "@en ;
+    cav:refersTo camssa:5a17a564-d7d3-4bf6-8fcc-1cf4b6d70a44 .
+
+camssa:d4169675-4313-45a8-be51-68db24a3440a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The OASIS Security Services Technical Committee, in charge of the development of SAML 2.0, operates under RF on RAND Mode of the OASIS IPR Policy. The specification is licensed on a Royalty-free and (F)RAND basis.
+
+See:
+https://www.oasis-open.org/committees/security/ipr.php 
+https://www.oasis-open.org/policies-guidelines/ipr"""@en ;
+    cav:refersTo camssa:3746f8dd-5954-45c7-a3c0-3d39ce35857b .
+
+camssa:d8bc1887-3c1f-485e-ae89-bb032d30cda2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-450e8a1f4cffbbf3de202e37bd642f098174559028df90ccc657473a6086bc0b ;
+    cav:value "2"^^xsd:int .
+
+camssa:d963e1ba-80bb-43f2-a15b-907d811bc846 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19c639047dab46befb5839503733c8f1e7ed8278f788a089d11d2caee84a8f7c ;
+    cav:value "2"^^xsd:int .
+
+camssa:da98ec40-bc85-4bd5-a64d-81ebca063c73 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SAML 2.0 is a format that allows seamless cross-border interoperability between systems, independently of existing implementations.
+
+To demonstrate this fact is worth to take into account that in the context of Connecting Europe Facility (CEF), the CEF eID Building Block has been developed to support the (eiDAS) regulation. This building block includes technical specifications composing the “eiDAS eiD profile”.  Among these specifications, the eiDAS SAML Attribute Profile defines the SAML 2.0 attributes to be used for the assertion of natural and legal person identity between eIDAS nodes. 
+
+See: 
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32013R1316
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32015R1501https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eID 
+https://joinup.ec.europa.eu/sites/default/files/document/2015-11/eidas_interoperability_architecture_v1.00.pdf"""@en ;
+    cav:refersTo camssa:a6153a22-1fb1-46c3-9e94-7d2249514a54 .
+
+camssa:dd00663f-6439-41b8-9f13-2cef66194d6c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a0101cb11c30c1bbf94adb74479472f2a40c53ccc4b442180fece91506c20a9d ;
+    cav:value "0"^^xsd:int .
+
+camssa:e2661db3-218a-40cf-9a1d-43b6791ea593 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of SAML 2.0 is not related to the publication of data as Open Data. Therefore, this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:a7f018b3-1ed0-4d23-ad8a-dc99fb48b651 .
+
+camssa:ed028318-4b0f-4530-b7ec-f5ad81dfcddb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6ec33e201b803a1cc0150c0da8dc42b2a0f1029cf31e7a2c0fc81d1d8336ef36 ;
+    cav:value "1"^^xsd:int .
+
+camssa:ef5a7d85-4b8b-4fd9-80b7-f3e3097c5c69 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification allows cross-domain single sign-on, which reduces the administrative burden of the system administrators and the users. By using SAML 2.0, the system administrator is prevented from providing several authentication tokens and, the user does not have to deal with several credentials. 
+In addition, the use of the specifications helps to enhance and foster digital communication between administrations and users avoiding the non-digital data exchange. """@en ;
+    cav:refersTo camssa:87a732e5-9ff9-4068-b4f1-6aa9a4d123cf .
+
+camssa:f026aa17-ed60-4a11-a035-aceae698f689 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SAML 2.0 is publicly available for free on OASIS Webpage.
+
+See:
+http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html"""@en ;
+    cav:refersTo camssa:7fc3420b-6687-4852-8cab-837ceb583ae8 .
+
+camssa:f3c407ff-3694-4113-bad0-ecb50de829e7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are existing mechanisms to carry out SAML 2.0 conformity. For instance, SAMLtool.com provides a SAML Response XML validation on open source that can be found at their Github. 
+
+See:
+https://www.samltool.com/validate_response.php
+https://www.samltool.com/"""@en ;
+    cav:refersTo camssa:67b148ab-402d-459f-9ac3-a1e94ae8ca0a .
+
+camssa:f4a28ac7-93a2-4a38-9d74-c0bc5542c948 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 2 Member States' catalogues of recommended specifications. Examples of Member States including SAML 2.0 on their catalogues are Portugal and Slovakia.
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:c6cae7d2-af7b-4db4-ac5b-c40fd47bf9d3 .
+
+camssa:f9c0b3f1-9e31-494a-8f63-70d9f61b928e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-73a8058bec757a2fdb0f8513c2f11841e982cbef76c3be82af67707c294da8b8 ;
+    cav:value "2"^^xsd:int .
+
+camssa:fc275828-3e45-467c-bc25-07c590fd63d2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-01e6c1ce016de128117697d51a8fdaebb57c1f50343c081dfd72e2fbc56733a8 ;
+    cav:value "1"^^xsd:int .
+

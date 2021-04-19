@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+rsc:b79c7d7ad458099285efab0819df86bf33f868c6512e5b3b64ac2e605b705c12 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy rsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "SHACL, Shapes constraint language"@en ;
+    dcat:distribution rsc:d591dca5-712d-4cdf-92c4-04bc93195d53 .
+
+rsc:d14044eb-3ac3-404f-b8f6-a224d77044db a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf rsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+rsc:d591dca5-712d-4cdf-92c4-04bc93195d53 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/2017/REC-shacl-20170720/ "^^xsd:anyURI .
+
+rsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "W3C (http://www.w3.org)"^^xsd:string .
+

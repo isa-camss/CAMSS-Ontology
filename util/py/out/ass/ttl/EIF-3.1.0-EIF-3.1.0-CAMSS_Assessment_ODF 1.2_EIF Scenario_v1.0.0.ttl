@@ -1,0 +1,674 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:d6edf212eb910a6f6eeb6e2dc92d70808b8b3cf50e592d3123fbafdadba094cf a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:fad45f15724c3fb6e9f0cb57ea4f78fd1459b48850b452df0409bee54654ac67 ;
+    camss:assessmentDate "2020-07-31"^^xsd:date ;
+    camss:submissionDate "2020-07-31"^^xsd:date ;
+    camss:toolVersion tool:3.1.0 ;
+    cav:contextualisedBy sc:s-fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd ;
+    cav:resultsIn camssa:069842fa-3c83-4244-8139-629074d453c0,
+        camssa:09ad6d73-bd9c-413a-a077-5807ffa1e86d,
+        camssa:10036671-c698-4e11-afe5-c4ac218d315a,
+        camssa:11ad4d8a-436c-4810-9d37-e475d21f7af3,
+        camssa:15814223-f714-4f10-9cd8-b0e308400e0a,
+        camssa:2bba018d-44a7-42d0-9d64-802b8594faf0,
+        camssa:43fd939d-e644-40f8-b74d-5296304b30dd,
+        camssa:58975c02-9274-4b82-846f-3642a970a971,
+        camssa:5cd7148b-5c8b-4968-9130-0e168fad38ab,
+        camssa:5cd83744-fb34-48ee-8b4f-3f77cc9e2136,
+        camssa:61885b3a-52da-47e8-9dc7-3e612f471545,
+        camssa:637b33bd-f6c8-4797-b38e-be1f1437e9ab,
+        camssa:64a30ade-ee3d-405a-91df-4827d5c53079,
+        camssa:652926ee-5532-4f15-94c1-86bfa308200f,
+        camssa:6579225c-0a94-4a0c-9af1-5d2b959c9b97,
+        camssa:670207d4-99fa-433b-b53e-10f1b87b38a8,
+        camssa:69b877e6-597b-4efe-a3e1-b62f78e0213f,
+        camssa:6b41ce87-8cab-45e9-8244-a929f2548948,
+        camssa:6ea48948-c10b-48bd-a63d-5f366b1556a9,
+        camssa:725022d0-9c44-499d-9681-984b229e8603,
+        camssa:75158b0c-8b96-48be-9724-e57c8de13728,
+        camssa:7aaa712e-a20d-43a8-b44d-d7d1b70b1f47,
+        camssa:882056e1-a954-4025-af4c-075659d4496d,
+        camssa:88d9d9c2-9f59-4fdb-9a54-988660cf337d,
+        camssa:8bc690ea-d9ad-4c7e-b75c-f869467765b7,
+        camssa:8cc13761-f34c-45d9-9efb-220a9ba98a20,
+        camssa:8daec65c-17e8-4124-aab3-03345515b7d7,
+        camssa:9ccdbcaa-419e-4135-99a0-acdd56aa9024,
+        camssa:9ce60292-eabe-48c5-a5df-4098ce997223,
+        camssa:a34c5966-6780-474f-a997-a7229a8c8a67,
+        camssa:ab685564-5133-47d7-93f8-6cf1e75b174c,
+        camssa:ae0e5d22-f7ec-40cf-a9d8-c85adf551e7b,
+        camssa:aeef52f5-c451-4d00-a519-aef9d30090c8,
+        camssa:d66cafd0-4d5f-4baf-bd90-c864ab0ef276,
+        camssa:de146e05-5281-4cae-bdfe-558b3069e33b,
+        camssa:e85f3493-8a7c-4027-b26c-648780601075,
+        camssa:e9ff0811-bc10-454b-bf93-cebb5c076a6c,
+        camssa:f12c01ac-a6b4-4d09-bf8c-e7a1d126125a,
+        camssa:f4581456-c0eb-458c-95d7-8361eb9b3efd ;
+    cav:status status:Complete ;
+    dct:title "Open Document Format for Office Applications (ODF) v1.2"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:d9a684a7-d721-4d0c-9000-6889b188dc64 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:069842fa-3c83-4244-8139-629074d453c0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of ODF is not related to e-accessibility. Therefore, this criterion is not applicable to the specification.
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office"""@en ;
+    cav:refersTo camssa:9b68151c-f418-490c-a9d1-6f6f360e7f4d .
+
+camssa:09ad6d73-bd9c-413a-a077-5807ffa1e86d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the ODF in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:c882d7e1-2b0b-475e-aa2a-278fce985726 .
+
+camssa:0f2a3cb0-7cdc-4356-8b1a-8e996ebcd263 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5879b43fc249f0098f3ed687235f432f71bf0c11bd3aa95e063dfdacd64606c8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:10036671-c698-4e11-afe5-c4ac218d315a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of ODF is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to the specification.
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office"""@en ;
+    cav:refersTo camssa:b4ea90c2-8ba8-4244-b5fb-e47a3c40166a .
+
+camssa:11ad4d8a-436c-4810-9d37-e475d21f7af3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are several conformance validators for ODF, for example, The Document Foundation validator.   
+ 
+The Document Foundation ODF Validator: 
+https://odfvalidator.org/ """@en ;
+    cav:refersTo camssa:a085bbe0-cbf7-4997-808a-4d754e30a8a8 .
+
+camssa:15814223-f714-4f10-9cd8-b0e308400e0a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of ODF within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
+    cav:refersTo camssa:1a7626a7-51eb-4063-9bc4-f7f218cfc3e8 .
+
+camssa:1a7626a7-51eb-4063-9bc4-f7f218cfc3e8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a18abe4842e04b608025fd70e54c3db5c2a10130c0dab0495479e7d5effb55d ;
+    cav:value "0"^^xsd:int .
+
+camssa:21bd38ed-7f77-498e-9969-8dc7559b0065 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-624bc49501d58649e27cae4fb89fb5a56844685e54c5ce1625633894f8f752e1 ;
+    cav:value "2"^^xsd:int .
+
+camssa:2bba018d-44a7-42d0-9d64-802b8594faf0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The first version of ODF was released in 2005, but it was not published as an ISO standard until 2006. It is implemented by LibreOffice, a worldwide Open document format that has the support of The Document Foundation, an open community focused on the improvement of LibreOffice.  
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office
+
+The Document Foundation  
+https://wiki.documentfoundation.org/ODF"""@en ;
+    cav:refersTo camssa:69dc9c57-f10f-4423-aff2-c8efb580b8fe .
+
+camssa:2bbd9d79-0adb-4220-a698-56250fb23fb4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6d48464387e608d3022bd07338cd3859acfb0f84139186a979ef3b96baa51086 ;
+    cav:value "2"^^xsd:int .
+
+camssa:31cb9d3e-3153-4db6-b62b-8314ef7b3306 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3aec34db3622bf18675b8216d0fc1d68fc7eeb501b4f3326402038a3ceb95c21 ;
+    cav:value "1"^^xsd:int .
+
+camssa:40d25f05-18ce-4897-8cd2-b14a3efc43ca a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-31bf959b6c4a983ec70eb87e0177f2739575ebce42c7c3b95b9012ef3bfe673e ;
+    cav:value "0"^^xsd:int .
+
+camssa:427fbccd-34ae-42bb-98ae-1503874c1957 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-21276471c1781fa2c7e78c8e03851e076b840beddbf5cf64f53b54b8855a01b8 ;
+    cav:value "0"^^xsd:int .
+
+camssa:43fd939d-e644-40f8-b74d-5296304b30dd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification ODF 1.2 from ISO is not available for free as all the ISO standards have to be paid. However, it can be checked out the OASIS documentation referring to the ODF, as the content is aligned.
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office"""@en ;
+    cav:refersTo camssa:764bcad6-1ced-4377-be46-52c6c96b73d8 .
+
+camssa:493db747-4cab-4c79-9313-d274105dcf94 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-138786a6e7517e10b94e83ec3b3e7ac79b4c49dcbeaef8d8e993c8df0d173529 ;
+    cav:value "0"^^xsd:int .
+
+camssa:4f2260d5-64d0-4e0b-89a9-0afe1b056580 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a81c4b8658f57e819297eb0b7977407f8d814c6fe749c74a8ac497277ca7d9d8 ;
+    cav:value "0"^^xsd:int .
+
+camssa:4f75aa23-a4ad-44ca-aa8f-95ff49bb2502 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-33ea90f5c1bb01d4398c57d03a25934dc5722d5ddbc98a43911ea4fb302ec54c ;
+    cav:value "2"^^xsd:int .
+
+camssa:58975c02-9274-4b82-846f-3642a970a971 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of ODF is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification.
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office"""@en ;
+    cav:refersTo camssa:2bbd9d79-0adb-4220-a698-56250fb23fb4 .
+
+camssa:5cbdf9ac-bedf-4e74-9fc2-17da030d0ae6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "0"^^xsd:int .
+
+camssa:5cd7148b-5c8b-4968-9130-0e168fad38ab a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of ODF is not related to the once-only principle. Therefore, this criterion is not applicable to the specification.
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office"""@en ;
+    cav:refersTo camssa:21bd38ed-7f77-498e-9969-8dc7559b0065 .
+
+camssa:5cd83744-fb34-48ee-8b4f-3f77cc9e2136 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ODF was initially published by OASIS, an international organisation aimed to develop open standards and specifications. Afterwards, it was standardised by ISO, which is also an international organisation with standardisation purposes. Moreover, the specification has the support of the Document Foundation, which is in charge of evolving the LibreOffice. 
+
+The Document Foundation:
+https://wiki.documentfoundation.org/ODF 
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office"""@en ;
+    cav:refersTo camssa:9b85ddae-b2e4-490b-a4a3-6c1c708283f6 .
+
+camssa:6107e85f-8b94-4164-8cf5-b65509382d80 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-838030847fa0adf54939e3feaac0ac2510924c54035e1cb671b223b54b02fd70 ;
+    cav:value "1"^^xsd:int .
+
+camssa:61885b3a-52da-47e8-9dc7-3e612f471545 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ODF is a business agnostic document format that can be reused in a cross-domain way.
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office"""@en ;
+    cav:refersTo camssa:31cb9d3e-3153-4db6-b62b-8314ef7b3306 .
+
+camssa:61fd83fa-06b0-4a03-97ee-6142abe6e19b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d129862d6c9639e131c7d5eef095af16ef94d57ec0d52f955bf909ba8ec688e8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:637b33bd-f6c8-4797-b38e-be1f1437e9ab a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As a document exchange format, ODF is a valuable tool for sharing information through the internet between administrations and stakeholders. Also, the XML schema allows the transformation of the content using XSLT by XML based tools. Allowing sharing data and information the standard foster the visibility of administration data and services. Fostering the collaboration between public administrations, the specification eases the decision-making process of institutions.
+
+UK Sharing and collaborating with government documents 
+https://www.gov.uk/government/publications/open-standards-for-government/sharing-or-collaborating-with-government-documents
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office"""@en ;
+    cav:refersTo camssa:e2b2f4a3-345b-4a38-9721-6a569b4d6357 .
+
+camssa:64a30ade-ee3d-405a-91df-4827d5c53079 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no disclosures within the ISO IPR Database to identify the licensing under the specification can be used.  
+
+ISO patents:
+https://www.iso.org/iso-standards-and-patents.html 
+
+ISO standards and patents IPR database:
+http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347  """@en ;
+    cav:refersTo camssa:4f2260d5-64d0-4e0b-89a9-0afe1b056580 .
+
+camssa:652926ee-5532-4f15-94c1-86bfa308200f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ODF does not define a cross-sector reusable data model, but it defines an open source file format. 
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office"""@en ;
+    cav:refersTo camssa:b2bdc710-5f72-45ba-b463-5b4705c0aeaa .
+
+camssa:6579225c-0a94-4a0c-9af1-5d2b959c9b97 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By defining an XML schema for office documents, it allows the transformation using XSLT to other formats ensuring the availability and data portability, and therefore, supporting the development of European Public Services.
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office"""@en ;
+    cav:refersTo camssa:9338c7e7-5f80-4f32-996d-576c94ff7a30 .
+
+camssa:670207d4-99fa-433b-b53e-10f1b87b38a8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of ODF is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification.
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office"""@en ;
+    cav:refersTo camssa:cf4b80ea-1f98-4972-9f76-185b4470272a .
+
+camssa:69b877e6-597b-4efe-a3e1-b62f78e0213f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As a schema for office documents it is an exchange format that allows sharing information over the internet, including content from the public administrations fostering the visibility of administration data and services.  
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office"""@en ;
+    cav:refersTo camssa:a5e5c4f5-20fc-4f2d-b420-cfe27b46c7e4 .
+
+camssa:69dc9c57-f10f-4423-aff2-c8efb580b8fe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6bedf555bffb837990b9eb353447fa116eb9d2384770b1dd3de46d3c5901d4f4 ;
+    cav:value "1"^^xsd:int .
+
+camssa:6b41ce87-8cab-45e9-8244-a929f2548948 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ODF is included in 4 national catalogues of recommended specifications. They belong to Denmark, Estonia, the Netherlands and Sweden. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets. 
+ 
+CAMSS List of standards: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards 
+ 
+National Interoperability Framework Observatory:  
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets  """@en ;
+    cav:refersTo camssa:cdddb2e1-2116-4f32-903d-105197560105 .
+
+camssa:6ba750cc-ba37-4556-b69f-679c64f0cba7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d28663fdb5deb361d5ad773d7b7ece3c6acf8d2eb7a1222a60cb08df4c93aac ;
+    cav:value "1"^^xsd:int .
+
+camssa:6ea48948-c10b-48bd-a63d-5f366b1556a9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """12 Member States are recommending ODF in their ICT National Catalogues. These Member States are Croatia, Denmark, Estonia, France, Greece, Ireland, Malta, Netherlands, Norway, Slovenia, Sweden and UK.
+ 
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:7420a50d-92b1-4af4-8381-a8371e32e596 .
+
+camssa:71280c88-d8ac-46bd-9569-0e18fa959c6d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8a34a40e5bc5436b3530d898d75a57cf0488591887b31a5169499fe78952d84c ;
+    cav:value "2"^^xsd:int .
+
+camssa:7146a74a-6498-479d-ae38-b0a745a09e36 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ffdbd22af1ff3c1ebb100043d062a3df160007af761caf0a8c9f50f02e609c9e ;
+    cav:value "1"^^xsd:int .
+
+camssa:725022d0-9c44-499d-9681-984b229e8603 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is independent of any software, hardware, or operating system. So it can be said that ODF is independent of any specific technology or platform.
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office"""@en ;
+    cav:refersTo camssa:0f2a3cb0-7cdc-4356-8b1a-8e996ebcd263 .
+
+camssa:7420a50d-92b1-4af4-8381-a8371e32e596 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c09094de9d71f12686896827a205db683b6df58fa363bc5be2a7d99989e7dd0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:75158b0c-8b96-48be-9724-e57c8de13728 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The main purpose of ODF is to exchange information through the internet, and its purpose is not related to the availability of interfaces. Therefore, this criterion is not applicable to the specification.
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office"""@en ;
+    cav:refersTo camssa:4f75aa23-a4ad-44ca-aa8f-95ff49bb2502 .
+
+camssa:764bcad6-1ced-4377-be46-52c6c96b73d8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2cedd44f05183dae5548108bdeace2c092b84c7c5d89c475b0741ddae7fc7b2 ;
+    cav:value "0"^^xsd:int .
+
+camssa:7aaa712e-a20d-43a8-b44d-d7d1b70b1f47 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the assessments performed by CAMSS and the list of specifications identified by the MSP Multi-stakeholder-platform, no assessment verifying the compliance of the specification with the European standardisation regulation has been found.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
+    cav:refersTo camssa:c8f0ddfa-282d-4ee7-9a8d-fd4abb8609f6 .
+
+camssa:810f1473-cc46-4a28-9f97-ddfa36941603 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "1"^^xsd:int .
+
+camssa:83757e03-af69-4847-8b09-831957761555 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39ffef052c31580b50b418f3991e9de7db4dc182fcf96f5a447d7f8e09560612 ;
+    cav:value "0"^^xsd:int .
+
+camssa:882056e1-a954-4025-af4c-075659d4496d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Even though at the moment of elaborating the assessment the specification is used, the specification in itself does not give any innovative solution since it is a document format.  "@en ;
+    cav:refersTo camssa:427fbccd-34ae-42bb-98ae-1503874c1957 .
+
+camssa:88d9d9c2-9f59-4fdb-9a54-988660cf337d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ISO has defined a clear procedure to develop its standards. It consists in a 6-steps process where everyone who is interested can participate. However, if you want to participate, you have to contact your national standards body and you have to be approved for joining the Technical committee (TC) who will develop the standard. ISO has defined the roadmap of standards, it is composed of 6 steps as before said. For the approval of a standard the two-thirds majority of P-members of TC is needed. If the result is negative, the document is returned to TC/SC to be further studied.
+
+The ISO standardization process: 
+https://www.iso.org/stages-and-resources-for-standards-development.html"""@en ;
+    cav:refersTo camssa:b02abc79-83b1-4bb3-8a1e-c15aec81a36e .
+
+camssa:8bc690ea-d9ad-4c7e-b75c-f869467765b7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Even though no explicit evidence has been found of any implementation of the ODF at the European Level, there are several recommendations from the EC and member states for the usage of the specification when sharing or collaborating between and with administrations.  
+
+No formal project has been found where ODF is used for this purpose. 
+
+EC recommends supporting open document format: 
+https://joinup.ec.europa.eu/collection/open-source-observatory-osor/news/ec-recommends-supporting-open 
+
+UK Sharing and collaborating with government documents 
+https://www.gov.uk/government/publications/open-standards-for-government/sharing-or-collaborating-with-government-documents """@en ;
+    cav:refersTo camssa:83757e03-af69-4847-8b09-831957761555 .
+
+camssa:8cc13761-f34c-45d9-9efb-220a9ba98a20 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although ODF supports the first level of maturity, it does not support the main principles for the publication of data as Linked Open Data.
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office
+
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html"""@en ;
+    cav:refersTo camssa:493db747-4cab-4c79-9313-d274105dcf94 .
+
+camssa:8daec65c-17e8-4124-aab3-03345515b7d7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ODF is already associated to an EIRA ABB in the European Library Of Specifications (ELIS). Specifically, ODF can define the interoperability aspects of the "Representation" ABB from the EIRA Semantic view. 
+ 
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
+    cav:refersTo camssa:6ba750cc-ba37-4556-b69f-679c64f0cba7 .
+
+camssa:9338c7e7-5f80-4f32-996d-576c94ff7a30 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ab64f97c21ac8b84c75d6f52a89765b1c8fd1856d2d2060926d05e94f306a88d ;
+    cav:value "1"^^xsd:int .
+
+camssa:9b68151c-f418-490c-a9d1-6f6f360e7f4d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fef5941bab92019b7692f8544de94715a42ed9ff76d89cbec4fb6f9821611925 ;
+    cav:value "2"^^xsd:int .
+
+camssa:9b85ddae-b2e4-490b-a4a3-6c1c708283f6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b21a3eb972a2119979bc57368474efa809e8dd16cede48bc492e8b64da1abee9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:9ccdbcaa-419e-4135-99a0-acdd56aa9024 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As defined on the TC standardisation, only TC members are involved in the development of ISO standards. A review is carried out to arrange the consensus firstly within the TC members and subsequently is reviewed by the different ISO member bodies. However, it cannot be considered a public review, because only TC members can participate.
+
+The ISO standardization process: 
+https://www.iso.org/stages-and-resources-for-standards-development.html"""@en ;
+    cav:refersTo camssa:5cbdf9ac-bedf-4e74-9fc2-17da030d0ae6 .
+
+camssa:9ce60292-eabe-48c5-a5df-4098ce997223 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The ISO/IEC 26300-1:2015 which refers to ODF v1.2 is not available for free for everyone to study. Payment is needed to reach access to the standard.  
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html"""@en ;
+    cav:refersTo camssa:40d25f05-18ce-4897-8cd2-b14a3efc43ca .
+
+camssa:a085bbe0-cbf7-4997-808a-4d754e30a8a8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c967c90bfc7bc13426924eca012de349ae51d4e8f652fe64bfbec2cccc8c8146 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a34c5966-6780-474f-a997-a7229a8c8a67 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification protects in itself data integrity, but also provides capabilities to protect with passwords and user roles in order to the access to the document. Therefore, ODF provides security features that foster a trustworthy data exchange between administration and stakeholders.
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office"""@en ;
+    cav:refersTo camssa:810f1473-cc46-4a28-9f97-ddfa36941603 .
+
+camssa:a54368cf-81dc-41b6-a74f-6196822545e9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5df7a9f6081c945a22f500aa0ba2c452b8b9cd9497bd643ac76c39d34a18c319 ;
+    cav:value "0"^^xsd:int .
+
+camssa:a5e5c4f5-20fc-4f2d-b420-cfe27b46c7e4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7ab883158b51681c78f90d1a00bbb3840aa2c86e309a9abd1ad6e6eedb5e2735 ;
+    cav:value "1"^^xsd:int .
+
+camssa:ab338f64-56f0-4072-9677-e83ee46e65eb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17bea234285e6e633e4e21105358610ad5f5f0eaaf82f4bd50cb64ec11538984 ;
+    cav:value "0"^^xsd:int .
+
+camssa:ab685564-5133-47d7-93f8-6cf1e75b174c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By allowing the exchange of digital documents, ODF avoids sharing non-digital documents and then helps to the reduction of administrative burden.  
+
+UK Sharing and collaborating with government documents 
+https://www.gov.uk/government/publications/open-standards-for-government/sharing-or-collaborating-with-government-documents
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office"""@en ;
+    cav:refersTo camssa:7146a74a-6498-479d-ae38-b0a745a09e36 .
+
+camssa:ae0e5d22-f7ec-40cf-a9d8-c85adf551e7b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As a document format, ODF helps to make data available on the internet. This fact demonstrates that the standard is supporting the first level of maturity from Tim Berners-Lee's 5-star schema for Open data.  
+ 
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office
+ 
+Tim Berners-Lee 5-star schema for Open Data:
+https://5stardata.info/es/ """@en ;
+    cav:refersTo camssa:b2c2f70a-63d9-4249-aad7-0459dd77c006 .
+
+camssa:aeef52f5-c451-4d00-a519-aef9d30090c8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no disclosures within the ISO IPR Database to identify the licensing under the specification can be used.  
+
+ISO patents:
+https://www.iso.org/iso-standards-and-patents.html 
+
+ISO standards and patents IPR database:
+http://isotc.iso.org/livelink/livelink/13622347/Patents_database.xls?func=doc.Fetch&nodeId=13622347 """@en ;
+    cav:refersTo camssa:c08cd14b-20b7-4bbb-87d0-3c74cb7f1df6 .
+
+camssa:b02abc79-83b1-4bb3-8a1e-c15aec81a36e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:b2bdc710-5f72-45ba-b463-5b4705c0aeaa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8954ddabf37f4899562b9ea4c8f0bbf204f3e48c9203043bc231f368092396a2 ;
+    cav:value "0"^^xsd:int .
+
+camssa:b2c2f70a-63d9-4249-aad7-0459dd77c006 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-02333ef99fbcb4f101a106bcf97c9559888756b085b1729b7c2ac9626dc4bc63 ;
+    cav:value "1"^^xsd:int .
+
+camssa:b4ea90c2-8ba8-4244-b5fb-e47a3c40166a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4ac14cafe608f1dbe7e48f96edd7574c55f0aac2c2e99ede0418dae7225977af ;
+    cav:value "2"^^xsd:int .
+
+camssa:c08cd14b-20b7-4bbb-87d0-3c74cb7f1df6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1cd71a7b6d54631ba58cc8b0655a443d696f49ec74a0f4cccc871de7789d6a60 ;
+    cav:value "0"^^xsd:int .
+
+camssa:c249f397-a592-4358-945c-82bcdf55401a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ba46c76c10ad769a23ce4a9a34cb4d96a00407d5fc14ad1c791a870be7563c2b ;
+    cav:value "1"^^xsd:int .
+
+camssa:c882d7e1-2b0b-475e-aa2a-278fce985726 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc5bd9a7d0b2acc7f246522414fd5f5d579b977180bb04fa60a545cb35dae90f ;
+    cav:value "0"^^xsd:int .
+
+camssa:c8f0ddfa-282d-4ee7-9a8d-fd4abb8609f6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-53abe85b1365f86aa58a25566e54e082ea2d70ee8d9fbaf09ccab20af30f3332 ;
+    cav:value "0"^^xsd:int .
+
+camssa:cdddb2e1-2116-4f32-903d-105197560105 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8eb17470327d32b3bb523447fe72ee5c60ddb03e81dae318b485fbe05f48a844 ;
+    cav:value "1"^^xsd:int .
+
+camssa:cf4b80ea-1f98-4972-9f76-185b4470272a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c265ca0c56e0f29a34039d496ba707b5486ccf6d445f9f058c19b4ece977861f ;
+    cav:value "2"^^xsd:int .
+
+camssa:d66cafd0-4d5f-4baf-bd90-c864ab0ef276 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "No evidences have been found of the specification being included in a formal interoperability agreement between organisations involved in the European public services provision."@en ;
+    cav:refersTo camssa:a54368cf-81dc-41b6-a74f-6196822545e9 .
+
+camssa:d9a684a7-d721-4d0c-9000-6889b188dc64 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:de146e05-5281-4cae-bdfe-558b3069e33b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specification is not related to the preservation of information. Therefore, this criterion is not applicable to the specification.
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office"""@en ;
+    cav:refersTo camssa:71280c88-d8ac-46bd-9569-0e18fa959c6d .
+
+camssa:e2b2f4a3-345b-4a38-9721-6a569b4d6357 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19598487b8ba278c3438dcfd74b74d9aad51beac08c53dbf40bf108ed09e72b2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e85f3493-8a7c-4027-b26c-648780601075 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The adoption of ODF as a document format for exchanging information does not hamper the scalability of systems.
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office"""@en ;
+    cav:refersTo camssa:c249f397-a592-4358-945c-82bcdf55401a .
+
+camssa:e9ff0811-bc10-454b-bf93-cebb5c076a6c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "ODF specification is not included in European Platforms as it needs to be paid, and the European Institutions using the EIF and other actions supports the usage of Open Standards."@en ;
+    cav:refersTo camssa:ab338f64-56f0-4072-9677-e83ee46e65eb .
+
+camssa:f12c01ac-a6b4-4d09-bf8c-e7a1d126125a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 12 Member States' catalogues of recommended specifications. These Member States including ODF on their catalogues are  Croatia, Denmark, Estonia, France, Greece, Ireland, Malta, Netherlands, Norway, Slovenia, Sweden and UK.
+
+Joinup Assessment Standards: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:6107e85f-8b94-4164-8cf5-b65509382d80 .
+
+camssa:f4581456-c0eb-458c-95d7-8361eb9b3efd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is currently implemented in several initiatives in the public sector. The ODF helps to avoid vendor lock-in, which is part of the recommendations of EIF. Additionally, LibreOffice implements natively different versions of the Open Document Format. This is a key point that reflects the market acceptance of the specification.  
+
+ODF ISO reference:
+https://www.iso.org/standard/66363.html
+
+ODF OASIS reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=office
+
+ODF in a UK government project:
+https://www.gov.uk/government/publications/open-standards-for-government/sharing-or-collaborating-with-government-documents """@en ;
+    cav:refersTo camssa:61fd83fa-06b0-4a03-97ee-6142abe6e19b .
+

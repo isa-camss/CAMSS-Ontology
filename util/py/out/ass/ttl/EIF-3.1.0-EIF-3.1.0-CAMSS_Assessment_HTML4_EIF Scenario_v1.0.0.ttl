@@ -1,0 +1,585 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:6967bda247f5a7364705c6ee8487c3d2a999c831f3753f465a1e342ff73cbdd9 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:d3ddf753507c5d8f00ff0da81e4c5fc9a455cd5963a551bdd0162cee8275f21a ;
+    camss:assessmentDate "2020-08-31"^^xsd:date ;
+    camss:submissionDate "2020-08-31"^^xsd:date ;
+    camss:toolVersion tool:3.1.0 ;
+    cav:contextualisedBy sc:s-fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd ;
+    cav:resultsIn camssa:0080c729-eae0-4482-9d6a-5b31f452b2b9,
+        camssa:175392ae-64d6-448b-98a1-ead58757a104,
+        camssa:1fcd92cd-008a-467c-9678-599ec66a2891,
+        camssa:23ee6c2c-ba7b-46d4-bfc0-3a92f21c7ea4,
+        camssa:26074b00-79fb-4027-9366-5690116e9646,
+        camssa:269840de-f904-4d33-ae3f-c6c1deb2c2b8,
+        camssa:26e549a9-d9cc-40f9-bbbd-2009b77cacc9,
+        camssa:2908aaea-479a-4dd1-a04d-eaee0da06606,
+        camssa:350b3a2e-f9c5-4b19-9274-349b1a5dc762,
+        camssa:3c2617e2-5827-4abb-9eea-bfcdb5e916b4,
+        camssa:3f9acfdd-2b2a-467e-8246-a553c541cb82,
+        camssa:48b6aa0b-edbe-4390-b96a-bb49744e7787,
+        camssa:48fbb963-ea3c-459d-8cd6-e1fd848a7922,
+        camssa:49055b7e-25d8-481b-b6dc-689aa8ac2704,
+        camssa:4dca253d-ae89-42e7-a110-3fd2e85e2051,
+        camssa:5f90e070-3e63-4464-beb9-d2ea53c79730,
+        camssa:760db5ec-a85d-4592-99f6-d5608c25dffb,
+        camssa:7fe15793-c021-47bc-93ee-d959bd7b6825,
+        camssa:85766518-50e9-43c7-a9f1-1e314e5bdf6a,
+        camssa:85817aa3-0790-479f-9422-6a99124efbee,
+        camssa:87eb5ea1-ff9b-4c00-a24b-cfa7a674b01e,
+        camssa:9545dcec-fd04-4b9d-9a1f-25ce2bc26199,
+        camssa:96150dee-6338-4b71-8ae6-65f3af68c9c3,
+        camssa:9e4b4dbb-9b69-40b7-b615-7f9e838c6aa5,
+        camssa:a06a0063-5387-46e5-8a11-050c6fb1fcae,
+        camssa:ac9ec2fc-a302-439c-a104-241a1829e608,
+        camssa:b8887a7c-3d3b-458b-b383-45620a6b87d6,
+        camssa:bc3c8e29-fee4-4b9f-8159-f1810b84ef7f,
+        camssa:bcfd27ac-bf9a-4130-8468-6e757197a16f,
+        camssa:bf13b40c-3f6d-40d5-ba3d-e1632cbab9c2,
+        camssa:cdaf74d6-ff27-48fc-acb7-692acb24d10e,
+        camssa:cf2a4084-527f-41fe-a7df-8fc6a5ede131,
+        camssa:d5c5a9b8-3d12-44de-8b2d-7357bb61d22b,
+        camssa:d849b29c-ba0a-4d46-b4fb-d85991c87e7e,
+        camssa:e2eaddb9-aeab-4e05-a898-59fe83121e7a,
+        camssa:e6a4eec4-f0a8-4f23-94d8-466b634fc832,
+        camssa:e8c8ade3-21c6-4bdd-b2b7-839803638bb6,
+        camssa:f0f98adc-5a62-42be-816e-5ee5223e105d,
+        camssa:f820b73d-8c87-4aa8-8426-e94383498396 ;
+    cav:status status:Complete ;
+    dct:title "Hypertext Markup Language (HTML) v4.01"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:5e826d72-8ae9-4d76-a3f9-3786522b6a04 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:0080c729-eae0-4482-9d6a-5b31f452b2b9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although HTML is aligned with the first levels of maturity of Tim Berners-Lee's 5-star schema for Open Data, it does not support the different principles of Linked Open Data.
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/
+
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html
+https://www.w3.org/wiki/LinkedData"""@en ;
+    cav:refersTo camssa:be7a1db3-8602-44b0-adf0-b13bbab4e2ae .
+
+camssa:08d6ff91-c5ec-43be-90bf-0c8b32fd2448 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5df7a9f6081c945a22f500aa0ba2c452b8b9cd9497bd643ac76c39d34a18c319 ;
+    cav:value "0"^^xsd:int .
+
+camssa:1645d365-f16b-43c4-a193-d7a312ed2584 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a18abe4842e04b608025fd70e54c3db5c2a10130c0dab0495479e7d5effb55d ;
+    cav:value "0"^^xsd:int .
+
+camssa:175392ae-64d6-448b-98a1-ead58757a104 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """When HTML 4 became a W3C recommendation it had a good acceptance, it was the best markup language in the market, but when XHTML and HTML5 appeared, its use decreased considerably. It can be seen in the following link, a comparison of usage of the different HTML languages and it is obvious that HTML 4 is near 0% of usage.
+
+XHTML trend:
+https://try.powermapper.com/Stats/HtmlVersions"""@en ;
+    cav:refersTo camssa:fc5a7aec-62c6-4bee-be5f-e69bf78e24bb .
+
+camssa:1fcd92cd-008a-467c-9678-599ec66a2891 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of HTML is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/"""@en ;
+    cav:refersTo camssa:6f5f9001-4ace-4ccc-806a-3f976fe7bf9a .
+
+camssa:22f6ddec-d868-464e-8c7f-35b7c8f2f182 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "1"^^xsd:int .
+
+camssa:23ee6c2c-ba7b-46d4-bfc0-3a92f21c7ea4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "At the moment of performing the assessment, HTML is barely used to develop web pages. With the appearance of XHTML and HTML5, no evidences have been found to consider HTML as an asset to build innovative solutions."@en ;
+    cav:refersTo camssa:e4b3001f-a05c-4da7-a1ed-c6daf5e809b6 .
+
+camssa:26074b00-79fb-4027-9366-5690116e9646 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies"""@en ;
+    cav:refersTo camssa:a0643726-2202-48a4-a089-899fed659a42 .
+
+camssa:269840de-f904-4d33-ae3f-c6c1deb2c2b8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML fosters e-accessibility through helping people with disabilities with digital signs, e-books and other HTML components that make browsing thought an HTML web easier.
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/"""@en ;
+    cav:refersTo camssa:30b153b7-29c5-4c64-9601-6d0774337c95 .
+
+camssa:26e549a9-d9cc-40f9-bbbd-2009b77cacc9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of HTML is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification. 
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/"""@en ;
+    cav:refersTo camssa:5c717687-e225-4d3d-951a-bf59fab03e6b .
+
+camssa:2908aaea-479a-4dd1-a04d-eaee0da06606 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML was the first mark up language to develop web resources. Its main purpose is to publish data on the web. By allowing the publication of administrative data on the web with various formats, HTML foster the visibility of administration data, and services.
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/"""@en ;
+    cav:refersTo camssa:d76ccec2-123a-46dc-a097-fe1a73291112 .
+
+camssa:30b153b7-29c5-4c64-9601-6d0774337c95 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fef5941bab92019b7692f8544de94715a42ed9ff76d89cbec4fb6f9821611925 ;
+    cav:value "1"^^xsd:int .
+
+camssa:350b3a2e-f9c5-4b19-9274-349b1a5dc762 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML was the first standard markup language to develop web resources. HTML files are used to exchange information through the web, and they foster data portability between systems and applications.
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/"""@en ;
+    cav:refersTo camssa:79e4d165-b83a-4800-95eb-29b87f086e78 .
+
+camssa:38ffc999-26e9-422b-958c-01d4de885310 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-624bc49501d58649e27cae4fb89fb5a56844685e54c5ce1625633894f8f752e1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:3c2617e2-5827-4abb-9eea-bfcdb5e916b4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML can be found for free along within the European Collaborative Platform, Joinup.
+
+HTML in Joinup platform:
+https://joinup.ec.europa.eu/solution/html-401-specification"""@en ;
+    cav:refersTo camssa:cd6709b2-4d70-4b90-b0eb-9c87cf0ad59b .
+
+camssa:3f9acfdd-2b2a-467e-8246-a553c541cb82 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 12 Member States' catalogues of recommended specifications. This Member States are Croatia, Cyprus, Estonia, Germany, Greece, Malta, Norway, Poland, Slovenia, Spain, Sweden and UK.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:e0d1566b-5345-4520-b900-de358496b267 .
+
+camssa:48b6aa0b-edbe-4390-b96a-bb49744e7787 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML is a markup languages to develop web documents and make them online to share and publish information. The specification supports the first level of maturity which corresponds to make data available on the Internet. So, the specification is aligned with the different levels of maturity of Tim Berners-Lee's 5-star schema for Open Data.
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/
+
+Tim Berners-Lee 5-star schema for Open Data:   
+https://5stardata.info/en/"""@en ;
+    cav:refersTo camssa:4f56c763-6fd5-4b67-9be7-1b080f44e021 .
+
+camssa:48fbb963-ea3c-459d-8cd6-e1fd848a7922 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """At the time of elaborating this assessment, this specification is not included in any EIRA ABB in the current European Library Of Specifications (ELIS). However, HTML5 which is an improved and newer version of the specification is included. More specifically, HTML5 can define the interoperability aspects of the "Human Interface" and "Representation" ABBs from the EIRA Semantic and Technical views.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
+    cav:refersTo camssa:dccf32ba-d900-45c7-8a91-e9015abf6261 .
+
+camssa:49055b7e-25d8-481b-b6dc-689aa8ac2704 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML is a business domain agnostic specification that can be reused in a cross-domain way.
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/"""@en ;
+    cav:refersTo camssa:81a6ef17-5ed2-4b6c-a5eb-6d2bf6d84c06 .
+
+camssa:4dca253d-ae89-42e7-a110-3fd2e85e2051 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although HTML can be used independently of other technical specifications, it can be enhanced along other specifications, for example, it can be used with CSS to give a visual format to the HTML code.
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/"""@en ;
+    cav:refersTo camssa:e9ace1eb-f43a-4ade-8f68-3ee359dd3282 .
+
+camssa:4f56c763-6fd5-4b67-9be7-1b080f44e021 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-02333ef99fbcb4f101a106bcf97c9559888756b085b1729b7c2ac9626dc4bc63 ;
+    cav:value "1"^^xsd:int .
+
+camssa:4f848e0b-3776-4f6f-9ba5-83da6a0aa288 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ba46c76c10ad769a23ce4a9a34cb4d96a00407d5fc14ad1c791a870be7563c2b ;
+    cav:value "1"^^xsd:int .
+
+camssa:512aacb9-7260-476d-944b-e902a815be1d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-31bf959b6c4a983ec70eb87e0177f2739575ebce42c7c3b95b9012ef3bfe673e ;
+    cav:value "1"^^xsd:int .
+
+camssa:52ed462f-238d-4d56-a3d4-41fde3dc254f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-53abe85b1365f86aa58a25566e54e082ea2d70ee8d9fbaf09ccab20af30f3332 ;
+    cav:value "0"^^xsd:int .
+
+camssa:537601e7-d020-4f6b-9687-b067e6d79d4f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7ab883158b51681c78f90d1a00bbb3840aa2c86e309a9abd1ad6e6eedb5e2735 ;
+    cav:value "1"^^xsd:int .
+
+camssa:5c717687-e225-4d3d-951a-bf59fab03e6b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8a34a40e5bc5436b3530d898d75a57cf0488591887b31a5169499fe78952d84c ;
+    cav:value "2"^^xsd:int .
+
+camssa:5e826d72-8ae9-4d76-a3f9-3786522b6a04 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:5f90e070-3e63-4464-beb9-d2ea53c79730 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of HTML is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification. 
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/"""@en ;
+    cav:refersTo camssa:8c85d8db-71aa-495a-8982-6fc5fd17faf7 .
+
+camssa:64a781bb-627f-4650-b221-9a178d7585cd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8954ddabf37f4899562b9ea4c8f0bbf204f3e48c9203043bc231f368092396a2 ;
+    cav:value "0"^^xsd:int .
+
+camssa:69b7e653-7ff6-4114-a4ec-53c2a03da846 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b21a3eb972a2119979bc57368474efa809e8dd16cede48bc492e8b64da1abee9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:6f5f9001-4ace-4ccc-806a-3f976fe7bf9a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c265ca0c56e0f29a34039d496ba707b5486ccf6d445f9f058c19b4ece977861f ;
+    cav:value "2"^^xsd:int .
+
+camssa:760db5ec-a85d-4592-99f6-d5608c25dffb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although HTML purpose is not to foster the delivery of multilingual European public services, it has various components that help to publish online data in different languages. In fact, HTML allows to have the same website online in different languages.
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/"""@en ;
+    cav:refersTo camssa:af926f1a-f372-47af-9eff-26aacd6d5f16 .
+
+camssa:79e4d165-b83a-4800-95eb-29b87f086e78 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ab64f97c21ac8b84c75d6f52a89765b1c8fd1856d2d2060926d05e94f306a88d ;
+    cav:value "1"^^xsd:int .
+
+camssa:7f0ff5a5-4585-4ee2-b75e-7baf11876cf9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39ffef052c31580b50b418f3991e9de7db4dc182fcf96f5a447d7f8e09560612 ;
+    cav:value "0"^^xsd:int .
+
+camssa:7fe15793-c021-47bc-93ee-d959bd7b6825 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification reduces the administrative burden by allowing public administration to publish online data that can be administrative documents, videos etc.
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/"""@en ;
+    cav:refersTo camssa:a8e8d809-8add-40b2-b0d1-701bf56e6361 .
+
+camssa:81a6ef17-5ed2-4b6c-a5eb-6d2bf6d84c06 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3aec34db3622bf18675b8216d0fc1d68fc7eeb501b4f3326402038a3ceb95c21 ;
+    cav:value "1"^^xsd:int .
+
+camssa:85766518-50e9-43c7-a9f1-1e314e5bdf6a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After searching in the different official European websites, there is no evidence of any cross-border project that use HTML4 nor explicit agreements involving the usage of the specification."@en ;
+    cav:refersTo camssa:7f0ff5a5-4585-4ee2-b75e-7baf11876cf9 .
+
+camssa:85817aa3-0790-479f-9422-6a99124efbee a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After carrying out information retrieval, no document or study has been found assessing directly the HTML 4 in terms of efficiency or effectiveness. However, there is information that compares different versions of HTML (HTML4 and HTML5), and the main differences between them. From there, it can be inferred the effectivity and effectiveness of the usage of HTML4. 
+
+HMTL5 vs HTML4: 
+https://www.educba.com/html5-vs-html4/"""@en ;
+    cav:refersTo camssa:d9eff9d5-a4a9-42df-a4d4-f004ce3d3a7c .
+
+camssa:87eb5ea1-ff9b-4c00-a24b-cfa7a674b01e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML is the standard markup language for web documents. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+It proportionates to the users an environment for cross-platform applications with access to device capabilities and accept all type of files to be published. So, it is proportionate to the needs of its users.
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/"""@en ;
+    cav:refersTo camssa:4f848e0b-3776-4f6f-9ba5-83da6a0aa288 .
+
+camssa:8c85d8db-71aa-495a-8982-6fc5fd17faf7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-33ea90f5c1bb01d4398c57d03a25934dc5722d5ddbc98a43911ea4fb302ec54c ;
+    cav:value "2"^^xsd:int .
+
+camssa:9090b9a8-0e38-46e9-8783-c200896e0af9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c09094de9d71f12686896827a205db683b6df58fa363bc5be2a7d99989e7dd0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:9545dcec-fd04-4b9d-9a1f-25ce2bc26199 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has provided a validator which allows testing and validate web documents including web documents in HTML.
+
+W3C validator:
+https://validator.w3.org/"""@en ;
+    cav:refersTo camssa:9b266708-1dd8-4131-92ba-9b5a529f82d8 .
+
+camssa:96150dee-6338-4b71-8ae6-65f3af68c9c3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By helping administrations to access and reuse information across borders, the implementation of HTML4 and other standards from HTML family can help to foster and ease the Once-Only Principle.
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/"""@en ;
+    cav:refersTo camssa:38ffc999-26e9-422b-958c-01d4de885310 .
+
+camssa:9b266708-1dd8-4131-92ba-9b5a529f82d8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c967c90bfc7bc13426924eca012de349ae51d4e8f652fe64bfbec2cccc8c8146 ;
+    cav:value "1"^^xsd:int .
+
+camssa:9e4b4dbb-9b69-40b7-b615-7f9e838c6aa5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of HTML4 within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
+    cav:refersTo camssa:1645d365-f16b-43c4-a193-d7a312ed2584 .
+
+camssa:a0643726-2202-48a4-a089-899fed659a42 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a06a0063-5387-46e5-8a11-050c6fb1fcae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of HTML is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification. 
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/"""@en ;
+    cav:refersTo camssa:e53d558e-ef8d-4eed-95d7-5741c526adeb .
+
+camssa:a13ab8bb-8c9f-46e8-b311-d88369568063 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2cedd44f05183dae5548108bdeace2c092b84c7c5d89c475b0741ddae7fc7b2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a8e8d809-8add-40b2-b0d1-701bf56e6361 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ffdbd22af1ff3c1ebb100043d062a3df160007af761caf0a8c9f50f02e609c9e ;
+    cav:value "1"^^xsd:int .
+
+camssa:ac9ec2fc-a302-439c-a104-241a1829e608 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "No evidence has been found of the specification being included in a formal interoperability agreement between organisations involved in the European public services provision."@en ;
+    cav:refersTo camssa:08d6ff91-c5ec-43be-90bf-0c8b32fd2448 .
+
+camssa:af926f1a-f372-47af-9eff-26aacd6d5f16 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4ac14cafe608f1dbe7e48f96edd7574c55f0aac2c2e99ede0418dae7225977af ;
+    cav:value "1"^^xsd:int .
+
+camssa:b8887a7c-3d3b-458b-b383-45620a6b87d6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML is publicly available for implementation and study for free on W3C's webpage. 
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/"""@en ;
+    cav:refersTo camssa:512aacb9-7260-476d-944b-e902a815be1d .
+
+camssa:bbc0ecc8-2b08-4cd8-a280-b964d9349dee a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6bedf555bffb837990b9eb353447fa116eb9d2384770b1dd3de46d3c5901d4f4 ;
+    cav:value "1"^^xsd:int .
+
+camssa:bc3c8e29-fee4-4b9f-8159-f1810b84ef7f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML 4 comes from the evolution of different versions of HTML that they were already recommendations in W3C. HTML 4 became a W3C recommendation on December 1997. It had a good acceptance because it was the best markup language. This fact proves that the specification is mature enough for its use in the development of products and services.
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/"""@en ;
+    cav:refersTo camssa:bbc0ecc8-2b08-4cd8-a280-b964d9349dee .
+
+camssa:bcfd27ac-bf9a-4130-8468-6e757197a16f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies"""@en ;
+    cav:refersTo camssa:f3767fa6-e4ba-4477-8e10-65c99039a430 .
+
+camssa:be7a1db3-8602-44b0-adf0-b13bbab4e2ae a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-138786a6e7517e10b94e83ec3b3e7ac79b4c49dcbeaef8d8e993c8df0d173529 ;
+    cav:value "0"^^xsd:int .
+
+camssa:bf13b40c-3f6d-40d5-ba3d-e1632cbab9c2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML fosters the comprehensibility of administrative data by helping to understand the data published in various formats that makes the administrative data easier to comprehend.
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/"""@en ;
+    cav:refersTo camssa:537601e7-d020-4f6b-9687-b067e6d79d4f .
+
+camssa:cd6709b2-4d70-4b90-b0eb-9c87cf0ad59b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17bea234285e6e633e4e21105358610ad5f5f0eaaf82f4bd50cb64ec11538984 ;
+    cav:value "1"^^xsd:int .
+
+camssa:cdaf74d6-ff27-48fc-acb7-692acb24d10e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML is included in 4 national catalogues of recommended specifications. They belong to Estonia, the Netherlands, Spain and Sweden.
+The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:e4716007-5f48-4bd9-9506-6421d6d8bbbf .
+
+camssa:cf2a4084-527f-41fe-a7df-8fc6a5ede131 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licences granted under the W3C Patent Policy apply to all W3C specifications, including HTML.
+
+W3C Patent practice:
+https://www.w3.org/TR/patent-practice#ref-AC"""@en ;
+    cav:refersTo camssa:e8b18ae6-1a31-42c5-8e60-b5a63d2dcb79 .
+
+camssa:d5c5a9b8-3d12-44de-8b2d-7357bb61d22b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licences granted under the W3C Patent Policy apply to all W3C specifications, including HTML.
+
+W3C Patent practice:
+https://www.w3.org/TR/patent-practice#ref-AC"""@en ;
+    cav:refersTo camssa:feb3c1f9-6471-4780-9155-66a415c930f9 .
+
+camssa:d76ccec2-123a-46dc-a097-fe1a73291112 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19598487b8ba278c3438dcfd74b74d9aad51beac08c53dbf40bf108ed09e72b2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d849b29c-ba0a-4d46-b4fb-d85991c87e7e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML is publicly available for implementation and use for free on W3C's webpage. Therefore, it can be reused by the organisations, administrations, open communities, etc. that developed it.
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/"""@en ;
+    cav:refersTo camssa:a13ab8bb-8c9f-46e8-b311-d88369568063 .
+
+camssa:d9eff9d5-a4a9-42df-a4d4-f004ce3d3a7c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc5bd9a7d0b2acc7f246522414fd5f5d579b977180bb04fa60a545cb35dae90f ;
+    cav:value "1"^^xsd:int .
+
+camssa:dccf32ba-d900-45c7-8a91-e9015abf6261 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d28663fdb5deb361d5ad773d7b7ece3c6acf8d2eb7a1222a60cb08df4c93aac ;
+    cav:value "0"^^xsd:int .
+
+camssa:e0d1566b-5345-4520-b900-de358496b267 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-838030847fa0adf54939e3feaac0ac2510924c54035e1cb671b223b54b02fd70 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e2eaddb9-aeab-4e05-a898-59fe83121e7a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML is a markup language to develop web resources to share content. By allowing to exchange data via online websites, HTML fosters the secure and trustworthy data exchange between administrations and stakeholders. 
+
+HTML W3C reference:
+https://www.w3.org/TR/html401/"""@en ;
+    cav:refersTo camssa:22f6ddec-d868-464e-8c7f-35b7c8f2f182 .
+
+camssa:e4716007-5f48-4bd9-9506-6421d6d8bbbf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8eb17470327d32b3bb523447fe72ee5c60ddb03e81dae318b485fbe05f48a844 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e4b3001f-a05c-4da7-a1ed-c6daf5e809b6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-21276471c1781fa2c7e78c8e03851e076b840beddbf5cf64f53b54b8855a01b8 ;
+    cav:value "0"^^xsd:int .
+
+camssa:e53d558e-ef8d-4eed-95d7-5741c526adeb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6d48464387e608d3022bd07338cd3859acfb0f84139186a979ef3b96baa51086 ;
+    cav:value "2"^^xsd:int .
+
+camssa:e6a4eec4-f0a8-4f23-94d8-466b634fc832 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML is maintained by W3C which is an international community developing open standards. 
+
+Developer community W3C:
+https://www.w3.org/Consortium/"""@en ;
+    cav:refersTo camssa:69b7e653-7ff6-4114-a4ec-53c2a03da846 .
+
+camssa:e8b18ae6-1a31-42c5-8e60-b5a63d2dcb79 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1cd71a7b6d54631ba58cc8b0655a443d696f49ec74a0f4cccc871de7789d6a60 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e8c8ade3-21c6-4bdd-b2b7-839803638bb6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the assessments performed by CAMSS and the list of specifications identified by the MSP Multi-stakeholder-platform, no assessment verifying the compliance of the specification with the European standardisation regulation has been found.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
+    cav:refersTo camssa:52ed462f-238d-4d56-a3d4-41fde3dc254f .
+
+camssa:e9ace1eb-f43a-4ade-8f68-3ee359dd3282 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5879b43fc249f0098f3ed687235f432f71bf0c11bd3aa95e063dfdacd64606c8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f0f98adc-5a62-42be-816e-5ee5223e105d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "HTML does not define a cross-sector reusable data model, but defines a markup language to develop web documents."@en ;
+    cav:refersTo camssa:64a781bb-627f-4650-b221-9a178d7585cd .
+
+camssa:f3767fa6-e4ba-4477-8e10-65c99039a430 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:f820b73d-8c87-4aa8-8426-e94383498396 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """12 Member States are recommending HTML in their ICT National Catalogues. This Member States are Croatia, Cyprus, Estonia, Germany, Greece, Malta, Norway, Poland, Slovenia, Spain, Sweden and UK.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:9090b9a8-0e38-46e9-8783-c200896e0af9 .
+
+camssa:fc5a7aec-62c6-4bee-be5f-e69bf78e24bb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d129862d6c9639e131c7d5eef095af16ef94d57ec0d52f955bf909ba8ec688e8 ;
+    cav:value "0"^^xsd:int .
+
+camssa:feb3c1f9-6471-4780-9155-66a415c930f9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a81c4b8658f57e819297eb0b7977407f8d814c6fe749c74a8ac497277ca7d9d8 ;
+    cav:value "1"^^xsd:int .
+

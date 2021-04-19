@@ -1,0 +1,525 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:3e25dd8c16d304fe3d8ec93a73de9d8792d7ce03a1de44186d92fa4e48a93835 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:84b85235ee46701a6b95a3f1ef00844e95091763815a88edfcb291aa29ffffb8 ;
+    camss:assessmentDate "1001-01-01"^^xsd:date ;
+    camss:submissionDate "2019-10-31"^^xsd:date ;
+    camss:toolVersion tool:3.0.0 ;
+    cav:contextualisedBy sc:s-fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd ;
+    cav:resultsIn camssa:04cbd0af-d9b1-4f72-a86a-3298bc8e44e7,
+        camssa:0e7d0ce2-240f-4c13-906e-e4d5629cc52b,
+        camssa:0f885641-1245-4a57-9382-14a3f0368662,
+        camssa:119417fd-5db3-4b69-9044-4176fa9d484a,
+        camssa:1494b4aa-34b6-4ea9-8fcf-6f393c1a59f4,
+        camssa:166cf346-2d51-4dff-9fcd-58cf66e5db74,
+        camssa:2995ac60-1180-4b1e-ba59-6447de9a8357,
+        camssa:2b7f73b0-14a5-4f3c-917b-2bdf6863e202,
+        camssa:2d8fed4d-9fd4-42b3-ac17-cd3345b1a466,
+        camssa:2ea4bf1f-6b4e-452c-9867-5e91d5122f0a,
+        camssa:33d09dc0-0709-4dac-bef0-736cfd35469a,
+        camssa:386347d2-6c9c-4c1d-9366-ff4ed7f1fe51,
+        camssa:38c2c7c4-8c38-4854-a6e5-ff469677d6d4,
+        camssa:41cfe808-2c87-4c94-affa-922134ede5ac,
+        camssa:5a8c4818-3f0a-4970-896b-520f5fd3cb40,
+        camssa:5c1c0578-8136-4d26-bdc4-0b8b422a20a0,
+        camssa:5faafe45-a258-4750-b0e7-3f2e70505723,
+        camssa:660677f8-2ad0-4d87-9dce-41841921e78f,
+        camssa:6e4df6e6-fd99-4325-9aae-970fdcfdef36,
+        camssa:705efa77-99ae-404c-a04f-54ea9fd4583b,
+        camssa:78527d65-a684-4d64-ad41-96cf7e5f9d40,
+        camssa:791f0ea8-728e-4deb-86e8-bca4e9b569c0,
+        camssa:7a021dd2-3f2f-4e24-96f5-c684cd94ad39,
+        camssa:8dc4a87a-b13e-4442-974f-cd14da86e1df,
+        camssa:8f9fe5e7-ec24-4cc3-b9e6-4820ed71ba29,
+        camssa:9c3fd620-85c5-4e9f-8878-6b23f06f09b8,
+        camssa:b47b924e-c76d-41da-a4dd-886f89af8124,
+        camssa:ce8c74d8-417b-46a7-8f6c-ce8ae65606ff,
+        camssa:d8c20718-952e-4010-b95d-daac55cf6bd9,
+        camssa:dd6f07bd-ffed-497a-a050-694e1d8d8795,
+        camssa:e7c7cd80-1502-4e8b-9864-9d5ac8647718,
+        camssa:ebab578d-bebe-433d-aac9-04f5531f39e0,
+        camssa:ec7399e2-9747-4407-98d9-f278703585e0,
+        camssa:ede872d7-3603-4a46-8347-2fd5310e8a99,
+        camssa:f82fbb0d-d914-4dd1-96c9-8b128d213e0c,
+        camssa:fc058b2d-5d59-488c-a191-29c6fc2348f5,
+        camssa:fd5709ad-64f6-4471-a568-c6ce21301c30 ;
+    cav:status status:Complete ;
+    dct:title "HTTP Over TLS (HTTPS)"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:6d149bcd-8c56-4722-bd88-ca3cdc1a24a4 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:045b09d9-8c98-4382-b17b-4f5b225d3b56 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:04cbd0af-d9b1-4f72-a86a-3298bc8e44e7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "HTTPS is used for any solution using internet, including innovative solutions."@en ;
+    cav:refersTo camssa:e322e3b2-5596-456f-9cdc-3adfc250601d .
+
+camssa:0e7d0ce2-240f-4c13-906e-e4d5629cc52b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "HTTPS allows the access to websites providing information on administrative rules, procedures and services."@en ;
+    cav:refersTo camssa:398cc9f6-351d-4752-9446-f9fcbda2589b .
+
+camssa:0f885641-1245-4a57-9382-14a3f0368662 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, HTTPS is  a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. HTTPS is therefore licensed on a royalty-free basis.
+
+See:
+https://tools.ietf.org/html/rfc3668"""@en ;
+    cav:refersTo camssa:c8818265-1cef-46c4-9a8e-4d5afbc3bc47 .
+
+camssa:119417fd-5db3-4b69-9044-4176fa9d484a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification eases the access to information via webpages. Therefore, it reduces administrative burden for citizens, businesses and public administrations."@en ;
+    cav:refersTo camssa:460b3558-c092-4f80-bccd-a7b300444be3 .
+
+camssa:140a8e49-0461-4bce-b2bd-907264c2400d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f41cca0d171e6f64dbc2bdeae9fbc87f2ea51ac00185b22114d59ab8a06e78d0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:1494b4aa-34b6-4ea9-8fcf-6f393c1a59f4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTTPS is available on Joinup, the collaborative platform for Reusable IT Solutions funded by the European Commission.
+
+See:
+https://joinup.ec.europa.eu/solution/http-rfc-2616-hypertext-transfer-protocol"""@en ;
+    cav:refersTo camssa:d93cfc3a-2982-4d30-b796-742cc3d3c5a5 .
+
+camssa:166cf346-2d51-4dff-9fcd-58cf66e5db74 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "HTTPS is a sector agnostic specification."@en ;
+    cav:refersTo camssa:fd001a32-46e3-4295-a507-4cbab3a97c8b .
+
+camssa:1ce08103-c788-423a-a2d2-aa8d4475477f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-58010a47630ff9ea23336bf3fc558deff59905e0292551fcabc95740082cb378 ;
+    cav:value "0"^^xsd:int .
+
+camssa:24d0e409-b780-4154-9417-4004e54f7ccd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a64b01ca9e737c550b205ba3a8a46b3fcfc9447b648ba8ef15d62d3ada26141 ;
+    cav:value "2"^^xsd:int .
+
+camssa:2995ac60-1180-4b1e-ba59-6447de9a8357 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTTPS is an internet protocol for the data exchange over an Internet network. It supports the first level of maturity defined in the Tim Berners-Lee´s  5 stars Open Data deployment scheme, "Make your data accessible on the web". 
+
+See: 
+https://5stardata.info/en/     """@en ;
+    cav:refersTo camssa:742999e6-4e34-4052-be65-469cd8d5eb35 .
+
+camssa:2b7f73b0-14a5-4f3c-917b-2bdf6863e202 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "HTTPS is the main protocol underlying the world wide web. The protocol supports the exchange of high amounts of data."@en ;
+    cav:refersTo camssa:97b98714-6e8b-4bf7-a431-85219fa61efe .
+
+camssa:2d8fed4d-9fd4-42b3-ac17-cd3345b1a466 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTTPS is already associated to an EIRA ABB in the European Library Of Specifications (ELIS). More specifically, HTTPS can define the interoperability aspects of the "Network Service", "Network Component" "Private Network" and "Public Network" ABBs of the EIRA Technical View.
+
+See: 
+https://joinup.ec.europa.eu/solution/elis/distribution/eliscataloguev100betaxlsx"""@en ;
+    cav:refersTo camssa:bb69622b-ef18-4ed9-9bd0-a83da5be69a0 .
+
+camssa:2d9c3b65-0d6e-4a79-9e65-8935fe6726fd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b4f0d1b7f1d41c70797fa200c6fc73ac01f2f1659319e5cb1cebe8f5e79c1fcb ;
+    cav:value "1"^^xsd:int .
+
+camssa:2ea4bf1f-6b4e-452c-9867-5e91d5122f0a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Hypertext Transfer Protocol Secure is a more secure extension of the Hypertext Transfer Protocol. It is used for secure communication over a computer network."@en ;
+    cav:refersTo camssa:384bd4cf-0d89-4440-b598-7e344ecc6619 .
+
+camssa:33d09dc0-0709-4dac-bef0-736cfd35469a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of HTTPS is not related to the delivery of multilingual European public services. Therefore this criterion is considered not applicable specification."@en ;
+    cav:refersTo camssa:8e75564a-6152-4669-b552-dbf4e3cde378 .
+
+camssa:3714b549-cb04-4b67-9192-50cbc4aa433f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:3738be10-1d98-4e78-8100-563c3ec691bf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a67ecbc29e70e62b18dba3ae4f8d1f91d5b3196777dbf8b58c6713cd517eb768 ;
+    cav:value "1"^^xsd:int .
+
+camssa:384bd4cf-0d89-4440-b598-7e344ecc6619 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "1"^^xsd:int .
+
+camssa:386347d2-6c9c-4c1d-9366-ff4ed7f1fe51 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of HTTPS is not related to the long-term preservation of electronic records and other kinds of information. Therefore, this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:50111039-ac2c-46a6-9865-fc058911a466 .
+
+camssa:38c2c7c4-8c38-4854-a6e5-ff469677d6d4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """At least 7 Member States are recommending HTTPS in their ICT National Catalogues.                                                                                          
+See:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:2d9c3b65-0d6e-4a79-9e65-8935fe6726fd .
+
+camssa:398cc9f6-351d-4752-9446-f9fcbda2589b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-105c699a138c27ab9a1af9174253cd7488b278f700acdbb1bdbcc3e0b9c5ec3d ;
+    cav:value "1"^^xsd:int .
+
+camssa:41cfe808-2c87-4c94-affa-922134ede5ac a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The IETF is a consensus-based group, and authority to act on behalf of the community requires a high degree of consensus and the continued consent of the community. The process of creating and Internet Standard is straightforward: a specification undergoes a period of development and several iterations of review by the Internet community and revision based upon experience, is adopted as a Standard by the appropriate body... and is published. In practice, the process is more complicated, due to (1) the difficulty of creating specifications of high technical quality; (2) the need to consider the interests of all of the affected parties; (3) the importance of establishing widespread community consensus; and (4) the difficulty of evaluating the utility of a particular specification for the Internet community. The goals of the Internet Standards Process are:
+- Technical excellence;
+- prior implementation and testing;
+- clear, concise, and easily understood documentation;
+- openness and fairness; and 
+- timeliness.
+The goal of technical competence, the requirement for prior implementation and testing, and the need to allow all interested parties to comment all require significant time and effort. The Internet Standards Process is intended to balance these conflicting goals. The process is believed to be as short and simple as possible without sacrificing technical excellence, thorough testing before adoption of a standard, or openness and fairness.
+
+See:
+https://www.ietf.org/standards/process/"""@en ;
+    cav:refersTo camssa:045b09d9-8c98-4382-b17b-4f5b225d3b56 .
+
+camssa:432cef4e-eef4-47b2-aaf0-cac5a19c7f06 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6ec33e201b803a1cc0150c0da8dc42b2a0f1029cf31e7a2c0fc81d1d8336ef36 ;
+    cav:value "1"^^xsd:int .
+
+camssa:460b3558-c092-4f80-bccd-a7b300444be3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39e7870e79b2999a8b61c97f0c356312b88174320d6464fce5639e57ec0de011 ;
+    cav:value "1"^^xsd:int .
+
+camssa:4e483ff2-1a39-47d1-bbc8-bd3187d099e8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b45c8f7e446b1343c6b6961290d2106768aa43c1f123f5e436d0255c003abb50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:50111039-ac2c-46a6-9865-fc058911a466 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-83d21357ecad07668ab7f2010aefed3cebb92dab384eeae6eb7aa77def06cfc3 ;
+    cav:value "2"^^xsd:int .
+
+camssa:5a8c4818-3f0a-4970-896b-520f5fd3cb40 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are existing tools to check if HTTPS implementation is performing well. 
+
+ See:                                                                                                                      https://gf.dev/tls-test"""@en ;
+    cav:refersTo camssa:69a71923-7078-4b14-94a7-67544375381e .
+
+camssa:5c1c0578-8136-4d26-bdc4-0b8b422a20a0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTTPS was adopted as web standard in May 2000 by IETF. Moreover, Google is promoting the usage of HTTPS for the improvement of security in terms of transfer data. In the latest report of Google about the usage of HTTPS, it shows that the usage of HTTPS is increasing significantly. 
+
+See:
+https://transparencyreport.google.com/https/overview?hl=en"""@en ;
+    cav:refersTo camssa:3738be10-1d98-4e78-8100-563c3ec691bf .
+
+camssa:5c7f442b-a1e3-474a-a2da-4ef6f7a8a60e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4a006ad6785e066d16c13daf48a60ee43ec33d1de1b06613c8e656ccf330a6d5 ;
+    cav:value "1"^^xsd:int .
+
+camssa:5faafe45-a258-4750-b0e7-3f2e70505723 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, HTTPS is  a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. HTTPS is therefore licensed on a royalty-free basis.
+
+See:
+https://tools.ietf.org/html/rfc3668"""@en ;
+    cav:refersTo camssa:76b241e6-dcba-4f37-b76f-a1b074d31473 .
+
+camssa:660677f8-2ad0-4d87-9dce-41841921e78f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "As a protocol for data exchange, HTTPS allows the exchange of information with interfaces of public administration systems."@en ;
+    cav:refersTo camssa:140a8e49-0461-4bce-b2bd-907264c2400d .
+
+camssa:69a71923-7078-4b14-94a7-67544375381e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-093c1e09f5a65e4cba0247dcab5a8f4854f3e512db336b1855b9a4c48d3659e0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:6cff35d2-0541-4d01-ab44-ce78c211e256 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3671439b412291ce208a0ade6313c64aeb2942059c7543ca39322c56458bcf96 ;
+    cav:value "1"^^xsd:int .
+
+camssa:6d149bcd-8c56-4722-bd88-ca3cdc1a24a4 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:6e4df6e6-fd99-4325-9aae-970fdcfdef36 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF is a vendor neutral standard developing organisation and HTTPS is independent from any technology or platform.
+
+See:
+https://tools.ietf.org/html/rfc2818"""@en ;
+    cav:refersTo camssa:cbc35261-2a04-4cc7-b331-48f84ffa0735 .
+
+camssa:705efa77-99ae-404c-a04f-54ea9fd4583b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTTPS is publicly available for implementation and use, and therefore for everyone to study, for free on IETF's webpage.
+
+See:
+https://tools.ietf.org/html/rfc2818"""@en ;
+    cav:refersTo camssa:5c7f442b-a1e3-474a-a2da-4ef6f7a8a60e .
+
+camssa:72ab99f7-175d-46f3-9d9a-96262939929c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0c9dd43038136296b52f50e05f9d6eef39f7b8018517224007990b15be2eb19e ;
+    cav:value "1"^^xsd:int .
+
+camssa:73cb626f-53a0-425d-a182-02cb0a4c1c97 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-01e6c1ce016de128117697d51a8fdaebb57c1f50343c081dfd72e2fbc56733a8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:742999e6-4e34-4052-be65-469cd8d5eb35 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b6ba3f2f556446c68c55833e72b217be87ad5f0dd07744e2c39c6070aff6c10f ;
+    cav:value "1"^^xsd:int .
+
+camssa:76b241e6-dcba-4f37-b76f-a1b074d31473 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ef096f898c938883daab1b22e784cfaf985b5e5c855e170ecf6eab6f37b01b50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:78527d65-a684-4d64-ad41-96cf7e5f9d40 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTTPS is publicly available for implementation and use for free on IETF's webpage.
+
+See:
+https://tools.ietf.org/html/rfc2818"""@en ;
+    cav:refersTo camssa:4e483ff2-1a39-47d1-bbc8-bd3187d099e8 .
+
+camssa:791f0ea8-728e-4deb-86e8-bca4e9b569c0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTTPS is included within at least 7 Member States' ICT Catalogues (e.g. the Netherlands, Sweden)
+
+See CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards   """@en ;
+    cav:refersTo camssa:6cff35d2-0541-4d01-ab44-ce78c211e256 .
+
+camssa:7a021dd2-3f2f-4e24-96f5-c684cd94ad39 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Any cross-border project using internet, uses HTTPS.
+
+An interesting example is the TESTA network service – which stands for Trans European Services for Telematics between Administrations – provides a European backbone network for data exchange between a wide variety of public administrations. It is an ISA2 solution which has been designed to support the needs for a whole range of application architectures relying on protocols such as HTTPS. 
+
+See:
+https://ec.europa.eu/isa2/solutions/testa_en"""@en ;
+    cav:refersTo camssa:a6d1ac62-5fa8-4259-b5b0-e62821e3bb4e .
+
+camssa:7ca1d60a-afa6-4fd6-ba7d-7cbd0d2871fe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-73a8058bec757a2fdb0f8513c2f11841e982cbef76c3be82af67707c294da8b8 ;
+    cav:value "2"^^xsd:int .
+
+camssa:8a55951c-0983-40d1-b7cb-748e27469ca5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1d35b341bcafc21377ae6ac358b9dc087e8ad32870012c2743e49e4566440f41 ;
+    cav:value "2"^^xsd:int .
+
+camssa:8dc4a87a-b13e-4442-974f-cd14da86e1df a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTTPS is an internet protocol for the data exchange over an Internet network. It supports the first level of maturity defined in the Tim Berners-Lee´s  5 stars Open Data deployment scheme, "Make your data accessible on the web". 
+
+See: 
+https://5stardata.info/en/ """@en ;
+    cav:refersTo camssa:e75e2a83-6c19-4579-b54f-5a6c510b9cb7 .
+
+camssa:8e75564a-6152-4669-b552-dbf4e3cde378 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19c639047dab46befb5839503733c8f1e7ed8278f788a089d11d2caee84a8f7c ;
+    cav:value "2"^^xsd:int .
+
+camssa:8f9fe5e7-ec24-4cc3-b9e6-4820ed71ba29 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The rules on European standardisation allow the European Commission to identify information and communication technology (ICT) technical specifications - that are not national, European or international standards - to be eligible for referencing in public procurement. This allows public authorities to make use of the full range of specifications when buying IT hardware, software and services, allowing for more competition in the field and reducing the risk of lock-in to proprietary systems.
+
+After being evaluated compliant with the regulation on standardisation 1025/2012, HTTPS has been identified by Commission Implementing Decision and included in the European list of ICT Standards for e-procurement.
+
+See: 
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en """@en ;
+    cav:refersTo camssa:72ab99f7-175d-46f3-9d9a-96262939929c .
+
+camssa:97b98714-6e8b-4bf7-a431-85219fa61efe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1435ad894742693c2b99e329ef12399cd411ed6900f49b9658fd2231de3f201a ;
+    cav:value "1"^^xsd:int .
+
+camssa:9a73723f-9b6e-4565-bd2c-fbb4923e8241 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d7be9f0dd52944e6c25f5469c86355a42ae446838bd9759b4986d21f7db4814b ;
+    cav:value "1"^^xsd:int .
+
+camssa:9c3fd620-85c5-4e9f-8878-6b23f06f09b8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "There are no evidences of existing studies or documentation assessing the standard or specification in terms of effectiveness and efficiency to justify the criterion."@en ;
+    cav:refersTo camssa:1ce08103-c788-423a-a2d2-aa8d4475477f .
+
+camssa:a6d1ac62-5fa8-4259-b5b0-e62821e3bb4e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a1eafd9c95081eeabe19f0511239b88139f02f95e2349049eeea058a89c80f49 ;
+    cav:value "1"^^xsd:int .
+
+camssa:b47b924e-c76d-41da-a4dd-886f89af8124 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The once-only principle is an e-government concept that aims to ensure that citizens, institutions, and companies only have to provide certain standard information to the authorities and administrations once.
+
+HTTPS is a protocol developed to exchange information over the internet environment. Thus, HTTPS eases the implementation of once-only principle by means of allowing administration's stakeholders reduce interaction.    
+                                                                     
+See: http://www.toop.eu/sites/default/files/D21_Federated_OOP_Architecture.pdf    """@en ;
+    cav:refersTo camssa:73cb626f-53a0-425d-a182-02cb0a4c1c97 .
+
+camssa:bb69622b-ef18-4ed9-9bd0-a83da5be69a0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5839144ecfb6c41a2c3cf5c1e86a6b3ad7a9e3ec9c4efa5650a6e7b9e3586335 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c8818265-1cef-46c4-9a8e-4d5afbc3bc47 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e370a4af17e89cbb70bb5079082a1e21cdee85435c8fc30b12a8987f18db367f ;
+    cav:value "1"^^xsd:int .
+
+camssa:cbc35261-2a04-4cc7-b331-48f84ffa0735 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e8c3529a6146f0b0d269112be717ba4e9c5979ea4f43f57d217c0f998d26ce17 ;
+    cav:value "1"^^xsd:int .
+
+camssa:ce8c74d8-417b-46a7-8f6c-ce8ae65606ff a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of HTTPS is not related in any way to e-accessibility. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:24d0e409-b780-4154-9417-4004e54f7ccd .
+
+camssa:d2f74d40-1b06-4c03-9e87-2c9dc5917d62 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e9e0cf4a339c837607828404dd0e9b360d643528fcc1df488a95ca67166acea3 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d8c20718-952e-4010-b95d-daac55cf6bd9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF has a formal review and approval so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications.
+
+Each distinct version of an Internet standards-related specification is published as part of the "Request for Comments" (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications.
+
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's "Internet-Drafts" directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.
+
+See:
+https://www.ietf.org/standards/process/ 
+https://tools.ietf.org/html/rfc2026"""@en ;
+    cav:refersTo camssa:3714b549-cb04-4b67-9192-50cbc4aa433f .
+
+camssa:d93cfc3a-2982-4d30-b796-742cc3d3c5a5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4017a1ae4d077fbb3847280a1c20b41bf00c32d65fc9beaa2bea8cce550ac463 ;
+    cav:value "1"^^xsd:int .
+
+camssa:dd6f07bd-ffed-497a-a050-694e1d8d8795 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The rules on European standardisation allow the European Commission to identify information and communication technology (ICT) technical specifications - that are not national, European or international standards - to be eligible for referencing in public procurement. This allows public authorities to make use of the full range of specifications when buying IT hardware, software and services, allowing for more competition in the field and reducing the risk of lock-in to proprietary systems.
+
+After being evaluated compliant with the regulation on standardisation 1025/2012, HTTPS has been identified by Commission Implementing Decision. During the evaluation process, all the Member States are invited to share their doubts. The positive evaluation of HTTPS and its identification is considered an interoperability agreement.
+
+See: 
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en """@en ;
+    cav:refersTo camssa:e08e8844-cbd2-488a-882d-7be0e29c899f .
+
+camssa:e08e8844-cbd2-488a-882d-7be0e29c899f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-396b6535162f7bba7733ebcc30d2e467321ce07cd8e48b86ab8201acf27031f9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e322e3b2-5596-456f-9cdc-3adfc250601d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cf1de0bf03a8ee372af0deddf9ef5c4609f5a7bb9c7e001c89d887c6789eaf56 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e69dbb65-f57b-48b2-8044-c0fa2c04b710 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a0101cb11c30c1bbf94adb74479472f2a40c53ccc4b442180fece91506c20a9d ;
+    cav:value "0"^^xsd:int .
+
+camssa:e75e2a83-6c19-4579-b54f-5a6c510b9cb7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-450e8a1f4cffbbf3de202e37bd642f098174559028df90ccc657473a6086bc0b ;
+    cav:value "1"^^xsd:int .
+
+camssa:e7c7cd80-1502-4e8b-9864-9d5ac8647718 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of HTTPS is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:8a55951c-0983-40d1-b7cb-748e27469ca5 .
+
+camssa:ebab578d-bebe-433d-aac9-04f5531f39e0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of HTTPS is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:7ca1d60a-afa6-4fd6-ba7d-7cbd0d2871fe .
+
+camssa:ec7399e2-9747-4407-98d9-f278703585e0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The standard or specification is included in 2 national catalogues that belong to Member States which comply with at least 4 out of 5 sections of the EIF according to the NIFO factsheets. (e.g. the Netherlands, Sweden)
+
+See:
+https://www.forumstandaardisatie.nl/open-standaarden/lijst
+http://www.avropa.se/dynamiska-sidor/sok/?query=standards&searchtype=web """@en ;
+    cav:refersTo camssa:9a73723f-9b6e-4565-bd2c-fbb4923e8241 .
+
+camssa:ede872d7-3603-4a46-8347-2fd5310e8a99 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "HTTPS does not defines a cross-sector reusable data model. HTTPS is a transfer protocol used for secure communication over a computer network."@en ;
+    cav:refersTo camssa:e69dbb65-f57b-48b2-8044-c0fa2c04b710 .
+
+camssa:f2e48b50-3c31-4593-b670-3a5cbb72bba0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0229101dfe08cbe58da1e454363d30a8178a2e120466c8db23965488cae5c8b1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f82fbb0d-d914-4dd1-96c9-8b128d213e0c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "HTTPS (Hypertext Transfer Protocol Over TLS) is a Transfer Protocol used for communication over a computer network. It is used to transfer data between administrations."@en ;
+    cav:refersTo camssa:432cef4e-eef4-47b2-aaf0-cac5a19c7f06 .
+
+camssa:fc058b2d-5d59-488c-a191-29c6fc2348f5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTTPS is maintained by IETF which is an international community developing open standards.
+
+See:
+https://www.ietf.org/about/"""@en ;
+    cav:refersTo camssa:f2e48b50-3c31-4593-b670-3a5cbb72bba0 .
+
+camssa:fd001a32-46e3-4295-a507-4cbab3a97c8b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-41c6fd2dadb03cc64aad82cfa14f545c084f1a955a3ab7a61aab416a138c5dce ;
+    cav:value "1"^^xsd:int .
+
+camssa:fd5709ad-64f6-4471-a568-c6ce21301c30 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The rules on European standardisation allow the European Commission to identify information and communication technology (ICT) technical specifications - that are not national, European or international standards - to be eligible for referencing in public procurement. This allows public authorities to make use of the full range of specifications when buying IT hardware, software and services, allowing for more competition in the field and reducing the risk of lock-in to proprietary systems.
+
+After being evaluated compliant with the regulation on standardisation 1025/2012, HTTPS has been identified by Commission Implementing Decision.
+
+See: 
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en """@en ;
+    cav:refersTo camssa:d2f74d40-1b06-4c03-9e87-2c9dc5917d62 .
+

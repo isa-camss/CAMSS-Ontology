@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+rsc:0df446c93fc7fc59add5449d846f47101b10b6e30e88a143d6c523aad8117c28 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy rsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    dct:title "Web Services Business Process Execution Language (WS-BPEL) v2.0"@en ;
+    dcat:distribution rsc:eb39eef8-524a-41c6-a932-da91447d7c6d .
+
+rsc:84d49986-7c29-48a9-805e-6079eeab6d5c a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf rsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    schema:email "CAMSS@everis.com" .
+
+rsc:eb39eef8-524a-41c6-a932-da91447d7c6d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "http://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.html"^^xsd:anyURI .
+
+rsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "OASIS (https://www.oasis-open.org/)"^^xsd:string .
+

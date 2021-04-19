@@ -1,0 +1,525 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:54c776d9735c57ef185ba79bc0897fb608614ff954f46963ff645a52ad50f8b2 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:baa7200934577ac27c05830d6ed437d7dd40e9e6ea9b5152cbb1f444930b1955 ;
+    camss:assessmentDate "1/31/2020"^^xsd:date ;
+    camss:submissionDate "2020-01-31"^^xsd:date ;
+    camss:toolVersion tool:3.0.0 ;
+    cav:contextualisedBy sc:s-fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd ;
+    cav:resultsIn camssa:0076798c-4edc-4b86-8bea-204e57335ae5,
+        camssa:03388d3f-732d-4076-bb49-28656fb21046,
+        camssa:05c9d14a-b01b-4f9c-8915-50feb5a91a6c,
+        camssa:08e40a93-8ce8-4577-b298-6bff262d87b0,
+        camssa:0d4629cb-f502-48ad-bcb8-cee22e4a3ef6,
+        camssa:0f875905-e08d-4734-a068-78c5056bac8d,
+        camssa:214ab63f-1504-476f-a22b-e0ed3cfaa6f4,
+        camssa:2553145f-5ff8-433a-8ccb-fd5ce3359798,
+        camssa:2565b879-2dc5-40bf-b778-dd818e970a71,
+        camssa:2c39f8a9-247b-432f-bb95-85547c67e198,
+        camssa:311b439e-1728-4aff-a55e-867ce0a7a0a1,
+        camssa:3395570e-c7c1-4f86-9fcf-de50a475226c,
+        camssa:39c7d002-86a2-482f-bbdd-b7ef0fb1954c,
+        camssa:4d575995-1ee9-4bc1-801e-09db38aa5508,
+        camssa:4fd2c498-cb6c-4d3d-92ac-81d13f59103c,
+        camssa:50b42435-c04e-47f1-8006-e9a5d4306633,
+        camssa:5377fd05-d361-46b9-a4e3-0702b2480651,
+        camssa:6847fed3-338a-48dc-8228-e1b7578fae9b,
+        camssa:68ca899c-45a2-4788-a5d5-678c9e410a46,
+        camssa:6d4af71b-4e5f-4967-97a3-f9861315d9b4,
+        camssa:71441a42-2115-4f67-87e4-221da6ba0e01,
+        camssa:71eaabca-7d87-4349-b352-e64930daaa5b,
+        camssa:726c6f67-e8cb-45d7-ad7a-fc4f6a8006e1,
+        camssa:7d8b67da-fc39-4905-9b18-54d659e8632f,
+        camssa:939134a6-b22f-4fff-8098-821d685e1bfc,
+        camssa:97ce354e-50f6-4630-8038-4c4c13a61584,
+        camssa:994e74af-2435-472d-9133-1eb236169b43,
+        camssa:9bd2624f-edad-41d8-aee6-72757aec6c66,
+        camssa:c4bfce13-a87f-4c6b-b689-8ea0c059723b,
+        camssa:d1bb2ae8-a88c-47dc-be1d-83df1a9dc30c,
+        camssa:d202c92a-eba7-4770-9a98-8f9af9f02b59,
+        camssa:d826cd6f-8a81-4bd4-bbd1-56067940f41b,
+        camssa:dcd520d3-88ae-457b-9920-b0ba88230ca1,
+        camssa:e21be39a-d465-425a-905b-b8fca5fb5272,
+        camssa:e66ede15-c2a7-441f-8118-b966f087a661,
+        camssa:f8ca1565-ce28-44ba-a6dd-5d65f13aae23,
+        camssa:fb41cba4-9811-4629-ba5f-b7632d1e6bb0 ;
+    cav:status status:Complete ;
+    dct:title "Hypertext Markup Language v5 (HTML5)"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:35df1cd3-1eb2-4f99-913c-5d38abe428fb ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:0076798c-4edc-4b86-8bea-204e57335ae5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML5 is publicly available for implementation and study for free on W3C's webpage. 
+
+See:
+https://www.w3.org/TR/2010/WD-html5-20100624/"""@en ;
+    cav:refersTo camssa:cc19543a-e701-415a-8667-6f19779fd3e3 .
+
+camssa:00cf2c5b-81bd-402d-bef9-de95ccf94a53 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-093c1e09f5a65e4cba0247dcab5a8f4854f3e512db336b1855b9a4c48d3659e0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:03388d3f-732d-4076-bb49-28656fb21046 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML5 can be used independently from other technical specifications, depite that it can be enhanced by mixing HTML5 along other specifications. For instance, CSS is a commonly used together with HTML5. 
+
+See:
+https://www.w3.org/TR/2014/REC-html5-20141028/"""@en ;
+    cav:refersTo camssa:c0ae95cc-d872-40f6-be5d-112b61ac965c .
+
+camssa:05c9d14a-b01b-4f9c-8915-50feb5a91a6c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML5 is maintained by W3C which is an international community developing open standards. 
+
+See: https://www.w3.org/2012/12/html5-cr.html.en"""@en ;
+    cav:refersTo camssa:601f0e84-eacc-425f-8c83-833e56e49913 .
+
+camssa:08e40a93-8ce8-4577-b298-6bff262d87b0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Throught the example of DFKI using HTML5 that fosters the multilingual web, it can be said that it promotes the former.
+
+See:
+https://www.w3.org/2012/12/html5-cr.html.en"""@en ;
+    cav:refersTo camssa:2868d8be-62a8-4a0b-90b3-db5b5fdb2af0 .
+
+camssa:0d4629cb-f502-48ad-bcb8-cee22e4a3ef6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out a exhaustive reserch, no evidence has been found of an established agreement between organisations involved in European public services provision. "@en ;
+    cav:refersTo camssa:4ba9bfac-a448-4e34-9eae-c137e470d6a2 .
+
+camssa:0f875905-e08d-4734-a068-78c5056bac8d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Zaragoza's city council is using HTML5 to developments services in an independent way from the platform used by the citzens. Another example is the Accessibilitly Foundation, HTML5 offers great possibilities for improving accessibility of web and mobile web applications, digital signs, ebooks and devices not yet known for people with disabilities.
+
+See:
+https://www.w3.org/TR/2014/REC-html5-20141028/"""@en ;
+    cav:refersTo camssa:6c9466b2-4234-4aaf-8afa-35c6127860d6 .
+
+camssa:15f280f0-91b3-47b8-9020-b439eb8616ed a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1435ad894742693c2b99e329ef12399cd411ed6900f49b9658fd2231de3f201a ;
+    cav:value "1"^^xsd:int .
+
+camssa:214ab63f-1504-476f-a22b-e0ed3cfaa6f4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Zaragoza's city council is using HTML5 to developments services in an independent way from the platform used by the citzens.
+
+See:
+https://www.w3.org/2012/12/html5-cr.html.en"""@en ;
+    cav:refersTo camssa:f83ab07a-0288-4aab-a983-024fea9643ad .
+
+camssa:2553145f-5ff8-433a-8ccb-fd5ce3359798 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification includes security features that were included to ensure and avoid the vulnerabilities while exchanging data. Therefore, by adopting the main features in terms of security, the implementation of HTML5 fosters the secure and trustworthy data exchange between administrations and stakeholders. "@en ;
+    cav:refersTo camssa:9b83b940-276e-4986-8492-983e21e5b928 .
+
+camssa:2565b879-2dc5-40bf-b778-dd818e970a71 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "HTML5 foster e-accessibility through improving accessibility of web and mobile web applications, digital signs, ebooks and devices not yet known for people with disabilities."@en ;
+    cav:refersTo camssa:ecd257ed-77ac-4705-9aeb-72e5df7b8d37 .
+
+camssa:2868d8be-62a8-4a0b-90b3-db5b5fdb2af0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19c639047dab46befb5839503733c8f1e7ed8278f788a089d11d2caee84a8f7c ;
+    cav:value "1"^^xsd:int .
+
+camssa:2a5c4d93-b31d-4ea2-bb17-eb50bf383324 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-83d21357ecad07668ab7f2010aefed3cebb92dab384eeae6eb7aa77def06cfc3 ;
+    cav:value "2"^^xsd:int .
+
+camssa:2c39f8a9-247b-432f-bb95-85547c67e198 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML5 can be found along with other versions and extensions within the European Colaborative Platform, Joinup.
+
+See:
+https://joinup.ec.europa.eu/search?keys=HTML5&f%5B0%5D=type%3Asolution&page=0"""@en ;
+    cav:refersTo camssa:b70a7721-78e5-4dd3-9056-edcf7c7ba362 .
+
+camssa:2cbd2be0-9833-473b-aee0-a72fae6954d5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6ec33e201b803a1cc0150c0da8dc42b2a0f1029cf31e7a2c0fc81d1d8336ef36 ;
+    cav:value "1"^^xsd:int .
+
+camssa:311b439e-1728-4aff-a55e-867ce0a7a0a1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML5 is included in 2 national catalogues. They belong to Member States which comply with at least 4 out of 5 sections of the EIF according to the NIFO factsheets. 
+
+See:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:446153d5-b71f-4ba7-b853-56cc7549f84e .
+
+camssa:3229ed22-44c9-4d41-a529-382b3e62d3a7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-73a8058bec757a2fdb0f8513c2f11841e982cbef76c3be82af67707c294da8b8 ;
+    cav:value "2"^^xsd:int .
+
+camssa:3395570e-c7c1-4f86-9fcf-de50a475226c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Kendo UI survey of more than 4000 developers showed the following resulting that justify the fostering of HTML5 toward innovative solution: 63%  indicate that they are actively developing with HTML5.
+
+See: https://www.w3.org/2012/12/html5-cr.html.en"""@en ;
+    cav:refersTo camssa:7d5843bb-442f-4b64-89e2-fbfcd1914933 .
+
+camssa:35df1cd3-1eb2-4f99-913c-5d38abe428fb a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:37c87b1d-8343-4f13-b544-7ef7cdd587c2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:39c7d002-86a2-482f-bbdd-b7ef0fb1954c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has provided a validator which allows to test and validate HTML documents including HTML5. Additionally, HTML5 test provides a Markup Validation Service for free to validate HTML5 implementations.
+
+See:
+https://validator.w3.org/
+https://html5test.com/"""@en ;
+    cav:refersTo camssa:00cf2c5b-81bd-402d-bef9-de95ccf94a53 .
+
+camssa:415916e1-e1f3-4f19-8322-79beccdc257b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ef096f898c938883daab1b22e784cfaf985b5e5c855e170ecf6eab6f37b01b50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:446153d5-b71f-4ba7-b853-56cc7549f84e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d7be9f0dd52944e6c25f5469c86355a42ae446838bd9759b4986d21f7db4814b ;
+    cav:value "1"^^xsd:int .
+
+camssa:4ba9bfac-a448-4e34-9eae-c137e470d6a2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-396b6535162f7bba7733ebcc30d2e467321ce07cd8e48b86ab8201acf27031f9 ;
+    cav:value "0"^^xsd:int .
+
+camssa:4d575995-1ee9-4bc1-801e-09db38aa5508 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By allowing the publication of administrative data in the web, as the main language used in the web processing, HTML5 helps and foster the visibility of administration data, and services. Moreover, it also is easing the decision-making process by ensuring the data exchange and reuse. 
+
+See:
+https://www.w3.org/2012/12/html5-cr.html.en"""@en ;
+    cav:refersTo camssa:cd896ec8-7e84-48e9-bcd8-143eba191896 .
+
+camssa:4f965cff-7e15-4df0-9610-11cf0c5a2d60 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b6ba3f2f556446c68c55833e72b217be87ad5f0dd07744e2c39c6070aff6c10f ;
+    cav:value "1"^^xsd:int .
+
+camssa:4fd2c498-cb6c-4d3d-92ac-81d13f59103c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """According to the 5 star Open Data model suggested by Tim Berners-Lee about how to publish linked data, HTML5 is supporting the first level of maturity the which corresponds to make data available on the internet. 
+
+HTML5 is the center of the Open Web Platform, it allows programming application.
+
+See:
+https://5stardata.info/en/
+https://www.w3.org/2012/12/html5-cr.html.en"""@en ;
+    cav:refersTo camssa:4f965cff-7e15-4df0-9610-11cf0c5a2d60 .
+
+camssa:50b42435-c04e-47f1-8006-e9a5d4306633 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/TR/2010/WD-html5-20100624/"""@en ;
+    cav:refersTo camssa:37c87b1d-8343-4f13-b544-7ef7cdd587c2 .
+
+camssa:5377fd05-d361-46b9-a4e3-0702b2480651 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are many testimonial from W3C consistorium that are a reliable example to know that HTML5 is a cross-sector reusable data model: ACCESS, Accessibility Foundation, Adobe, Ayuntamiento de Zaragoza, Ebay / PayPal, Facebook,  Intel, Microsoft, NTT Communications, Rakuten, among others
+
+See:
+https://www.w3.org/2012/12/html5-cr.html.en"""@en ;
+    cav:refersTo camssa:a0e7e1cb-19b9-4772-9371-347906cdee31 .
+
+camssa:601f0e84-eacc-425f-8c83-833e56e49913 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0229101dfe08cbe58da1e454363d30a8178a2e120466c8db23965488cae5c8b1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:6687119f-6778-4153-9060-479288400242 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39e7870e79b2999a8b61c97f0c356312b88174320d6464fce5639e57ec0de011 ;
+    cav:value "1"^^xsd:int .
+
+camssa:6847fed3-338a-48dc-8228-e1b7578fae9b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """2 Member States are recommending HTML5 in their ICT National Catalogues. 
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards
+"""@en ;
+    cav:refersTo camssa:e9896d62-7208-42ca-a32a-4deeac71fbd2 .
+
+camssa:68ca899c-45a2-4788-a5d5-678c9e410a46 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "HTML5 is a business domain agnostic specification."@en ;
+    cav:refersTo camssa:95709a72-dfee-4511-a1f2-484966fe11f7 .
+
+camssa:6c9466b2-4234-4aaf-8afa-35c6127860d6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b45c8f7e446b1343c6b6961290d2106768aa43c1f123f5e436d0255c003abb50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:6d4af71b-4e5f-4967-97a3-f9861315d9b4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML5 Geolocation can make an impact to the emergency service and
+its citizens. It explains the capabilities of the existing web technology for accurate handset derived location
+using HTML5 Geolocation.
+
+See:
+https://eena.org/document/html5-geolocation/"""@en ;
+    cav:refersTo camssa:daa88251-af4a-415c-854a-c2b256c1e19c .
+
+camssa:71441a42-2115-4f67-87e4-221da6ba0e01 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "As one of the main markup languages for encode web resources, HTML5 is involved in the data exchange. HTML5 files are largely used to exchange information through the web."@en ;
+    cav:refersTo camssa:2cbd2be0-9833-473b-aee0-a72fae6954d5 .
+
+camssa:71eaabca-7d87-4349-b352-e64930daaa5b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of HTML5 is not related  to the long-term preservation of electronic records and other kinds of information. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:2a5c4d93-b31d-4ea2-bb17-eb50bf383324 .
+
+camssa:726c6f67-e8cb-45d7-ad7a-fc4f6a8006e1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML5 is one of the main pillars for Open Web Platform, a full programming environment for cross-platform applications with access to device capabilities; video and animations; graphics; style, typography, and other tools for digital publishing; extensive network capabilities, among others. Moreover, developers can have stability in to implement and plan through HTML5.
+
+See:
+https://www.w3.org/2012/12/html5-cr.html.en"""@en ;
+    cav:refersTo camssa:f75704d9-067f-4335-a786-f1699fbaa4b7 .
+
+camssa:7937c6da-0049-43b2-a691-fbee59de81cf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-450e8a1f4cffbbf3de202e37bd642f098174559028df90ccc657473a6086bc0b ;
+    cav:value "0"^^xsd:int .
+
+camssa:7d5843bb-442f-4b64-89e2-fbfcd1914933 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cf1de0bf03a8ee372af0deddf9ef5c4609f5a7bb9c7e001c89d887c6789eaf56 ;
+    cav:value "1"^^xsd:int .
+
+camssa:7d8b67da-fc39-4905-9b18-54d659e8632f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies"""@en ;
+    cav:refersTo camssa:d3e0ddc3-a243-437d-a8bb-43c70cd04480 .
+
+camssa:8de0b4bf-d8ce-42c4-91af-28dd66d7c601 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1d35b341bcafc21377ae6ac358b9dc087e8ad32870012c2743e49e4566440f41 ;
+    cav:value "2"^^xsd:int .
+
+camssa:92cf2595-2f28-4ec3-8ffb-dd75adc0a066 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e370a4af17e89cbb70bb5079082a1e21cdee85435c8fc30b12a8987f18db367f ;
+    cav:value "1"^^xsd:int .
+
+camssa:939134a6-b22f-4fff-8098-821d685e1bfc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including HTML5.
+
+See:
+https://www.w3.org/TR/2010/WD-html5-20100624/"""@en ;
+    cav:refersTo camssa:92cf2595-2f28-4ec3-8ffb-dd75adc0a066 .
+
+camssa:95709a72-dfee-4511-a1f2-484966fe11f7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-41c6fd2dadb03cc64aad82cfa14f545c084f1a955a3ab7a61aab416a138c5dce ;
+    cav:value "1"^^xsd:int .
+
+camssa:97ce354e-50f6-4630-8038-4c4c13a61584 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML5 has been assessed by the CAMSS Team under the MSP scenario, which is fully compliant with the European Standardisation Regulation 1025/2012. 
+See:
+https://joinup.ec.europa.eu/solution/camss-assessment-html5-msp-scenario"""@en ;
+    cav:refersTo camssa:e5537579-dd7e-4028-8677-a55dbe43c89e .
+
+camssa:994e74af-2435-472d-9133-1eb236169b43 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The application of the once-only principle in all EU Member States public administrations aims at reducing the administrative burden. To achieve this, interoperability between public administrations is a sine qua non condition.
+
+Zaragoza's City Townhall using HTML5 exemplifies the promotion of the once-only principle work towards unifying the services  offered regardless of the platform.
+
+See:
+https://www.w3.org/2012/12/html5-cr.html.en"""@en ;
+    cav:refersTo camssa:f89bbbf3-f9e2-49ae-bde0-901a3e7590a0 .
+
+camssa:9b83b940-276e-4986-8492-983e21e5b928 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "1"^^xsd:int .
+
+camssa:9bd2624f-edad-41d8-aee6-72757aec6c66 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Even HTML 5 is fostering the first level of maturity provided by Tim Berners-Lee's 5 stars schema for publication of Open data, it is not supports the principles to be considered as fostering actor on pubilishing Linked Open Data. "@en ;
+    cav:refersTo camssa:7937c6da-0049-43b2-a691-fbee59de81cf .
+
+camssa:a0e7e1cb-19b9-4772-9371-347906cdee31 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a0101cb11c30c1bbf94adb74479472f2a40c53ccc4b442180fece91506c20a9d ;
+    cav:value "1"^^xsd:int .
+
+camssa:b70a7721-78e5-4dd3-9056-edcf7c7ba362 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4017a1ae4d077fbb3847280a1c20b41bf00c32d65fc9beaa2bea8cce550ac463 ;
+    cav:value "1"^^xsd:int .
+
+camssa:bac6bce3-4b18-4845-a4aa-6c51306de1a1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-58010a47630ff9ea23336bf3fc558deff59905e0292551fcabc95740082cb378 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c0ae95cc-d872-40f6-be5d-112b61ac965c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e8c3529a6146f0b0d269112be717ba4e9c5979ea4f43f57d217c0f998d26ce17 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c4bfce13-a87f-4c6b-b689-8ea0c059723b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML5 is one of the main pillars for Open Web Platform, a full programming environment for cross-platform applications with access to device capabilities; video and animations; graphics; style, typography, and other tools for digital publishing; extensive network capabilities, among others. Moreover, developers can have stability in to implement and plan through HTML5.
+
+See:
+https://www.w3.org/2012/12/html5-cr.html.en"""@en ;
+    cav:refersTo camssa:15f280f0-91b3-47b8-9020-b439eb8616ed .
+
+camssa:cc19543a-e701-415a-8667-6f19779fd3e3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4a006ad6785e066d16c13daf48a60ee43ec33d1de1b06613c8e656ccf330a6d5 ;
+    cav:value "1"^^xsd:int .
+
+camssa:cd896ec8-7e84-48e9-bcd8-143eba191896 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-105c699a138c27ab9a1af9174253cd7488b278f700acdbb1bdbcc3e0b9c5ec3d ;
+    cav:value "1"^^xsd:int .
+
+camssa:d1bb2ae8-a88c-47dc-be1d-83df1a9dc30c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML5 is already associated to an EIRA ABB in the European Library Of Specifications (ELIS). More specifically, HTML5 can define the interoperability aspects of the "Human Interface" and "Representation" ABBs from the EIRA Semantic and Technical views.
+
+See:
+https://joinup.ec.europa.eu/solution/elis/distribution/eliscataloguev100betaxlsx """@en ;
+    cav:refersTo camssa:d48694d3-31ed-4b3e-8160-fb7c2f0a7d2b .
+
+camssa:d202c92a-eba7-4770-9a98-8f9af9f02b59 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML5 is not included in any catalogue of standards at supra-national level. However, it can be found within the European Colaborative platform, Joinup along with other extensions and versions of the specification. 
+See: 
+https://joinup.ec.europa.eu/search?keys=HTML5&f%5B0%5D=type%3Asolution&page=0"""@en ;
+    cav:refersTo camssa:f9511c01-bc55-4eb9-bb5d-24ce99bb20be .
+
+camssa:d3e0ddc3-a243-437d-a8bb-43c70cd04480 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d48694d3-31ed-4b3e-8160-fb7c2f0a7d2b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5839144ecfb6c41a2c3cf5c1e86a6b3ad7a9e3ec9c4efa5650a6e7b9e3586335 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d826cd6f-8a81-4bd4-bbd1-56067940f41b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Zaragoza's City Town hall using HTML5 exemplifies the promotion of the once-only principle work towards unifying the services offered regardless of the platform.
+
+See:
+https://www.w3.org/2012/12/html5-cr.html.en"""@en ;
+    cav:refersTo camssa:6687119f-6778-4153-9060-479288400242 .
+
+camssa:daa88251-af4a-415c-854a-c2b256c1e19c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a1eafd9c95081eeabe19f0511239b88139f02f95e2349049eeea058a89c80f49 ;
+    cav:value "1"^^xsd:int .
+
+camssa:dcd520d3-88ae-457b-9920-b0ba88230ca1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of HTML5 is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:8de0b4bf-d8ce-42c4-91af-28dd66d7c601 .
+
+camssa:e21be39a-d465-425a-905b-b8fca5fb5272 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The HTML5 Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including HTML5.
+
+See:
+https://www.w3.org/2012/12/html5-cr.html.en"""@en ;
+    cav:refersTo camssa:415916e1-e1f3-4f19-8322-79beccdc257b .
+
+camssa:e5537579-dd7e-4028-8677-a55dbe43c89e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e9e0cf4a339c837607828404dd0e9b360d643528fcc1df488a95ca67166acea3 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e66ede15-c2a7-441f-8118-b966f087a661 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Zaragoza's City Council is using HTML5 in part to improve results in higher efficiency and cost savings. Moreover, in the Touch5Mobile uses HTML5 to be more cost effective."@en ;
+    cav:refersTo camssa:bac6bce3-4b18-4845-a4aa-6c51306de1a1 .
+
+camssa:e9896d62-7208-42ca-a32a-4deeac71fbd2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b4f0d1b7f1d41c70797fa200c6fc73ac01f2f1659319e5cb1cebe8f5e79c1fcb ;
+    cav:value "1"^^xsd:int .
+
+camssa:ecd257ed-77ac-4705-9aeb-72e5df7b8d37 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a64b01ca9e737c550b205ba3a8a46b3fcfc9447b648ba8ef15d62d3ada26141 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f75704d9-067f-4335-a786-f1699fbaa4b7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a67ecbc29e70e62b18dba3ae4f8d1f91d5b3196777dbf8b58c6713cd517eb768 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f83ab07a-0288-4aab-a983-024fea9643ad a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f41cca0d171e6f64dbc2bdeae9fbc87f2ea51ac00185b22114d59ab8a06e78d0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f89bbbf3-f9e2-49ae-bde0-901a3e7590a0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-01e6c1ce016de128117697d51a8fdaebb57c1f50343c081dfd72e2fbc56733a8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f8ca1565-ce28-44ba-a6dd-5d65f13aae23 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of HTML5 is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:3229ed22-44c9-4d41-a529-382b3e62d3a7 .
+
+camssa:f9511c01-bc55-4eb9-bb5d-24ce99bb20be a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0c9dd43038136296b52f50e05f9d6eef39f7b8018517224007990b15be2eb19e ;
+    cav:value "0"^^xsd:int .
+
+camssa:fa5815b2-20f2-4fe5-8fe0-8b5937e1606c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3671439b412291ce208a0ade6313c64aeb2942059c7543ca39322c56458bcf96 ;
+    cav:value "1"^^xsd:int .
+
+camssa:fb41cba4-9811-4629-ba5f-b7632d1e6bb0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """HTML5 is included in several national catalogues from Member States. A total of 2 countries listed the HTML5 within their national catalogues.
+
+See CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:fa5815b2-20f2-4fe5-8fe0-8b5937e1606c .
+

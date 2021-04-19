@@ -1,0 +1,512 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:740bccb6-a616-4c38-b7c0-5b36debe043f ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:e7c54a0bf908709833661be9a1644a5b4b849ba10571e784354fd9d3f0cc6447 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:b79c7d7ad458099285efab0819df86bf33f868c6512e5b3b64ac2e605b705c12 ;
+    camss:assessmentDate "4/26/2019"^^xsd:date ;
+    camss:submissionDate "2019-04-26"^^xsd:date ;
+    camss:toolVersion tool:3.0.0 ;
+    cav:contextualisedBy sc:s-fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd ;
+    cav:resultsIn camssa:0645175d-3053-400e-aad6-2259f3e5dcf2,
+        camssa:0ad6dc2c-02de-4df3-830c-0a21008fad88,
+        camssa:0e40c8c5-1fb9-4097-958c-ce3978fef8c7,
+        camssa:0e81b6d1-f55d-4280-8a48-cbcbb31b3ff7,
+        camssa:119d3c6c-d095-4926-8e51-d96cf9c95f55,
+        camssa:12aa6de8-3e57-437a-844b-31cc04714540,
+        camssa:15f31fcf-c46d-4ede-a745-852cdbb81626,
+        camssa:1cccedb3-68cb-42c2-87be-2d7e3ef481ba,
+        camssa:1e973e88-51d5-4062-a1fd-2e2923e474b2,
+        camssa:2b4595b3-9f2f-4df9-8b7f-b4cdc73df938,
+        camssa:2d53a788-3092-41e6-b04c-5ee723421908,
+        camssa:38e85c10-b199-48c4-a2f6-b60b9157fb86,
+        camssa:401d03f4-67d1-4976-869e-b177123e2e75,
+        camssa:52a9c87b-9090-4ae6-adbe-ddcac9e49f3d,
+        camssa:59845f78-aa97-4a80-b19c-4dcd89409819,
+        camssa:5ed211c8-5fbb-464c-bfb4-c9df02711ba8,
+        camssa:6ce9e535-2dc2-47fc-9bd9-56d63f982725,
+        camssa:753f4740-f5fa-4eab-9f7e-7d1c53aa60d5,
+        camssa:7cfdfd36-be99-4854-879e-2c2206c603d8,
+        camssa:80c8021e-a295-4d1b-b43a-fbd94f35a173,
+        camssa:83dfb2e2-72b8-4e0e-a931-363cc2a277e2,
+        camssa:912aeefa-817a-4dc7-b658-6797ba115c5f,
+        camssa:913104e8-e96d-4bb1-99f6-9f8f696e7147,
+        camssa:a33c1e13-38e6-4bbc-9d0b-5d7b9efefa9d,
+        camssa:a3f01619-0218-4d26-8071-7425ebb1b469,
+        camssa:a701d8b6-c2ab-4dff-a0ad-7db28d37d45c,
+        camssa:a71852e3-4215-4cab-bde1-3fa3ac41b022,
+        camssa:a88922fb-013a-463e-b683-e6c612c51ec5,
+        camssa:b7807d44-cdb7-4da8-88a4-0a7097db90b2,
+        camssa:c310926b-4c81-48b0-b1e4-3c2c1532ff3a,
+        camssa:c3457242-7cb0-4833-b7b5-55b54f27e4a7,
+        camssa:d68f5ea6-1f3a-4f75-8e2a-6752bb6d26af,
+        camssa:ddbf25a2-f2f1-45d2-8be0-b6ae460d3c56,
+        camssa:eafe12fa-aeb6-4258-b2ae-7d218f8d7d8b,
+        camssa:f91b150e-6486-496f-bdea-bc93a0dd2f83,
+        camssa:fe56aeeb-cfb9-4fd7-abe3-eb97fef13a22,
+        camssa:ffb0b8d1-5471-464c-90ba-9da2c005b0e4 ;
+    cav:status status:Complete ;
+    dct:title "SHACL, Shapes constraint language"@en .
+
+camssa:0645175d-3053-400e-aad6-2259f3e5dcf2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After being identified by the MSP, SEMIC has developed a SHACL expression of DCAT-AP 1.2"@en ;
+    cav:refersTo camssa:f341f498-92ed-4be0-a6fc-99d51ad103a9 .
+
+camssa:0ad6dc2c-02de-4df3-830c-0a21008fad88 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of SHACL is not related in any way to the long-term preservation of electronic records and other kinds of information. Therefore, this criterion is not applicable."@en ;
+    cav:refersTo camssa:3b18b445-1b45-449e-a30a-e52855863df6 .
+
+camssa:0e40c8c5-1fb9-4097-958c-ce3978fef8c7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SHACL is implemented for data validation purposes by DCAT-AP,  which is a specification that describes public sector datasets with the aim to enable cross-data portal search for datasets, and make public sector data easily searchable across borders and sectors.
+
+DCAT-AP is used in the Open Data Support service initiated by the European Commission."""@en ;
+    cav:refersTo camssa:70efc539-7b9d-4f7a-9a89-6ad8d35ec0e6 .
+
+camssa:0e81b6d1-f55d-4280-8a48-cbcbb31b3ff7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "SHACL is a web standard whose only purpose is RDF data graphs validation. Moreover, there are no implementations of SHACL in domains different from the one it was originally developed for."@en ;
+    cav:refersTo camssa:679884bb-6c7d-40ec-991c-59839798947f .
+
+camssa:119d3c6c-d095-4926-8e51-d96cf9c95f55 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies """@en ;
+    cav:refersTo camssa:c648f47e-af73-4d9b-86b5-60a0da0fc7d6 .
+
+camssa:12aa6de8-3e57-437a-844b-31cc04714540 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The SHACL has been assessed through the CAMSS Method which is in full compliance with Annex II criteria set out in the Regulation 1025/2012, hereafter 'the standardisation regulation'."@en ;
+    cav:refersTo camssa:73c1b701-293e-495a-8f3d-8222e1cc4b5e .
+
+camssa:15f31fcf-c46d-4ede-a745-852cdbb81626 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "SHACL is a web standard whose only purpose is RDF data graphs validation. Therefore, in terms of scalability, there are no evidences that prove the scalability of SHACL."@en ;
+    cav:refersTo camssa:23944899-8bfa-4aca-a749-fb9af76ebdd1 .
+
+camssa:1cccedb3-68cb-42c2-87be-2d7e3ef481ba a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "SHACL is a specification developed and maintained by W3C and identified by the MSP for its use in public procurement in Europe. As the specification is available for free and on a FRAND basis, this reduces the administrative burden."@en ;
+    cav:refersTo camssa:58eb2b0f-1391-4f73-ad54-d945ddc7f389 .
+
+camssa:1e973e88-51d5-4062-a1fd-2e2923e474b2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of SHACL is not related in any way to the delivery of multilingual public services. Therefore, this criterion is not applicable."@en ;
+    cav:refersTo camssa:a59fe59f-f41d-4eab-9f0c-1cd6fb87e4f8 .
+
+camssa:21c8c0a4-02f8-4bca-8cab-c849eb9b4e2c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "1"^^xsd:int .
+
+camssa:23944899-8bfa-4aca-a749-fb9af76ebdd1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1435ad894742693c2b99e329ef12399cd411ed6900f49b9658fd2231de3f201a ;
+    cav:value "0"^^xsd:int .
+
+camssa:2482c13b-63cd-4f80-9cad-a8bb07fc0f04 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3671439b412291ce208a0ade6313c64aeb2942059c7543ca39322c56458bcf96 ;
+    cav:value "0"^^xsd:int .
+
+camssa:2b4595b3-9f2f-4df9-8b7f-b4cdc73df938 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SHACL is used in many industries and business sectors. The following are examples of this:
+
+Wimmics 
+ 
+The web-instrumented man-machine interactions, communities and semantics is a research team that lists many projects that are implementing the Semantic web and therefore, RDF. In the context of Wimmics, a SHACL validator has been developed. It was developed using STTL, SPARDQL Template Transformation Language and LDScript.
+
+Netage
+ 
+Netage is a system that uses smart data to prevent fire fighters getting injured. For this purpose, Netage implements SHACL for data validation.
+
+See:
+http://wimmics.inria.fr/
+http://netage.nl/en/home/ """@en ;
+    cav:refersTo camssa:8702b1cf-c484-4e4a-bfde-05e1e8ee6c16 .
+
+camssa:2d53a788-3092-41e6-b04c-5ee723421908 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "SHACL is a web standard whose only purpose is RDF data graphs validation. Therefore, it is not a commonly accepted business process modelling standard or specification."@en ;
+    cav:refersTo camssa:d56539e2-2cb6-4d92-a5ad-da5de349bdbd .
+
+camssa:35bf786d-d5d1-4a48-8596-b6bdb29fe7f1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-450e8a1f4cffbbf3de202e37bd642f098174559028df90ccc657473a6086bc0b ;
+    cav:value "1"^^xsd:int .
+
+camssa:38e85c10-b199-48c4-a2f6-b60b9157fb86 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "There are no evidences of existing studies or documentation assessing the standard or specification in terms of effectiveness and efficiency to justify the criterion. Note that SHACL is th first W3C standard mechanism for defining data constraints. "@en ;
+    cav:refersTo camssa:67dfc570-37db-4682-95d3-04990d01ba16 .
+
+camssa:3b18b445-1b45-449e-a30a-e52855863df6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-83d21357ecad07668ab7f2010aefed3cebb92dab384eeae6eb7aa77def06cfc3 ;
+    cav:value "2"^^xsd:int .
+
+camssa:401d03f4-67d1-4976-869e-b177123e2e75 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SHACL is publicly available for implementation and use for free on Github.
+
+See:
+https://github.com/w3c/data-shapes """@en ;
+    cav:refersTo camssa:b4612fd2-fd76-4b5a-8a87-6c2c94e11cc9 .
+
+camssa:41471853-14dd-4579-ab55-80c58969699a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0229101dfe08cbe58da1e454363d30a8178a2e120466c8db23965488cae5c8b1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:465c2a6b-44ef-4be0-96e6-472e78ac973c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e8c3529a6146f0b0d269112be717ba4e9c5979ea4f43f57d217c0f998d26ce17 ;
+    cav:value "0"^^xsd:int .
+
+camssa:50987f88-1539-4902-b15c-d490f8ff45c5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:510fcd1d-aad2-45ea-9795-548073efa544 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-093c1e09f5a65e4cba0247dcab5a8f4854f3e512db336b1855b9a4c48d3659e0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:52a9c87b-9090-4ae6-adbe-ddcac9e49f3d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The application of the once-only principle in all EU Member States public administrations aims at reducing the administrative burden. To achieve this, interoperability between public administrations is a sine qua non condition. In this sense, SHACL addresses and facilitates interoperability between public administrations, cross border services and impacts positively the development of eGovernment. This is due to the fact that it has been designed to enhance the semantic and technical interoperability layers of ontologies expressed as RDF graphs, and RDF is a European Standard used by public administrations in projects for sharing Linked Data."@en ;
+    cav:refersTo camssa:e49efd41-f84d-4ada-a5ef-85ec11c6e615 .
+
+camssa:58eb2b0f-1391-4f73-ad54-d945ddc7f389 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39e7870e79b2999a8b61c97f0c356312b88174320d6464fce5639e57ec0de011 ;
+    cav:value "1"^^xsd:int .
+
+camssa:59845f78-aa97-4a80-b19c-4dcd89409819 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SHACL is maintained by W3C which is an international community developing open standards. 
+
+See:
+https://www.w3.org/Consortium/"""@en ;
+    cav:refersTo camssa:41471853-14dd-4579-ab55-80c58969699a .
+
+camssa:5a0f436d-1c07-4b5b-bf3d-4f9b476972f7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-73a8058bec757a2fdb0f8513c2f11841e982cbef76c3be82af67707c294da8b8 ;
+    cav:value "0"^^xsd:int .
+
+camssa:5ed211c8-5fbb-464c-bfb4-c9df02711ba8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SHACL has been used by different vendors such as TopQuadrant for  its ontology editor, which is called Topbraid, or  Netage, which is using smart data to prevent first responders getting injured.
+
+See:
+https://w3c.github.io/data-shapes/data-shapes-test-suite/ """@en ;
+    cav:refersTo camssa:c9fdcd9d-fda7-4d3d-b4c3-193009034572 .
+
+camssa:65c85f83-a3e9-45b4-b0a2-cb9ef0308f81 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-396b6535162f7bba7733ebcc30d2e467321ce07cd8e48b86ab8201acf27031f9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:679884bb-6c7d-40ec-991c-59839798947f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-41c6fd2dadb03cc64aad82cfa14f545c084f1a955a3ab7a61aab416a138c5dce ;
+    cav:value "0"^^xsd:int .
+
+camssa:67dfc570-37db-4682-95d3-04990d01ba16 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-58010a47630ff9ea23336bf3fc558deff59905e0292551fcabc95740082cb378 ;
+    cav:value "0"^^xsd:int .
+
+camssa:6ce9e535-2dc2-47fc-9bd9-56d63f982725 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "SHACL does not defines a cross-sector reusable data model. SHACL is a web standard whose only purpose is RDF data graph validation."@en ;
+    cav:refersTo camssa:e5bd3b84-9bc8-45fa-9904-a362bbb98937 .
+
+camssa:70efc539-7b9d-4f7a-9a89-6ad8d35ec0e6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b6ba3f2f556446c68c55833e72b217be87ad5f0dd07744e2c39c6070aff6c10f ;
+    cav:value "1"^^xsd:int .
+
+camssa:73c1b701-293e-495a-8f3d-8222e1cc4b5e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e9e0cf4a339c837607828404dd0e9b360d643528fcc1df488a95ca67166acea3 ;
+    cav:value "1"^^xsd:int .
+
+camssa:740bccb6-a616-4c38-b7c0-5b36debe043f a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:753f4740-f5fa-4eab-9f7e-7d1c53aa60d5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including SHACL
+
+See:
+https://www.w3.org/TR/patent-practice#ref-AC """@en ;
+    cav:refersTo camssa:de4c9af7-cf8e-4e33-aa2c-2d616538174d .
+
+camssa:7cfdfd36-be99-4854-879e-2c2206c603d8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SHACL can be used to validate the data of a public administration while published as RDF. Therefore it could foster its comprehensibility.
+
+An evidence of this is CELLAR, which is the semantic repository of the Publications Office. CELLAR recognises SHACL as its standard of preference for data validation in the Semantic Web.
+
+See:
+https://publications.europa.eu/en/publication-detail/-/publication/658088eb-c071-11e8-9893-01aa75ed71a1/language-en/format-PDF/source-86108820"""@en ;
+    cav:refersTo camssa:98f12ca5-7066-45a2-9b15-984e66cdd704 .
+
+camssa:80c8021e-a295-4d1b-b43a-fbd94f35a173 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Understanding data exchange as the publication by the administration of data for its later consumption by citizens, the specification facilitates the trustworthy data exhange in RDF format by providing the means to validate RDF data graphs."@en ;
+    cav:refersTo camssa:21c8c0a4-02f8-4bca-8cab-c849eb9b4e2c .
+
+camssa:833c58ee-f75d-4f86-9d72-aecb8394a4d8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f41cca0d171e6f64dbc2bdeae9fbc87f2ea51ac00185b22114d59ab8a06e78d0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:83dfb2e2-72b8-4e0e-a931-363cc2a277e2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SHACL is built around RDF and is highly dependent from it since its purpose is to  validate RDF graphs.
+
+However, note that RDF is a European standard since 2014 and the common data format for Semantic web."""@en ;
+    cav:refersTo camssa:465c2a6b-44ef-4be0-96e6-472e78ac973c .
+
+camssa:85b97e5e-65bc-416b-9538-c8ed7cfdc930 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4a006ad6785e066d16c13daf48a60ee43ec33d1de1b06613c8e656ccf330a6d5 ;
+    cav:value "1"^^xsd:int .
+
+camssa:8702b1cf-c484-4e4a-bfde-05e1e8ee6c16 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cf1de0bf03a8ee372af0deddf9ef5c4609f5a7bb9c7e001c89d887c6789eaf56 ;
+    cav:value "1"^^xsd:int .
+
+camssa:8b2ef38c-77e2-4e3c-b0cb-581301ccfaab a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b45c8f7e446b1343c6b6961290d2106768aa43c1f123f5e436d0255c003abb50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:912aeefa-817a-4dc7-b658-6797ba115c5f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The evidence to justify this criterion is reflected in the section "Scope and motivation" of the technical specification, which proves that SHACL positively impacts interoperability.
+
+See:
+https://www.w3.org/TR/shacl-ucr/"""@en ;
+    cav:refersTo camssa:cac9e461-3697-4684-8625-3b7820f31275 .
+
+camssa:913104e8-e96d-4bb1-99f6-9f8f696e7147 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SHACL is not included in a national catalogue from a Member State. The only interest group that is currently supporting SHACL are the Semantic Web users.
+
+However, note that SHACL is starting to be promoted by EU Member States as a relevant standard of their national standard catalogue. e.g. the Flemish (Belgium) project OSLO (Open Standard for Local Administrations).
+
+See:
+https://joinup.ec.europa.eu/news/flemish-oslo-project-puts-add  """@en ;
+    cav:refersTo camssa:9f7c1ffa-16da-4145-a6f7-8ebf4fd6d484 .
+
+camssa:98f12ca5-7066-45a2-9b15-984e66cdd704 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-105c699a138c27ab9a1af9174253cd7488b278f700acdbb1bdbcc3e0b9c5ec3d ;
+    cav:value "1"^^xsd:int .
+
+camssa:9b0b4a20-c5e4-4d63-b39c-865cd529f181 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b4f0d1b7f1d41c70797fa200c6fc73ac01f2f1659319e5cb1cebe8f5e79c1fcb ;
+    cav:value "0"^^xsd:int .
+
+camssa:9f7c1ffa-16da-4145-a6f7-8ebf4fd6d484 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d7be9f0dd52944e6c25f5469c86355a42ae446838bd9759b4986d21f7db4814b ;
+    cav:value "0"^^xsd:int .
+
+camssa:a2f58e75-7d2d-44ea-941d-37704d498792 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0c9dd43038136296b52f50e05f9d6eef39f7b8018517224007990b15be2eb19e ;
+    cav:value "1"^^xsd:int .
+
+camssa:a33c1e13-38e6-4bbc-9d0b-5d7b9efefa9d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "SHACL has not been included in any catalogue of standards at national level."@en ;
+    cav:refersTo camssa:2482c13b-63cd-4f80-9cad-a8bb07fc0f04 .
+
+camssa:a3f01619-0218-4d26-8071-7425ebb1b469 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """CELLAR is the semantic repository of the Publications Office, and it recognises SHACL as its standard of preference for data validation in the Semantic Web.
+
+See:
+https://publications.europa.eu/en/publication-detail/-/publication/658088eb-c071-11e8-9893-01aa75ed71a1/language-en/format-PDF/source-86108820"""@en ;
+    cav:refersTo camssa:a2f58e75-7d2d-44ea-941d-37704d498792 .
+
+camssa:a59fe59f-f41d-4eab-9f0c-1cd6fb87e4f8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19c639047dab46befb5839503733c8f1e7ed8278f788a089d11d2caee84a8f7c ;
+    cav:value "2"^^xsd:int .
+
+camssa:a701d8b6-c2ab-4dff-a0ad-7db28d37d45c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SHACL is publicly available for implementation and use, and therefore for everyone to study, for free on Github. Also, TopQuadrant developped a service available for free in Javascript allowing the use of SHACL features.
+
+See:
+https://github.com/w3c/data-shapes 
+http://shacl.org/playground/"""@en ;
+    cav:refersTo camssa:85b97e5e-65bc-416b-9538-c8ed7cfdc930 .
+
+camssa:a71852e3-4215-4cab-bde1-3fa3ac41b022 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The Multi-stakeholder platform (MSP) has identified SHACL as referenceable for its use in procurement. The following step is its recommendation by the European Commission based on the MSP's identification. Although this step has not taken place yet, it will take place with all certainty. Therefore, it can be considered that SHACL has been included in an interoperability agreement between organisations involved in European public service provision."@en ;
+    cav:refersTo camssa:65c85f83-a3e9-45b4-b0a2-cb9ef0308f81 .
+
+camssa:a88922fb-013a-463e-b683-e6c612c51ec5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "SHACL does not define organisational interoperability aspects."@en ;
+    cav:refersTo camssa:5a0f436d-1c07-4b5b-bf3d-4f9b476972f7 .
+
+camssa:b4612fd2-fd76-4b5a-8a87-6c2c94e11cc9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4017a1ae4d077fbb3847280a1c20b41bf00c32d65fc9beaa2bea8cce550ac463 ;
+    cav:value "1"^^xsd:int .
+
+camssa:b7807d44-cdb7-4da8-88a4-0a7097db90b2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies  
+Technical reports:
+https://www.w3.org/standards/history/shacl """@en ;
+    cav:refersTo camssa:50987f88-1539-4902-b15c-d490f8ff45c5 .
+
+camssa:c12d95e6-8170-4656-b166-073bc2d425d7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5839144ecfb6c41a2c3cf5c1e86a6b3ad7a9e3ec9c4efa5650a6e7b9e3586335 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c21646c6-4d3c-4139-a7a8-bf95001b9bf3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ef096f898c938883daab1b22e784cfaf985b5e5c855e170ecf6eab6f37b01b50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c310926b-4c81-48b0-b1e4-3c2c1532ff3a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "SHACL is not included in any Member State standards catalogue but it was presented by Spain for its identification in the MSP."@en ;
+    cav:refersTo camssa:9b0b4a20-c5e4-4d63-b39c-865cd529f181 .
+
+camssa:c3457242-7cb0-4833-b7b5-55b54f27e4a7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SHACL has been designed to enhance the semantic and technical interoperability layers of ontologies expressed as RDF graphs. RDF is a European Standard used by public administrations.
+
+Furthermore, SHACL is implemented for data validation purposes by DCAT-AP,  which is a specification that describes public sector datasets with the aim to enable cross-data portal search for datasets, and make this way public sector data easily searchable across borders and sectors.
+DCAT-AP is used in the Open Data Support service initiated by the European Commission.
+
+See:
+https://joinup.ec.europa.eu/rdf_entity/http_e_f_fdata_ceuropa_ceu_fw21_fac376c94_b74cf_b4dd7_bade7_b267d6a4ec4dc/about"""@en ;
+    cav:refersTo camssa:833c58ee-f75d-4f86-9d72-aecb8394a4d8 .
+
+camssa:c648f47e-af73-4d9b-86b5-60a0da0fc7d6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:c9fdcd9d-fda7-4d3d-b4c3-193009034572 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a67ecbc29e70e62b18dba3ae4f8d1f91d5b3196777dbf8b58c6713cd517eb768 ;
+    cav:value "1"^^xsd:int .
+
+camssa:cac9e461-3697-4684-8625-3b7820f31275 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6ec33e201b803a1cc0150c0da8dc42b2a0f1029cf31e7a2c0fc81d1d8336ef36 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d56539e2-2cb6-4d92-a5ad-da5de349bdbd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1d35b341bcafc21377ae6ac358b9dc087e8ad32870012c2743e49e4566440f41 ;
+    cav:value "0"^^xsd:int .
+
+camssa:d68f5ea6-1f3a-4f75-8e2a-6752bb6d26af a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of SHACL is not related in any way to e-accessibility. Therefore, this criterion is not applicable."@en ;
+    cav:refersTo camssa:eaf78844-d0e8-42ac-89ac-0ebc23a71e09 .
+
+camssa:ddbf25a2-f2f1-45d2-8be0-b6ae460d3c56 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SHACL is publicly available for implementation and use for free on Github. Also, TopQuadrant developped a service available for free in Javascript allowing the use of SHACL features for free.
+
+See:
+https://github.com/w3c/data-shapes 
+http://shacl.org/playground/"""@en ;
+    cav:refersTo camssa:8b2ef38c-77e2-4e3c-b0cb-581301ccfaab .
+
+camssa:de4c9af7-cf8e-4e33-aa2c-2d616538174d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e370a4af17e89cbb70bb5079082a1e21cdee85435c8fc30b12a8987f18db367f ;
+    cav:value "1"^^xsd:int .
+
+camssa:e49efd41-f84d-4ada-a5ef-85ec11c6e615 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-01e6c1ce016de128117697d51a8fdaebb57c1f50343c081dfd72e2fbc56733a8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e5bd3b84-9bc8-45fa-9904-a362bbb98937 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a0101cb11c30c1bbf94adb74479472f2a40c53ccc4b442180fece91506c20a9d ;
+    cav:value "0"^^xsd:int .
+
+camssa:eaf78844-d0e8-42ac-89ac-0ebc23a71e09 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a64b01ca9e737c550b205ba3a8a46b3fcfc9447b648ba8ef15d62d3ada26141 ;
+    cav:value "2"^^xsd:int .
+
+camssa:eafe12fa-aeb6-4258-b2ae-7d218f8d7d8b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C provides a test suite for free to assess SHACL implementations.
+
+See:
+https://w3c.github.io/data-shapes/data-shapes-test-suite/"""@en ;
+    cav:refersTo camssa:510fcd1d-aad2-45ea-9795-548073efa544 .
+
+camssa:f341f498-92ed-4be0-a6fc-99d51ad103a9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a1eafd9c95081eeabe19f0511239b88139f02f95e2349049eeea058a89c80f49 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f91b150e-6486-496f-bdea-bc93a0dd2f83 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "SHACL was designed to enhance the semantic and technical interoperability layers of ontologies expressed as RDF graphs. RDF is a European Standard used by public administrations in projects for sharing Linked Open Data. This means that the validation carried out with SHACL on RFD graphs fosters their use for the publication of data as Linked Open Data."@en ;
+    cav:refersTo camssa:35bf786d-d5d1-4a48-8596-b6bdb29fe7f1 .
+
+camssa:fe56aeeb-cfb9-4fd7-abe3-eb97fef13a22 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including SHACL.
+
+See:
+https://www.w3.org/TR/patent-practice#ref-AC """@en ;
+    cav:refersTo camssa:c21646c6-4d3c-4139-a7a8-bf95001b9bf3 .
+
+camssa:ffb0b8d1-5471-464c-90ba-9da2c005b0e4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "SHACL can describe the interoperability aspects of the Data Validation Service or Data Validation Component ABBs from EIRA's Technical View."@en ;
+    cav:refersTo camssa:c12d95e6-8170-4656-b166-073bc2d425d7 .
+

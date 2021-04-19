@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+rsc:088ecda1c81a62bb73536c28835ab1a3225e9e609308950756ff65847197344d a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy rsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "XSLT "@en ;
+    dcat:distribution rsc:bda0f230-2054-4511-9c28-9b166d98f02d .
+
+rsc:b5a4c90e-5852-4885-b1fd-b4cedb5b8b1a a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf rsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+rsc:bda0f230-2054-4511-9c28-9b166d98f02d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "nan"^^xsd:anyURI .
+
+rsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "W3C (http://www.w3.org)"^^xsd:string .
+

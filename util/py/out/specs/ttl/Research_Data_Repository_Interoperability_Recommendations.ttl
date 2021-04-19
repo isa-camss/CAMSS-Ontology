@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+rsc:36494a9584ee1783bca7c324d4ad28d012c2919890f9efdb1c151a7869029632 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy rsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Research Data Repository Interoperability Recommendations"@en ;
+    dcat:distribution rsc:34e89648-3273-4e93-8cb0-16402d9b3bb7 .
+
+rsc:8ca413e5-bb1b-4245-978c-98f5eac63824 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf rsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+rsc:34e89648-3273-4e93-8cb0-16402d9b3bb7 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.rd-alliance.org/group/research-data-repository-interoperability-wg/outcomes/research-data-repository-0"^^xsd:anyURI .
+
+rsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "Other SDO/SSO"^^xsd:string .
+
