@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:84b85235ee46701a6b95a3f1ef00844e95091763815a88edfcb291aa29ffffb8 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "HTTP Over TLS (HTTPS)"@en ;
+    dcat:distribution cssvrsc:c0d0880d-f427-4c1e-a0db-f85dc21be69c .
+
+cssvrsc:9161476b-3dcb-40cd-b5e9-74e797c607b8 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:c0d0880d-f427-4c1e-a0db-f85dc21be69c a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://tools.ietf.org/html/rfc2818"^^xsd:anyURI .
+
+cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "IETF (https://www.ietf.org/)"^^xsd:string .
+

@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:392549a2-d910-49f6-bbac-896aa1eb8f24 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:94a878c6dcca19a49c7dde857b176a2c07abcff39a7c9bc255c1318c3337a477 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "OpenPM2"@en ;
+    dcat:distribution cssvrsc:ecdc825e-852d-427b-ab64-94e51c7f646d .
+
+cssvrsc:ecdc825e-852d-427b-ab64-94e51c7f646d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127"^^xsd:anyURI .
+
+cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "Other SDO/SSO"^^xsd:string .
+

@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:e41213fb14c1adb9399c01ba2716777ad755f60c7900cc97cbd7d16bc774452c a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "File Transfer Protocol over Transport Layer Security (FTPS or FTP over TLS)"@en ;
+    dcat:distribution cssvrsc:82e4d439-c384-4e5a-9c1c-42783bdcf69b .
+
+cssvrsc:f77301f2-9917-41e0-a1ad-494fe30d4eda a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:82e4d439-c384-4e5a-9c1c-42783bdcf69b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://tools.ietf.org/html/rfc4217"^^xsd:anyURI .
+
+cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "IETF (https://www.ietf.org/)"^^xsd:string .
+

@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:0c1b5aef-800a-49e5-9f3e-b7b3e8aeae8f a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:7ee0cc960f1c173317ee71839772b906a3d9df220bba897aebba61f44576828f a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "eDelivery SMP 1.10 "@en ;
+    dcat:distribution cssvrsc:0fd95f75-11c9-4230-8c51-22c90a555fe6 .
+
+cssvrsc:0fd95f75-11c9-4230-8c51-22c90a555fe6 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery+SMP+-+1.10"^^xsd:anyURI .
+
+cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "Other SDO/SSO"^^xsd:string .
+

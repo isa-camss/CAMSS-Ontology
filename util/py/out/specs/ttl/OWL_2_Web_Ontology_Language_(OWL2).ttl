@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:249a50b70a47f517c5fbfbacd35fa8d509773ef16b58276fe4b50dc5c475604a a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "OWL 2 Web Ontology Language (OWL2)"@en ;
+    dcat:distribution cssvrsc:532b113f-575d-4118-806d-08c892a43853 .
+
+cssvrsc:f1157493-9c23-44ad-afea-21a54927845b a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:532b113f-575d-4118-806d-08c892a43853 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/owl2-overview/"^^xsd:anyURI .
+
+cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "W3C (http://www.w3.org)"^^xsd:string .
+

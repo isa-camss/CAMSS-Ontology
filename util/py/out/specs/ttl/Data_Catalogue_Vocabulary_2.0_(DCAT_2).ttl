@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:925e55b370f9ffea12944d9c8101b4580966ac0c7400dbda721eee2eec544a4b a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "Data Catalogue Vocabulary 2.0 (DCAT 2)"@en ;
+    dcat:distribution cssvrsc:4ae56129-c4e7-4a96-b43f-e2f36c1bfa43 .
+
+cssvrsc:e2aaec66-3967-4449-9bf1-51d431476b84 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:4ae56129-c4e7-4a96-b43f-e2f36c1bfa43 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/vocab-dcat-2/"^^xsd:anyURI .
+
+cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "W3C (http://www.w3.org)"^^xsd:string .
+

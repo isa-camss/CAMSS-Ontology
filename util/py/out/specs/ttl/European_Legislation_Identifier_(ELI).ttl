@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:282fbf529fb851a9da3ed39f48d235c69fd1da93947dfd668889fb8191777920 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:3a08a1d09270bc9b29481f881b3a21eb3360cc2e879906ae2ebad37df1a6800d ;
+    dct:title "European Legislation Identifier (ELI)"@en ;
+    dcat:distribution cssvrsc:8b74c2b4-1adb-4461-b23b-a70294fb930d .
+
+cssvrsc:363927a0-5b24-4496-99a3-f365f54cd48c a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:3a08a1d09270bc9b29481f881b3a21eb3360cc2e879906ae2ebad37df1a6800d ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:8b74c2b4-1adb-4461-b23b-a70294fb930d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "nan"^^xsd:anyURI .
+
+cssvrsc:3a08a1d09270bc9b29481f881b3a21eb3360cc2e879906ae2ebad37df1a6800d a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "ETSI (http://www.etsi.org/)"^^xsd:string .
+

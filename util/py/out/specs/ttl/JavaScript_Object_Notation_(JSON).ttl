@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:090002fd65228fad1e1f27c75c010e1d2d281e846b97647bd072d2cc25684737 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "JavaScript Object Notation (JSON)"@en ;
+    dcat:distribution cssvrsc:2cb2586e-a5a4-473c-8805-9a1a59fbfed0 .
+
+cssvrsc:6a22780e-ae7a-40e2-89f3-10d08f00ae23 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:2cb2586e-a5a4-473c-8805-9a1a59fbfed0 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.ecma-international.org/publications/standards/Ecma-404.htm"^^xsd:anyURI .
+
+cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "Other SDO/SSO"^^xsd:string .
+

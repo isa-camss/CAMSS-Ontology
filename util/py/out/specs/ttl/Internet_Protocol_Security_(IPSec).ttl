@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:393f49d6eb2498dc190763c2914503ddd39b037cd62ce64561b2106b4a7e9786 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "Internet Protocol Security (IPSec)"@en ;
+    dcat:distribution cssvrsc:0de2c20c-b97c-4ecf-9d76-84e10b102d23 .
+
+cssvrsc:b354d67b-9b98-447b-aafc-4c3116673b2e a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:0de2c20c-b97c-4ecf-9d76-84e10b102d23 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "nan"^^xsd:anyURI .
+
+cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "IETF (https://www.ietf.org/)"^^xsd:string .
+

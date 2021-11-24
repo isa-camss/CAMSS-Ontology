@@ -1,0 +1,1159 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:014cd43f-2ded-4a18-9be2-e050bb295a3e a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:01e0e33e-c6af-4eca-a0a5-3da8baee259e a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:0525f64dfe93f08c86035f6f7c91baf6d5a1fbc3768e502a1f16f95691a1a9aa a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    dct:title "WS-Security (Web Services Security)"@en ;
+    dcat:distribution cssvrsc:60a66b0d-3477-47f7-924c-a112d8ae2b30 .
+
+cssvrsc:088ecda1c81a62bb73536c28835ab1a3225e9e609308950756ff65847197344d a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "XSLT "@en ;
+    dcat:distribution cssvrsc:d664fba6-6bac-4cf1-b0cc-da8b84e501be .
+
+cssvrsc:090002fd65228fad1e1f27c75c010e1d2d281e846b97647bd072d2cc25684737 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "JavaScript Object Notation (JSON)"@en ;
+    dcat:distribution cssvrsc:2cb2586e-a5a4-473c-8805-9a1a59fbfed0 .
+
+cssvrsc:0973e000-d161-4302-b4e1-4296035d2c41 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:09d5f955aa3f2e89a91b884839963a35be68332c58006c53d8d7f88e882cb4fa a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Core Public Organisation Vocabulary (CPOV)"@en ;
+    dcat:distribution cssvrsc:f268b349-f1df-4a67-9ef1-a3a182e9fcf7 .
+
+cssvrsc:0be0c4ac-63b3-4510-bcf6-dbb996c53869 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:0c1b5aef-800a-49e5-9f3e-b7b3e8aeae8f a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:0cbe33a3-8508-43fb-87a3-1749125593a8 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:0df446c93fc7fc59add5449d846f47101b10b6e30e88a143d6c523aad8117c28 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    dct:title "Web Services Business Process Execution Language (WS-BPEL) v2.0"@en ;
+    dcat:distribution cssvrsc:20d0012c-ce69-4c03-9435-f3569e2566fe .
+
+cssvrsc:121193a8e270bc9666904b77a28db8810a9a0313df7bee88f2c572d3483e0e4e a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Better Regulation Toolbox"@en ;
+    dcat:distribution cssvrsc:dcae64c2-814e-4821-9994-58d032ab8a56 .
+
+cssvrsc:12617522-056c-4656-90c0-b725edf4f0bf a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:1467c87128ba720b128f40df43147e0bb3617bc048b2e50a4d8e76b77d05daf2 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    dct:title "eXtensible Access Control Markup Language (XACML) v3.0"@en ;
+    dcat:distribution cssvrsc:9c9a348f-4604-442a-9160-a2a85b9c2a78 .
+
+cssvrsc:171de6b3-72e9-4db1-8509-e92604b71f2f a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:1947f7448708ff5539674878abefc1dee36c97e41397243c16d6208c42a905ce a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Standard for Public Code"@en ;
+    dcat:distribution cssvrsc:7465db45-4d89-4e8a-adce-c842ed3e1bc5 .
+
+cssvrsc:1971151aa9a51d1ffebd8db8774b92f2d57f46bb05b9b6de8d056d16479f8ac2 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Wheat Data Interoperability Guidelines "@en ;
+    dcat:distribution cssvrsc:4e8cf11a-07af-4449-a07f-729a5b97c01c .
+
+cssvrsc:1badc7f61877080b095ce968bebe6f9f4f62e25d5dec241e4c88b232764a56d7 a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Portable Document Format v 1.7 (PDF 1.7)"@en ;
+    dcat:distribution cssvrsc:1819f787-117c-4d91-ae40-9d4522d05038 .
+
+cssvrsc:1cc3cc87-18c6-4faa-8c52-3a5bb20cbd0c a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:1e85868a77907ed9e59d1e3a3804c3d40add047c68ff02fd121b51812c7006ab a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Portable Network Graphics (PNG)"@en ;
+    dcat:distribution cssvrsc:0d32c0bc-4ceb-429f-bc62-ef0b6e762197 .
+
+cssvrsc:227cf7c3-91bf-47ec-8539-58037bc8e6e4 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:249a50b70a47f517c5fbfbacd35fa8d509773ef16b58276fe4b50dc5c475604a a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "OWL 2 Web Ontology Language (OWL2)"@en ;
+    dcat:distribution cssvrsc:532b113f-575d-4118-806d-08c892a43853 .
+
+cssvrsc:24e4f357-d407-4883-bd6d-2fe8e914ff72 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:259fa499-7a25-4d4c-a3a6-adb7bd5f1f90 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:25dab677623f3eb070ccc352529bbc8d911258ac4ad0837bedc3cc2606dab9e1 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "Hypertext Transfer Protocol HTTP 1.1"@en ;
+    dcat:distribution cssvrsc:83221072-017e-4006-96c7-952a691e3b54 .
+
+cssvrsc:282fbf529fb851a9da3ed39f48d235c69fd1da93947dfd668889fb8191777920 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:3a08a1d09270bc9b29481f881b3a21eb3360cc2e879906ae2ebad37df1a6800d ;
+    dct:title "European Legislation Identifier (ELI)"@en ;
+    dcat:distribution cssvrsc:8b74c2b4-1adb-4461-b23b-a70294fb930d .
+
+cssvrsc:2a8d11054390e9202db664920d2fb0ddb1a28c805e5d1d96a24c081fa6cb349d a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:3a08a1d09270bc9b29481f881b3a21eb3360cc2e879906ae2ebad37df1a6800d ;
+    dct:title """Electronic Signatures and Infrastructures (ESI);
+CAdES Baseline Profile """@en ;
+    dcat:distribution cssvrsc:b5c1640e-7ecb-4917-877d-9db829d105e1 .
+
+cssvrsc:2b19b02e89f8f608dc453aa425b9d9812db638e70d8def98abd150136ee79185 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "ODRL Vocabulary & Expression 2.2"@en ;
+    dcat:distribution cssvrsc:4ae7c552-070c-4c81-8d70-0de415d647a5 .
+
+cssvrsc:2d537e8d36b69a52f7fa4f16d23f00c25701f6ce500e4150eefb592599c32344 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    dct:title "Universal Description, Discovery and Integration (UDDI)"@en ;
+    dcat:distribution cssvrsc:1b80c923-29ee-421e-9b61-9d69a4416421 .
+
+cssvrsc:2e460ba72bb849ac369c4b71cf891c8f51f6ae9144ca6834b06486d1cedabc01 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "SOAP"@en ;
+    dcat:distribution cssvrsc:92a2d3d9-5ba1-4b5c-9184-c937f372eebf .
+
+cssvrsc:31b732ab-7fe9-4a89-bce2-ec1522207d78 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:3434176d82130b1f0ffeda1e7d91021c4fe0e57a0e3b2dbf83aacb7b57c63d2b a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "Cascading Style Sheets (CSS) v2.1"@en ;
+    dcat:distribution cssvrsc:db41f207-5d72-433f-a8d2-7d29c64c4b3d .
+
+cssvrsc:356b06eaeb0797b4d35e627c84d00bc3de5d72ebfb51f720b77bd4a5548e2704 a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "Comma-Separated Values (CSV)"@en ;
+    dcat:distribution cssvrsc:bafd8e75-b3e7-433e-baa0-d6d31a82d7bd .
+
+cssvrsc:35e2ef41fca202e1fba4b5003d4f50987162664aa81f794762fa7c14d7c9f61c a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "File Transfer Protocol (FTP)"@en ;
+    dcat:distribution cssvrsc:5cfcb296-53d3-46fb-8f31-8239cac71a80 .
+
+cssvrsc:363927a0-5b24-4496-99a3-f365f54cd48c a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:3a08a1d09270bc9b29481f881b3a21eb3360cc2e879906ae2ebad37df1a6800d ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:36494a9584ee1783bca7c324d4ad28d012c2919890f9efdb1c151a7869029632 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Research Data Repository Interoperability Recommendations"@en ;
+    dcat:distribution cssvrsc:e3f14bb3-635d-4049-851a-caca0f8d8445 .
+
+cssvrsc:382532edd2a639d8d82badf47d7852b2c18f3430bf564f603ef4c406cfea4a9d a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "Resource Public Key Infrastructure"@en ;
+    dcat:distribution cssvrsc:48460a9f-436c-40f7-a8fc-902e867c88b1 .
+
+cssvrsc:392549a2-d910-49f6-bbac-896aa1eb8f24 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:393f49d6eb2498dc190763c2914503ddd39b037cd62ce64561b2106b4a7e9786 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "Internet Protocol Security (IPSec)"@en ;
+    dcat:distribution cssvrsc:0de2c20c-b97c-4ecf-9d76-84e10b102d23 .
+
+cssvrsc:3c339c2d426551224a9b80582fb9ec446847c640127d87db3b140c898c073091 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "Data on the Web Best Practices W3C"@en ;
+    dcat:distribution cssvrsc:b68ae894-4107-4fdc-8d2a-d49a16fb615b .
+
+cssvrsc:3f2acc9e-f51c-4bb9-bcc1-dcee2ae16311 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:3f735774-7830-41c7-a310-b28ffc7e3949 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:3ff5f7c2-5395-4ba8-8cca-46fd9f4f8219 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:45202c3a-2dcf-43e0-9eab-16c27dae9bf5 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:47e7ed6830faf5afca36b869493258d3bb509577b30ef469770a164a0f602ec3 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Ogg"@en ;
+    dcat:distribution cssvrsc:fb4847d7-ec3b-4c26-85ea-b658e06b7bd7 .
+
+cssvrsc:4ac03729ce6059a948f986d308360c552166a22ef62b90dc47d0f735371830a2 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    dct:title "SAML 2.0 (Security Assertion Markup Language (SAML) V2.0)"@en ;
+    dcat:distribution cssvrsc:47342025-50ea-4ef2-8b24-a67e4a67463b .
+
+cssvrsc:53a2cd20-6b17-4cc5-8b80-0b71f3452d9f a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:54c12780-136e-46f0-8b30-7508aec6d7d5 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:5572a96b-4297-430c-9d09-b4c5e00e8e8e a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:571c4536-0035-4c24-a0fc-56942f7a897b a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:5b74bd3147b4848bbffdf2b72b231eb4fcff0e3e35e4b780f650a8783e9a4b8e a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "Domain Name System (DNS)"@en ;
+    dcat:distribution cssvrsc:03695884-ce19-4911-9d5d-3351387167bc .
+
+cssvrsc:5cacc905-5347-43c0-bd46-cdc3b2ae1d47 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:5f91c00c-946e-4a7f-b6bd-909196700805 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:3a08a1d09270bc9b29481f881b3a21eb3360cc2e879906ae2ebad37df1a6800d ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:615508fb540009cb48d7c5ca8efffbef6c53e96148b0d95025fdd6cd725d131d a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:3a08a1d09270bc9b29481f881b3a21eb3360cc2e879906ae2ebad37df1a6800d ;
+    dct:title """Electronic Signatures and Infrastructures (ESI);
+"""@en ;
+    dcat:distribution cssvrsc:cbc64d0a-63f5-47f8-b43b-45c038f4ac4c .
+
+cssvrsc:619a9692-12cf-449f-9cb2-32195bd030cb a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:642b4f99e95d54954348612d15e63b83137ab9a82e6bf74d72b9f01944bc3f66 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "Scalable Vector Graphics (SVG) v1.1 (Second Edition)"@en ;
+    dcat:distribution cssvrsc:1c879316-e69b-4f7a-90c9-a72bbcd2ca96 .
+
+cssvrsc:646e328f-49a7-4bb5-addb-f6aa593f6bf1 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:3a08a1d09270bc9b29481f881b3a21eb3360cc2e879906ae2ebad37df1a6800d ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:673d1f21-53d3-47ca-82b2-cf50336778c0 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:6a22780e-ae7a-40e2-89f3-10d08f00ae23 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:6ee86200-664f-4919-a5d9-c15e7a669b1c a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:708a3c13-e910-4cf0-8d6d-6fe94fbda6ee a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:74f63275-8ffa-4dc6-aa34-f72a3a77b9f2 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:3a08a1d09270bc9b29481f881b3a21eb3360cc2e879906ae2ebad37df1a6800d ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:7e839b76-dd63-4f8d-8564-6372e5168f10 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "CAMSS@everis.com " .
+
+cssvrsc:7ee0cc960f1c173317ee71839772b906a3d9df220bba897aebba61f44576828f a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "eDelivery SMP 1.10 "@en ;
+    dcat:distribution cssvrsc:0fd95f75-11c9-4230-8c51-22c90a555fe6 .
+
+cssvrsc:7fba1700-5216-4b48-b97b-5eeff468f079 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:8164f5e6cd50bf02a11c615929ebf80147032647fced20c32e19af42e3155f3d a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "XML Advanced Electronic Signatures (XAdES) - ISO 14533-2:2012"@en ;
+    dcat:distribution cssvrsc:8d59897a-884e-46d0-ae1d-a54c50495019 .
+
+cssvrsc:83adcfe7fd6d09d1d78d43905709f9566f30e9378e845fa0e04c258537c153e4 a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Data Catalog Vocabulary - Application Profile for European Data Portals (DCAT-AP 2.0)"@en ;
+    dcat:distribution cssvrsc:59774244-1b90-4cfa-b9c8-0a583387d99b .
+
+cssvrsc:84b85235ee46701a6b95a3f1ef00844e95091763815a88edfcb291aa29ffffb8 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "HTTP Over TLS (HTTPS)"@en ;
+    dcat:distribution cssvrsc:c0d0880d-f427-4c1e-a0db-f85dc21be69c .
+
+cssvrsc:862375ac-7450-46bd-ac51-129839d35add a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:865cefb01ca8e8280d9c4751f0ba71d66cb6925ed1987c4c4f53e078b1703eca a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "CMS Advanced Electronic Signatures (CAdES) - ISO 14533-1:2014"@en ;
+    dcat:distribution cssvrsc:a1698e29-9ce9-4dcf-8f97-7a801dba68d7 .
+
+cssvrsc:88e076edff999950be7b58cc7fe66316b30d099033d6548b080423bbe5e6c5ab a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "WDS Publishing Data Services"@en ;
+    dcat:distribution cssvrsc:726965ce-a413-4018-8aed-a73fcc3a171e .
+
+cssvrsc:89b586243efc375b64830c6b29be46357c67975d881a7612e648e783a8f3d030 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "Multipurpose Internet Mail Extensions (MIME)"@en ;
+    dcat:distribution cssvrsc:8ec8c6a7-ce99-4ec1-863c-ad6b940d304a .
+
+cssvrsc:8a916a4e691160766a614b39edf0854771934328f3feb60800f25e46b8d4ce62 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "Transport Layer Security 1.3 (TLS 1.3)"@en ;
+    dcat:distribution cssvrsc:a4ee400d-f676-48f8-a7b8-5b9c8d187da4 .
+
+cssvrsc:8cc11aa2-567b-4bb6-8c04-91ffca07b2f3 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:8cff6895f914429bde643c73dec425ec687d14cd27aee8c861fb5341e5dcd8d5 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Core Criterion and Core Evidence Vocabulary (CCCEV) v1.0"@en ;
+    dcat:distribution cssvrsc:8ea4fea2-8628-48bb-b1fe-cb14998ea3cf .
+
+cssvrsc:8d4a582d8a713997ae5cefbb6fca284d18f07e22a2b0e0913c92d3120bbf4e17 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Data Collections API"@en ;
+    dcat:distribution cssvrsc:c0f5ad4a-1e8a-4c85-93d2-1f08a04e9a28 .
+
+cssvrsc:9161476b-3dcb-40cd-b5e9-74e797c607b8 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:925e55b370f9ffea12944d9c8101b4580966ac0c7400dbda721eee2eec544a4b a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "Data Catalogue Vocabulary 2.0 (DCAT 2)"@en ;
+    dcat:distribution cssvrsc:4ae56129-c4e7-4a96-b43f-e2f36c1bfa43 .
+
+cssvrsc:93200bf1-5235-4d5c-91b2-b292e3af43d5 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:94120719cde2555408f1875b809aa1dd6c3b1762b9390648a9fa5b7cb62e0a5c a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "IETF Time Stamp Protocol RFC 3161"@en ;
+    dcat:distribution cssvrsc:c1e407f2-6f72-4858-8b43-56813588b5eb .
+
+cssvrsc:94a878c6dcca19a49c7dde857b176a2c07abcff39a7c9bc255c1318c3337a477 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "OpenPM2"@en ;
+    dcat:distribution cssvrsc:ecdc825e-852d-427b-ab64-94e51c7f646d .
+
+cssvrsc:9507d4ac72d66333e672b706dec4d4c278150753852ba3bb607554dc9bfb64f9 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "Transport Layer Security (TLS)"@en ;
+    dcat:distribution cssvrsc:d5656ec9-4472-41de-8ec2-f91a8ea1776c .
+
+cssvrsc:969b77c5-d09c-4aa3-931e-d05795a1a2b2 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:96efe6ce-6f64-479c-a666-e5ed261d408e a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:97669859-0e4d-4b10-af17-004d2859cf8f a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:97a097de4c68e020312c08f731425d2221fe97a3fb145d9bc285a84805f0c02f a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "XML Schema Definition Language (XSD) 1.1. Part 1 and 2. "@en ;
+    dcat:distribution cssvrsc:405751f1-38f7-4d3e-982a-5fcad4d5f749 .
+
+cssvrsc:994f4d6dcdb52b7920dcd9cb7783edda9bc52f3e470389cabf6f28ebd41dc9b0 a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Tag image file format for image technology (TIFF/IT)"@en ;
+    dcat:distribution cssvrsc:0a1dfc5b-0d95-4d85-9cc3-0be63121f30d .
+
+cssvrsc:99e59a3cac7e8d0300e4f19f439afce1f1a1aa6558a6ce046cd2656dc04e85be a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "Internet Protocol version 6 (IPv6)"@en ;
+    dcat:distribution cssvrsc:5e1f8ad8-0e56-47c4-9701-68648bfc7d89 .
+
+cssvrsc:9ceac787-e32a-4536-a8ab-084723ce8461 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:9e5a9eca-0e40-4ec4-b3bc-23893369c35c a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:9fed8086-f0d0-4df6-b832-1145bc852408 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:a290df64-aa6c-4101-9141-102ad75e8db6 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:a4a7987e596ba4b307e31ac3ee5f8011e0bc7baf38f31bdda3122c2d25cd461e a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "Resource Description Framework 1.1 (RDF 1.1)"@en ;
+    dcat:distribution cssvrsc:4627b5e6-ba6c-4fef-9a1d-41077781f1f0 .
+
+cssvrsc:a5e285ce592fea5c490319fb4731e4aac5db6c4430c8a3b8011b4dbc5121cda8 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Core Location Vocabulary (CLV) v1.0"@en ;
+    dcat:distribution cssvrsc:c8bce66c-0e09-492b-9fd4-6eae2ee486c9 .
+
+cssvrsc:a9fc39be-61ed-4cab-b0db-eb4dbf82b788 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:aba91010-5318-439c-8292-8d1167e2acc6 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:af1d78ad-f8c7-49e7-ace8-a4db74da9959 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:3a08a1d09270bc9b29481f881b3a21eb3360cc2e879906ae2ebad37df1a6800d ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:b25af439-08be-4cd2-a5da-876947d6c947 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:b26387fc43b0be82f50b4dafb39c6371b8eb5efc4ecb6a477c1bbdc4603b61ef a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    dct:title "LegalRuleML"@en ;
+    dcat:distribution cssvrsc:64ad97f1-1adf-4465-a3d4-fd97eaeb8705 .
+
+cssvrsc:b354d67b-9b98-447b-aafc-4c3116673b2e a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:b4ae8cf6c3010eac5434606441e7bb6a001d0ed7034ff64b1311b481df048991 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "Lightweight Directory Access Protocol (LDAP)"@en ;
+    dcat:distribution cssvrsc:8a6de83f-7805-4879-bde7-c7fc39a06787 .
+
+cssvrsc:b66c7c39-be7a-4aa4-87ee-e553891596d4 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:b79c7d7ad458099285efab0819df86bf33f868c6512e5b3b64ac2e605b705c12 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "SHACL, Shapes constraint language"@en ;
+    dcat:distribution cssvrsc:88ef723b-db44-4567-af4c-bfe1e6cfe0c2 .
+
+cssvrsc:b8135cadaf0612f1d8760b46c8111ca96c11abf0f8c6f5d2f4db3e364e178866 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "Xforms 2.0"@en ;
+    dcat:distribution cssvrsc:d75fd2cb-2621-4f76-bb37-cc54e56ee782 .
+
+cssvrsc:b8ed390470bf8ebbbf573f68a7e7bb80643b7e4ccad211857b531e53ec489616 a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:3a08a1d09270bc9b29481f881b3a21eb3360cc2e879906ae2ebad37df1a6800d ;
+    dct:title "XAdES Baseline Profile "@en ;
+    dcat:distribution cssvrsc:834b4d3b-6598-43a7-be24-ae6abaf00456 .
+
+cssvrsc:baa7200934577ac27c05830d6ed437d7dd40e9e6ea9b5152cbb1f444930b1955 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "Hypertext Markup Language v5 (HTML5)"@en ;
+    dcat:distribution cssvrsc:ef7c3af9-2f22-4e3d-aed2-217f35afd29c .
+
+cssvrsc:be0ae0ff-25e9-4fc8-9c40-8ff00b8960b5 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:be42c15832ab4d32f3581e93cde7ab0e77be66d93031df8ffeea54c6f563bb16 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "OWASP SAMM"@en ;
+    dcat:distribution cssvrsc:6daafa29-dbb5-4b0d-88c7-a10a3abcf12e .
+
+cssvrsc:c5c27bc1-67ed-4f07-ac39-559b1ce5e3d4 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:c7a3b5a8-6105-4f71-8e10-a83126af8ec7 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:c819fc80-d2e8-4a0b-9118-f3f90f5d9848 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:cfdd3609-70bf-4cb1-8daa-df4dd1696a58 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:d14819aa-1714-4f7e-b4bc-d68d72ec754b a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:d20e8aba-edfb-4477-9fef-d5fa4564e2cb a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:d2b8a6e7-3bed-42eb-a3c7-6fd9f72730a5 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:d3ddf753507c5d8f00ff0da81e4c5fc9a455cd5963a551bdd0162cee8275f21a a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "Hypertext Markup Language (HTML) v4.01"@en ;
+    dcat:distribution cssvrsc:d6dbb899-86ad-471d-bc8f-72576dc1ccf5 .
+
+cssvrsc:d494c31e-92d9-4b41-ae4b-c4d17c4c8e18 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:d5d426fadecd4bf723cb15532e2bb495aaaca594936ba8891258988920564c43 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Registered Organization Vocabulary (RegOrg)"@en ;
+    dcat:distribution cssvrsc:18b61db4-49ea-4775-84f9-de3120cddd12 .
+
+cssvrsc:d7dffc53ea55b3fab31ed77bd491c7d5cc9872e0749e9c05e4c29b06a834d3cf a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "PDF Advanced Electronic Signatures (PAdES) - ISO 14533-3:2017"@en ;
+    dcat:distribution cssvrsc:b0281eee-7711-4433-b5bd-e2f2f23b5bf5 .
+
+cssvrsc:dd3c03c70c338994d0cb5a38c92ea1920f2526959fa7fa1bcb1d6f4eb345374a a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Eurovoc"@en ;
+    dcat:distribution cssvrsc:e823fa70-166f-445d-80e0-a3ad97aebc2c .
+
+cssvrsc:df23408dc85e78d7b35b0c0528e9f46c23005f6cb081727136a5b6523e3eb86d a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "Web Services Description Language (WSDL)"@en ;
+    dcat:distribution cssvrsc:3f53bf82-493b-4b9f-852c-cd89341e8b87 .
+
+cssvrsc:e127eb11-b949-46a0-b4ba-55f9ccc69af6 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:e1e184bf4ad4649a9581a3fcda65ce0134719adfa020f44cbd42aeb1b4cac359 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "Internet Protocol version 4 (IPv4)"@en ;
+    dcat:distribution cssvrsc:5bac6456-8b6d-4416-9d8f-a5f8b9dab4e1 .
+
+cssvrsc:e291afbb-4428-4820-9daa-de3edc4af1ab a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:e2aaec66-3967-4449-9bf1-51d431476b84 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:e41213fb14c1adb9399c01ba2716777ad755f60c7900cc97cbd7d16bc774452c a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "File Transfer Protocol over Transport Layer Security (FTPS or FTP over TLS)"@en ;
+    dcat:distribution cssvrsc:82e4d439-c384-4e5a-9c1c-42783bdcf69b .
+
+cssvrsc:e438965c54bc7f78e6ede46f4d408abe398302a3b33e374a9ed4662b8b44df99 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "XML, Extensible Markup Language 1.1"@en ;
+    dcat:distribution cssvrsc:03a40889-2459-40f1-9743-6ef89beea792 .
+
+cssvrsc:e44fb027-6c24-46a6-a876-7127ef1a9bf7 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:e4940944a20f90dcd28ec5ccaa3bbd3cb74c15004568cc32968faeb0819a69a2 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "Asset Description Metadata Schema (ADMS)"@en ;
+    dcat:distribution cssvrsc:b4bc57ba-92a1-4f67-b5bd-edc4b891b79a .
+
+cssvrsc:e59684167f5a88a93aac3e265e607508aac43ba87ce9bc8c0b18f052b46cd27a a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Joint Photographic Experts Group (JPEG)"@en ;
+    dcat:distribution cssvrsc:15145487-9079-41f6-9207-55fcc20efe80 .
+
+cssvrsc:e65a4502-745a-4fe2-bf77-566141ec81e8 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:e83f9818-4d86-403b-821b-88de5420dd1f a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:eac80d18d00c07fc17567f3fa106420425e82feb933d55da39281d6cebc0b8fd a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "Extensible HyperText Markup Language (XHTML) v1.0"@en ;
+    dcat:distribution cssvrsc:e5b30730-7893-4f83-b0f8-bfd14f8b45e0 .
+
+cssvrsc:edb5639f5ea83e0523503d803f95c1667224564ae2d85eb9677bcce63e543567 a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:3a08a1d09270bc9b29481f881b3a21eb3360cc2e879906ae2ebad37df1a6800d ;
+    dct:title """Electronic Signatures and Infrastructures (ESI);
+PAdES Baseline Profile """@en ;
+    dcat:distribution cssvrsc:0678b6d5-1051-4164-9100-2ec5b55bf85f .
+
+cssvrsc:ef7a9880-0a79-48ed-b5b7-a44f164a6e7e a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:f02ea1d3690a89ddc570508919eb8bc2468493430ab03f24fd0d61998501e306 a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    dct:title "LegalDocML"@en ;
+    dcat:distribution cssvrsc:80f3b8d1-7cfa-4ef0-9b25-b90cd7701688 .
+
+cssvrsc:f036fc05-3390-4a7d-aaf0-c96f6a48cddd a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:f1157493-9c23-44ad-afea-21a54927845b a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:f2f2f35925cd025b8a049734cd1ad9c3343684abe4050795e84f86b36bece0c1 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "Simple Mail Transfer Protocol (SMTP)"@en ;
+    dcat:distribution cssvrsc:bd677625-90e1-4fdb-b950-df9c29424420 .
+
+cssvrsc:f39e0c3fe498a946e23682510bb840044afdc3d4163eb44397f2606d4a166183 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title " UTF-8, a transformation format of ISO 10646"@en ;
+    dcat:distribution cssvrsc:bdccff3f-27b1-4076-99a5-67aac12e9436 .
+
+cssvrsc:f4314f9cf9c8e1b1f57df755f3c11d9797e235f51e0f4bebf15035b1ac4a0074 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Core Public Service Vocabulary Application Profile (CPSV-AP) v2.2"@en ;
+    dcat:distribution cssvrsc:ad49d93e-cf01-46e7-a74c-644455c9c582 .
+
+cssvrsc:f499751f-8a00-4784-9430-d314ef64ba59 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:f4cd76a7-7aa5-4983-881e-230024ded85c a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:f767d020ee43c67231b43917368dda534385351e8a3a889673215664f608589c a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    dct:title "Service Metadata Publishing (SMP) Version 2.0"@en ;
+    dcat:distribution cssvrsc:c75c3e17-59d8-472d-9f36-cccb2a7d042b .
+
+cssvrsc:f77301f2-9917-41e0-a1ad-494fe30d4eda a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:f867186f-ce71-4de9-a146-6e23b63ce5db a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:fa1ca0429a628b89323bf5677343ada8ad700197ca9a3d467e79de87beda3149 a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Portable Document Format/A (PDF/A)"@en ;
+    dcat:distribution cssvrsc:77d39fde-80c0-4adf-ac3a-a683298bde75 .
+
+cssvrsc:fad45f15724c3fb6e9f0cb57ea4f78fd1459b48850b452df0409bee54654ac67 a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Open Document Format for Office Applications (ODF) v1.2"@en ;
+    dcat:distribution cssvrsc:ce0a4081-2684-47f3-8a4d-c0ddaa573f29 .
+
+cssvrsc:fd57cea9-7ac9-4fc7-844c-63f94c84b1c9 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:fe30c977-c22a-425f-b1c8-af36701b1a92 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:03695884-ce19-4911-9d5d-3351387167bc a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://tools.ietf.org/html/1035 "^^xsd:anyURI .
+
+cssvrsc:03a40889-2459-40f1-9743-6ef89beea792 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/2006/REC-xml11-20060816/"^^xsd:anyURI .
+
+cssvrsc:0678b6d5-1051-4164-9100-2ec5b55bf85f a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.etsi.org/deliver/etsi_ts/103100_103199/103172/02.02.02_60/ts_103172v020202p.pdf"^^xsd:anyURI .
+
+cssvrsc:0a1dfc5b-0d95-4d85-9cc3-0be63121f30d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.iso.org/standard/34342.html"^^xsd:anyURI .
+
+cssvrsc:0d32c0bc-4ceb-429f-bc62-ef0b6e762197 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.iso.org/standard/29581.html"^^xsd:anyURI .
+
+cssvrsc:0de2c20c-b97c-4ecf-9d76-84e10b102d23 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "nan"^^xsd:anyURI .
+
+cssvrsc:0fd95f75-11c9-4230-8c51-22c90a555fe6 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery+SMP+-+1.10"^^xsd:anyURI .
+
+cssvrsc:15145487-9079-41f6-9207-55fcc20efe80 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.iso.org/standard/18902.html"^^xsd:anyURI .
+
+cssvrsc:1819f787-117c-4d91-ae40-9d4522d05038 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.iso.org/standard/51502.html"^^xsd:anyURI .
+
+cssvrsc:18b61db4-49ea-4775-84f9-de3120cddd12 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://joinup.ec.europa.eu/solution/registered-organization-vocabulary"^^xsd:anyURI .
+
+cssvrsc:1b80c923-29ee-421e-9b61-9d69a4416421 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "http://www.uddi.org/pubs/uddi_v3.htm"^^xsd:anyURI .
+
+cssvrsc:1c879316-e69b-4f7a-90c9-a72bbcd2ca96 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/SVG11/"^^xsd:anyURI .
+
+cssvrsc:20d0012c-ce69-4c03-9435-f3569e2566fe a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "http://docs.oasis-open.org/wsbpel/2.0/OS/wsbpel-v2.0-OS.html"^^xsd:anyURI .
+
+cssvrsc:2cb2586e-a5a4-473c-8805-9a1a59fbfed0 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.ecma-international.org/publications/standards/Ecma-404.htm"^^xsd:anyURI .
+
+cssvrsc:3f53bf82-493b-4b9f-852c-cd89341e8b87 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/wsdl20/"^^xsd:anyURI .
+
+cssvrsc:405751f1-38f7-4d3e-982a-5fcad4d5f749 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/xmlschema11-1/ ; https://www.w3.org/TR/xmlschema11-2/ "^^xsd:anyURI .
+
+cssvrsc:4627b5e6-ba6c-4fef-9a1d-41077781f1f0 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/rdf11-primer/"^^xsd:anyURI .
+
+cssvrsc:47342025-50ea-4ef2-8b24-a67e4a67463b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "http://docs.oasis-open.org/security/saml/Post2.0/sstc-saml-tech-overview-2.0.html"^^xsd:anyURI .
+
+cssvrsc:48460a9f-436c-40f7-a8fc-902e867c88b1 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://tools.ietf.org/html/rfc6480"^^xsd:anyURI .
+
+cssvrsc:4ae56129-c4e7-4a96-b43f-e2f36c1bfa43 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/vocab-dcat-2/"^^xsd:anyURI .
+
+cssvrsc:4ae7c552-070c-4c81-8d70-0de415d647a5 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "nan"^^xsd:anyURI .
+
+cssvrsc:4e8cf11a-07af-4449-a07f-729a5b97c01c a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.rd-alliance.org/node/752/outputs"^^xsd:anyURI .
+
+cssvrsc:532b113f-575d-4118-806d-08c892a43853 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/owl2-overview/"^^xsd:anyURI .
+
+cssvrsc:59774244-1b90-4cfa-b9c8-0a583387d99b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/release/200"^^xsd:anyURI .
+
+cssvrsc:5bac6456-8b6d-4416-9d8f-a5f8b9dab4e1 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://tools.ietf.org/html/rfc791"^^xsd:anyURI .
+
+cssvrsc:5cfcb296-53d3-46fb-8f31-8239cac71a80 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://tools.ietf.org/html/rfc959"^^xsd:anyURI .
+
+cssvrsc:5e1f8ad8-0e56-47c4-9701-68648bfc7d89 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://tools.ietf.org/html/rfc2460"^^xsd:anyURI .
+
+cssvrsc:60a66b0d-3477-47f7-924c-a112d8ae2b30 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=wss"^^xsd:anyURI .
+
+cssvrsc:64ad97f1-1adf-4465-a3d4-fd97eaeb8705 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.iso.org/standard/56025.html"^^xsd:anyURI .
+
+cssvrsc:6daafa29-dbb5-4b0d-88c7-a10a3abcf12e a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://github.com/OWASP/samm/blob/master/Supporting%20Resources/v2.0/OWASP-SAMM-v2.0.pdf"^^xsd:anyURI .
+
+cssvrsc:726965ce-a413-4018-8aed-a73fcc3a171e a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.rd-alliance.org/group/rdawds-publishing-data-services-wg/outcomes/rdawds-publishing-data-services-wg-recommendations"^^xsd:anyURI .
+
+cssvrsc:7465db45-4d89-4e8a-adce-c842ed3e1bc5 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "nan"^^xsd:anyURI .
+
+cssvrsc:77d39fde-80c0-4adf-ac3a-a683298bde75 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL """https://www.iso.org/standard/38920.html
+https://www.iso.org/standard/50655.html"""^^xsd:anyURI .
+
+cssvrsc:80f3b8d1-7cfa-4ef0-9b25-b90cd7701688 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.iso.org/standard/56025.html"^^xsd:anyURI .
+
+cssvrsc:82e4d439-c384-4e5a-9c1c-42783bdcf69b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://tools.ietf.org/html/rfc4217"^^xsd:anyURI .
+
+cssvrsc:83221072-017e-4006-96c7-952a691e3b54 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://tools.ietf.org/html/rfc2616"^^xsd:anyURI .
+
+cssvrsc:834b4d3b-6598-43a7-be24-ae6abaf00456 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/XAdES/"^^xsd:anyURI .
+
+cssvrsc:88ef723b-db44-4567-af4c-bfe1e6cfe0c2 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/2017/REC-shacl-20170720/ "^^xsd:anyURI .
+
+cssvrsc:8a6de83f-7805-4879-bde7-c7fc39a06787 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://tools.ietf.org/html/rfc4511"^^xsd:anyURI .
+
+cssvrsc:8b74c2b4-1adb-4461-b23b-a70294fb930d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "nan"^^xsd:anyURI .
+
+cssvrsc:8d59897a-884e-46d0-ae1d-a54c50495019 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.iso.org/standard/56025.html"^^xsd:anyURI .
+
+cssvrsc:8ea4fea2-8628-48bb-b1fe-cb14998ea3cf a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"^^xsd:anyURI .
+
+cssvrsc:8ec8c6a7-ce99-4ec1-863c-ad6b940d304a a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://tools.ietf.org/html/rfc2045"^^xsd:anyURI .
+
+cssvrsc:92a2d3d9-5ba1-4b5c-9184-c937f372eebf a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/soap12-part0/"^^xsd:anyURI .
+
+cssvrsc:9c9a348f-4604-442a-9160-a2a85b9c2a78 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "http://docs.oasis-open.org/xacml/3.0/errata01/xacml-3.0-core-spec-errata01.html"^^xsd:anyURI .
+
+cssvrsc:a1698e29-9ce9-4dcf-8f97-7a801dba68d7 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.iso.org/standard/64756.html"^^xsd:anyURI .
+
+cssvrsc:a4ee400d-f676-48f8-a7b8-5b9c8d187da4 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://datatracker.ietf.org/doc/rfc8446/ "^^xsd:anyURI .
+
+cssvrsc:ad49d93e-cf01-46e7-a74c-644455c9c582 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-service-vocabulary-application-profile"^^xsd:anyURI .
+
+cssvrsc:b0281eee-7711-4433-b5bd-e2f2f23b5bf5 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.iso.org/standard/67937.html"^^xsd:anyURI .
+
+cssvrsc:b4bc57ba-92a1-4f67-b5bd-edc4b891b79a a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/vocab-adms/"^^xsd:anyURI .
+
+cssvrsc:b5c1640e-7ecb-4917-877d-9db829d105e1 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.etsi.org/deliver/etsi_ts/103100_103199/103173/02.02.01_60/ts_103173v020201p.pdf"^^xsd:anyURI .
+
+cssvrsc:b68ae894-4107-4fdc-8d2a-d49a16fb615b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/dwbp/"^^xsd:anyURI .
+
+cssvrsc:bafd8e75-b3e7-433e-baa0-d6d31a82d7bd a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://tools.ietf.org/html/rfc4180"^^xsd:anyURI .
+
+cssvrsc:bd677625-90e1-4fdb-b950-df9c29424420 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://tools.ietf.org/html/rfc5321"^^xsd:anyURI .
+
+cssvrsc:bdccff3f-27b1-4076-99a5-67aac12e9436 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://tools.ietf.org/html/rfc3629"^^xsd:anyURI .
+
+cssvrsc:c0d0880d-f427-4c1e-a0db-f85dc21be69c a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://tools.ietf.org/html/rfc2818"^^xsd:anyURI .
+
+cssvrsc:c0f5ad4a-1e8a-4c85-93d2-1f08a04e9a28 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://rd-alliance.org/system/files/rda-collections-recommendation_ref10112017.pdf "^^xsd:anyURI .
+
+cssvrsc:c1e407f2-6f72-4858-8b43-56813588b5eb a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://tools.ietf.org/html/rfc3161"^^xsd:anyURI .
+
+cssvrsc:c75c3e17-59d8-472d-9f36-cccb2a7d042b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://docs.oasis-open.org/bdxr/bdx-smp/v2.0/cs02/bdx-smp-v2.0-cs02.html"^^xsd:anyURI .
+
+cssvrsc:c8bce66c-0e09-492b-9fd4-6eae2ee486c9 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-location-vocabulary"^^xsd:anyURI .
+
+cssvrsc:cbc64d0a-63f5-47f8-b43b-45c038f4ac4c a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.etsi.org/deliver/etsi_ts/103100_103199/103174/02.02.01_60/ts_103174v020201p.pdf"^^xsd:anyURI .
+
+cssvrsc:ce0a4081-2684-47f3-8a4d-c0ddaa573f29 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.iso.org/standard/66363.html"^^xsd:anyURI .
+
+cssvrsc:d5656ec9-4472-41de-8ec2-f91a8ea1776c a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://tools.ietf.org/html/rfc5246"^^xsd:anyURI .
+
+cssvrsc:d664fba6-6bac-4cf1-b0cc-da8b84e501be a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "nan"^^xsd:anyURI .
+
+cssvrsc:d6dbb899-86ad-471d-bc8f-72576dc1ccf5 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/html401/"^^xsd:anyURI .
+
+cssvrsc:d75fd2cb-2621-4f76-bb37-cc54e56ee782 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/community/xformsusers/wiki/XForms_2.0"^^xsd:anyURI .
+
+cssvrsc:db41f207-5d72-433f-a8d2-7d29c64c4b3d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/2011/REC-CSS2-20110607/"^^xsd:anyURI .
+
+cssvrsc:dcae64c2-814e-4821-9994-58d032ab8a56 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "nan"^^xsd:anyURI .
+
+cssvrsc:e3f14bb3-635d-4049-851a-caca0f8d8445 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.rd-alliance.org/group/research-data-repository-interoperability-wg/outcomes/research-data-repository-0"^^xsd:anyURI .
+
+cssvrsc:e5b30730-7893-4f83-b0f8-bfd14f8b45e0 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/xhtml1/"^^xsd:anyURI .
+
+cssvrsc:e823fa70-166f-445d-80e0-a3ad97aebc2c a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://op.europa.eu/en/web/eu-vocabularies/th-dataset/-/resource/dataset/eurovoc?target=About"^^xsd:anyURI .
+
+cssvrsc:ecdc825e-852d-427b-ab64-94e51c7f646d a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127"^^xsd:anyURI .
+
+cssvrsc:ef7c3af9-2f22-4e3d-aed2-217f35afd29c a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/2014/REC-html5-20141028/"^^xsd:anyURI .
+
+cssvrsc:f268b349-f1df-4a67-9ef1-a3a182e9fcf7 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-public-organisation-vocabulary"^^xsd:anyURI .
+
+cssvrsc:fb4847d7-ec3b-4c26-85ea-b658e06b7bd7 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://xiph.org/ogg/doc/rfc3533.txt"^^xsd:anyURI .
+
+cssvrsc:3a08a1d09270bc9b29481f881b3a21eb3360cc2e879906ae2ebad37df1a6800d a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "ETSI (http://www.etsi.org/)"^^xsd:string .
+
+cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "OASIS (https://www.oasis-open.org/)"^^xsd:string .
+
+cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "IETF (https://www.ietf.org/)"^^xsd:string .
+
+cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "W3C (http://www.w3.org)"^^xsd:string .
+
+cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "Other SDO/SSO"^^xsd:string .
+

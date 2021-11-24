@@ -1,0 +1,612 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:0d7447abf3a2b12870d7896e5d615cef016ae9b22e8b84355ce7497bed3c5c79 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:f2f2f35925cd025b8a049734cd1ad9c3343684abe4050795e84f86b36bece0c1 ;
+    camss:assessmentDate "2020-07-31"^^xsd:date ;
+    camss:submissionDate "2020-07-31"^^xsd:date ;
+    camss:toolVersion tool:3.1.0 ;
+    cav:contextualisedBy sc:44119b394568e5be30da9b83729a3cba1f19eadd53373d5cc6ff6a73fd3e26e8 ;
+    cav:resultsIn camssa:09ab2e7d-537b-48c1-85f0-08c18c3155ff,
+        camssa:1493c5fe-0d68-4834-9877-593480e262dc,
+        camssa:1f9996e1-ce9a-409b-8f27-000e1055b99a,
+        camssa:268ccbac-998f-4c68-8044-90de81244b3d,
+        camssa:2eff411e-5541-4395-9bf2-69ebeaca1e5b,
+        camssa:30695b6d-36ac-4add-b2ae-707ebe707a24,
+        camssa:3cc20453-a3dd-4e49-bacd-bc47075a0c2a,
+        camssa:4514c4f7-7567-4855-8187-9b7bb92d9f03,
+        camssa:53877fb3-6df2-4a8c-8192-e868f853467b,
+        camssa:56a15408-959a-473c-9cb5-af2992b03fed,
+        camssa:58a43907-39db-48b0-a8e5-c09cd1d5ef8b,
+        camssa:598fb96b-99c4-43df-bf7b-a87097732a5f,
+        camssa:5a6fb1f4-33fc-43bd-8e94-2d66182cc101,
+        camssa:5b96208e-96a3-40dc-aebf-e98b8321e872,
+        camssa:5bb86700-ad65-4433-98e1-7a96537f34e1,
+        camssa:75343210-c7cc-466c-9dec-4fd983093c4d,
+        camssa:7cd30b64-1459-404f-9970-9766ad87b76e,
+        camssa:80f553ee-1553-4e5b-96b1-9723c0092504,
+        camssa:814755c1-1549-4128-b2a6-ec0d59fb51b3,
+        camssa:82691516-09dd-405e-ba1c-910bf4fbdbc7,
+        camssa:89b720a3-6ad6-4885-a5bf-529e35d3119f,
+        camssa:9452e756-efe4-43be-81d1-6473ebb5bf76,
+        camssa:988b61e3-676b-42b6-b960-a230d186add7,
+        camssa:99b1415d-3626-46de-9890-740276b3331d,
+        camssa:a58f53a2-d323-4c3e-affa-ef1d74270710,
+        camssa:aa0484ac-8f2b-4db9-8796-d1f5d5e07c2c,
+        camssa:b001690d-9935-40fa-bb68-e20c958da30f,
+        camssa:b81f45f4-83a7-4d05-93d2-9217f0cf70a4,
+        camssa:be43e21f-6de8-41c9-9cdd-785946df44ab,
+        camssa:c0c3210b-ed93-4adb-b1e4-275771f4e17c,
+        camssa:c1494575-a6ff-46e9-b7d7-2db0c9553742,
+        camssa:c3477e4a-a7ad-41f1-a925-83c9cfb620c6,
+        camssa:d596a4eb-4830-4e28-9e40-ff88cb3f6f5e,
+        camssa:da1a9d7a-3b90-4a46-b7e3-985c7292b77e,
+        camssa:e5d8b205-c614-4c62-b4c3-7822ed1314fa,
+        camssa:e99157bc-e1b8-4d5d-a202-b6eadbd42a74,
+        camssa:edec8210-9348-4d32-bd5d-b36453ed9c00,
+        camssa:f25ba840-ae13-4b01-9014-daf20ce2967d,
+        camssa:fa3bdbbf-9e11-4539-9708-4a728be30f48 ;
+    cav:status status:Complete ;
+    dct:title "Simple Mail Transfer Protocol (SMTP)"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:03887fc3-9bd1-4836-b17e-568178ace565 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:03887fc3-9bd1-4836-b17e-568178ace565 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:077fafef-85fd-450f-bf6e-75cf6b410e2d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5df7a9f6081c945a22f500aa0ba2c452b8b9cd9497bd643ac76c39d34a18c319 ;
+    cav:value "0"^^xsd:int .
+
+camssa:09ab2e7d-537b-48c1-85f0-08c18c3155ff a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of SMTP is not related to organisational interoperability.  Therefore, this criterion is not applicable to the specification. 
+
+SMTP IETF reference:
+https://tools.ietf.org/html/rfc5321"""@en ;
+    cav:refersTo camssa:851b6fdb-818c-414c-97c7-f7c185da4c61 .
+
+camssa:09ae37a0-5118-4d02-8a64-cf59c8bf240f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8eb17470327d32b3bb523447fe72ee5c60ddb03e81dae318b485fbe05f48a844 ;
+    cav:value "1"^^xsd:int .
+
+camssa:0a136aed-090b-4ab7-b1e1-49e7010709ad a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ba46c76c10ad769a23ce4a9a34cb4d96a00407d5fc14ad1c791a870be7563c2b ;
+    cav:value "1"^^xsd:int .
+
+camssa:1493c5fe-0d68-4834-9877-593480e262dc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of SMTP is not related to the publication of public data as linked open data. Therefore, this criterion is not applicable to this specification.
+
+SMTP IETF reference:
+https://tools.ietf.org/html/rfc5321
+
+Five star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html"""@en ;
+    cav:refersTo camssa:ad9b01bc-1fde-4e9a-8e35-4b25622c109e .
+
+camssa:1cc57477-9917-4a63-b377-7d87f98aead9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2cedd44f05183dae5548108bdeace2c092b84c7c5d89c475b0741ddae7fc7b2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:1efa5321-d317-4e6c-9551-0c49e7796f7f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fef5941bab92019b7692f8544de94715a42ed9ff76d89cbec4fb6f9821611925 ;
+    cav:value "2"^^xsd:int .
+
+camssa:1f9996e1-ce9a-409b-8f27-000e1055b99a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specifications is not related to the availability of interfaces with internal information systems. Therefore, this criterion is not applicable to this specification.
+
+SMTP IETF reference:
+https://tools.ietf.org/html/rfc5321"""@en ;
+    cav:refersTo camssa:8fbd6689-d257-4a4d-91cf-8200deaa1753 .
+
+camssa:2163b9d5-6f73-4cc3-8a1c-151a4595cae0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:226bd022-02f8-4e39-bc39-933d59393975 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1cd71a7b6d54631ba58cc8b0655a443d696f49ec74a0f4cccc871de7789d6a60 ;
+    cav:value "1"^^xsd:int .
+
+camssa:268ccbac-998f-4c68-8044-90de81244b3d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SMTP defines a standardised method and elements for the electronic mail exchange that can be reused broadly across sectors, but it is not defining a data model. 
+
+SMTP IETF reference:
+https://tools.ietf.org/html/rfc5321"""@en ;
+    cav:refersTo camssa:dcbb14f7-3fd2-42d6-b3c0-f94446bd47a9 .
+
+camssa:2a70aaa7-c7f0-43aa-a2c8-d71815d0b653 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0185bc58be91b261a9225566147d865e42c927e7e2e239d1324518302b449058 ;
+    cav:value "1"^^xsd:int .
+
+camssa:2eff411e-5541-4395-9bf2-69ebeaca1e5b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specifications is not related to the comprehensibility of administrative information, data or services. Therefore, this criterion is not applicable to this specification.
+
+SMTP IETF reference:
+https://tools.ietf.org/html/rfc5321"""@en ;
+    cav:refersTo camssa:61228c5c-0333-4810-92eb-3bad7fec8f40 .
+
+camssa:30695b6d-36ac-4add-b2ae-707ebe707a24 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is no conformity test coming from the IETF. However, there are several free online and offline tools to test an SMTP implementation which will prove its compliment. For example, Online Domain Tool, which can test an SMTP mail server implementation.
+
+Online Domain Tool:
+http://mail-server-test.online-domain-tools.com/"""@en ;
+    cav:refersTo camssa:89054104-cc0e-4f99-871e-4f017326a589 .
+
+camssa:3145714d-7052-4e85-8fd3-8c9cfc6f953d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-838030847fa0adf54939e3feaac0ac2510924c54035e1cb671b223b54b02fd70 ;
+    cav:value "1"^^xsd:int .
+
+camssa:3cc20453-a3dd-4e49-bacd-bc47075a0c2a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Simple Mail Transfer Protocol (SMTP) was defined in 1982 as a method for e-mail transmission. Nowadays, it is still widely used between mail servers for e-mail messages exchange. Therefore, it is demonstrated that SMTP has enough maturity for its use in the development of products and services.
+
+SMTP IETF reference:
+https://tools.ietf.org/html/rfc5321"""@en ;
+    cav:refersTo camssa:84809ee4-10c8-4027-90ec-84eef802ba51 .
+
+camssa:410e734c-11a9-42d9-8678-1b4ea52165eb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c265ca0c56e0f29a34039d496ba707b5486ccf6d445f9f058c19b4ece977861f ;
+    cav:value "2"^^xsd:int .
+
+camssa:436a6243-1fa5-4450-b0a9-3a3346fe2786 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39ffef052c31580b50b418f3991e9de7db4dc182fcf96f5a447d7f8e09560612 ;
+    cav:value "1"^^xsd:int .
+
+camssa:4514c4f7-7567-4855-8187-9b7bb92d9f03 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of SMTP is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+SMTP IETF reference:
+https://tools.ietf.org/html/rfc5321"""@en ;
+    cav:refersTo camssa:410e734c-11a9-42d9-8678-1b4ea52165eb .
+
+camssa:46bfad7c-8bd6-4136-9191-0e38fe5be692 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-21276471c1781fa2c7e78c8e03851e076b840beddbf5cf64f53b54b8855a01b8 ;
+    cav:value "0"^^xsd:int .
+
+camssa:4a01485f-a61c-40d0-9621-ff0ee597a321 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d129862d6c9639e131c7d5eef095af16ef94d57ec0d52f955bf909ba8ec688e8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:53877fb3-6df2-4a8c-8192-e868f853467b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SMTP is included in 3 national catalogues of recommended specifications. They belong to the Netherlands, Spain and Sweden.
+The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets. 
+
+National catalogue the Netherlands: 
+https://www.forumstandaardisatie.nl/open-standaarden
+
+National catalogue Spain:
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Interoperabilidad_Inicio/pae_Normas_tecnicas_de_interoperabilidad.html#CATALOGOESTANDARES
+
+National catalogue Sweden:
+https://www.avropa.se/globalassets/dokument/open-it-standards.pdf?_t_id=1B2M2Y8AsgTpgAmY7PhCfg%3d%3d&_t_q=standards&_t_tags=language%3asv%2csiteid%3a95d515a5-23ca-47bf-87a9-07b10d8ac360&_t_ip=178.139.72.144&_t_hit.id=Avropa_Core_Models_Media_GenericMedia/_ff07d720-f793-44b0-994d-27e79b28f6bd&_t_hit.pos=7
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:09ae37a0-5118-4d02-8a64-cf59c8bf240f .
+
+camssa:56a15408-959a-473c-9cb5-af2992b03fed a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SMTP is a business domain agnostic specification that can be reused in a cross-domain way.
+
+SMTP IETF reference:
+https://tools.ietf.org/html/rfc5321"""@en ;
+    cav:refersTo camssa:f95d4e43-f934-441c-af9a-f8028e3beff3 .
+
+camssa:58a43907-39db-48b0-a8e5-c09cd1d5ef8b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is available for its use and implementation at the IETF's webpage defined in several RFCs. 
+
+SMTP IETF reference:
+https://tools.ietf.org/html/rfc5321
+
+SMTP Service Extension for Delivery Status Notifications:
+https://tools.ietf.org/html/rfc3461"""@en ;
+    cav:refersTo camssa:1cc57477-9917-4a63-b377-7d87f98aead9 .
+
+camssa:598fb96b-99c4-43df-bf7b-a87097732a5f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SMTP is publicly available for implementation and use, and therefore for everyone to study, for free on IETF webpage.
+
+SMTP IETF reference:
+https://tools.ietf.org/html/rfc5321"""@en ;
+    cav:refersTo camssa:bd554bed-635c-4a3f-adf7-6ad7eb66ecb5 .
+
+camssa:5a6fb1f4-33fc-43bd-8e94-2d66182cc101 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "No evidence has been found of the specification being included in a formal interoperability agreement between organisations involved in the European public services provision."@en ;
+    cav:refersTo camssa:077fafef-85fd-450f-bf6e-75cf6b410e2d .
+
+camssa:5b96208e-96a3-40dc-aebf-e98b8321e872 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SMTP can be implemented in any platform and it is independent of any technology.
+
+SMTP IETF reference:
+https://tools.ietf.org/html/rfc5321"""@en ;
+    cav:refersTo camssa:dd8e4fc5-6c77-4b06-a5ca-ff272cb2c401 .
+
+camssa:5bb86700-ad65-4433-98e1-7a96537f34e1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 8 Member States' catalogues of recommended specifications. These Member States are Croatia, France, Germany, Greece, Malta, the Netherlands, Spain and Sweden. 
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:3145714d-7052-4e85-8fd3-8c9cfc6f953d .
+
+camssa:5dc3bba1-eb76-494c-9ba7-c6f6d649d557 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-624bc49501d58649e27cae4fb89fb5a56844685e54c5ce1625633894f8f752e1 ;
+    cav:value "2"^^xsd:int .
+
+camssa:6100fdec-1bf7-4294-bc12-fde174309448 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b21a3eb972a2119979bc57368474efa809e8dd16cede48bc492e8b64da1abee9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:61228c5c-0333-4810-92eb-3bad7fec8f40 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7ab883158b51681c78f90d1a00bbb3840aa2c86e309a9abd1ad6e6eedb5e2735 ;
+    cav:value "2"^^xsd:int .
+
+camssa:75343210-c7cc-466c-9dec-4fd983093c4d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF has a formal review and approval so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications.
+Each distinct version of an Internet standards-related specification is published as part of the "Request for Comments" (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications.
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's "Internet-Drafts" directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.
+
+Standard process IETF:
+https://www.ietf.org/standards/process/ 
+
+Internet Best Current Practices IETF:
+https://tools.ietf.org/html/rfc2026"""@en ;
+    cav:refersTo camssa:2163b9d5-6f73-4cc3-8a1c-151a4595cae0 .
+
+camssa:76dec549-e01d-419a-a635-098f9763860a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-02333ef99fbcb4f101a106bcf97c9559888756b085b1729b7c2ac9626dc4bc63 ;
+    cav:value "2"^^xsd:int .
+
+camssa:7cd30b64-1459-404f-9970-9766ad87b76e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After searching in the different official European websites, a cross-border project, called SML software, has been found that uses SMTP as his email server configuration. The specification is included as the implementation of the eDelivery BDXL, which as the CEF eDelivery, aims to help the European public administrations to exchange digital data across borders fostering a common digital environment. The reference to the usage of SMTP can be found in the Quick Start Guide v2.2.
+
+Main page project:
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/SML
+
+CEF eDelivery BDXL:
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/eDelivery+BDXL+1.6
+
+Quick Start Guide v2.2:
+https://ec.europa.eu/cefdigital/wiki/download/attachments/82773331/BDMSL%20Quick%20Start%20Guide%20v2.2.pdf?version=1&modificationDate=1582037177388&api=v2"""@en ;
+    cav:refersTo camssa:436a6243-1fa5-4450-b0a9-3a3346fe2786 .
+
+camssa:80005a95-8472-4efa-b737-58918a316fd2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc5bd9a7d0b2acc7f246522414fd5f5d579b977180bb04fa60a545cb35dae90f ;
+    cav:value "1"^^xsd:int .
+
+camssa:80f553ee-1553-4e5b-96b1-9723c0092504 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are existing documentation and studies assessing the effectiveness and efficiency of SMTP. The document referenced below is a practical study assessing the e-mail communication thought SMTP. This document studies how SMTP makes e-mail communication more efficient.
+
+Practical study SMTP:
+https://www.researchgate.net/publication/227859099_A_Practical_Study_of_E-mail_Communication_through_SMTP"""@en ;
+    cav:refersTo camssa:80005a95-8472-4efa-b737-58918a316fd2 .
+
+camssa:814755c1-1549-4128-b2a6-ec0d59fb51b3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """At the time of elaborating this assessment, this specification is not included in any EIRA ABB in the current European Library Of Specifications (ELIS)._x000D_
+_x000D_
+EIRA Library of Interoperability Specifications (ELIS):_x000D_
+https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
+    cav:refersTo camssa:855afbba-8c53-4bb9-ae79-92691d7001b4 .
+
+camssa:82691516-09dd-405e-ba1c-910bf4fbdbc7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specifications is not related to the visibility of administrative information, data or services. Therefore, this criterion is not applicable to this specification.
+
+SMTP IETF reference:
+https://tools.ietf.org/html/rfc5321"""@en ;
+    cav:refersTo camssa:9091517f-2820-49bc-818b-e3b976e16c77 .
+
+camssa:84809ee4-10c8-4027-90ec-84eef802ba51 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6bedf555bffb837990b9eb353447fa116eb9d2384770b1dd3de46d3c5901d4f4 ;
+    cav:value "1"^^xsd:int .
+
+camssa:851b6fdb-818c-414c-97c7-f7c185da4c61 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6d48464387e608d3022bd07338cd3859acfb0f84139186a979ef3b96baa51086 ;
+    cav:value "2"^^xsd:int .
+
+camssa:855afbba-8c53-4bb9-ae79-92691d7001b4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d28663fdb5deb361d5ad773d7b7ece3c6acf8d2eb7a1222a60cb08df4c93aac ;
+    cav:value "0"^^xsd:int .
+
+camssa:86ac1d3a-2303-4614-96fd-1d597fb562c4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a18abe4842e04b608025fd70e54c3db5c2a10130c0dab0495479e7d5effb55d ;
+    cav:value "0"^^xsd:int .
+
+camssa:89054104-cc0e-4f99-871e-4f017326a589 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c967c90bfc7bc13426924eca012de349ae51d4e8f652fe64bfbec2cccc8c8146 ;
+    cav:value "1"^^xsd:int .
+
+camssa:89b720a3-6ad6-4885-a5bf-529e35d3119f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of SMTP is not related to e-accessibility. Therefore, this criterion is considered not applicable specification. 
+
+SMTP IETF reference:
+https://tools.ietf.org/html/rfc5321"""@en ;
+    cav:refersTo camssa:1efa5321-d317-4e6c-9551-0c49e7796f7f .
+
+camssa:8fbd6689-d257-4a4d-91cf-8200deaa1753 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-33ea90f5c1bb01d4398c57d03a25934dc5722d5ddbc98a43911ea4fb302ec54c ;
+    cav:value "2"^^xsd:int .
+
+camssa:9091517f-2820-49bc-818b-e3b976e16c77 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19598487b8ba278c3438dcfd74b74d9aad51beac08c53dbf40bf108ed09e72b2 ;
+    cav:value "2"^^xsd:int .
+
+camssa:9452e756-efe4-43be-81d1-6473ebb5bf76 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SMTP allows the connection between email servers providing the digitization of public administration communications and reduces the non-digital communication flows. So it reduces the administrative burden.
+
+SMTP IETF reference:
+https://tools.ietf.org/html/rfc5321"""@en ;
+    cav:refersTo camssa:9cf7b922-9394-468b-8e0e-d95f844cf80e .
+
+camssa:988b61e3-676b-42b6-b960-a230d186add7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of SMTP within any European catalogue of standards. However, a variant of SMTP that is safer in terms of network security, DANE for SMTP, is included in the European list of ICT Standards for e-procurement.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en """@en ;
+    cav:refersTo camssa:86ac1d3a-2303-4614-96fd-1d597fb562c4 .
+
+camssa:99b1415d-3626-46de-9890-740276b3331d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of SMTP is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to the specification. 
+
+SMTP IETF reference:
+https://tools.ietf.org/html/rfc5321"""@en ;
+    cav:refersTo camssa:a0382ac4-23e3-4146-8217-890c475d2be2 .
+
+camssa:9cf7b922-9394-468b-8e0e-d95f844cf80e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ffdbd22af1ff3c1ebb100043d062a3df160007af761caf0a8c9f50f02e609c9e ;
+    cav:value "1"^^xsd:int .
+
+camssa:a0382ac4-23e3-4146-8217-890c475d2be2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4ac14cafe608f1dbe7e48f96edd7574c55f0aac2c2e99ede0418dae7225977af ;
+    cav:value "2"^^xsd:int .
+
+camssa:a58f53a2-d323-4c3e-affa-ef1d74270710 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The implementation of SMTP does not hamper the scalability and interoperability of systems. For example, SMTP allows to synchronize a Smarthost server which helps to synchronize any number of machines so you don't have to configure SMTP on each machine. The Smarthost server will manage all email accounts.
+
+Advantages and disadvantages of an SMTP:
+https://blog.mailrelay.com/en/2017/04/25/what-is-smtp-advantages-and-disadvantages-of-an-smtp-server """@en ;
+    cav:refersTo camssa:0a136aed-090b-4ab7-b1e1-49e7010709ad .
+
+camssa:aa0484ac-8f2b-4db9-8796-d1f5d5e07c2c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SMTP is maintained and developed by IETF which is an international community developing open standards. 
+
+Developer community IETF:
+https://www.ietf.org/about/"""@en ;
+    cav:refersTo camssa:6100fdec-1bf7-4294-bc12-fde174309448 .
+
+camssa:ad9b01bc-1fde-4e9a-8e35-4b25622c109e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-138786a6e7517e10b94e83ec3b3e7ac79b4c49dcbeaef8d8e993c8df0d173529 ;
+    cav:value "2"^^xsd:int .
+
+camssa:b001690d-9935-40fa-bb68-e20c958da30f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of SMTP is not related to the implementation of the once-only principle. Therefore, this criterion does not apply to this specification. 
+
+SMTP IETF reference:
+https://tools.ietf.org/html/rfc5321"""@en ;
+    cav:refersTo camssa:5dc3bba1-eb76-494c-9ba7-c6f6d649d557 .
+
+camssa:b45750bf-21bf-4f71-ae6b-d452cf76b50b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ab64f97c21ac8b84c75d6f52a89765b1c8fd1856d2d2060926d05e94f306a88d ;
+    cav:value "0"^^xsd:int .
+
+camssa:b81f45f4-83a7-4d05-93d2-9217f0cf70a4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SMTP can be found for free along within the European Collaborative Platform, Joinup.
+
+SMTP solution in Joinup platform:
+https://joinup.ec.europa.eu/solution/simple-mail-transfer-protocol/distribution/simple-mail-transfer-protocol"""@en ;
+    cav:refersTo camssa:e597b778-20a2-4099-b0ac-03602f26e778 .
+
+camssa:b89d5934-a50c-4102-9abe-df833df56e1d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:bca1b212-8188-4419-a791-b1d3cfb92415 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8a34a40e5bc5436b3530d898d75a57cf0488591887b31a5169499fe78952d84c ;
+    cav:value "2"^^xsd:int .
+
+camssa:bd554bed-635c-4a3f-adf7-6ad7eb66ecb5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-31bf959b6c4a983ec70eb87e0177f2739575ebce42c7c3b95b9012ef3bfe673e ;
+    cav:value "1"^^xsd:int .
+
+camssa:be43e21f-6de8-41c9-9cdd-785946df44ab a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of SMTP is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification. 
+
+SMTP IETF reference:
+https://tools.ietf.org/html/rfc5321"""@en ;
+    cav:refersTo camssa:bca1b212-8188-4419-a791-b1d3cfb92415 .
+
+camssa:c0c3210b-ed93-4adb-b1e4-275771f4e17c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Although SMTP is widely used in the context of e-mail services, having enough maturity and market acceptance for the development of products and services, no evidence has been found that SMTP contributes to the creation of innovative solutions. Despite the findings on many implementations using SMTP, it is not possible to determine the implication of the specification on the creation of innovative solutions."@en ;
+    cav:refersTo camssa:46bfad7c-8bd6-4136-9191-0e38fe5be692 .
+
+camssa:c1494575-a6ff-46e9-b7d7-2db0c9553742 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, SMTP is a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. SMTP is therefore licensed on a royalty-free basis.
+
+Intellectual Property Rights in IETF:
+https://tools.ietf.org/html/rfc3668"""@en ;
+    cav:refersTo camssa:226bd022-02f8-4e39-bc39-933d59393975 .
+
+camssa:c3477e4a-a7ad-41f1-a925-83c9cfb620c6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of SMTP is not related to the publication of public data as open data. Therefore, this criterion is not applicable to this specification.
+
+SMTP IETF reference:
+https://tools.ietf.org/html/rfc5321
+
+Five star open data:
+https://5stardata.info/en/"""@en ;
+    cav:refersTo camssa:76dec549-e01d-419a-a635-098f9763860a .
+
+camssa:d596a4eb-4830-4e28-9e40-ff88cb3f6f5e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """8 Member States are recommending SMTP in their ICT National Catalogues. These Member States are Croatia, France, Germany, Greece, Malta, the Netherlands, Spain and Sweden. 
+ 
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:2a70aaa7-c7f0-43aa-a2c8-d71815d0b653 .
+
+camssa:d880a598-d39c-4238-a891-172712ef95e4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "0"^^xsd:int .
+
+camssa:da1a9d7a-3b90-4a46-b7e3-985c7292b77e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification is a protocol focused on the transaction of data involved in the email exchange. Even though it is related to data exchange, and it is aimed to ensure the delivery within email services, it is not involved in data portability amongst systems fostering the European Public Services."@en ;
+    cav:refersTo camssa:b45750bf-21bf-4f71-ae6b-d452cf76b50b .
+
+camssa:dcbb14f7-3fd2-42d6-b3c0-f94446bd47a9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8954ddabf37f4899562b9ea4c8f0bbf204f3e48c9203043bc231f368092396a2 ;
+    cav:value "0"^^xsd:int .
+
+camssa:dd8e4fc5-6c77-4b06-a5ca-ff272cb2c401 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5879b43fc249f0098f3ed687235f432f71bf0c11bd3aa95e063dfdacd64606c8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e597b778-20a2-4099-b0ac-03602f26e778 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17bea234285e6e633e4e21105358610ad5f5f0eaaf82f4bd50cb64ec11538984 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e5d8b205-c614-4c62-b4c3-7822ed1314fa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SMTP is widely used and implemented in the context of email services, therefore, this fact demonstrates the market acceptance of the specification. Moreover, there are several implementations of the specifications that support the market acceptance of SMTP.
+
+SMTP Transactional Email Solutions 2020:
+https://formedbythemosthigh.com/2020/01/27/email-verification-25/"""@en ;
+    cav:refersTo camssa:4a01485f-a61c-40d0-9621-ff0ee597a321 .
+
+camssa:e99157bc-e1b8-4d5d-a202-b6eadbd42a74 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """This specification fosters the data exchange between citizens and businesses, and public administrations. Moreover, it is capable to transport mail across multiple networks. But the main problem of this protocol is his inherent insecurity. SMTP does not include any security feature, therefore, it could be feasible for even fairly casual users to negotiate directly with receiving and relaying SMTP servers and create messages that will trick a naive recipient into believing that they came from somewhere else.
+
+However, there are secured solutions that use SMTP as his core to make an email protocol secure, for example, SMTPS (Simple Mail Transfer Protocol Secure) or STARTLS-SMTP. But they could be analysed as different specifications.
+
+SMTP IETF reference:
+https://tools.ietf.org/html/rfc5321
+
+Secure SMTP over Transport Layer Security:
+https://tools.ietf.org/html/rfc3207"""@en ;
+    cav:refersTo camssa:d880a598-d39c-4238-a891-172712ef95e4 .
+
+camssa:edec8210-9348-4d32-bd5d-b36453ed9c00 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the assessments performed by CAMSS and the list of specifications identified by the MSP Multi-stakeholder-platform, no assessment verifying the compliance of the specification with the European standardisation regulation has been found._x000D_
+_x000D_
+ICT technical specifications:_x000D_
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en """@en ;
+    cav:refersTo camssa:feee57f4-4e19-45d7-b02e-3e07413be053 .
+
+camssa:eff74573-7915-4beb-98f1-fddb27a0e5b3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a81c4b8658f57e819297eb0b7977407f8d814c6fe749c74a8ac497277ca7d9d8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f25ba840-ae13-4b01-9014-daf20ce2967d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The IETF is a consensus-based group, and authority to act on behalf of the community requires a high degree of consensus and the continued consent of the community. The process of creating an Internet Standard is straightforward: a specification undergoes a period of development and several iterations of review by the Internet community and revision based upon experience, is adopted as a Standard by the appropriate body and is published. In practice, the process is more complicated, due to (1) the difficulty of creating specifications of high technical quality; (2) the need to consider the interests of all the affected parties; (3) the importance of establishing widespread community consensus; and (4) the difficulty of evaluating the utility of a particular specification for the Internet community. The goals of the Internet Standards Process are:
+- Technical excellence;
+- prior implementation and testing;
+- clear, concise, and easily understood documentation;
+- openness and fairness; and 
+- timeliness.
+The goal of technical competence, the requirement for prior implementation and testing, and the need to allow all interested parties to comment all require significant time and effort. The Internet Standards Process is intended to balance these conflicting goals. The process is believed to be as short and simple as possible without sacrificing technical excellence, thorough testing before adoption of a standard, or openness and fairness.
+
+Standard process IETF:
+https://www.ietf.org/standards/process/"""@en ;
+    cav:refersTo camssa:b89d5934-a50c-4102-9abe-df833df56e1d .
+
+camssa:f95d4e43-f934-441c-af9a-f8028e3beff3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3aec34db3622bf18675b8216d0fc1d68fc7eeb501b4f3326402038a3ceb95c21 ;
+    cav:value "1"^^xsd:int .
+
+camssa:fa3bdbbf-9e11-4539-9708-4a728be30f48 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, SMTP is a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. SMTP is therefore licensed on a royalty-free basis.
+No IPR disclosures have been submitted directly on the SMTP specification (RFC 5321)
+
+Intellectual Property Rights in IETF:
+https://tools.ietf.org/html/rfc3668"""@en ;
+    cav:refersTo camssa:eff74573-7915-4beb-98f1-fddb27a0e5b3 .
+
+camssa:feee57f4-4e19-45d7-b02e-3e07413be053 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-53abe85b1365f86aa58a25566e54e082ea2d70ee8d9fbaf09ccab20af30f3332 ;
+    cav:value "0"^^xsd:int .
+

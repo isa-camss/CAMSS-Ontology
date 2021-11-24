@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:8d4a582d8a713997ae5cefbb6fca284d18f07e22a2b0e0913c92d3120bbf4e17 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    dct:title "Data Collections API"@en ;
+    dcat:distribution cssvrsc:c0f5ad4a-1e8a-4c85-93d2-1f08a04e9a28 .
+
+cssvrsc:e83f9818-4d86-403b-821b-88de5420dd1f a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:c0f5ad4a-1e8a-4c85-93d2-1f08a04e9a28 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://rd-alliance.org/system/files/rda-collections-recommendation_ref10112017.pdf "^^xsd:anyURI .
+
+cssvrsc:35d317bf5ee5f9080ac657da5237232cdba5d984a0bfbd88af91fbb8c659d506 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "Other SDO/SSO"^^xsd:string .
+

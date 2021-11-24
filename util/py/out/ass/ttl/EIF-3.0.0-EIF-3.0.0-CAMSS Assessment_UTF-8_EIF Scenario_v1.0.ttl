@@ -1,0 +1,512 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:0c0aa96c6e7f4602740b181eaa5ae0f9842944c7324e6d257934a43d185a0c93 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:f39e0c3fe498a946e23682510bb840044afdc3d4163eb44397f2606d4a166183 ;
+    camss:assessmentDate "1101-01-01"^^xsd:date ;
+    camss:submissionDate "2019-11-30"^^xsd:date ;
+    camss:toolVersion tool:3.0.0 ;
+    cav:contextualisedBy sc:3aadede3d912d8ab2b20d40221274da3af8f9ee9c14f0e1226f9217a3e8953e4 ;
+    cav:resultsIn camssa:03f05351-2187-4d3a-9c16-a8406d0751e2,
+        camssa:0919d8d8-5460-40fe-8547-ebbbd69882ca,
+        camssa:1785acaa-2dbe-4bb9-afc9-7a0150af2689,
+        camssa:1fa8223b-e94e-42af-8acf-077a00aa6397,
+        camssa:361afd7f-2bb7-492b-95bf-30836c88a9fe,
+        camssa:3e762497-9f61-4525-81b9-373e6383d8d5,
+        camssa:3f5e4db7-6c05-4318-a638-1aaa9bb4edc3,
+        camssa:456a7192-db53-4193-a6bc-94885e8212d3,
+        camssa:4aa80190-37e6-4d87-950c-debd1cc440a8,
+        camssa:4f488635-fd6c-455f-a07d-88b54d103f11,
+        camssa:5344bf61-166c-489f-ab49-59f55983b960,
+        camssa:61eed63e-fb50-496c-9e27-47f8d87bee60,
+        camssa:649da561-fefa-4ec5-ac0a-b12e35b765a3,
+        camssa:84fcb202-b6c7-485e-8c7e-b84c032d7a5c,
+        camssa:872ae835-92ff-42b0-858d-5db34a1f8133,
+        camssa:8f8a53bf-5e78-4f9d-b776-2d610de8953a,
+        camssa:917f8ecb-990e-40b3-a433-b2b2ed587585,
+        camssa:961ff015-ab12-4f28-8ade-14c947533e67,
+        camssa:975239b9-9094-46bd-ab43-a42e83bc0f67,
+        camssa:98b3a58f-7af9-4725-ab72-963479fc44c1,
+        camssa:9d37557e-fe6b-405e-a780-5db14e5b2d2b,
+        camssa:afabbfa4-5a33-43db-8367-04ac952638be,
+        camssa:b0836d54-7956-4584-94d2-5fe05960b8a8,
+        camssa:b9870c74-57e8-4c36-b68c-a28a2b4ff0b1,
+        camssa:bc27315b-7fb2-4bfa-ae14-14abcb7376e2,
+        camssa:cbd976e1-1788-4832-bd77-5baa135a334a,
+        camssa:cbf76b7a-d929-4c5d-b307-3e21169bc136,
+        camssa:db580c27-34a7-4e66-96d8-be177a8aa5c6,
+        camssa:e42d3a90-8cab-4d11-9b73-87f18a2a32c3,
+        camssa:e8d8061b-cfd5-47ba-ae83-c607f7164420,
+        camssa:f84eb64c-0a55-4418-95f7-d6a5e8a9787e,
+        camssa:fa6bb7e9-8dd7-418d-a013-a56472a43752,
+        camssa:fb747e09-f396-43d6-940b-e1d41f4b6f44,
+        camssa:fc86e5dd-edbb-4573-968c-c26297e7ba5d,
+        camssa:fd41f56d-fcb0-446e-afac-45fe1e2153d4,
+        camssa:fdb6f807-4e74-45b1-b7e1-eb75db0309ae,
+        camssa:feafbe06-de9e-494e-a357-63ceb1bedbda ;
+    cav:status status:Complete ;
+    dct:title "UTF-8, a transformation format of ISO 10646"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:6fad951b-5ef6-4f30-9b5d-a67e8faff3e2 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:034cd8d6-fab6-4c73-b435-d984749b339f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a64b01ca9e737c550b205ba3a8a46b3fcfc9447b648ba8ef15d62d3ada26141 ;
+    cav:value "2"^^xsd:int .
+
+camssa:03f05351-2187-4d3a-9c16-a8406d0751e2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """UTF-8 was launched at the beginning of 2000s, and currently is one of the three encoding methods recognised by Unicode or web languages. It demonstrates the maturity and the market acceptance for development of products and services.
+See: 
+https://w3techs.com/technologies/overview/character_encoding/all """@en ;
+    cav:refersTo camssa:4d2b7eda-7e5b-423d-83c5-f4da5ac778ff .
+
+camssa:0919d8d8-5460-40fe-8547-ebbbd69882ca a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The IETF is a consensus-based group, and authority to act on behalf of the community requires a high degree of consensus and the continued consent of the community. The process of creating and Internet Standard is straightforward: a specification undergoes a period of development and several iterations of review by the Internet community and revision based upon experience, is adopted as a Standard by the appropriate body... and is published. In practice, the process is more complicated, due to (1) the difficulty of creating specifications of high technical quality; (2) the need to consider the interests of all of the affected parties; (3) the importance of establishing widespread community consensus; and (4) the difficulty of evaluating the utility of a particular specification for the Internet community. The goals of the Internet Standards Process are:
+- Technical excellence;
+- prior implementation and testing;
+- clear, concise, and easily understood documentation;
+- openness and fairness; and 
+- timeliness.
+The goal of technical competence, the requirement for prior implementation and testing, and the need to allow all interested parties to comment all require significant time and effort. The Internet Standards Process is intended to balance these conflicting goals. The process is believed to be as short and simple as possible without sacrificing technical excellence, thorough testing before adoption of a standard, or openness and fairness.
+
+See:
+https://www.ietf.org/standards/process/"""@en ;
+    cav:refersTo camssa:86d6d6b2-4d11-4e8e-a7d6-cf341175b94f .
+
+camssa:108e202e-3f6c-4020-b78c-90eaa2087654 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6ec33e201b803a1cc0150c0da8dc42b2a0f1029cf31e7a2c0fc81d1d8336ef36 ;
+    cav:value "1"^^xsd:int .
+
+camssa:1785acaa-2dbe-4bb9-afc9-7a0150af2689 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """UTF-8 is included in the catalogue of recommended specifications of 10 Member States.
+
+See CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standard"""@en ;
+    cav:refersTo camssa:1f981b5b-dc0e-46ee-a680-ca8cc2f975ba .
+
+camssa:18b78bf7-ea53-4d15-950b-f9e83ad7722c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4017a1ae4d077fbb3847280a1c20b41bf00c32d65fc9beaa2bea8cce550ac463 ;
+    cav:value "1"^^xsd:int .
+
+camssa:1ccb8ed7-5658-4bc6-94d0-7bd99eb83165 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f41cca0d171e6f64dbc2bdeae9fbc87f2ea51ac00185b22114d59ab8a06e78d0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:1de6975d-84c9-4176-b9d6-398238b0a5c2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0c9dd43038136296b52f50e05f9d6eef39f7b8018517224007990b15be2eb19e ;
+    cav:value "1"^^xsd:int .
+
+camssa:1f981b5b-dc0e-46ee-a680-ca8cc2f975ba a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3671439b412291ce208a0ade6313c64aeb2942059c7543ca39322c56458bcf96 ;
+    cav:value "1"^^xsd:int .
+
+camssa:1fa8223b-e94e-42af-8acf-077a00aa6397 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "By allowing the encoding of data and information through the different information systems and the internet, UTF-8 fosters the visibility of administration services and eases the decision-making of public administrations. "@en ;
+    cav:refersTo camssa:32c5986b-169f-4a2b-aac1-8366681f7e63 .
+
+camssa:2b649fff-5d7a-4206-9d5a-bc0c7785e9ae a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cf1de0bf03a8ee372af0deddf9ef5c4609f5a7bb9c7e001c89d887c6789eaf56 ;
+    cav:value "1"^^xsd:int .
+
+camssa:2cc2f9cb-213c-4408-a274-a547bbd3b839 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-73a8058bec757a2fdb0f8513c2f11841e982cbef76c3be82af67707c294da8b8 ;
+    cav:value "2"^^xsd:int .
+
+camssa:2dbe10a4-0670-4059-b7c6-fd033304c193 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1d35b341bcafc21377ae6ac358b9dc087e8ad32870012c2743e49e4566440f41 ;
+    cav:value "2"^^xsd:int .
+
+camssa:32c5986b-169f-4a2b-aac1-8366681f7e63 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-105c699a138c27ab9a1af9174253cd7488b278f700acdbb1bdbcc3e0b9c5ec3d ;
+    cav:value "1"^^xsd:int .
+
+camssa:361afd7f-2bb7-492b-95bf-30836c88a9fe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """UTF-8 is publicly available for implementation and use, and therefore for everyone to study, for free on IETF's webpage.
+
+See:
+https://tools.ietf.org/html/rfc3629   """@en ;
+    cav:refersTo camssa:da58ef03-7bde-48f9-adf9-99b46e9774b8 .
+
+camssa:3e762497-9f61-4525-81b9-373e6383d8d5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """RDF N-Triples is a lined-based plain text format that performs encoding RDF graphs, this encoding is carried out by using UTF-8. As RDF is the main technology used to publish Linked Open Data (LOD), therefore, the specification could help to the publication of data as LOD. 
+However, N-Triples presents a tedious process if the purpose is encode big amounts of data. 
+See: 
+https://www.w3.org/TR/n-triples/"""@en ;
+    cav:refersTo camssa:6a6a0127-3a03-4aa2-b9d0-78f214db46fc .
+
+camssa:3f5e4db7-6c05-4318-a638-1aaa9bb4edc3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """UTF-8 is maintained by IETF which is an international community developing open standards.
+
+See:
+https://www.ietf.org/about/"""@en ;
+    cav:refersTo camssa:e13a11d1-323b-467d-92c1-649cc21ac6da .
+
+camssa:4515ad97-cdac-4f1c-a8dd-28d9470bd4eb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-83d21357ecad07668ab7f2010aefed3cebb92dab384eeae6eb7aa77def06cfc3 ;
+    cav:value "2"^^xsd:int .
+
+camssa:456a7192-db53-4193-a6bc-94885e8212d3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of UTF-8 is not related to long term preservation of electronic records. Therefore this criterion is considered not applicable to this specification."@en ;
+    cav:refersTo camssa:4515ad97-cdac-4f1c-a8dd-28d9470bd4eb .
+
+camssa:4aa80190-37e6-4d87-950c-debd1cc440a8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are existing validation tools for UTF-8. 
+See: 
+https://github.com/digital-preservation/utf8-validator"""@en ;
+    cav:refersTo camssa:73be60a1-0fa4-483b-9686-b972f1394040 .
+
+camssa:4ac64d5a-ec28-47ab-9493-25de89e31e81 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-41c6fd2dadb03cc64aad82cfa14f545c084f1a955a3ab7a61aab416a138c5dce ;
+    cav:value "1"^^xsd:int .
+
+camssa:4d2b7eda-7e5b-423d-83c5-f4da5ac778ff a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a67ecbc29e70e62b18dba3ae4f8d1f91d5b3196777dbf8b58c6713cd517eb768 ;
+    cav:value "1"^^xsd:int .
+
+camssa:4f488635-fd6c-455f-a07d-88b54d103f11 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "UTF-8 is a sector agnostic specification which means that can be used in any business domain requiring data encoding. "@en ;
+    cav:refersTo camssa:4ac64d5a-ec28-47ab-9493-25de89e31e81 .
+
+camssa:5344bf61-166c-489f-ab49-59f55983b960 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """UTF-8 is included in 2 national catalogues of recommended specifications, concretely of the Netherlands and Sweden. The National Interoperability Framework (NIF) of these Member States is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:d2a25246-a425-4a4f-b0f0-bfd3ba744a4e .
+
+camssa:5cb80972-ea4a-44a7-a968-c99507fad7da a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ef096f898c938883daab1b22e784cfaf985b5e5c855e170ecf6eab6f37b01b50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:6008b40d-9d93-4b91-8668-d0330a79eca7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-58010a47630ff9ea23336bf3fc558deff59905e0292551fcabc95740082cb378 ;
+    cav:value "0"^^xsd:int .
+
+camssa:61eed63e-fb50-496c-9e27-47f8d87bee60 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """UTF-8 supports many languages and can accommodate pages and forms in different cases including a mixture of these languages. The fact of allowing encoding with several languages allows the data consumption by the different linguistic groups that form the EU. Therefore,  UTF-8 fosters the delivery of European multilingual services.
+See: 
+https://www.w3.org/International/questions/qa-choosing-encodings.en """@en ;
+    cav:refersTo camssa:97344e70-83e0-4132-859c-adf157d7ee62 .
+
+camssa:633d710f-faed-4e52-85c4-38186c6b4df7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a1eafd9c95081eeabe19f0511239b88139f02f95e2349049eeea058a89c80f49 ;
+    cav:value "1"^^xsd:int .
+
+camssa:649da561-fefa-4ec5-ac0a-b12e35b765a3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The data and information encoding is a key point in data exchange and use. In addition, the adoption of the specification as an encoding format fosters the data portability and reuse of information between administrations.
+"""@en ;
+    cav:refersTo camssa:108e202e-3f6c-4020-b78c-90eaa2087654 .
+
+camssa:6a6a0127-3a03-4aa2-b9d0-78f214db46fc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b6ba3f2f556446c68c55833e72b217be87ad5f0dd07744e2c39c6070aff6c10f ;
+    cav:value "1"^^xsd:int .
+
+camssa:6fad951b-5ef6-4f30-9b5d-a67e8faff3e2 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:718bf73a-01d8-43b5-b6cc-b0b741667766 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b4f0d1b7f1d41c70797fa200c6fc73ac01f2f1659319e5cb1cebe8f5e79c1fcb ;
+    cav:value "1"^^xsd:int .
+
+camssa:72dd6245-3a8d-477d-8a60-90692857979c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-01e6c1ce016de128117697d51a8fdaebb57c1f50343c081dfd72e2fbc56733a8 ;
+    cav:value "2"^^xsd:int .
+
+camssa:73be60a1-0fa4-483b-9686-b972f1394040 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-093c1e09f5a65e4cba0247dcab5a8f4854f3e512db336b1855b9a4c48d3659e0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:73f2057b-5596-4559-b37b-bb5fc7f67dcf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "1"^^xsd:int .
+
+camssa:76b41cc9-4027-442b-bd00-92b4c2bb54a6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-450e8a1f4cffbbf3de202e37bd642f098174559028df90ccc657473a6086bc0b ;
+    cav:value "1"^^xsd:int .
+
+camssa:781810e5-9fd6-4353-97d4-501f0e7c5b65 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:84fcb202-b6c7-485e-8c7e-b84c032d7a5c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "UTF-8 is a format involved in data exchange as a key point by encoding data. Facilitating the digital data exchange, the specification helps to avoid the non-digital documentation exchange reducing the administrative burden. UTF-8 eases the digital data exchange between administration and stakeholders, therefore, it is a mean for the reduction of administrative burden."@en ;
+    cav:refersTo camssa:c8d770a0-f994-473d-9dc1-7ade6116f4ab .
+
+camssa:85ac0042-58a1-4936-83d8-5a2c04afdd97 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a0101cb11c30c1bbf94adb74479472f2a40c53ccc4b442180fece91506c20a9d ;
+    cav:value "0"^^xsd:int .
+
+camssa:86d6d6b2-4d11-4e8e-a7d6-cf341175b94f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:872ae835-92ff-42b0-858d-5db34a1f8133 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After being evaluated compliant with the regulation on standardisation 1025/2012, UTF-8 has been identified by Commission Implementing Decision. During the evaluation process, all the Member States are invited to share their doubts. The positive evaluation of UTF-8 and its identification is considered an interoperability agreement.
+
+See:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
+    cav:refersTo camssa:f098aaa1-7a9c-474b-ba97-e2ee83464a36 .
+
+camssa:88896781-6001-4282-b603-adf27de9ea96 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e370a4af17e89cbb70bb5079082a1e21cdee85435c8fc30b12a8987f18db367f ;
+    cav:value "1"^^xsd:int .
+
+camssa:8f8a53bf-5e78-4f9d-b776-2d610de8953a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of UTF-8 is not related to the implementation of the once-only principle. Therefore this criterion is not applicable specification."@en ;
+    cav:refersTo camssa:72dd6245-3a8d-477d-8a60-90692857979c .
+
+camssa:917f8ecb-990e-40b3-a433-b2b2ed587585 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "UTF-8 is not defining a cross-sector reusable data model. The purpose of the specification is to define a schema for encoding data."@en ;
+    cav:refersTo camssa:85ac0042-58a1-4936-83d8-5a2c04afdd97 .
+
+camssa:961ff015-ab12-4f28-8ade-14c947533e67 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF has a formal review and approval so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications.
+
+Each distinct version of an Internet standards-related specification is published as part of the "Request for Comments" (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications.
+
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's "Internet-Drafts" directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.
+
+See:
+https://www.ietf.org/standards/process/ 
+https://tools.ietf.org/html/rfc2026"""@en ;
+    cav:refersTo camssa:781810e5-9fd6-4353-97d4-501f0e7c5b65 .
+
+camssa:97344e70-83e0-4132-859c-adf157d7ee62 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19c639047dab46befb5839503733c8f1e7ed8278f788a089d11d2caee84a8f7c ;
+    cav:value "1"^^xsd:int .
+
+camssa:975239b9-9094-46bd-ab43-a42e83bc0f67 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of UTF-8 is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:2dbe10a4-0670-4059-b7c6-fd033304c193 .
+
+camssa:98b3a58f-7af9-4725-ab72-963479fc44c1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """RDF N-Triples is a lined-based plain text format that performs encoding RDF graphs, this encoding is carried out by using UTF-8. As RDF is the main technology used to publish Linked Open Data (LOD), therefore, the specification could help to the publication of data as LOD. 
+However, N-Triples presents a tedious process if the purpose is encode big amounts of data. 
+See: 
+https://www.w3.org/TR/n-triples/"""@en ;
+    cav:refersTo camssa:76b41cc9-4027-442b-bd00-92b4c2bb54a6 .
+
+camssa:9d37557e-fe6b-405e-a780-5db14e5b2d2b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, UTF-8 is a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. DNS is therefore licensed on a royalty-free basis.
+
+See:
+https://tools.ietf.org/html/rfc3629                                                                                                                                                                                                                                 https://trustee.ietf.org"""@en ;
+    cav:refersTo camssa:5cb80972-ea4a-44a7-a968-c99507fad7da .
+
+camssa:a27e6934-92fb-4b9b-92f6-1c1afb1383ab a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b45c8f7e446b1343c6b6961290d2106768aa43c1f123f5e436d0255c003abb50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:afabbfa4-5a33-43db-8367-04ac952638be a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "UTF-8 is independent of any specification and can be implemented without dependencies with technologies or platforms. "@en ;
+    cav:refersTo camssa:d7dcfa6d-dd6a-41fc-8247-bf6397fb303f .
+
+camssa:b0836d54-7956-4584-94d2-5fe05960b8a8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After being evaluated compliant with the regulation on standardisation 1025/2012, UTF-8 has been identified by Commission Implementing Decision and included in the European list of ICT Standards for e-procurement.
+
+See: 
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en """@en ;
+    cav:refersTo camssa:1de6975d-84c9-4176-b9d6-398238b0a5c2 .
+
+camssa:b9870c74-57e8-4c36-b68c-a28a2b4ff0b1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "At the moment of performing the assessment, UTF-8 is widely adopted in environments developing and implementing ICT solutions including innovative solutions. "@en ;
+    cav:refersTo camssa:2b649fff-5d7a-4206-9d5a-bc0c7785e9ae .
+
+camssa:bc27315b-7fb2-4bfa-ae14-14abcb7376e2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of UTF-8 is not related to e-accessibility. Therefore this criterion is not applicable specification. "@en ;
+    cav:refersTo camssa:034cd8d6-fab6-4c73-b435-d984749b339f .
+
+camssa:c77197c0-78f2-426e-ac71-68f542dd04e8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e9e0cf4a339c837607828404dd0e9b360d643528fcc1df488a95ca67166acea3 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c8d770a0-f994-473d-9dc1-7ade6116f4ab a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39e7870e79b2999a8b61c97f0c356312b88174320d6464fce5639e57ec0de011 ;
+    cav:value "1"^^xsd:int .
+
+camssa:cbd976e1-1788-4832-bd77-5baa135a334a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "There are no evidences of existing studies or documentation assessing the standard or specification in terms of effectiveness and efficiency to justify the criterion."@en ;
+    cav:refersTo camssa:6008b40d-9d93-4b91-8668-d0330a79eca7 .
+
+camssa:cbf76b7a-d929-4c5d-b307-3e21169bc136 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """UTF-8 is publicly available for implementation and use for free on IETF's webpage.
+
+See:
+https://tools.ietf.org/html/rfc3629             """@en ;
+    cav:refersTo camssa:a27e6934-92fb-4b9b-92f6-1c1afb1383ab .
+
+camssa:d2a25246-a425-4a4f-b0f0-bfd3ba744a4e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d7be9f0dd52944e6c25f5469c86355a42ae446838bd9759b4986d21f7db4814b ;
+    cav:value "1"^^xsd:int .
+
+camssa:d7dcfa6d-dd6a-41fc-8247-bf6397fb303f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e8c3529a6146f0b0d269112be717ba4e9c5979ea4f43f57d217c0f998d26ce17 ;
+    cav:value "1"^^xsd:int .
+
+camssa:da58ef03-7bde-48f9-adf9-99b46e9774b8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4a006ad6785e066d16c13daf48a60ee43ec33d1de1b06613c8e656ccf330a6d5 ;
+    cav:value "1"^^xsd:int .
+
+camssa:db580c27-34a7-4e66-96d8-be177a8aa5c6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As an encoding specification it is being highly used by public administrations in order to encode data and services.  
+An example of its use is ESCO, the vocabulary generated regarding the standardisation of the skills, competences, qualifications, and occupations at European level. 
+See: 
+https://ec.europa.eu/esco/api/doc/esco_api_doc.html"""@en ;
+    cav:refersTo camssa:633d710f-faed-4e52-85c4-38186c6b4df7 .
+
+camssa:e13a11d1-323b-467d-92c1-649cc21ac6da a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0229101dfe08cbe58da1e454363d30a8178a2e120466c8db23965488cae5c8b1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e36d3a0b-cb9a-4f08-acf4-2c4982a7062f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1435ad894742693c2b99e329ef12399cd411ed6900f49b9658fd2231de3f201a ;
+    cav:value "1"^^xsd:int .
+
+camssa:e42d3a90-8cab-4d11-9b73-87f18a2a32c3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "As a specification used to encode a wide range of resources, it eases the codification of interfaces ensuring its availability, therefore, UTF-8 helps to ensure the availability of internal information systems from public administrations."@en ;
+    cav:refersTo camssa:1ccb8ed7-5658-4bc6-94d0-7bd99eb83165 .
+
+camssa:e5465b77-bf30-4b05-91fb-95458fa69b6a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5839144ecfb6c41a2c3cf5c1e86a6b3ad7a9e3ec9c4efa5650a6e7b9e3586335 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e8d8061b-cfd5-47ba-ae83-c607f7164420 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After being evaluated compliant with the regulation on standardisation 1025/2012, UTF-8 has been identified by Commission Implementing Decision.
+
+See:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
+    cav:refersTo camssa:c77197c0-78f2-426e-ac71-68f542dd04e8 .
+
+camssa:f098aaa1-7a9c-474b-ba97-e2ee83464a36 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-396b6535162f7bba7733ebcc30d2e467321ce07cd8e48b86ab8201acf27031f9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f84eb64c-0a55-4418-95f7-d6a5e8a9787e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of UTF-8 is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:2cc2f9cb-213c-4408-a274-a547bbd3b839 .
+
+camssa:fa6bb7e9-8dd7-418d-a013-a56472a43752 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """UTF-8 is recommended by 10 Member States.
+
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards    """@en ;
+    cav:refersTo camssa:718bf73a-01d8-43b5-b6cc-b0b741667766 .
+
+camssa:fb747e09-f396-43d6-940b-e1d41f4b6f44 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification is an element with high relevance in the data and information exchange. UTF-8 as a specification to encoding data ensures that files, web applications and systems can be read by both parts implied in the communication ensuring the reliability of transferred data. Therefore, UTF-8 eases the trustworthy data exchange between administration and stakeholders. "@en ;
+    cav:refersTo camssa:73f2057b-5596-4559-b37b-bb5fc7f67dcf .
+
+camssa:fc86e5dd-edbb-4573-968c-c26297e7ba5d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As all the IETF specifications, UTF-8 is licensed on a Royalty-free basis according to the documents “Rights Contributors Provide to the IETF Trust” and ”IETF Trust's Legal Provisions Relating to IETF Documents”
+See: 
+https://tools.ietf.org/html/rfc3629    
+https://trustee.ietf.org/ """@en ;
+    cav:refersTo camssa:88896781-6001-4282-b603-adf27de9ea96 .
+
+camssa:fd41f56d-fcb0-446e-afac-45fe1e2153d4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "UTF-8 does not hamper the scalability of systems, but the implementation of the specification is proportionate to users' needs. The specification is a variable-width encoding character set which allows avoiding the overhead of byte growth. Moreover, due to the wide sample of alphabetic scripts that can be encoded by means of UTF-8 and its high adoption avoids the interoperability hampering. "@en ;
+    cav:refersTo camssa:e36d3a0b-cb9a-4f08-acf4-2c4982a7062f .
+
+camssa:fdb6f807-4e74-45b1-b7e1-eb75db0309ae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """UTF-8 is included in within the Belgian Interoperability Framework's website in order ease its implementation and use. 
+See:
+https://www.belgif.be/en/specifications"""@en ;
+    cav:refersTo camssa:18b78bf7-ea53-4d15-950b-f9e83ad7722c .
+
+camssa:feafbe06-de9e-494e-a357-63ceb1bedbda a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """UTF-8 is already associated to an EIRA ABB in the European Library Of Specifications (ELIS). More specifically, UTF-8 can define the interoperability aspects of the "Data" ABB of the EIRA Semantic View.
+
+See: 
+https://joinup.ec.europa.eu/solution/elis/distribution/eliscataloguev100betaxlsx
+"""@en ;
+    cav:refersTo camssa:e5465b77-bf30-4b05-91fb-95458fa69b6a .
+

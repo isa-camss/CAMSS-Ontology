@@ -1,0 +1,644 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:490448e2345ff99740c611df1ca66842ae2ca40af883ba43e62f1e4c339ecefb a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:2b19b02e89f8f608dc453aa425b9d9812db638e70d8def98abd150136ee79185 ;
+    camss:assessmentDate "2021-04-30"^^xsd:date ;
+    camss:submissionDate "2021-04-30"^^xsd:date ;
+    camss:toolVersion tool:3.1.0 ;
+    cav:contextualisedBy sc:44119b394568e5be30da9b83729a3cba1f19eadd53373d5cc6ff6a73fd3e26e8 ;
+    cav:resultsIn camssa:0680ab67-3bf7-4b36-bcf4-67478a007964,
+        camssa:12c6d521-3743-4fd8-b5c0-92ec5257e839,
+        camssa:13172dae-2d95-428f-945f-3b14e7624fb6,
+        camssa:15c77068-49f2-4d5d-bec2-1930c52ddf5f,
+        camssa:19976f5e-97e6-4e4f-8959-9170d70a0629,
+        camssa:2168ac50-83f8-4882-ad7c-6fd427a2d03e,
+        camssa:2babe25d-0d42-4239-a724-e27756f12b15,
+        camssa:35e75a47-f707-4b31-a3e9-b872a99659b6,
+        camssa:376d24ac-c98f-4e45-a479-003c93ff474c,
+        camssa:3b55752a-e955-4eba-bd89-a4a0ccde8d80,
+        camssa:4a9360bb-72ac-45d6-b8c9-e3aac2d3e0e8,
+        camssa:4d968062-418f-4761-8aec-cf811c02adb3,
+        camssa:50f6d7a2-c92b-4215-83c2-7fe09c5064ad,
+        camssa:5271f63d-fc9d-473e-9158-28a48c1b31b6,
+        camssa:5297e3fa-c5a7-4bce-ba91-c31c90da65d7,
+        camssa:5457989f-379d-4639-8d2e-44e62e0ea110,
+        camssa:54c15411-67a8-4174-a050-dbafb25ffb4c,
+        camssa:57a21e43-9504-4491-8830-e473a66d1da9,
+        camssa:66e19229-a105-484a-9e7f-0841d49a5c16,
+        camssa:6ce864ac-7948-4840-8b31-d816571bb634,
+        camssa:78ca7834-eefb-4ebd-8863-24c9ddc0cdb3,
+        camssa:7e4efd60-429c-46ad-9cc6-17c330c23666,
+        camssa:7f3ee9ac-faca-4a48-84e0-678d565b0b76,
+        camssa:804b85d3-69fe-41c4-ba6e-c2e1d538869b,
+        camssa:891b2856-94aa-4606-975c-427ef7cba5eb,
+        camssa:91134bfa-8695-4168-b35f-9fb203c6e026,
+        camssa:914dfc56-6e86-41c9-be09-332a79f75309,
+        camssa:99c35a09-c119-406c-86a0-72f4a5b77737,
+        camssa:a0ae41ff-5a5b-4e29-99b3-3a99ea9097a0,
+        camssa:a9517e21-7e57-4910-9bf2-a4ae38f71c7e,
+        camssa:bc08ba1a-4c08-40ec-8af3-37d2c81b8c2b,
+        camssa:bc267055-302d-4845-a571-74c06341937e,
+        camssa:c4161c51-d923-404a-8acb-f38bb65a6bc3,
+        camssa:c8586ab7-5529-4b7f-ac4e-f6ba43a79839,
+        camssa:c9286cce-ac43-4a6f-8937-4fe58dfbb4e9,
+        camssa:cc58c89e-dd8d-491c-92b4-aab8d6f9d34b,
+        camssa:d8571e69-e3e6-4603-8513-3d8c9274c399,
+        camssa:ed565cc5-6fa4-42cb-9e6d-0d6a6ff2cefb,
+        camssa:fb926849-c98d-42b7-8fd2-836881c8be24 ;
+    cav:status status:Complete ;
+    dct:title "ODRL Vocabulary & Expression 2.2"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:92f9910d-4971-4d5a-a81c-cac5e9575a77 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:0680ab67-3bf7-4b36-bcf4-67478a007964 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By establishing a common method to model rules for accessing and consuming digital content, it can help administrations to describe intellectual property rights for their information fostering the digital readiness of the materials and services provided. In this sense, the specification can help to reuse and exchange valuable information and services increasing the digitalisation of administrations reducing the related administrative burden. 
+
+Moreover, it is a powerful tool for the development of legislation and its compliance with privacy aspects, as it demonstrates the SERAMIS project. 
+
+SERAMIS: 
+https://cordis.europa.eu/docs/projects/cnect/2/612052/080/deliverables/001-D55v4GDPR.pdf
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core """@en ;
+    cav:refersTo camssa:268ca290-5b22-4e69-a93e-c08c59cfad78 .
+
+camssa:0a101245-adc4-40f2-b515-888820ee7c85 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7ab883158b51681c78f90d1a00bbb3840aa2c86e309a9abd1ad6e6eedb5e2735 ;
+    cav:value "1"^^xsd:int .
+
+camssa:0abddec5-690c-405e-bb0b-139b6567c88a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ba46c76c10ad769a23ce4a9a34cb4d96a00407d5fc14ad1c791a870be7563c2b ;
+    cav:value "1"^^xsd:int .
+
+camssa:12c6d521-3743-4fd8-b5c0-92ec5257e839 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard, including a public review.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies """@en ;
+    cav:refersTo camssa:90fd73c5-8fd8-43e0-bff9-eabbda7e6145 .
+
+camssa:13172dae-2d95-428f-945f-3b14e7624fb6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The fact that the specification describes the model for being serialised and represented in a machine-readable format fosters the exchange and reuse of information and its translation to other languages different from the original in which was developed the initial resource. Therefore, ODRL can be useful to ensure the availability of access datasets licensing and the related services in different languages, easing the multilingualism of digital public services. 
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core"""@en ;
+    cav:refersTo camssa:57efc3ea-80af-4212-9125-34f501382745 .
+
+camssa:15c77068-49f2-4d5d-bec2-1930c52ddf5f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ODRL is maintained by W3C which is an international community developing open standards. 
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core"""@en ;
+    cav:refersTo camssa:e3cefbfb-6bd1-4d29-95d1-be26060f73bc .
+
+camssa:19976f5e-97e6-4e4f-8959-9170d70a0629 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """No Member State includes ODRL in their national catalogue with The National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards
+
+NIFO: 
+https://ec.europa.eu/isa2/solutions/nifo_en """@en ;
+    cav:refersTo camssa:88d1ff71-87e6-4058-a77f-e4a141e5c370 .
+
+camssa:1ef92829-6f54-4f15-87a0-25a40f50d163 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a18abe4842e04b608025fd70e54c3db5c2a10130c0dab0495479e7d5effb55d ;
+    cav:value "0"^^xsd:int .
+
+camssa:2092b664-38cf-4049-b2aa-3adea3e730f8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-624bc49501d58649e27cae4fb89fb5a56844685e54c5ce1625633894f8f752e1 ;
+    cav:value "0"^^xsd:int .
+
+camssa:2168ac50-83f8-4882-ad7c-6fd427a2d03e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By defining common vocabulary that can be expressed in a machine-readable format, the specification can foster the exchange of data between administrations and systems supporting its implementation. 
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core"""@en ;
+    cav:refersTo camssa:8c8110af-85c3-4d61-ab69-274e1e6005b3 .
+
+camssa:2674bd01-3abc-4e31-adf7-9d77c6ea8b4f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6d48464387e608d3022bd07338cd3859acfb0f84139186a979ef3b96baa51086 ;
+    cav:value "1"^^xsd:int .
+
+camssa:268ca290-5b22-4e69-a93e-c08c59cfad78 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ffdbd22af1ff3c1ebb100043d062a3df160007af761caf0a8c9f50f02e609c9e ;
+    cav:value "1"^^xsd:int .
+
+camssa:273783f0-6cc9-4fc3-9585-a1da239f9ed3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fef5941bab92019b7692f8544de94715a42ed9ff76d89cbec4fb6f9821611925 ;
+    cav:value "2"^^xsd:int .
+
+camssa:2babe25d-0d42-4239-a724-e27756f12b15 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Open Digital Rights Language (ODRL) is a policy expression language that provides a flexible and interoperable information model, vocabulary, and encoding mechanisms for representing statements about the usage of content and services. Therefore, by implementing it, administrations can benefit from the common framework for representing the statements of digital public services and the provision of clear information. This is a powerful usage not only for administration-citizens interaction but also to enhance the cooperation between administrations. 
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core"""@en ;
+    cav:refersTo camssa:c497d65b-3329-445c-babb-9059d1e5f60b .
+
+camssa:32351a37-c329-48c7-8e10-74edec89cca5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:35e75a47-f707-4b31-a3e9-b872a99659b6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specification is not related to fostering e-accessibility, therefore, this criterion is not applicable. 
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core"""@en ;
+    cav:refersTo camssa:273783f0-6cc9-4fc3-9585-a1da239f9ed3 .
+
+camssa:376d24ac-c98f-4e45-a479-003c93ff474c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The current version of the specification was released back in 2018 and has been tested with real implementors to demonstrate its usefullness and application. 
+
+However, it is a specifications that has room for improvements and it is one of the focus of the W3C working group. 
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core
+
+W3C Working Group Github space: 
+https://github.com/w3c/odrl"""@en ;
+    cav:refersTo camssa:d2328e9a-7cd6-49fe-b60d-02d862053322 .
+
+camssa:3afeda5d-bddd-4dfb-a551-c07d3481e1f9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-31bf959b6c4a983ec70eb87e0177f2739575ebce42c7c3b95b9012ef3bfe673e ;
+    cav:value "1"^^xsd:int .
+
+camssa:3b55752a-e955-4eba-bd89-a4a0ccde8d80 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including ODRL.
+
+W3C patent practice: 
+https://www.w3.org/TR/patent-practice#ref-AC """@en ;
+    cav:refersTo camssa:accf1103-25dd-451a-8a23-5c94f2381d0a .
+
+camssa:4458fa7e-7e5a-476c-b136-02ff84e4d0a2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39ffef052c31580b50b418f3991e9de7db4dc182fcf96f5a447d7f8e09560612 ;
+    cav:value "1"^^xsd:int .
+
+camssa:4a9360bb-72ac-45d6-b8c9-e3aac2d3e0e8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specification is not related to the long-term preservation of electronic records. Therefore, this criterion does not apply to this specification. 
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core"""@en ;
+    cav:refersTo camssa:b89825e5-52bd-41bd-9737-0b73e7ce852e .
+
+camssa:4c4c1a31-0158-4d20-9432-2e696ebec32d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d28663fdb5deb361d5ad773d7b7ece3c6acf8d2eb7a1222a60cb08df4c93aac ;
+    cav:value "1"^^xsd:int .
+
+camssa:4d968062-418f-4761-8aec-cf811c02adb3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ODRL has been selected for a European H2020 project called SPECIAL which aims to use ODRL to validate GDPR compliance of Legislation being produced. 
+
+Its use has also been implemented within SERAMIS a project which extended ODRL for the validation of GDPR aspects. 
+
+SERAMIS: 
+https://cordis.europa.eu/docs/projects/cnect/2/612052/080/deliverables/001-D55v4GDPR.pdf
+
+SPECIAL Deliverable: 
+https://www.specialprivacy.eu/images/documents/SPECIAL_D17_M17_V10.pdf
+
+Representing Activities associated with Processing of Personal Data and Consent using Semantic Web for GDPR Compliance: 
+https://harshp.com/research/publications/035-representing-activities-processing-personal-data-consent-semweb-gdpr-compliance#ref-agarwal_legislative_2018"""@en ;
+    cav:refersTo camssa:4458fa7e-7e5a-476c-b136-02ff84e4d0a2 .
+
+camssa:4db292fa-8515-4cd2-8773-d0aca8d940c9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-33ea90f5c1bb01d4398c57d03a25934dc5722d5ddbc98a43911ea4fb302ec54c ;
+    cav:value "1"^^xsd:int .
+
+camssa:50f6d7a2-c92b-4215-83c2-7fe09c5064ad a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification defines a flexible model, vocabulary and encoding mechanism for the representation of statements regarding de usage of datasets, services or other digital content. These mechanisms are reusable, extensible allowing their implementation independently of the business domain. 
+
+Moreover, the Working Group in charge of its development has the aim to promote ODRL V2.2 to existing and new sectors/industries.
+
+W3C ODRL Community:
+https://github.com/w3c/odrl"""@en ;
+    cav:refersTo camssa:99d13169-6cc3-4c86-b34e-a86737e3b906 .
+
+camssa:5271f63d-fc9d-473e-9158-28a48c1b31b6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Even though ODRL is a powerful tool for public administrations and the development of valuable public services for citizens and bussiness, the specification does not impact positively the implementation of the once-only principle. 
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core"""@en ;
+    cav:refersTo camssa:2092b664-38cf-4049-b2aa-3adea3e730f8 .
+
+camssa:5297e3fa-c5a7-4bce-ba91-c31c90da65d7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are several validators for ORDL that help to ensure that the implementation and description of datasets are conformant with the requirements set out in the specification.
+
+ODRL Implementation: 
+http://odrlapi.appspot.com/
+
+ODRL Implementation evaluator: 
+http://odrlapi.appspot.com/apidoc/index.html"""@en ;
+    cav:refersTo camssa:641973b4-c584-4be0-9ba8-5a0b9edff4ad .
+
+camssa:5457989f-379d-4639-8d2e-44e62e0ea110 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After checking the assessments performed by CAMSS and the list of specifications identified by the MSP Multi-stakeholder-platform, no assessment verifying the compliance of the specification with the European standardisation regulation has been found."@en ;
+    cav:refersTo camssa:dc811d3f-f636-4699-bf0a-a3cbfd2ea00e .
+
+camssa:54c15411-67a8-4174-a050-dbafb25ffb4c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ODRL is publicly available for implementation and study for free on W3C's webpage. 
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core"""@en ;
+    cav:refersTo camssa:3afeda5d-bddd-4dfb-a551-c07d3481e1f9 .
+
+camssa:57a21e43-9504-4491-8830-e473a66d1da9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """At the moment of performing the assessment, the specification is not mapped with any EIRA ABBs and therefore is not included in the ELIS v1.0.1. 
+
+However, it has been associated with interoperability agreements in all EIRA views and is being included in the on-gong version of the ELIS that will be released in May 2021. 
+
+ELIS Solution: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis 
+
+ELIS v1.0.1: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v101-0"""@en ;
+    cav:refersTo camssa:4c4c1a31-0158-4d20-9432-2e696ebec32d .
+
+camssa:57efc3ea-80af-4212-9125-34f501382745 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4ac14cafe608f1dbe7e48f96edd7574c55f0aac2c2e99ede0418dae7225977af ;
+    cav:value "1"^^xsd:int .
+
+camssa:641973b4-c584-4be0-9ba8-5a0b9edff4ad a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c967c90bfc7bc13426924eca012de349ae51d4e8f652fe64bfbec2cccc8c8146 ;
+    cav:value "1"^^xsd:int .
+
+camssa:66e19229-a105-484a-9e7f-0841d49a5c16 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
+
+W3C Process document:
+https://www.w3.org/2018/Process-20180201/#Policies """@en ;
+    cav:refersTo camssa:32351a37-c329-48c7-8e10-74edec89cca5 .
+
+camssa:6ce864ac-7948-4840-8b31-d816571bb634 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification defines a core vocabulary related to access rights for distributions or sources that can be reused across sectors and extended to cover specific needs for determined purposes.
+
+ODRL defines a model that allow the reuse and exchange of data fostering the interoperability between parties. 
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core """@en ;
+    cav:refersTo camssa:cf703d58-5004-48e7-8ad5-826af6f553d0 .
+
+camssa:6f7c536a-8e12-4456-90e5-d80f813e11a6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5879b43fc249f0098f3ed687235f432f71bf0c11bd3aa95e063dfdacd64606c8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:7730a655-4b35-4a3c-ae31-a820b50eda36 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a81c4b8658f57e819297eb0b7977407f8d814c6fe749c74a8ac497277ca7d9d8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:7881feba-2cdc-4eb7-829b-32a127059647 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5df7a9f6081c945a22f500aa0ba2c452b8b9cd9497bd643ac76c39d34a18c319 ;
+    cav:value "0"^^xsd:int .
+
+camssa:78ca7834-eefb-4ebd-8863-24c9ddc0cdb3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are existing documentation and studies proposing the usage of ODRL as an efficient method for representing more fine-grained access policies for Linked Data. 
+
+Also, there are studies that also checked the completion of the specification and its actual implementation and providing other formal semantics to improve the application of the specification and its purpose. 
+
+Defining Expressive Access Policies for Linked Data using the ODRL Ontology 2.0:
+https://www.researchgate.net/profile/Simon-Steyskal/publication/266652655_Defining_expressive_access_policies_for_linked_data_using_the_ODRL_ontology_20/links/565dc7a408aeafc2aac88d98/Defining-expressive-access-policies-for-linked-data-using-the-ODRL-ontology-20.pdf
+
+Formalising ODRL Semantics using Web Ontologies: 
+https://www.researchgate.net/publication/235902060_Formalising_ODRL_Semantics_using_Web_Ontologies"""@en ;
+    cav:refersTo camssa:a42f0357-c50e-45d9-9955-c3cd1d2fd092 .
+
+camssa:7e4efd60-429c-46ad-9cc6-17c330c23666 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By providing interoperable vocabulary, model and encoding mechanisms, the specification contributes to the standardisation of the statements and conditions of use for public services and improves the comprehensibility of administrative services. It is a valuable tool for the cross-border decision-making process. 
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core"""@en ;
+    cav:refersTo camssa:0a101245-adc4-40f2-b515-888820ee7c85 .
+
+camssa:7f3ee9ac-faca-4a48-84e0-678d565b0b76 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specification is not related to business process modelling, therefore this criterion does not apply to this specification. 
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core"""@en ;
+    cav:refersTo camssa:a6077de4-552f-41a9-b664-0ec9131c459a .
+
+camssa:804b85d3-69fe-41c4-ba6e-c2e1d538869b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Slovenia is recommending ODRL2 in its ICT National Catalogue.
+
+CAMSS List of Standards: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:a2c7c57b-5534-479f-8d3f-fbe4bda0e72f .
+
+camssa:88d1ff71-87e6-4058-a77f-e4a141e5c370 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8eb17470327d32b3bb523447fe72ee5c60ddb03e81dae318b485fbe05f48a844 ;
+    cav:value "0"^^xsd:int .
+
+camssa:891b2856-94aa-4606-975c-427ef7cba5eb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "ODRL is not included in any supra-national catalogue of specifications or standards. "@en ;
+    cav:refersTo camssa:1ef92829-6f54-4f15-87a0-25a40f50d163 .
+
+camssa:8c8110af-85c3-4d61-ab69-274e1e6005b3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ab64f97c21ac8b84c75d6f52a89765b1c8fd1856d2d2060926d05e94f306a88d ;
+    cav:value "1"^^xsd:int .
+
+camssa:90fd73c5-8fd8-43e0-bff9-eabbda7e6145 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:91134bfa-8695-4168-b35f-9fb203c6e026 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Slovenia is recommending ODRL2 in its ICT National Catalogue.
+
+CAMSS List of Standards: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:c327e15e-3985-4090-9eeb-560f56b7f1ef .
+
+camssa:914dfc56-6e86-41c9-be09-332a79f75309 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including ODRL.
+
+W3C patent practice: 
+https://www.w3.org/TR/patent-practice#ref-AC """@en ;
+    cav:refersTo camssa:7730a655-4b35-4a3c-ae31-a820b50eda36 .
+
+camssa:92f9910d-4971-4d5a-a81c-cac5e9575a77 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "NaN"^^xsd:double .
+
+camssa:9888f291-4ed0-4b43-b48d-b3f9c3680997 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b21a3eb972a2119979bc57368474efa809e8dd16cede48bc492e8b64da1abee9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:99c35a09-c119-406c-86a0-72f4a5b77737 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ODRL is maintained by W3C which is an international community developing open standards. 
+
+W3C Consortium home page: 
+https://www.w3.org/Consortium/
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core
+
+W3C Working Group Github space: 
+https://github.com/w3c/odrl"""@en ;
+    cav:refersTo camssa:9888f291-4ed0-4b43-b48d-b3f9c3680997 .
+
+camssa:99d13169-6cc3-4c86-b34e-a86737e3b906 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3aec34db3622bf18675b8216d0fc1d68fc7eeb501b4f3326402038a3ceb95c21 ;
+    cav:value "1"^^xsd:int .
+
+camssa:9aa6f346-18c0-472f-b318-4a7a554f8040 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17bea234285e6e633e4e21105358610ad5f5f0eaaf82f4bd50cb64ec11538984 ;
+    cav:value "1"^^xsd:int .
+
+camssa:9ad97f24-836d-435a-a05e-c2911b8c7417 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-21276471c1781fa2c7e78c8e03851e076b840beddbf5cf64f53b54b8855a01b8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:9e2dbb42-3622-41fd-8706-5a1e4a759959 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a0ae41ff-5a5b-4e29-99b3-3a99ea9097a0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is mainly focused on the definition of a common vocabulary for the description and the exchange of access rights and digital materials consumptions. This common framowork and method help to ensure the trustworthy data exchange between administrations and stakeholders. 
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core"""@en ;
+    cav:refersTo camssa:9e2dbb42-3622-41fd-8706-5a1e4a759959 .
+
+camssa:a2c7c57b-5534-479f-8d3f-fbe4bda0e72f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c09094de9d71f12686896827a205db683b6df58fa363bc5be2a7d99989e7dd0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a42f0357-c50e-45d9-9955-c3cd1d2fd092 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc5bd9a7d0b2acc7f246522414fd5f5d579b977180bb04fa60a545cb35dae90f ;
+    cav:value "1"^^xsd:int .
+
+camssa:a6077de4-552f-41a9-b664-0ec9131c459a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c265ca0c56e0f29a34039d496ba707b5486ccf6d445f9f058c19b4ece977861f ;
+    cav:value "2"^^xsd:int .
+
+camssa:a9517e21-7e57-4910-9bf2-a4ae38f71c7e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "No evidence has been found of the specification being included in an interoperability agreement between organisations involved in the European public services provision. "@en ;
+    cav:refersTo camssa:7881feba-2cdc-4eb7-829b-32a127059647 .
+
+camssa:accf1103-25dd-451a-8a23-5c94f2381d0a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1cd71a7b6d54631ba58cc8b0655a443d696f49ec74a0f4cccc871de7789d6a60 ;
+    cav:value "1"^^xsd:int .
+
+camssa:ae7fcf3c-b05d-4917-a1b3-19bc8d4389d8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d129862d6c9639e131c7d5eef095af16ef94d57ec0d52f955bf909ba8ec688e8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:b89825e5-52bd-41bd-9737-0b73e7ce852e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8a34a40e5bc5436b3530d898d75a57cf0488591887b31a5169499fe78952d84c ;
+    cav:value "2"^^xsd:int .
+
+camssa:bc08ba1a-4c08-40ec-8af3-37d2c81b8c2b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification provides a common method for the interoperability of systems when referring to access rights and licensing. This is a key aspect when developing any solution, including innovative solutions. Besides, as a core vocabulary it can be extended to adapt the needs of users allowing to get the maximum benefit of the implementation. 
+
+The working group in charge of ODRL development provides a set of implementers and the results of the implementations, which, as can be read in the table from the following resource, it is positive. Meaning that ODRL is a good asset and fosters the creation of solutions, including innovative ones.
+
+W3C working group implementators report: 
+https://w3c.github.io/poe/test/implementors"""@en ;
+    cav:refersTo camssa:9ad97f24-836d-435a-a05e-c2911b8c7417 .
+
+camssa:bc267055-302d-4845-a571-74c06341937e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ODRL does not directly help with the provision of application programming interfaces (APIs) or Web services.
+
+However, ODRL aims to ensure consistency when describing the rules and access conditions to datasets or services. By providing this machine-readable format information, the specification makes data more accessible and comprehensive allowing its proper reuse. 
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core"""@en ;
+    cav:refersTo camssa:4db292fa-8515-4cd2-8773-d0aca8d940c9 .
+
+camssa:c327e15e-3985-4090-9eeb-560f56b7f1ef a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-838030847fa0adf54939e3feaac0ac2510924c54035e1cb671b223b54b02fd70 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c4161c51-d923-404a-8acb-f38bb65a6bc3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ODRL is a specification that provides a core vocabulary that allows the description and representation of information in a standardised and machine-readable format fostering the data exchange and the interoperability of organisations and resources using it. 
+
+An example of its potential use on the publication and exchange of open data is the inclusion within SPECIAL, an H2020 European Project that stands for "Scalable Policy-awarE Linked Data arChitecture for prIvacy, trAnsparency and compLiance". This project aims to provide solutions for data protection and its reuse using standards to allow maximum applicability and interoperability across borders. 
+
+Moreover, the specification offers serialisation in common formats for open data publication and shareability such as RDF or JASON-LD. 
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core 
+
+SPECIAL Deliverable: 
+https://www.specialprivacy.eu/images/documents/SPECIAL_D17_M17_V10.pdf"""@en ;
+    cav:refersTo camssa:f633903e-6454-4b9c-b0d2-e585126d6b66 .
+
+camssa:c497d65b-3329-445c-babb-9059d1e5f60b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19598487b8ba278c3438dcfd74b74d9aad51beac08c53dbf40bf108ed09e72b2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c8586ab7-5529-4b7f-ac4e-f6ba43a79839 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ODRL is a policy expression language that provides a flexible and interoperable information model, vocabulary, and encoding mechanisms for representing statements about the usage of content and services.
+
+This fact is a key aspect for the interaction and the collaboration between parties and how they need to consume content or services. 
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core"""@en ;
+    cav:refersTo camssa:2674bd01-3abc-4e31-adf7-9d77c6ea8b4f .
+
+camssa:c9286cce-ac43-4a6f-8937-4fe58dfbb4e9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Version 1.1 of the specification is referenced within Joinup as one of the assets for the licensing of datasets. However, the link provided allows users to access the whole text of the latest version, therefore it is accessible for free from the European Platform Joinup. 
+
+Rights and licences for Datasets: 
+https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-implementation-guidelines/discussion/mi6-rights-and-licences-datasets"""@en ;
+    cav:refersTo camssa:9aa6f346-18c0-472f-b318-4a7a554f8040 .
+
+camssa:cc58c89e-dd8d-491c-92b4-aab8d6f9d34b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ODRL has been used in several use cases developed in the context of development of data protection related solutions as SPECIAL (Scalable Policy-aware Linked Data Architecture For Privacy, Transparency and Compliance), an H2020 European project which involves ODRL for compliance check. 
+
+Approaches for GDPR compliance utilising Semantic Web: 
+https://harshp.com/research/publications/035-representing-activities-processing-personal-data-consent-semweb-gdpr-compliance
+
+SPECIAL Deliverable: 
+https://www.specialprivacy.eu/images/documents/SPECIAL_D17_M17_V10.pdf
+"""@en ;
+    cav:refersTo camssa:ae7fcf3c-b05d-4917-a1b3-19bc8d4389d8 .
+
+camssa:cf703d58-5004-48e7-8ad5-826af6f553d0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8954ddabf37f4899562b9ea4c8f0bbf204f3e48c9203043bc231f368092396a2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d2328e9a-7cd6-49fe-b60d-02d862053322 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6bedf555bffb837990b9eb353447fa116eb9d2384770b1dd3de46d3c5901d4f4 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d8571e69-e3e6-4603-8513-3d8c9274c399 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ODRL is a specification that provides a core vocabulary that allows the description and representation of information in a standardised and machine-readable format fostering the data exchange and the interoperability of organisations and resources using it. 
+
+An example of its potential use on the publication and exchange of open data is the inclusion within SPECIAL, an H2020 European Project that stands for "Scalable Policy-awarE Linked Data arChitecture for prIvacy, trAnsparency and compLiance". This project aims to provide solutions for data protection and its reuse using standards to allow maximum applicability and interoperability across borders. 
+
+Moreover, the specification offers serialisation in common formats for open data publication and shareability such as RDF or JASON-LD. 
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core 
+
+SPECIAL Deliverable: 
+https://www.specialprivacy.eu/images/documents/SPECIAL_D17_M17_V10.pdf
+"""@en ;
+    cav:refersTo camssa:f081f6e6-538d-4a7c-8e27-67398a5b2e63 .
+
+camssa:dc811d3f-f636-4699-bf0a-a3cbfd2ea00e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-53abe85b1365f86aa58a25566e54e082ea2d70ee8d9fbaf09ccab20af30f3332 ;
+    cav:value "0"^^xsd:int .
+
+camssa:e3cefbfb-6bd1-4d29-95d1-be26060f73bc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2cedd44f05183dae5548108bdeace2c092b84c7c5d89c475b0741ddae7fc7b2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:ed565cc5-6fa4-42cb-9e6d-0d6a6ff2cefb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As it happens with core vocabularies, the specification can be extended to cover specific business needs. 
+
+An example of this extension is the work done within the scope of SERAMIS project, which is a GDPR validation tool that uses an ODRL extended model as basis for the validation. 
+
+SERAMIS: 
+https://cordis.europa.eu/docs/projects/cnect/2/612052/080/deliverables/001-D55v4GDPR.pdf
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core"""@en ;
+    cav:refersTo camssa:0abddec5-690c-405e-bb0b-139b6567c88a .
+
+camssa:f081f6e6-538d-4a7c-8e27-67398a5b2e63 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-02333ef99fbcb4f101a106bcf97c9559888756b085b1729b7c2ac9626dc4bc63 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f633903e-6454-4b9c-b0d2-e585126d6b66 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-138786a6e7517e10b94e83ec3b3e7ac79b4c49dcbeaef8d8e993c8df0d173529 ;
+    cav:value "1"^^xsd:int .
+
+camssa:fb926849-c98d-42b7-8fd2-836881c8be24 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is independent from any specific tecnology. However, its serialisation is carried out using three different formats such as RDF, JASON-LD, and XML. 
+
+W3C specification reference: 
+https://www.w3.org/TR/odrl-vocab/#vocab-core"""@en ;
+    cav:refersTo camssa:6f7c536a-8e12-4456-90e5-d80f813e11a6 .
+

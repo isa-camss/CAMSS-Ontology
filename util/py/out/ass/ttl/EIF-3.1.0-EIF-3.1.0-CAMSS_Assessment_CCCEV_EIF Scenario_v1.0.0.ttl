@@ -1,0 +1,609 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:5e001e2970feba38f79d49846d1c73ef2623b889c04448de141eafd7685ee1a0 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:8cff6895f914429bde643c73dec425ec687d14cd27aee8c861fb5341e5dcd8d5 ;
+    camss:assessmentDate "2020-09-30"^^xsd:date ;
+    camss:submissionDate "2020-09-30"^^xsd:date ;
+    camss:toolVersion tool:3.1.0 ;
+    cav:contextualisedBy sc:44119b394568e5be30da9b83729a3cba1f19eadd53373d5cc6ff6a73fd3e26e8 ;
+    cav:resultsIn camssa:060d9946-7893-45a3-8c3a-3cac8a180959,
+        camssa:080abbae-4a08-446b-8b73-466ddf5f62ca,
+        camssa:09ceac9d-6fb7-4430-97a7-842130eb5bb8,
+        camssa:153d23c7-7014-4de6-9308-88ff4d9108ae,
+        camssa:1ea1cd0e-3abd-4ae6-bae3-da5b5451d718,
+        camssa:22edfa2b-5cd3-49de-a578-fe36b6b9baac,
+        camssa:2487837b-17c3-4c28-b3ba-f50920f2fe4e,
+        camssa:35b23158-6847-489e-82c6-6ac86c97805a,
+        camssa:35d98b31-32bf-468f-afd4-ff411d4dc44c,
+        camssa:3b747fa2-8451-4525-a0fc-f11855153320,
+        camssa:426a0195-26b8-461f-b7e3-4d39b8a78590,
+        camssa:4a13f1de-4c92-48e6-a537-55b6748f133b,
+        camssa:6a40c168-2f1d-4f9d-8146-90c5eafa8134,
+        camssa:7bbec59d-127b-45cd-aa21-1205777a1e03,
+        camssa:7d0a7ac5-d2f8-4711-a51b-790059da0317,
+        camssa:84fe93a9-6f33-47d0-a8a6-35d00b9f1248,
+        camssa:88eec84c-c2b9-419e-b0fb-3365c942be2f,
+        camssa:893661e4-70b9-4a5e-91db-29610901a1a2,
+        camssa:8c36fbe3-c6f9-4d52-9e5a-8238dec3b063,
+        camssa:96028a0f-d743-493d-a450-20d2a405ae86,
+        camssa:9935d331-a329-4513-92b1-b4cc5664aba0,
+        camssa:9cd6c44f-dd6c-4a4d-a9e2-9918054b033e,
+        camssa:abff9b75-96ac-419e-9852-aac85faa94e9,
+        camssa:b6bec8e0-4aa9-4e8d-af2b-84f1fab923f5,
+        camssa:bda235c9-9fec-4361-a100-19342e418c41,
+        camssa:c499c76c-866b-44d4-b983-f06e8fced8bc,
+        camssa:c9989298-52f5-4432-b193-ff15a29a5b4c,
+        camssa:c9cf4f47-cc5e-41f3-af34-97d2b9663e11,
+        camssa:cecf4670-28fe-464d-b1de-73ef3099e04a,
+        camssa:dd870ced-0a91-44fc-b066-401d098c7c80,
+        camssa:e34233e0-d81e-4873-8ae3-55199e337276,
+        camssa:e4515d01-8af4-45d4-bd67-4bf22c88cb71,
+        camssa:e75cecc3-73d5-4786-a2e9-4cd4ef625b54,
+        camssa:e8028c59-d756-40c5-bccf-6d5be05d3eea,
+        camssa:eb319f2b-e50f-4a3c-bab7-5e8f56b4ef5c,
+        camssa:f72f6bd1-1221-4ef9-8fdc-3f27259e770e,
+        camssa:f8440968-489e-44b6-a371-cf74ab5074d2,
+        camssa:f8630542-34d5-4367-8ea0-9b11cd2d6634,
+        camssa:f8b5a652-74eb-4da8-8e32-49f9ba252048 ;
+    cav:status status:Complete ;
+    dct:title "Core Criterion and Core Evidence Vocabulary (CCCEV) v1.0"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:5f90385f-a3c8-460a-a97f-f8094368ab1f ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:04e3408c-a47b-4c59-8d65-b8762d6946f1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b21a3eb972a2119979bc57368474efa809e8dd16cede48bc492e8b64da1abee9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:060d9946-7893-45a3-8c3a-3cac8a180959 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As it happens with all the e-Government Vocabularies, it has the SEMIC action from the ISA2 as responsible for the maintenance of the development.
+
+SEMIC in Joinup:
+https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic"""@en ;
+    cav:refersTo camssa:04e3408c-a47b-4c59-8d65-b8762d6946f1 .
+
+camssa:07092518-07f8-4ca8-b32b-1790e91055c6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c265ca0c56e0f29a34039d496ba707b5486ccf6d445f9f058c19b4ece977861f ;
+    cav:value "2"^^xsd:int .
+
+camssa:074fdc0b-7821-4270-8a81-b4bcce9db5ba a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ffdbd22af1ff3c1ebb100043d062a3df160007af761caf0a8c9f50f02e609c9e ;
+    cav:value "1"^^xsd:int .
+
+camssa:080abbae-4a08-446b-8b73-466ddf5f62ca a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Core Criterion and Core Evidence Vocabulary is publicly available for implementation and use for free in Joinup's webpage. Therefore, it can be reused by the organisations, administrations, open communities, etc. that developed it.
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:edacbb7d-15e1-4af6-9a5b-8698d3d65e2c .
+
+camssa:09ceac9d-6fb7-4430-97a7-842130eb5bb8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is no validation or conformance test for the implementation of CCCEV. 
+ 
+CCCEV:
+https://joinup.ec.europa.eu/solution/core-criterion-and-core-evidence-vocabulary/about"""@en ;
+    cav:refersTo camssa:2d102580-ff16-48e5-840f-dccd507f48a7 .
+
+camssa:0b07c099-44e2-4394-88dd-a07677771ae3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c09094de9d71f12686896827a205db683b6df58fa363bc5be2a7d99989e7dd0 ;
+    cav:value "0"^^xsd:int .
+
+camssa:153d23c7-7014-4de6-9308-88ff4d9108ae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Core Criterion and Core Evidence Vocabulary has been used to develop some European projects, for example, ESPD-EDM (European Single Procurement Document - Exchange Data Model) which is the technical representation of the legal European Single Procurement Document. It is used to support interoperability between ESPD services provided all over Europe.
+
+ESPD documentation:
+https://docs.peppol.eu/pracc/espd/edm/
+
+Core Criterion and Core Evidence Vocabulary reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:813d8b42-a699-45b6-97c1-666ec77ba6db .
+
+camssa:1ea1cd0e-3abd-4ae6-bae3-da5b5451d718 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The CCCEV is used in several cross-border projects that are regulated using Legal acts. Examples are ESPD-EDM, the TOOP, and the eCertis, all projects are focused in the field of eProcurement, and use the CCCEV as the basis for building up the requierements in procurement procedures.
+
+CCCEV Joinup page:
+https://joinup.ec.europa.eu/solution/core-criterion-and-core-evidence-vocabulary/about"""@en ;
+    cav:refersTo camssa:7b9125f6-4c58-4dae-917c-072d7164c562 .
+
+camssa:22edfa2b-5cd3-49de-a578-fe36b6b9baac a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of this Core Vocabulary is not related to the modelling of organisational interoperability aspects. Therefore, this criterion is not applicable to the specification.
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary """@en ;
+    cav:refersTo camssa:e5c2e99f-a650-4376-bc0e-8ae3772e28e5 .
+
+camssa:2487837b-17c3-4c28-b3ba-f50920f2fe4e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Core Criterion and Core Evidence Vocabulary can be found for free along within the European Collaborative Platform, Joinup.
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:5c7fa664-41cb-4c4c-af45-ad039b844f25 .
+
+camssa:299d487f-73e8-40d0-8f06-5ad6dbbbc4c6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3aec34db3622bf18675b8216d0fc1d68fc7eeb501b4f3326402038a3ceb95c21 ;
+    cav:value "1"^^xsd:int .
+
+camssa:2d102580-ff16-48e5-840f-dccd507f48a7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c967c90bfc7bc13426924eca012de349ae51d4e8f652fe64bfbec2cccc8c8146 ;
+    cav:value "0"^^xsd:int .
+
+camssa:35b23158-6847-489e-82c6-6ac86c97805a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the assessments performed by CAMSS and the list of specifications identified by the MSP Multi-stakeholder-platform, no assessment verifying the compliance of the specification with the European standardisation regulation has been found.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
+    cav:refersTo camssa:9d4aa460-fc33-4de1-8715-df3ed690bd65 .
+
+camssa:35d98b31-32bf-468f-afd4-ff411d4dc44c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is no Member State that includes Core Criterion and Core Evidence Vocabulary in their national catalogue with the National Interoperability Framework (NIF) aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:c07bd475-c21f-4757-a347-ff683bf6dfcd .
+
+camssa:3b747fa2-8451-4525-a0fc-f11855153320 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """This Core Vocabulary offers several services that aim to help e-Government professionals share their experience with each other, so it fosters the creation of innovative solutions.
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:f6266fd1-65a0-4a27-a71b-e02adc1e58cf .
+
+camssa:3c6fb5db-4500-4431-abca-94812e1f0d4d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7ab883158b51681c78f90d1a00bbb3840aa2c86e309a9abd1ad6e6eedb5e2735 ;
+    cav:value "1"^^xsd:int .
+
+camssa:426a0195-26b8-461f-b7e3-4d39b8a78590 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Core Criterion and Core Evidence Vocabulary is publicly available for its use and implementation. Moreover, it is available for everyone to study with no cost in Joinup webpage.
+
+CCCEV Joinup reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:e8392a4a-440e-493f-978b-200b25834d62 .
+
+camssa:473b8f63-5b59-4352-8a60-95c66d36046e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ab64f97c21ac8b84c75d6f52a89765b1c8fd1856d2d2060926d05e94f306a88d ;
+    cav:value "1"^^xsd:int .
+
+camssa:4a13f1de-4c92-48e6-a537-55b6748f133b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the specification is to facilitate the exchange of structured data. By allowing to make the data available to other persons or organisations, this Core Vocabulary reduces the administrative burden.
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:074fdc0b-7821-4270-8a81-b4bcce9db5ba .
+
+camssa:4f9b8254-a876-419a-905e-60d74aeb9027 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6bedf555bffb837990b9eb353447fa116eb9d2384770b1dd3de46d3c5901d4f4 ;
+    cav:value "1"^^xsd:int .
+
+camssa:5bc17f07-cd3f-443e-b980-1f7aa16771f3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-624bc49501d58649e27cae4fb89fb5a56844685e54c5ce1625633894f8f752e1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:5c7fa664-41cb-4c4c-af45-ad039b844f25 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17bea234285e6e633e4e21105358610ad5f5f0eaaf82f4bd50cb64ec11538984 ;
+    cav:value "1"^^xsd:int .
+
+camssa:5f90385f-a3c8-460a-a97f-f8094368ab1f a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:60dd64c4-138b-4f4c-a530-1c4d8bdd5a85 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-838030847fa0adf54939e3feaac0ac2510924c54035e1cb671b223b54b02fd70 ;
+    cav:value "0"^^xsd:int .
+
+camssa:6a40c168-2f1d-4f9d-8146-90c5eafa8134 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Core Criterion and Core Evidence Vocabulary is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, CCCEV can define the interoperability aspects of the "Core Data Model" and "Data" ABBs of the EIRA Semantic View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/solution/elis/release/v100"""@en ;
+    cav:refersTo camssa:f0d011cf-0d03-4648-b9c1-99a1f5f6b6b9 .
+
+camssa:705fee49-7ea4-4f28-8b35-9a0d5ff8c09e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc5bd9a7d0b2acc7f246522414fd5f5d579b977180bb04fa60a545cb35dae90f ;
+    cav:value "1"^^xsd:int .
+
+camssa:7b9125f6-4c58-4dae-917c-072d7164c562 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5df7a9f6081c945a22f500aa0ba2c452b8b9cd9497bd643ac76c39d34a18c319 ;
+    cav:value "1"^^xsd:int .
+
+camssa:7bbec59d-127b-45cd-aa21-1205777a1e03 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """This Core Vocabulary is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:60dd64c4-138b-4f4c-a530-1c4d8bdd5a85 .
+
+camssa:7d0a7ac5-d2f8-4711-a51b-790059da0317 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The application of the once-only principle in all EU Member States' public administrations aims at reducing the administrative burden. This Core Vocabulary fosters interoperability between public administrations, cross border services and impacts positively the development of eGovernment.
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary
+
+Joinup news page "CCCEV - a key enabler of the Once-Only Principle":
+https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/news/cccev-and-once-only-principle"""@en ;
+    cav:refersTo camssa:5bc17f07-cd3f-443e-b980-1f7aa16771f3 .
+
+camssa:81308ea4-92a5-49f2-b3c8-d81a6c847f5b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-138786a6e7517e10b94e83ec3b3e7ac79b4c49dcbeaef8d8e993c8df0d173529 ;
+    cav:value "1"^^xsd:int .
+
+camssa:813d8b42-a699-45b6-97c1-666ec77ba6db a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39ffef052c31580b50b418f3991e9de7db4dc182fcf96f5a447d7f8e09560612 ;
+    cav:value "1"^^xsd:int .
+
+camssa:84fe93a9-6f33-47d0-a8a6-35d00b9f1248 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no Member States recommending Core Criterion and Core Evidence Vocabulary in their ICT National Catalogues.
+ 
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:0b07c099-44e2-4394-88dd-a07677771ae3 .
+
+camssa:88eec84c-c2b9-419e-b0fb-3365c942be2f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """This Core Vocabulary helps public administration with the publication of datasets that includes criteria and evidence. So, it is aligned with the principles of Linked Open Data.
+
+Core Criterion and Core Evidence Vocabulary reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary 
+
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html"""@en ;
+    cav:refersTo camssa:81308ea4-92a5-49f2-b3c8-d81a6c847f5b .
+
+camssa:893661e4-70b9-4a5e-91db-29610901a1a2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The adoption of this Core Vocabulary as data model does not hamper the scalability of systems. 
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:cfc5d975-5b11-46d6-be3a-098fbe7837ef .
+
+camssa:8c36fbe3-c6f9-4d52-9e5a-8238dec3b063 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """This Core Vocabulary is a business domain agnostic specification that can be reused in a cross-domain way.
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:299d487f-73e8-40d0-8f06-5ad6dbbbc4c6 .
+
+camssa:96028a0f-d743-493d-a450-20d2a405ae86 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of this Core Vocabulary is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification.
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:c11ae218-3a0b-4a06-a689-764c9fd10fbb .
+
+camssa:96d0e17d-d5cb-4d28-ab51-d53a389d213e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4ac14cafe608f1dbe7e48f96edd7574c55f0aac2c2e99ede0418dae7225977af ;
+    cav:value "1"^^xsd:int .
+
+camssa:98ad4847-0847-4409-9a9a-0f8e15987c23 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1cd71a7b6d54631ba58cc8b0655a443d696f49ec74a0f4cccc871de7789d6a60 ;
+    cav:value "1"^^xsd:int .
+
+camssa:9935d331-a329-4513-92b1-b4cc5664aba0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of this Core Vocabulary is to support the exchange of information between organisations that define criteria and organisations that respond to these criteria by means of evidences.
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:473b8f63-5b59-4352-8a60-95c66d36046e .
+
+camssa:9cd6c44f-dd6c-4a4d-a9e2-9918054b033e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The main purpose of this Core Vocabulary is to support the exchange of information between organisations that define criteria and organisations that respond to these criteria using evidences. So, it facilitates the visibility of administrative rules.
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:df610085-8e3c-4e7f-892b-27e2cbcb5f4a .
+
+camssa:9d4aa460-fc33-4de1-8715-df3ed690bd65 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-53abe85b1365f86aa58a25566e54e082ea2d70ee8d9fbaf09ccab20af30f3332 ;
+    cav:value "0"^^xsd:int .
+
+camssa:9e26c1b8-de5e-4a9c-bafd-11dbe0a60aa4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a18abe4842e04b608025fd70e54c3db5c2a10130c0dab0495479e7d5effb55d ;
+    cav:value "0"^^xsd:int .
+
+camssa:abff9b75-96ac-419e-9852-aac85faa94e9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Core Criterion and Core Evidence Vocabulary (CCCEV) supports the exchange of information between organisations that define criteria and organisations that respond to these criteria by means of evidences.
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:efdbc053-b90d-4ac3-9f50-68b40242b524 .
+
+camssa:aff9aca1-5b2e-4f2c-b120-89d14f21f4f3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:b5da10c0-0a65-4de8-8534-88a1da80ed33 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8954ddabf37f4899562b9ea4c8f0bbf204f3e48c9203043bc231f368092396a2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:b6bec8e0-4aa9-4e8d-af2b-84f1fab923f5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is independent of any software, hardware, or operating system. So it can be said that Core Criterion and Core Evidence Vocabulary is independent of any specific technology or platform.
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:c214e393-caf0-465d-8409-4f8f750cad2b .
+
+camssa:bb34a83c-aa8e-44e0-9508-54a166f9e884 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:bc2172fe-ab9c-4fe9-81c0-6e8d99b887bd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d129862d6c9639e131c7d5eef095af16ef94d57ec0d52f955bf909ba8ec688e8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:bda235c9-9fec-4361-a100-19342e418c41 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of the Core Criterion and Core Evidence Vocabulary is not related to the availability of interfaces with internal information systems. Therefore, this criterion does not apply to this specification. 
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:e3c560b2-5990-4ee9-883c-06a67e0daa9b .
+
+camssa:c07bd475-c21f-4757-a347-ff683bf6dfcd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8eb17470327d32b3bb523447fe72ee5c60ddb03e81dae318b485fbe05f48a844 ;
+    cav:value "0"^^xsd:int .
+
+camssa:c11ae218-3a0b-4a06-a689-764c9fd10fbb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8a34a40e5bc5436b3530d898d75a57cf0488591887b31a5169499fe78952d84c ;
+    cav:value "2"^^xsd:int .
+
+camssa:c214e393-caf0-465d-8409-4f8f750cad2b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5879b43fc249f0098f3ed687235f432f71bf0c11bd3aa95e063dfdacd64606c8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c499c76c-866b-44d4-b983-f06e8fced8bc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of this Core Vocabulary is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:ce994231-dba4-488a-b468-9481e14adb4e .
+
+camssa:c8770a70-6e36-4a50-af29-1ba0e1fbc1bc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-02333ef99fbcb4f101a106bcf97c9559888756b085b1729b7c2ac9626dc4bc63 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c9989298-52f5-4432-b193-ff15a29a5b4c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of this Core Vocabulary within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+
+CEN search tool catalogue:
+https://standards.cen.eu/dyn/www/f?p=CENWEB:105::RESET::::
+
+CENELEC search tool catalogue:
+https://www.cenelec.eu/dyn/www/f?p=104:107:0::::FSP_LANG_ID:25"""@en ;
+    cav:refersTo camssa:9e26c1b8-de5e-4a9c-bafd-11dbe0a60aa4 .
+
+camssa:c9cf4f47-cc5e-41f3-af34-97d2b9663e11 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of this Core Vocabulary is related to the delivery of multilingual public services. The use of this Core Vocabulary for electronic criterion and evidence allows for removing language barriers thereby improving the cross border exchange of information.
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:96d0e17d-d5cb-4d28-ab51-d53a389d213e .
+
+camssa:ce994231-dba4-488a-b468-9481e14adb4e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fef5941bab92019b7692f8544de94715a42ed9ff76d89cbec4fb6f9821611925 ;
+    cav:value "2"^^xsd:int .
+
+camssa:cecf4670-28fe-464d-b1de-73ef3099e04a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Semantic Interoperability Community (SEMIC) develops solutions to help European public administrations perform seamless and meaningful cross-border and cross-domain data exchanges. They develop semantic specifications and interoperability solutions under the ISA² Programme. When a new solution release is finished, it is submitted for a public review with a minimum period of four weeks.
+
+Specification development process by the ISA Programme:
+https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/document/description-change-management-release-and-publication-process-structural-metadata-specifications
+
+Detailed document ISA Programme:
+https://joinup.ec.europa.eu/sites/default/files/document/2016-10/description_of_a_change_management_release_and_publication_process_for_structural_metadata_specifications_developed_by_the_isa_progr.pdf"""@en ;
+    cav:refersTo camssa:bb34a83c-aa8e-44e0-9508-54a166f9e884 .
+
+camssa:cfc5d975-5b11-46d6-be3a-098fbe7837ef a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ba46c76c10ad769a23ce4a9a34cb4d96a00407d5fc14ad1c791a870be7563c2b ;
+    cav:value "1"^^xsd:int .
+
+camssa:dd870ced-0a91-44fc-b066-401d098c7c80 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The Semantic Interoperability Community (SEMIC) has established Working Groups. These Working Groups are open to the participation of everyone interested in semantic solution working for public administrations in the Member States or in EU institutions.
+
+SEMIC working groups:
+https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/about"""@en ;
+    cav:refersTo camssa:aff9aca1-5b2e-4f2c-b120-89d14f21f4f3 .
+
+camssa:df610085-8e3c-4e7f-892b-27e2cbcb5f4a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19598487b8ba278c3438dcfd74b74d9aad51beac08c53dbf40bf108ed09e72b2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e34233e0-d81e-4873-8ae3-55199e337276 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All solutions developed in ISA² Programme are under ISA Open Metadata Licence which is perpetual, royalty-free and non-exclusive license to Use and re-Use the Works.
+
+ISA open metadata license:
+https://joinup.ec.europa.eu/licence/isa-open-metadata-licence-v11"""@en ;
+    cav:refersTo camssa:e9d54ad1-f7ea-43db-b19e-2d064336ecc4 .
+
+camssa:e3c560b2-5990-4ee9-883c-06a67e0daa9b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-33ea90f5c1bb01d4398c57d03a25934dc5722d5ddbc98a43911ea4fb302ec54c ;
+    cav:value "2"^^xsd:int .
+
+camssa:e4515d01-8af4-45d4-bd67-4bf22c88cb71 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification was developed in 2015, and it has been evolving together with all the related European projects where CCCEV has an active role. Moreover, at the moment of performing the assessment, version 2.0 is being developed in order to ensure that the CCCEV covers the needs of the different cross-border projects (e.g. eCertis, ESPD, etc).
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:4f9b8254-a876-419a-905e-60d74aeb9027 .
+
+camssa:e5c2e99f-a650-4376-bc0e-8ae3772e28e5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6d48464387e608d3022bd07338cd3859acfb0f84139186a979ef3b96baa51086 ;
+    cav:value "2"^^xsd:int .
+
+camssa:e75cecc3-73d5-4786-a2e9-4cd4ef625b54 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The main purpose of CCCEV is to ease the creation of a repository of reusable criteria in machine-readable formats. The CCCEV together with other common vocabularies fosters the publication of datasets representing criterion, evidence and evidence issuers. 
+
+Core Criterion and Core Evidence Vocabulary reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary 
+
+Tim Berners-Lee 5-star schema for Open Data:
+https://5stardata.info/en/"""@en ;
+    cav:refersTo camssa:c8770a70-6e36-4a50-af29-1ba0e1fbc1bc .
+
+camssa:e8028c59-d756-40c5-bccf-6d5be05d3eea a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Core Criterion and Core Evidence Vocabulary has a good market acceptance. Some parts of this vocabulary have been used to develop European solutions, for example, ESPD-EDM (European Single Procurement Document - Exchange Data Model) which is the technical representation of the legal European Single Procurement Document. It is used to support interoperability between ESPD services provided all over Europe. Additionally, other projects/initiatives like The Once-Only Principle (TOOP), and the eCertis are based on the CCCEV.
+
+ESPD documentation:
+https://docs.peppol.eu/pracc/espd/edm/
+
+Core Criterion and Core Evidence Vocabulary reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary
+
+TOOP:
+http://wiki.ds.unipi.gr/display/TOOP/Core+Vocabularies+and+Application+Profiles
+
+eCertis:
+https://ec.europa.eu/tools/ecertis/#/about """@en ;
+    cav:refersTo camssa:bc2172fe-ab9c-4fe9-81c0-6e8d99b887bd .
+
+camssa:e8392a4a-440e-493f-978b-200b25834d62 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-31bf959b6c4a983ec70eb87e0177f2739575ebce42c7c3b95b9012ef3bfe673e ;
+    cav:value "1"^^xsd:int .
+
+camssa:e9d54ad1-f7ea-43db-b19e-2d064336ecc4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a81c4b8658f57e819297eb0b7977407f8d814c6fe749c74a8ac497277ca7d9d8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:eb319f2b-e50f-4a3c-bab7-5e8f56b4ef5c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """This common data model has been defined as a core vocabulary for criteria and evidences. A Core Vocabulary is a simplified, reusable, and extensible data model that captures the fundamental characteristics of an entity in a context-neutral fashion.
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:b5da10c0-0a65-4de8-8534-88a1da80ed33 .
+
+camssa:edacbb7d-15e1-4af6-9a5b-8698d3d65e2c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2cedd44f05183dae5548108bdeace2c092b84c7c5d89c475b0741ddae7fc7b2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:efdbc053-b90d-4ac3-9f50-68b40242b524 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f0d011cf-0d03-4648-b9c1-99a1f5f6b6b9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d28663fdb5deb361d5ad773d7b7ece3c6acf8d2eb7a1222a60cb08df4c93aac ;
+    cav:value "1"^^xsd:int .
+
+camssa:f6266fd1-65a0-4a27-a71b-e02adc1e58cf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-21276471c1781fa2c7e78c8e03851e076b840beddbf5cf64f53b54b8855a01b8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f72f6bd1-1221-4ef9-8fdc-3f27259e770e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of this Core Vocabulary is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification.
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:07092518-07f8-4ca8-b32b-1790e91055c6 .
+
+camssa:f8440968-489e-44b6-a371-cf74ab5074d2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """All solutions developed in ISA² Programme are under ISA Open Metadata Licence which is perpetual, royalty-free and non-exclusive license to Use and re-Use the Works.
+
+ISA open metadata license:
+https://joinup.ec.europa.eu/licence/isa-open-metadata-licence-v11"""@en ;
+    cav:refersTo camssa:98ad4847-0847-4409-9a9a-0f8e15987c23 .
+
+camssa:f8630542-34d5-4367-8ea0-9b11cd2d6634 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The main purpose of this Core Vocabulary is to support the exchange of information between organisations that define criteria and organisations that respond to these criteria by means of evidences. This Core Vocabulary helps to comprehend the administrative rules and data of public administration.
+
+CCCEV reference:
+https://joinup.ec.europa.eu/solution/e-government-core-vocabularies/core-criterion-and-core-evidence-vocabulary"""@en ;
+    cav:refersTo camssa:3c6fb5db-4500-4431-abca-94812e1f0d4d .
+
+camssa:f8b5a652-74eb-4da8-8e32-49f9ba252048 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There is documentation stating that CCCEV is a good asset for efficient and effective data exchange across-border. The information found remarks on the importance of the CCCEV in the implementation of the Once-Only Principle.
+
+Joinup news page "CCCEV - a key enabler of the Once-Only Principle":
+https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/news/cccev-and-once-only-principle"""@en ;
+    cav:refersTo camssa:705fee49-7ea4-4f28-8b35-9a0d5ff8c09e .
+

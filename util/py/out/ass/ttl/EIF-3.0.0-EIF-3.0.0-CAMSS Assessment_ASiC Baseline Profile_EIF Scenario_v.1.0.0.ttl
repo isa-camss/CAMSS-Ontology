@@ -1,0 +1,488 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:719c2369-d099-4686-bcdf-34b1ab9d44d4 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:e974cb8a32013d044d672e309221057207cc44a034b35798d949ec683a56ca44 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:615508fb540009cb48d7c5ca8efffbef6c53e96148b0d95025fdd6cd725d131d ;
+    camss:assessmentDate "1/31/2019"^^xsd:date ;
+    camss:submissionDate "2019-01-31"^^xsd:date ;
+    camss:toolVersion tool:3.0.0 ;
+    cav:contextualisedBy sc:3aadede3d912d8ab2b20d40221274da3af8f9ee9c14f0e1226f9217a3e8953e4 ;
+    cav:resultsIn camssa:03645d67-3c5c-4de5-91f8-f3dbc6c9deee,
+        camssa:03cccaeb-640b-4f2f-a4ad-686e5d48a908,
+        camssa:08e38d84-04ec-4b93-83a2-8ff31ef46760,
+        camssa:1ca1da0a-f7c6-4546-a7d4-67e9ccfdef2d,
+        camssa:1e13c01d-3de7-4682-a814-c6722752ffb5,
+        camssa:1ffe893c-111a-43f6-b695-1acc52f46b83,
+        camssa:2073aabe-b36f-4b05-80f7-aa72051b985e,
+        camssa:24b45a8a-f179-42ff-96d6-5cb8eb8ec689,
+        camssa:27e28239-9b94-4f0b-987b-fa71e8051f19,
+        camssa:28fca6ec-a3ad-406f-8003-40668d036531,
+        camssa:2b9ea31e-3b09-41b5-9552-e4f51220d42a,
+        camssa:322b20ec-7c49-40d1-acc4-9147b2e6c9ac,
+        camssa:347f2336-c8eb-4123-a79f-73305eaa025c,
+        camssa:43018f1c-2de6-4943-9850-ddadac3d6060,
+        camssa:444ff0be-b459-4b38-822b-114d81d4869b,
+        camssa:4e26b540-7e29-425a-bce2-a3a182a4fd94,
+        camssa:6d2a6914-0536-42c8-a834-08304336d7c6,
+        camssa:6f75dc0c-e777-4e0a-8783-14162df218b8,
+        camssa:774dc2bc-6814-4277-9eca-f684f12f7b6a,
+        camssa:786b1ed0-de23-4c82-995e-6609ae071fe7,
+        camssa:845595ff-3fe1-4f44-b41e-60e6edfaddc3,
+        camssa:854f5de8-a1a5-4470-a772-7a4e7a05ba19,
+        camssa:94b1dea0-e2c6-49ee-a8f0-9ae4b6fe2909,
+        camssa:96f1d11f-ba6e-4de7-928b-5387b2b1fff4,
+        camssa:9a83fad0-0e4c-4ab3-8bc7-99f2fa165b6e,
+        camssa:9ef67303-a7ca-42a6-bf49-59cdcf6827ed,
+        camssa:a6531a0d-79a8-497d-b174-fd5601be311f,
+        camssa:a6fe62db-009e-4280-a324-d38383dd2519,
+        camssa:b78a401f-3433-45c2-a0f1-9c0a59080918,
+        camssa:ba930730-b76e-4f36-b9fb-9efe55190482,
+        camssa:c52e1a0e-e914-49d0-b843-8ff5285238e8,
+        camssa:d21843d3-4f8a-44e4-8aad-f995e0b18343,
+        camssa:d75427e6-0348-4f5f-86dc-ae91e9b0daba,
+        camssa:db3acc2d-77ca-4957-b013-1cf6cbd29040,
+        camssa:dce5c40f-d8df-42f2-ae36-f9dab24a2e8d,
+        camssa:e50bb2ac-0186-4d4b-a171-ab033bda382a,
+        camssa:e91995d6-39a6-492a-9cfc-0a51dabafeb2 ;
+    cav:status status:Complete ;
+    dct:title "Electronic Signatures and Infrastructures (ESI)"@en .
+
+camssa:03645d67-3c5c-4de5-91f8-f3dbc6c9deee a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ETSI has provided a conformance testing tool for electronic signatures according to the European Commission Mandate 460. The conformity testing tool involves different standards applied in the development of eSignatures, including PAdES, CAdES, XAdES, and ASiC ant their respective Baseline profiles. 
+
+See:
+https://signatures-conformance-checker.etsi.org/pub/ASiCConformanceTestChecker_v1.0.pdf
+https://signatures-conformance-checker.etsi.org/pub/index.shtml"""@en ;
+    cav:refersTo camssa:d59055bd-944c-40c9-95eb-010e647482a3 .
+
+camssa:03cccaeb-640b-4f2f-a4ad-686e5d48a908 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "ASiC Baseline Profile does not define a cross-sector reusable data model. The specification is defining the basic set of requirements for the container formats in the context of AdES. In this requirements are included the three levels of conformance that have to be supported in order to validate electronic signatures. "@en ;
+    cav:refersTo camssa:c764c742-32e0-4691-957d-4f2220c2e926 .
+
+camssa:06299310-94f3-466b-af8d-b64d4cf2e61f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-73a8058bec757a2fdb0f8513c2f11841e982cbef76c3be82af67707c294da8b8 ;
+    cav:value "2"^^xsd:int .
+
+camssa:08e38d84-04ec-4b93-83a2-8ff31ef46760 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 3 Member States' catalogues of recommended specifications. Examples of Member States including ASiC in their catalogues are France or the Netherlands.
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:b74032a5-81da-42bc-a727-0fa9683be0ce .
+
+camssa:13e312d4-0798-4a35-88da-60c4b74994fd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6ec33e201b803a1cc0150c0da8dc42b2a0f1029cf31e7a2c0fc81d1d8336ef36 ;
+    cav:value "1"^^xsd:int .
+
+camssa:187b9879-1ce3-4b5b-aa6e-f913a838cb06 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:1a8ad3b8-3525-4ffe-8fee-06e576b21196 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-41c6fd2dadb03cc64aad82cfa14f545c084f1a955a3ab7a61aab416a138c5dce ;
+    cav:value "1"^^xsd:int .
+
+camssa:1c3be3f2-4e8c-4f5a-b8ee-7cb457ed41fc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a64b01ca9e737c550b205ba3a8a46b3fcfc9447b648ba8ef15d62d3ada26141 ;
+    cav:value "2"^^xsd:int .
+
+camssa:1ca1da0a-f7c6-4546-a7d4-67e9ccfdef2d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to e-accessibility. Therefore, this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:1c3be3f2-4e8c-4f5a-b8ee-7cb457ed41fc .
+
+camssa:1e13c01d-3de7-4682-a814-c6722752ffb5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to the publication of data as linked open data. Therefore, this criterion is not applicable for this criterion."@en ;
+    cav:refersTo camssa:b9bd4b80-7d44-41bd-aec5-5858bb6d994a .
+
+camssa:1ffe893c-111a-43f6-b695-1acc52f46b83 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specifications is not related to the publication of Open Data. Therefore, this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:feb04282-dcf4-43af-bf9a-230ca6f0e29f .
+
+camssa:2073aabe-b36f-4b05-80f7-aa72051b985e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to the delivery of multilingual services. Therefore, this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:55578e36-f0a0-490b-b1b0-58d4f1406a2c .
+
+camssa:24b45a8a-f179-42ff-96d6-5cb8eb8ec689 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The last version of the specification was released in 2003 by ETSI’s Technical Committee Electronic Signatures and Infrastructures (ESI). ASiC Baseline profile is linked to the development of ASiC, evolving at the same time. As well, is worth to note that all ETSI standards are focused on market needs ensuring its market acceptance. 
+Moreover, its selection in European initiatives demonstrates its maturity for the development of products and services. """@en ;
+    cav:refersTo camssa:292089cd-bcb4-4385-ac4c-c13ba9b4ef86 .
+
+camssa:277706b4-4ce1-436d-b17d-601aabf0cc55 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-105c699a138c27ab9a1af9174253cd7488b278f700acdbb1bdbcc3e0b9c5ec3d ;
+    cav:value "2"^^xsd:int .
+
+camssa:27c3a445-ebb2-4358-b48e-7868f7b9e427 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b4f0d1b7f1d41c70797fa200c6fc73ac01f2f1659319e5cb1cebe8f5e79c1fcb ;
+    cav:value "1"^^xsd:int .
+
+camssa:27e28239-9b94-4f0b-987b-fa71e8051f19 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ETSI’s standards-making process has been clearly defined after years of experience. The organisation has adopted the open approach which means direct participation and consensus as a basis to develop standards. All the stakeholders have the opportunity to participate directly in the process of standardisation through the technical committees created to develop ETSI’s technical specifications and standards. The decision-making process includes a public review, where stakeholders involved can provide technical feedback in order to enhance and maximize the quality and accuracy of the standards. 
+See: 
+https://www.etsi.org/standards/standards-making"""@en ;
+    cav:refersTo camssa:758a181c-e062-4502-9a87-117189eeda02 .
+
+camssa:28fca6ec-a3ad-406f-8003-40668d036531 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification assessed is focused on signed data transactions across borders, which means data portability. Moreover, as before mentioned, the scalability and adaptability of specification allow successful data exchange and reuse enhancing the interoperability of systems. "@en ;
+    cav:refersTo camssa:13e312d4-0798-4a35-88da-60c4b74994fd .
+
+camssa:292089cd-bcb4-4385-ac4c-c13ba9b4ef86 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a67ecbc29e70e62b18dba3ae4f8d1f91d5b3196777dbf8b58c6713cd517eb768 ;
+    cav:value "1"^^xsd:int .
+
+camssa:2b2263a2-f128-44d2-895c-c0000bdbc7af a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "1"^^xsd:int .
+
+camssa:2b9ea31e-3b09-41b5-9552-e4f51220d42a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ASiC and ASiC Baseline profile are included in the ETSI’s catalogue of standards. As ETSI is considered an official standardisation organisation, it can be considered that the specifications are included in a supra-national catalogue. 
+See: 
+https://www.etsi.org/deliver/etsi_ts/103100_103199/103174/02.02.01_60/ts_103174v020201p.pdf
+https://www.etsi.org/standards"""@en ;
+    cav:refersTo camssa:814364fb-b4ff-4a7d-96a4-4343250f6437 .
+
+camssa:322b20ec-7c49-40d1-acc4-9147b2e6c9ac a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ASiC Baseline Profile is available for free at the ETSI’s Catalogue of Standards. It can be found at ETSI’s webpage. 
+See:
+https://www.etsi.org/deliver/etsi_ts/103100_103199/103174/02.02.01_60/ts_103174v020201p.pdf
+https://www.etsi.org/standards"""@en ;
+    cav:refersTo camssa:7de30284-f646-4d9d-9e91-e927619f3f46 .
+
+camssa:347f2336-c8eb-4123-a79f-73305eaa025c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ASiC Baseline Profile is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). Specifically, ASiC Baseline Profile can define the interoperability aspects of “e-Seal Creation Service”, “e-Seal Verification and Validation Service”, “e-Signature Creation Service”, and “e-signature Verification and Validation Service” ABBs of the EIRA Technical View.
+See: 
+https://joinup.ec.europa.eu/solution/elis/distribution/eliscataloguev100betaxlsx"""@en ;
+    cav:refersTo camssa:d73354e3-bad7-4646-9223-8f915847bc94 .
+
+camssa:3bcd14d9-ffc0-4b29-8bba-799bd9350a47 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0229101dfe08cbe58da1e454363d30a8178a2e120466c8db23965488cae5c8b1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:43018f1c-2de6-4943-9850-ddadac3d6060 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "In the context of eSignatures and Seals, the European Commission has stated an Implementing decision (2015/1506) where urged the Member States and other Public services providers to recognise CAdES, PAdES, XAdES, and ASIC as formats for electronic signatures purposes."@en ;
+    cav:refersTo camssa:86120ab7-5541-4f6e-912a-933481e41acd .
+
+camssa:444ff0be-b459-4b38-822b-114d81d4869b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "ASiC Baseline profile depends on the different electronic signature standards (CAdES, PAdES, XAdES), and its settings regarding the level of conformity to provide a convenient result. Even though all the specifications above mentioned are interrelated, each one takes into account the others avoiding interoperability issues by indicating the requirements of each use case. "@en ;
+    cav:refersTo camssa:73f8fb46-71e6-4385-a131-f506c77da8a2 .
+
+camssa:4e26b540-7e29-425a-bce2-a3a182a4fd94 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By allowing to gather different objects signed with electronic signatures in one single ZIP file fosters the implementation of the once-only principle. Moreover, it is included in the context of the Connect Europe Facility’s (CEF) as one of the specifications covering the eSignature Building Block. At the same time, it is implemented in the Digital Signature Services (DSS), across borders initiative which aims to enhance the interoperability and data reuse. 
+
+See:
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Services+eSignature"""@en ;
+    cav:refersTo camssa:b247a1f7-fef6-472c-87c5-d8553f4ce530 .
+
+camssa:4e8d816b-88e4-4b9e-aacc-1ca3e7f9ecf2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d7be9f0dd52944e6c25f5469c86355a42ae446838bd9759b4986d21f7db4814b ;
+    cav:value "1"^^xsd:int .
+
+camssa:55578e36-f0a0-490b-b1b0-58d4f1406a2c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19c639047dab46befb5839503733c8f1e7ed8278f788a089d11d2caee84a8f7c ;
+    cav:value "2"^^xsd:int .
+
+camssa:5cc9c290-fbfd-4e80-846c-cf279c67433e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a1eafd9c95081eeabe19f0511239b88139f02f95e2349049eeea058a89c80f49 ;
+    cav:value "1"^^xsd:int .
+
+camssa:63621a0c-30fe-4e0c-aa79-7e1a8f3a22b6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39e7870e79b2999a8b61c97f0c356312b88174320d6464fce5639e57ec0de011 ;
+    cav:value "1"^^xsd:int .
+
+camssa:66ecc99e-5d63-4046-a0e3-c8342c22de81 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-58010a47630ff9ea23336bf3fc558deff59905e0292551fcabc95740082cb378 ;
+    cav:value "0"^^xsd:int .
+
+camssa:6d2a6914-0536-42c8-a834-08304336d7c6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to foster the availability and comprehensibility of public administrations services or the decision-making process."@en ;
+    cav:refersTo camssa:277706b4-4ce1-436d-b17d-601aabf0cc55 .
+
+camssa:6f75dc0c-e777-4e0a-8783-14162df218b8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "ASiC Baseline Profile is part of the electronic signature stack of specifications, this group of specifications are aimed to ensure the availability and validation of signed data. Therefore, the implementation of eSignatures involving ASiC Baseline Profile fosters secure and trustworthy data exchange. "@en ;
+    cav:refersTo camssa:2b2263a2-f128-44d2-895c-c0000bdbc7af .
+
+camssa:719c2369-d099-4686-bcdf-34b1ab9d44d4 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:73f8fb46-71e6-4385-a131-f506c77da8a2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e8c3529a6146f0b0d269112be717ba4e9c5979ea4f43f57d217c0f998d26ce17 ;
+    cav:value "0"^^xsd:int .
+
+camssa:758a181c-e062-4502-9a87-117189eeda02 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:774dc2bc-6814-4277-9eca-f684f12f7b6a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ASiC and ASiC Baseline Profile are open standards developed and maintained by ETSI, and it is available for free at ETSI’s webpage for everyone to study or implement. 
+See:  
+https://www.etsi.org/standards"""@en ;
+    cav:refersTo camssa:ebc4af25-fbd0-449e-9b74-30ba557498ad .
+
+camssa:77d582ea-194e-45e4-8086-6342dc324c66 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1d35b341bcafc21377ae6ac358b9dc087e8ad32870012c2743e49e4566440f41 ;
+    cav:value "2"^^xsd:int .
+
+camssa:786b1ed0-de23-4c82-995e-6609ae071fe7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to the availability interfaces. Therefore, this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:fd07840c-b86c-411c-ad3e-5db7752f2a5e .
+
+camssa:7de30284-f646-4d9d-9e91-e927619f3f46 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b45c8f7e446b1343c6b6961290d2106768aa43c1f123f5e436d0255c003abb50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:814364fb-b4ff-4a7d-96a4-4343250f6437 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0c9dd43038136296b52f50e05f9d6eef39f7b8018517224007990b15be2eb19e ;
+    cav:value "1"^^xsd:int .
+
+camssa:8146fba0-a7b4-4e34-9fc7-9a8888e60b15 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cf1de0bf03a8ee372af0deddf9ef5c4609f5a7bb9c7e001c89d887c6789eaf56 ;
+    cav:value "1"^^xsd:int .
+
+camssa:845595ff-3fe1-4f44-b41e-60e6edfaddc3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ASiC and ASiC Baseline profile are maintained by ETSI, one of the European Agencies for Standardisation. 
+See:
+https://www.etsi.org/about"""@en ;
+    cav:refersTo camssa:3bcd14d9-ffc0-4b29-8bba-799bd9350a47 .
+
+camssa:854f5de8-a1a5-4470-a772-7a4e7a05ba19 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "No assessment in terms of efficiency or effectiveness has been found regarding ASiC Baseline Profile performance. "@en ;
+    cav:refersTo camssa:66ecc99e-5d63-4046-a0e3-c8342c22de81 .
+
+camssa:86120ab7-5541-4f6e-912a-933481e41acd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-396b6535162f7bba7733ebcc30d2e467321ce07cd8e48b86ab8201acf27031f9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:94b1dea0-e2c6-49ee-a8f0-9ae4b6fe2909 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to business process modelling. Therefore, this criterion is not applicable to this specification. "@en ;
+    cav:refersTo camssa:77d582ea-194e-45e4-8086-6342dc324c66 .
+
+camssa:96f1d11f-ba6e-4de7-928b-5387b2b1fff4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "ASiC Baseline profile is a specification that defines a set of features needed for the successful creation of containers containing data and information related to eSignatures. The specification performance is closely related to the different specifications involved in electronic signatures across borders. (E.g. CAdEs Baseline Profile, XAdES Baseline Profile). In the context of the European internal market, it can be considered as an asset for the creation of solutions enhancing the interoperability between administrations and businesses when eSignature is needed. "@en ;
+    cav:refersTo camssa:8146fba0-a7b4-4e34-9fc7-9a8888e60b15 .
+
+camssa:99b48a2a-b59c-45e5-9c22-312f38c7f5c6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1435ad894742693c2b99e329ef12399cd411ed6900f49b9658fd2231de3f201a ;
+    cav:value "1"^^xsd:int .
+
+camssa:9a83fad0-0e4c-4ab3-8bc7-99f2fa165b6e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "ASiC Baseline Profile provides basic features needed to overcome barriers in the accomplishment of signed data interchange across borders. By providing different levels of conformity according to data transaction needs, it is highly scalable without hampering the interoperability between actors involved. "@en ;
+    cav:refersTo camssa:99b48a2a-b59c-45e5-9c22-312f38c7f5c6 .
+
+camssa:9ef67303-a7ca-42a6-bf49-59cdcf6827ed a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The implementation of eSignature is a mean that allows administrations and stakeholders to exchange digital data reducing the amount of non-digital documents exchanged. Additionally, it fosters the reuse of data across borders, which as well takes part on the administrative burden reduction. "@en ;
+    cav:refersTo camssa:63621a0c-30fe-4e0c-aa79-7e1a8f3a22b6 .
+
+camssa:a410701b-08e3-42ff-ad35-481a1655167d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e370a4af17e89cbb70bb5079082a1e21cdee85435c8fc30b12a8987f18db367f ;
+    cav:value "1"^^xsd:int .
+
+camssa:a6531a0d-79a8-497d-b174-fd5601be311f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of the specification is not related to defining organisational interoperability aspects. Therefore, the criterion is not applicable to this specification. "@en ;
+    cav:refersTo camssa:06299310-94f3-466b-af8d-b64d4cf2e61f .
+
+camssa:a6fe62db-009e-4280-a324-d38383dd2519 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """3 Member States are recommending ASiC in their ICT National Catalogues. 
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards
+"""@en ;
+    cav:refersTo camssa:27c3a445-ebb2-4358-b48e-7868f7b9e427 .
+
+camssa:b247a1f7-fef6-472c-87c5-d8553f4ce530 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-01e6c1ce016de128117697d51a8fdaebb57c1f50343c081dfd72e2fbc56733a8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:b5e3712c-937a-4ae7-a484-897d56114bdf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-83d21357ecad07668ab7f2010aefed3cebb92dab384eeae6eb7aa77def06cfc3 ;
+    cav:value "1"^^xsd:int .
+
+camssa:b74032a5-81da-42bc-a727-0fa9683be0ce a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3671439b412291ce208a0ade6313c64aeb2942059c7543ca39322c56458bcf96 ;
+    cav:value "1"^^xsd:int .
+
+camssa:b78a401f-3433-45c2-a0f1-9c0a59080918 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As one of the official European Standardisation Organisation, ETSI develops standards that are compliant with the European Standardisation Regulation 1025/2012. 
+See: 
+https://www.etsi.org/about/etsi-in-europe"""@en ;
+    cav:refersTo camssa:f15b689a-738e-4886-8918-38b54e338240 .
+
+camssa:b9bd4b80-7d44-41bd-aec5-5858bb6d994a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-450e8a1f4cffbbf3de202e37bd642f098174559028df90ccc657473a6086bc0b ;
+    cav:value "2"^^xsd:int .
+
+camssa:ba930730-b76e-4f36-b9fb-9efe55190482 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ASiC Baseline profile has been selected within the CEF Digital Signature Service (hereby DSS), along with CAdES, XAdES and PAdES Baseline profiles.  
+
+Digital Signature Service is an open-source software library for electronic signature creation and validation supporting the interoperability of electronic signatures. The initiative is an enabler for cross borders interoperability between administrations and businesses.
+
+See: 
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Standards+and+specifications
+https://ec.europa.eu/cefdigital/DSS/webapp-demo/doc/dss-documentation.html
+https://ec.europa.eu/cefdigital/wiki/pages/viewpage.action?pageId=82773260
+"""@en ;
+    cav:refersTo camssa:5cc9c290-fbfd-4e80-846c-cf279c67433e .
+
+camssa:c52e1a0e-e914-49d0-b843-8ff5285238e8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ETSI’s Intellectual Property Rights Policy is based on Standard Essential Patents (SEP). The policy implemented by the standardisation organisation seeks to reduce risks and ensure that the standards are available under (F) RAND basis and Royalty-free, it means with no cost or fee to be paid when possible. 
+See: 
+https://www.etsi.org/intellectual-property-rights"""@en ;
+    cav:refersTo camssa:a410701b-08e3-42ff-ad35-481a1655167d .
+
+camssa:c764c742-32e0-4691-957d-4f2220c2e926 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a0101cb11c30c1bbf94adb74479472f2a40c53ccc4b442180fece91506c20a9d ;
+    cav:value "0"^^xsd:int .
+
+camssa:d041a957-42aa-45f2-b82f-877ba2e38613 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ef096f898c938883daab1b22e784cfaf985b5e5c855e170ecf6eab6f37b01b50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d21843d3-4f8a-44e4-8aad-f995e0b18343 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "ASiC Baseline Profile is not directly related to the long-term preservation of electronic records or other items. Despite this, according to its purpose of ease the signed data, ASiC Baseline Profile has three level of conformance and the last one is the Long-Term Profile. In the case of the assessed specification, it does not include the profile in itself but invokes the requirements from CAdES and XAdES. Therefore, it helps to ensure the availability of electronic signatures over long time periods, easing interactions between administrations and stakeholders."@en ;
+    cav:refersTo camssa:b5e3712c-937a-4ae7-a484-897d56114bdf .
+
+camssa:d59055bd-944c-40c9-95eb-010e647482a3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-093c1e09f5a65e4cba0247dcab5a8f4854f3e512db336b1855b9a4c48d3659e0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d6d721b6-9142-4161-b02f-2741e25dc077 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4017a1ae4d077fbb3847280a1c20b41bf00c32d65fc9beaa2bea8cce550ac463 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d73354e3-bad7-4646-9223-8f915847bc94 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5839144ecfb6c41a2c3cf5c1e86a6b3ad7a9e3ec9c4efa5650a6e7b9e3586335 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d75427e6-0348-4f5f-86dc-ae91e9b0daba a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ETSI’s standards-making process has been clearly defined after years of experience. The organisation has adopted the open approach which means direct participation and consensus as a basis to develop standards. All the stakeholders have the opportunity to participate directly in the process of standardisation through the technical committees created to develop ETSI’s technical specifications and standards. The decision-making process includes a public review, where stakeholders involved can provide technical feedback in order to enhance and maximize the quality and accuracy of the standards. 
+See: 
+https://www.etsi.org/standards/standards-making"""@en ;
+    cav:refersTo camssa:187b9879-1ce3-4b5b-aa6e-f913a838cb06 .
+
+camssa:db3acc2d-77ca-4957-b013-1cf6cbd29040 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ETSI’s Intellectual Property Rights Policy is based on Standard Essential Patents (SEP). The policy implemented by the standardisation organisation seeks to reduce risks and ensure that the standards are available under (F) RAND basis and Royalty-free, it means with no cost or fee to be paid when possible. 
+See: 
+https://www.etsi.org/intellectual-property-rights"""@en ;
+    cav:refersTo camssa:d041a957-42aa-45f2-b82f-877ba2e38613 .
+
+camssa:dce5c40f-d8df-42f2-ae36-f9dab24a2e8d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ASiC and ASiC Baseline profile is referenced in the ETSI collection at the European Platform Joinup. Moreover, it can be found for free at ETSI’s webpage
+See:
+https://joinup.ec.europa.eu/solution/electronic-signatures-and-infrastructures-esi-associated-signature-containers-asic-part-3-baseline/about
+https://www.etsi.org/deliver/etsi_ts/103100_103199/103174/02.02.01_60/ts_103174v020201p.pdf"""@en ;
+    cav:refersTo camssa:d6d721b6-9142-4161-b02f-2741e25dc077 .
+
+camssa:e50bb2ac-0186-4d4b-a171-ab033bda382a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "ASiC Baseline Profile is a business sector agnostic specification which is reusable beyond the domain for which it was developed. Specifically, it can be implemented whether electronic signatures are needed even it is focused on implementations within the European internal market. "@en ;
+    cav:refersTo camssa:1a8ad3b8-3525-4ffe-8fee-06e576b21196 .
+
+camssa:e91995d6-39a6-492a-9cfc-0a51dabafeb2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ASiC is included in the Dutch national catalogue of recommended specifications. The National Interoperability Framework (NIF) of the Netherlands is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets.
+See:
+https://joinup.ec.europa.eu/collection/national-interoperability-framework-observatory-nifo/nifo-factsheets"""@en ;
+    cav:refersTo camssa:4e8d816b-88e4-4b9e-aacc-1ca3e7f9ecf2 .
+
+camssa:ebc4af25-fbd0-449e-9b74-30ba557498ad a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4a006ad6785e066d16c13daf48a60ee43ec33d1de1b06613c8e656ccf330a6d5 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f15b689a-738e-4886-8918-38b54e338240 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e9e0cf4a339c837607828404dd0e9b360d643528fcc1df488a95ca67166acea3 ;
+    cav:value "1"^^xsd:int .
+
+camssa:fd07840c-b86c-411c-ad3e-5db7752f2a5e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f41cca0d171e6f64dbc2bdeae9fbc87f2ea51ac00185b22114d59ab8a06e78d0 ;
+    cav:value "2"^^xsd:int .
+
+camssa:feb04282-dcf4-43af-bf9a-230ca6f0e29f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b6ba3f2f556446c68c55833e72b217be87ad5f0dd07744e2c39c6070aff6c10f ;
+    cav:value "2"^^xsd:int .
+

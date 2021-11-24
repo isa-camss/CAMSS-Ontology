@@ -1,0 +1,526 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:94b52b30113447aa6dd02ce6fbe1210e7195520d55a08f6dc7da784a67e71d9c a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:99e59a3cac7e8d0300e4f19f439afce1f1a1aa6558a6ce046cd2656dc04e85be ;
+    camss:assessmentDate "1001-01-01"^^xsd:date ;
+    camss:submissionDate "2019-10-31"^^xsd:date ;
+    camss:toolVersion tool:3.0.0 ;
+    cav:contextualisedBy sc:3aadede3d912d8ab2b20d40221274da3af8f9ee9c14f0e1226f9217a3e8953e4 ;
+    cav:resultsIn camssa:007b1a50-8653-4a06-9521-971b14b859cb,
+        camssa:0e72980a-51da-45e6-a59c-d21db81bb0c6,
+        camssa:12db5a11-f5c3-40bc-8099-e483d3942afe,
+        camssa:1b7399e4-6b39-41cd-ae46-a92195d4e2bd,
+        camssa:1d11d29b-eba1-456f-8d3d-e3e1eecd7952,
+        camssa:243bdd58-4e9a-4bf4-bd13-6b94e09457e2,
+        camssa:3fe0bab2-591c-4bfd-8cda-af4aab6407c1,
+        camssa:49d5e17f-4ac1-470b-ac2c-34f2dbdc6002,
+        camssa:4a80d228-4755-4811-884e-9b9566c33528,
+        camssa:5260cce1-e904-49da-8cea-142e9f0433db,
+        camssa:5653df1b-48ce-443c-86d1-d8fafc830100,
+        camssa:59c59f44-9ded-4802-9f13-5c9ee19a4280,
+        camssa:5b59270c-efeb-48fc-996b-4d3c41a9f0b8,
+        camssa:5d0e1bc0-bd0e-40ec-bda6-9bc06a1e91af,
+        camssa:69715566-d57a-47cb-a3d5-b791fc0b0f48,
+        camssa:6a0f3d97-c7d9-4973-853d-b65b47e8272f,
+        camssa:6da4d06b-146c-497d-a320-dae22c0b60cc,
+        camssa:7494ee10-b4de-439d-805d-d1114f19e186,
+        camssa:791c98fb-0e88-4fd0-a616-6a632c7db80e,
+        camssa:7f6d72b2-9e98-4a79-97a2-dd8df3cdefc2,
+        camssa:83d80137-b6df-45f4-b1b1-a97a9b3fb22f,
+        camssa:84bf4a87-5027-4650-bf1f-931b3c3fc906,
+        camssa:881df14c-aa71-4352-942e-6277bf93a87c,
+        camssa:b2068aca-d422-4ddf-b551-f82d6410c383,
+        camssa:c1c3e0f0-afc8-43ab-b03d-c5536e3c8c5d,
+        camssa:c52e3a46-2f41-4ee0-941e-37aa3974ad9c,
+        camssa:c6a16e4e-d0c0-46af-999c-5c9a1f7ab88b,
+        camssa:ca4f38e1-fa4d-4526-bc82-9893e85e23a1,
+        camssa:ccee3460-a59f-4dca-9245-74d4d1365515,
+        camssa:cda392ce-bafb-4f5b-9650-61fc1d95476f,
+        camssa:d3273c91-cc4a-4b4c-9917-3a9797e5cbad,
+        camssa:d34efaa7-f1aa-4d05-a47b-07f8bba8a91b,
+        camssa:e12825b4-fc82-4c95-b36b-163cd2548fe1,
+        camssa:e2a2a1c8-ac00-486c-adf7-1c3fc26bb755,
+        camssa:e9042ed5-a9db-4ff8-a53d-43e263f352af,
+        camssa:f535480d-6ce8-4a5f-aef8-b6219125a4a5,
+        camssa:f9382343-b905-4cc3-a966-e317624ecefb ;
+    cav:status status:Complete ;
+    dct:title "Internet Protocol version 6 (IPv6)"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:262c79bf-f373-4b87-a47f-4085a8322353 ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:007b1a50-8653-4a06-9521-971b14b859cb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification is not related to the publication of public data as open data. Therefore this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:bf43ee5e-4680-4345-8ed3-37a945707ebd .
+
+camssa:0e72980a-51da-45e6-a59c-d21db81bb0c6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of IPv6 is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:4b5ccad6-5d4c-4127-8780-519c44204f8e .
+
+camssa:12db5a11-f5c3-40bc-8099-e483d3942afe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """9 Member States are recommending IPv6 in their ICT National Catalogues. 
+
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:81a11458-8d2d-4b16-9d9f-7169a9ad18f4 .
+
+camssa:1b6983b7-d404-49b0-98c4-4834a9a5d160 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0c9dd43038136296b52f50e05f9d6eef39f7b8018517224007990b15be2eb19e ;
+    cav:value "1"^^xsd:int .
+
+camssa:1b7399e4-6b39-41cd-ae46-a92195d4e2bd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of IPv6 is not related to long term preservation of electronic records. Therefore this criterion is considered not applicable to this specification."@en ;
+    cav:refersTo camssa:898d216e-0230-4434-8de3-9f9d61bf6a57 .
+
+camssa:1ba0c0f6-24fa-49cc-9818-7fc3a0582b60 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1435ad894742693c2b99e329ef12399cd411ed6900f49b9658fd2231de3f201a ;
+    cav:value "1"^^xsd:int .
+
+camssa:1d11d29b-eba1-456f-8d3d-e3e1eecd7952 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPv6 is already associated to EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, IPv6 can define the interoperability aspects of the "Network", "Networking Service", "Private Network" and "Public Network" ABBs of the EIRA Technical View.
+
+See: 
+https://joinup.ec.europa.eu/solution/elis/distribution/eliscataloguev100betaxlsx"""@en ;
+    cav:refersTo camssa:ef8b2f5e-cd01-4441-b839-6721c3b7b444 .
+
+camssa:217d8434-8b8a-4e09-9d6d-183fdb85ab40 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a64b01ca9e737c550b205ba3a8a46b3fcfc9447b648ba8ef15d62d3ada26141 ;
+    cav:value "2"^^xsd:int .
+
+camssa:243bdd58-4e9a-4bf4-bd13-6b94e09457e2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After being evaluated compliant with the regulation on standardisation 1025/2012, IPv6 has been identified by Commission Implementing Decision. During the evaluation process, all the Member States are invited to share their doubts. The positive evaluation of IPv6 and its identification is considered an interoperability agreement.
+
+See: 
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en """@en ;
+    cav:refersTo camssa:c9ded159-f448-4110-9aa5-e547b927949f .
+
+camssa:262c79bf-f373-4b87-a47f-4085a8322353 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:29e7140c-3c63-4791-803b-01b351fb2018 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-58010a47630ff9ea23336bf3fc558deff59905e0292551fcabc95740082cb378 ;
+    cav:value "1"^^xsd:int .
+
+camssa:33846b05-d3ed-429c-a751-c37edc395d25 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a1eafd9c95081eeabe19f0511239b88139f02f95e2349049eeea058a89c80f49 ;
+    cav:value "1"^^xsd:int .
+
+camssa:3656c89f-7818-43bf-92cb-3196db10f862 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4a006ad6785e066d16c13daf48a60ee43ec33d1de1b06613c8e656ccf330a6d5 ;
+    cav:value "1"^^xsd:int .
+
+camssa:3b976c57-90f7-408e-849b-127763892781 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cf1de0bf03a8ee372af0deddf9ef5c4609f5a7bb9c7e001c89d887c6789eaf56 ;
+    cav:value "1"^^xsd:int .
+
+camssa:3fe0bab2-591c-4bfd-8cda-af4aab6407c1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The European Union considers the IPv6 as very important to "ensure the cross-border interoperability of online services and the digitisation of European public
+administrations for the ISA2 goals"
+See: https://ec.europa.eu/isa2/sites/isa/files/ipv6_framework_for_european_governments_0.pdf"""@en ;
+    cav:refersTo camssa:605d7ec9-06ba-4c2f-bca0-8e5e43257c5e .
+
+camssa:41b42ad0-ab91-4d92-a89d-135851a2a09d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-01e6c1ce016de128117697d51a8fdaebb57c1f50343c081dfd72e2fbc56733a8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:44dcd702-8fcd-4297-a2ad-e92ef97d3627 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e9e0cf4a339c837607828404dd0e9b360d643528fcc1df488a95ca67166acea3 ;
+    cav:value "1"^^xsd:int .
+
+camssa:46462ff2-c5b4-46d4-8160-50ed9ae10378 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a0101cb11c30c1bbf94adb74479472f2a40c53ccc4b442180fece91506c20a9d ;
+    cav:value "1"^^xsd:int .
+
+camssa:49d5e17f-4ac1-470b-ac2c-34f2dbdc6002 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, IPv6 is a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. IPv6 is therefore licensed on a royalty-free basis.
+No IPR disclosures have been submitted directly on the IPv6 specification (RFC 2818).
+See:
+https://tools.ietf.org/html/rfc3668"""@en ;
+    cav:refersTo camssa:b08c4785-6af0-4886-9bd7-ac122cbabf68 .
+
+camssa:4a80d228-4755-4811-884e-9b9566c33528 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """
+After being evaluated compliant with the regulation on standardisation 1025/2012, IPv6 has been identified by Commission Implementing Decision.
+
+See: 
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en"""@en ;
+    cav:refersTo camssa:44dcd702-8fcd-4297-a2ad-e92ef97d3627 .
+
+camssa:4b5ccad6-5d4c-4127-8780-519c44204f8e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-73a8058bec757a2fdb0f8513c2f11841e982cbef76c3be82af67707c294da8b8 ;
+    cav:value "2"^^xsd:int .
+
+camssa:5260cce1-e904-49da-8cea-142e9f0433db a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPv6 is publicly available for implementation and use, and therefore for everyone to study, for free on IETF webpage. 
+See:
+https://tools.ietf.org/html/rfc2460"""@en ;
+    cav:refersTo camssa:3656c89f-7818-43bf-92cb-3196db10f862 .
+
+camssa:5653df1b-48ce-443c-86d1-d8fafc830100 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The European Union promotes the usage of IPv6 and the public administration are able to reuse it.  "MS as for instance Germany could bring strong support to the deployment of IPv6 within the European public administrations." 
+Source: https://ec.europa.eu/isa2/sites/isa/files/ipv6_framework_for_european_governments_0.pdf"""@en ;
+    cav:refersTo camssa:cc3bbd41-faa8-4dd7-8757-9d070feb3a8f .
+
+camssa:581b658e-96b8-4dd3-952f-95229c301acd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "1"^^xsd:int .
+
+camssa:59c59f44-9ded-4802-9f13-5c9ee19a4280 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "IPv6 is a business domain agnostic specification."@en ;
+    cav:refersTo camssa:642df21b-ab9f-4d8f-bdd0-d69cdd92f484 .
+
+camssa:5b59270c-efeb-48fc-996b-4d3c41a9f0b8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification purpose is to enable communications over the internet. IPv6 is the new version of IPv4 which is a widely used protocol therefore it is not dependent of any specific platform or technology. Thus, the adoption of IPv6 does not hamper the interoperability. "@en ;
+    cav:refersTo camssa:b2fd14b8-55b4-4d17-b2bc-164e09c57245 .
+
+camssa:5d0e1bc0-bd0e-40ec-bda6-9bc06a1e91af a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPv6 is maintained and developed by IETF which is an international community developing open standards
+Moreover, the deployment of IPv6 is rapidly expanding in the Internet. Support for IPv6 in applications is lagging behind and endorse such as Apple are taking steps to rectify this situation and raise awareness to the problem.
+
+See: 
+https://www.ietf.org/about/ 
+https://community.cisco.com/t5/jive-developer-archive-documents/ipv6-for-application-developers-whitepaper/ta-p/3647032
+"""@en ;
+    cav:refersTo camssa:946f40b0-ea09-4dd5-b933-5d5741f953f2 .
+
+camssa:5fac738f-281d-4eb2-9c1e-d935a882a510 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d7be9f0dd52944e6c25f5469c86355a42ae446838bd9759b4986d21f7db4814b ;
+    cav:value "1"^^xsd:int .
+
+camssa:605d7ec9-06ba-4c2f-bca0-8e5e43257c5e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f41cca0d171e6f64dbc2bdeae9fbc87f2ea51ac00185b22114d59ab8a06e78d0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:642df21b-ab9f-4d8f-bdd0-d69cdd92f484 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-41c6fd2dadb03cc64aad82cfa14f545c084f1a955a3ab7a61aab416a138c5dce ;
+    cav:value "1"^^xsd:int .
+
+camssa:67be7b80-fc15-43e3-bab7-a51d87d4b331 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1d35b341bcafc21377ae6ac358b9dc087e8ad32870012c2743e49e4566440f41 ;
+    cav:value "2"^^xsd:int .
+
+camssa:686f40bc-82ed-4767-a338-dbad41712b6e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a67ecbc29e70e62b18dba3ae4f8d1f91d5b3196777dbf8b58c6713cd517eb768 ;
+    cav:value "1"^^xsd:int .
+
+camssa:69715566-d57a-47cb-a3d5-b791fc0b0f48 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The IPv6 has a 25% of share in internet-connected network advertise. 49 country report 5% of the traffic through IPv6 and 24 countries exceed the 15%.
+See:
+https://www.internetsociety.org/resources/2018/state-of-ipv6-deployment-2018/"""@en ;
+    cav:refersTo camssa:686f40bc-82ed-4767-a338-dbad41712b6e .
+
+camssa:6a0f3d97-c7d9-4973-853d-b65b47e8272f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """As Internet Protocol Stack, IPv6 it is being selected gradually by different Member States. The specification is the most used for the data exchange over the internet therefore IPv6 fosters the visibility of data across borders. 
+
+The European Union is willing to implement the IPV6 as state on the following report: "The adoption of IPv6 in Europe, in particular within European public administrations, is still low, but the availability of IPv6 communication is vital for the economic development and the digitisation of European public administrations. The goals of the Digital Agenda for Europe and the Digital Single Market Strategy are based on stable and reliable data networks."
+See: https://ec.europa.eu/isa2/sites/isa/files/ipv6_framework_for_european_governments_0.pdf"""@en ;
+    cav:refersTo camssa:6f276b62-62d6-4a17-843d-dd1b5b2cd629 .
+
+camssa:6da4d06b-146c-497d-a320-dae22c0b60cc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of IPv6 is not related to  e-accessibility. Therefore this criterion is considered not applicable specification."@en ;
+    cav:refersTo camssa:217d8434-8b8a-4e09-9d6d-183fdb85ab40 .
+
+camssa:6f276b62-62d6-4a17-843d-dd1b5b2cd629 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-105c699a138c27ab9a1af9174253cd7488b278f700acdbb1bdbcc3e0b9c5ec3d ;
+    cav:value "1"^^xsd:int .
+
+camssa:71f37cd4-eb98-4174-a0eb-d0f5e0b93805 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39e7870e79b2999a8b61c97f0c356312b88174320d6464fce5639e57ec0de011 ;
+    cav:value "1"^^xsd:int .
+
+camssa:7494ee10-b4de-439d-805d-d1114f19e186 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are several case studies regarding the deployment of IPv6 in Mexico, Greece, USA.
+
+See: 
+https://www.internetsociety.org/deploy360/ipv6/case-studies/"""@en ;
+    cav:refersTo camssa:29e7140c-3c63-4791-803b-01b351fb2018 .
+
+camssa:791c98fb-0e88-4fd0-a616-6a632c7db80e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Like all the IETF standards, IPv6 is  a free and open technical specification, built on IETF standards and licenses from the Open Web Foundation. IPv6 is therefore licensed on a royalty-free basis.
+See:
+https://tools.ietf.org/html/rfc3668"""@en ;
+    cav:refersTo camssa:b32f6a19-51fe-409d-a7ad-b75c19623288 .
+
+camssa:7f6d72b2-9e98-4a79-97a2-dd8df3cdefc2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification is not related to the publication of public data as open data. Therefore this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:a703576c-2281-4853-9c30-6e4b618d3ef3 .
+
+camssa:81a11458-8d2d-4b16-9d9f-7169a9ad18f4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b4f0d1b7f1d41c70797fa200c6fc73ac01f2f1659319e5cb1cebe8f5e79c1fcb ;
+    cav:value "1"^^xsd:int .
+
+camssa:83d80137-b6df-45f4-b1b1-a97a9b3fb22f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPv6 is included in 4 national catalogues, which belong to Member States which comply with at least 4 out of 5 sections of the EIF according to the NIFO factsheets.
+
+See:                                                                                                                                               https://www.forumstandaardisatie.nl/open-standaarden/lijst
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards                                  """@en ;
+    cav:refersTo camssa:5fac738f-281d-4eb2-9c1e-d935a882a510 .
+
+camssa:84bf4a87-5027-4650-bf1f-931b3c3fc906 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPv6 as a protocol with objective of enhancing communications over a computer network, allows the scalability of systems. 
+Moreover, the European Union promotes the usage of IPv6 and the public administration are able to reuse it.  "MS as for instance Germany could bring strong support to the deployment of IPv6 within the European public administrations." 
+Source: https://ec.europa.eu/isa2/sites/isa/files/ipv6_framework_for_european_governments_0.pdf"""@en ;
+    cav:refersTo camssa:1ba0c0f6-24fa-49cc-9818-7fc3a0582b60 .
+
+camssa:881df14c-aa71-4352-942e-6277bf93a87c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPv6 is available at Joinup, the European collaborative platform for reusable solutions.
+
+See: 
+https://joinup.ec.europa.eu/solution/ietf-rfc-2460-1998-internet-protocol-version-6-ipv6-specification/distribution/ietf-rfc-2460-1998-internet-protocol-version-6-ipv6-specification"""@en ;
+    cav:refersTo camssa:bfff9037-975b-49a5-9461-6216300ac7f0 .
+
+camssa:898d216e-0230-4434-8de3-9f9d61bf6a57 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-83d21357ecad07668ab7f2010aefed3cebb92dab384eeae6eb7aa77def06cfc3 ;
+    cav:value "2"^^xsd:int .
+
+camssa:946f40b0-ea09-4dd5-b933-5d5741f953f2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0229101dfe08cbe58da1e454363d30a8178a2e120466c8db23965488cae5c8b1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:9b31b471-a98a-407c-b482-b7107b6b69bb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-093c1e09f5a65e4cba0247dcab5a8f4854f3e512db336b1855b9a4c48d3659e0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:9e48fb15-712c-4049-bd81-070333dd8319 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6ec33e201b803a1cc0150c0da8dc42b2a0f1029cf31e7a2c0fc81d1d8336ef36 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a703576c-2281-4853-9c30-6e4b618d3ef3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-450e8a1f4cffbbf3de202e37bd642f098174559028df90ccc657473a6086bc0b ;
+    cav:value "2"^^xsd:int .
+
+camssa:aa7bcbdf-7d01-4e74-8aea-850bb15ab6c9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19c639047dab46befb5839503733c8f1e7ed8278f788a089d11d2caee84a8f7c ;
+    cav:value "2"^^xsd:int .
+
+camssa:abb65a8f-6e34-47a1-8626-c55861378e42 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3671439b412291ce208a0ade6313c64aeb2942059c7543ca39322c56458bcf96 ;
+    cav:value "1"^^xsd:int .
+
+camssa:b08c4785-6af0-4886-9bd7-ac122cbabf68 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e370a4af17e89cbb70bb5079082a1e21cdee85435c8fc30b12a8987f18db367f ;
+    cav:value "1"^^xsd:int .
+
+camssa:b2068aca-d422-4ddf-b551-f82d6410c383 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IETF has a formal review and approval so that all the relevant stakeholders can formally appeal or raise objections to the development and approval of specifications.
+
+Each distinct version of an Internet standards-related specification is published as part of the "Request for Comments" (RFC) document series. This archival series is the official publication channel for Internet standards documents and other publications.
+
+During the development of a specification, draft versions of the document are made available for informal review and comment by placing them in the IETF's "Internet-Drafts" directory, which is replicated on a number of Internet hosts. This makes an evolving working document readily available to a wide audience, facilitating the process of review and revision.
+
+See:
+https://www.ietf.org/standards/process/ 
+https://tools.ietf.org/html/rfc2026"""@en ;
+    cav:refersTo camssa:d2301fc8-5fd9-49cd-8c98-89cb6f9137bc .
+
+camssa:b2fd14b8-55b4-4d17-b2bc-164e09c57245 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e8c3529a6146f0b0d269112be717ba4e9c5979ea4f43f57d217c0f998d26ce17 ;
+    cav:value "1"^^xsd:int .
+
+camssa:b32f6a19-51fe-409d-a7ad-b75c19623288 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ef096f898c938883daab1b22e784cfaf985b5e5c855e170ecf6eab6f37b01b50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:bf43ee5e-4680-4345-8ed3-37a945707ebd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b6ba3f2f556446c68c55833e72b217be87ad5f0dd07744e2c39c6070aff6c10f ;
+    cav:value "2"^^xsd:int .
+
+camssa:bfff9037-975b-49a5-9461-6216300ac7f0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4017a1ae4d077fbb3847280a1c20b41bf00c32d65fc9beaa2bea8cce550ac463 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c1c3e0f0-afc8-43ab-b03d-c5536e3c8c5d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of IPv6 is not related  to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:67be7b80-fc15-43e3-bab7-a51d87d4b331 .
+
+camssa:c52e3a46-2f41-4ee0-941e-37aa3974ad9c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The information shared by an IPV6 packet,  the smallest message entity exchanged via the Internet Protocol, contains information structured in cross-border reusable data model."@en ;
+    cav:refersTo camssa:46462ff2-c5b4-46d4-8160-50ed9ae10378 .
+
+camssa:c6a16e4e-d0c0-46af-999c-5c9a1f7ab88b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The once-only principle is an e-government concept that aims to ensure that citizens, institutions, and companies only have to provide certain standard information to the authorities and administrations once.
+
+The Internet Protocol is a necessary specification for the implementation of the once-only-principle as it allows cross-border communications over the internet."""@en ;
+    cav:refersTo camssa:41b42ad0-ab91-4d92-a89d-135851a2a09d .
+
+camssa:c9ded159-f448-4110-9aa5-e547b927949f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-396b6535162f7bba7733ebcc30d2e467321ce07cd8e48b86ab8201acf27031f9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:ca4f38e1-fa4d-4526-bc82-9893e85e23a1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is included in 9 Member States' catalogues of recommended specifications. Some examples of Member States including IPv6 on their catalogues are Spain, Sweden, France or Germany. 
+
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:abb65a8f-6e34-47a1-8626-c55861378e42 .
+
+camssa:cc3bbd41-faa8-4dd7-8757-9d070feb3a8f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b45c8f7e446b1343c6b6961290d2106768aa43c1f123f5e436d0255c003abb50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:cc98765a-ce44-4124-9024-b6125b765fc5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:ccee3460-a59f-4dca-9245-74d4d1365515 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPv6 allows data exchange between systems and it is compatible with the previous version IPv4. 
+
+Furthermore, he European Union fosters del IPv6 to ensure "The goals of the Digital Agenda for Europe and the Digital Single Market Strategy are based on stable and reliable data networks."
+See: https://ec.europa.eu/isa2/sites/isa/files/ipv6_framework_for_european_governments_0.pdf"""@en ;
+    cav:refersTo camssa:9e48fb15-712c-4049-bd81-070333dd8319 .
+
+camssa:cda392ce-bafb-4f5b-9650-61fc1d95476f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """ETSI TTC3+ Conformance test suit is available to test several features of the protocol. 
+
+See: 
+http://www.ttcn-3.org/index.php/about/introduction"""@en ;
+    cav:refersTo camssa:9b31b471-a98a-407c-b482-b7107b6b69bb .
+
+camssa:d2301fc8-5fd9-49cd-8c98-89cb6f9137bc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d3273c91-cc4a-4b4c-9917-3a9797e5cbad a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Internet Protocol Security (IPsec), a protocol providing a network layer security (authentication and encryption), is included as a mandatory feature in the IPv6 specification. IPv6 is more secure than the alternative Internet protocol, IPv4, its previous version.
+
+See: 
+https://tools.ietf.org/html/rfc2460"""@en ;
+    cav:refersTo camssa:581b658e-96b8-4dd3-952f-95229c301acd .
+
+camssa:d34efaa7-f1aa-4d05-a47b-07f8bba8a91b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPv6 has been selected within the TESTA, which provides a secure cross-border data communication network service for public administrations. 
+See: 
+https://ec.europa.eu/idabc/en/document/2097.html 
+"""@en ;
+    cav:refersTo camssa:33846b05-d3ed-429c-a751-c37edc395d25 .
+
+camssa:e12825b4-fc82-4c95-b36b-163cd2548fe1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of IPv6 is not related to the delivery of multilingual services. Therefore this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:aa7bcbdf-7d01-4e74-8aea-850bb15ab6c9 .
+
+camssa:e2a2a1c8-ac00-486c-adf7-1c3fc26bb755 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """After being evaluated compliant with the regulation on standardisation 1025/2012, IPv6 has been identified by Commission Implementing Decision and included in the European list of ICT Standards for e-procurement.
+
+See: 
+https://ec.europa.eu/growth/industry/policy/ict-standardisation/ict-technical-specifications_en 
+"""@en ;
+    cav:refersTo camssa:1b6983b7-d404-49b0-98c4-4834a9a5d160 .
+
+camssa:e9042ed5-a9db-4ff8-a53d-43e263f352af a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The IETF is a consensus-based group, and authority to act on behalf of the community requires a high degree of consensus and the continued consent of the community. The process of creating and Internet Standard is straightforward: a specification undergoes a period of development and several iterations of review by the Internet community and revision based upon experience, is adopted as a Standard by the appropriate body... and is published. In practice, the process is more complicated, due to (1) the difficulty of creating specifications of high technical quality; (2) the need to consider the interests of all of the affected parties; (3) the importance of establishing widespread community consensus; and (4) the difficulty of evaluating the utility of a particular specification for the Internet community. The goals of the Internet Standards Process are:
+- Technical excellence;
+- prior implementation and testing;
+- clear, concise, and easily understood documentation;
+- openness and fairness; and 
+- timeliness.
+The goal of technical competence, the requirement for prior implementation and testing, and the need to allow all interested parties to comment all require significant time and effort. The Internet Standards Process is intended to balance these conflicting goals. The process is believed to be as short and simple as possible without sacrificing technical excellence, thorough testing before adoption of a standard, or openness and fairness.
+See:
+https://www.ietf.org/standards/process/"""@en ;
+    cav:refersTo camssa:cc98765a-ce44-4124-9024-b6125b765fc5 .
+
+camssa:ef8b2f5e-cd01-4441-b839-6721c3b7b444 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5839144ecfb6c41a2c3cf5c1e86a6b3ad7a9e3ec9c4efa5650a6e7b9e3586335 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f535480d-6ce8-4a5f-aef8-b6219125a4a5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By allowing communications over the internet, IPv6 contributes to the exchange of information between public administrations therefore, it reduces administrative burden
+
+https://tools.ietf.org/html/rfc2460"""@en ;
+    cav:refersTo camssa:71f37cd4-eb98-4174-a0eb-d0f5e0b93805 .
+
+camssa:f9382343-b905-4cc3-a966-e317624ecefb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """IPv6 is an extensible protocol open to new needs. It can develop together with new advanced application like: P2P, GRID, Ambient Intelligence.
+See:
+https://www.nro.net/wp-content/uploads/2010/12/ipv6_is_an_innovation_opportunity.pdf"""@en ;
+    cav:refersTo camssa:3b976c57-90f7-408e-849b-127763892781 .
+

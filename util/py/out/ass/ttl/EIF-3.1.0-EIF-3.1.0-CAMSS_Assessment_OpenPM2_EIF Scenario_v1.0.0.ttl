@@ -1,0 +1,614 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:78871f40759c4b8418495f0d246d86b4c68214cae870c3ad16e8f46b4608fddf a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:94a878c6dcca19a49c7dde857b176a2c07abcff39a7c9bc255c1318c3337a477 ;
+    camss:assessmentDate "2021-02-28"^^xsd:date ;
+    camss:submissionDate "2021-02-28"^^xsd:date ;
+    camss:toolVersion tool:3.1.0 ;
+    cav:contextualisedBy sc:44119b394568e5be30da9b83729a3cba1f19eadd53373d5cc6ff6a73fd3e26e8 ;
+    cav:resultsIn camssa:07ade0b5-9362-4bcb-8385-620aad08e4ef,
+        camssa:0a2214aa-7b5e-4284-829a-88d7e0a6c9da,
+        camssa:134c856e-d75e-4435-8010-1182e392f997,
+        camssa:1deb1f89-e7f2-4b12-99d1-172e60964e49,
+        camssa:20fd37b7-4af9-4ca8-b161-a873a2462de1,
+        camssa:26d739b6-f4e7-402d-86a8-0473f3a70263,
+        camssa:2ea97a36-a91f-40ea-9e6b-3efb43900fc4,
+        camssa:39e9ee14-f35e-4fe7-aa47-ecdd26031a17,
+        camssa:3c5f87f2-11de-4087-b7fc-b5a8dd6d1edf,
+        camssa:3f429601-63d4-4ce8-8e95-7f00be5698a4,
+        camssa:4769357e-8446-456c-b3eb-41d5d48520a2,
+        camssa:531f5e71-cf18-464c-b794-fdd394ce90a1,
+        camssa:598cc02d-c181-41b4-8155-3ee694de8465,
+        camssa:64fb1465-4c75-4662-9547-8aee18fce7d5,
+        camssa:6a28b03f-8c79-4916-b61b-130daf9822e9,
+        camssa:6c324c31-d0fc-4b75-9ec7-9845391c68ff,
+        camssa:6e277bf1-95b5-4378-958b-125d6fb948e8,
+        camssa:7bfb9bd0-90c3-453e-9b22-c1ab5f9c7e54,
+        camssa:81020884-5f68-44c6-854e-41b327a8c09e,
+        camssa:847e6daf-7b94-43a1-8a41-f133c457ee95,
+        camssa:84c7d0ab-f547-45d0-b51a-6ef16f534ab4,
+        camssa:8f3a96b8-3f7d-47bf-ac28-191530b9d7e4,
+        camssa:937ca685-9545-4ec1-a494-5dcea3425179,
+        camssa:96a3e351-32d6-4d72-bfc7-a2a4039bc18d,
+        camssa:9b0097f3-3b42-4e5b-872b-e3afef5d5eda,
+        camssa:9c37d25b-8582-43b7-ab4c-af83efb841bd,
+        camssa:9f452363-0a6a-4859-8a09-5ca3d92c09f4,
+        camssa:adff6d9f-ab43-4b3d-81e8-311a5c1957a3,
+        camssa:b371c347-7075-46d7-817a-9ac741c41fcb,
+        camssa:b4c1c103-d94f-47bc-a69e-b632267c19e4,
+        camssa:b859d55a-5079-4820-946e-85b865fe1c38,
+        camssa:ca459bef-8d29-47ea-99e4-b7dba8bb280f,
+        camssa:cabedc8a-7cb4-49b5-8118-5e78b6ac8ebf,
+        camssa:ceecc62d-b511-44df-90ad-a6da73be0214,
+        camssa:d097eee0-7e06-40c2-90ff-b48ea56ef760,
+        camssa:db48491b-6db1-4479-94a6-c856a18279e3,
+        camssa:e4ed222e-1065-46c9-813c-ae8573d808ca,
+        camssa:e754157f-0559-4dda-9959-d9f1338ce634,
+        camssa:f9854395-b81f-46d2-a6c0-b64ae79949e7 ;
+    cav:status status:Complete ;
+    dct:title "OpenPM2"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:8b0749d6-9812-4d23-bca2-5f6ab0e992ea ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:0103d786-5af6-4cac-9748-839c395c7c0c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ab64f97c21ac8b84c75d6f52a89765b1c8fd1856d2d2060926d05e94f306a88d ;
+    cav:value "1"^^xsd:int .
+
+camssa:02ed800f-a510-493b-996d-372d0beb7419 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8eb17470327d32b3bb523447fe72ee5c60ddb03e81dae318b485fbe05f48a844 ;
+    cav:value "0"^^xsd:int .
+
+camssa:07ade0b5-9362-4bcb-8385-620aad08e4ef a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OpenPM2 is not included in any national catalogue of recommended specifications whose Member State NIF is fully aligned with at least 4 out of 5 sections of the EIF according to NIFO factsheets.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:02ed800f-a510-493b-996d-372d0beb7419 .
+
+camssa:0a2214aa-7b5e-4284-829a-88d7e0a6c9da a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """PM2 is a light and easy-to-implement methodology that project teams can tailor to their specific needs. PM2 incorporates elements from a wide range of globally accepted project management best practices, captured in standards and methodologies. Then, it can be said that OpenPM2 is a commonly accepted business process modelling specification. 
+
+Moreover, it has been commonly used for the development of projects at European Institutions over time and with its openness, all interested groups can be involved in the development of projects and the design of business processes while doing them efficiently. 
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127"""@en ;
+    cav:refersTo camssa:0ad2716e-01ca-4de7-b6ad-73bb7f1d6ff8 .
+
+camssa:0ad2716e-01ca-4de7-b6ad-73bb7f1d6ff8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c265ca0c56e0f29a34039d496ba707b5486ccf6d445f9f058c19b4ece977861f ;
+    cav:value "1"^^xsd:int .
+
+camssa:134c856e-d75e-4435-8010-1182e392f997 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After carrying out information retrieval, no document or study has been found assessing the OpenPM2 in terms of efficiency or effectiveness."@en ;
+    cav:refersTo camssa:34aca388-0cf5-410e-92bb-66fd35ea0d4e .
+
+camssa:1ac0bf8a-f916-4d72-a847-7f1cd9822fd9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-53abe85b1365f86aa58a25566e54e082ea2d70ee8d9fbaf09ccab20af30f3332 ;
+    cav:value "2"^^xsd:int .
+
+camssa:1b6e121b-f12d-4862-91c3-c989ae1586bc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-138786a6e7517e10b94e83ec3b3e7ac79b4c49dcbeaef8d8e993c8df0d173529 ;
+    cav:value "0"^^xsd:int .
+
+camssa:1d610430-d25e-40a1-9eb4-cb71abf3a184 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-31bf959b6c4a983ec70eb87e0177f2739575ebce42c7c3b95b9012ef3bfe673e ;
+    cav:value "1"^^xsd:int .
+
+camssa:1deb1f89-e7f2-4b12-99d1-172e60964e49 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OpenPM2 is a public asset designed and developed by the European Commission and can be accessed and reused without any payment conditions. Therefore, it can be considered that the specifications is licensed under royalty-free basis and (F)RAND basis. 
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127  """@en ;
+    cav:refersTo camssa:f4ad946a-67de-45a7-b328-963a2974a60a .
+
+camssa:1e02df29-3521-4230-8b2a-22038b709d36 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "0"^^xsd:int .
+
+camssa:1e92fddf-b135-4bf6-9d63-52025af40838 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:20fd37b7-4af9-4ca8-b161-a873a2462de1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OpenPM2 is the open version of the PM2 developed by the Commission, therefore, it is publicly available for its use and implementation. Moreover, it is available for everyone with no cost.
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127"""@en ;
+    cav:refersTo camssa:1d610430-d25e-40a1-9eb4-cb71abf3a184 .
+
+camssa:26d739b6-f4e7-402d-86a8-0473f3a70263 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The OpenPM2 is the open version of the Project Management Methodology developed by the Commission back in 2007 and that has been evolving according to the experience gained over time. Within the PM2 Alliance, different stakeholders have the opportunity to contribute to the development of the specification in the different domains.
+
+PM2 alliance and advisory committees: 
+https://www.pm2alliance.eu/advisory-committees/"""@en ;
+    cav:refersTo camssa:1e92fddf-b135-4bf6-9d63-52025af40838 .
+
+camssa:2ea97a36-a91f-40ea-9e6b-3efb43900fc4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Not enough information has been found to consider this criterion positive or negative. "@en ;
+    cav:refersTo camssa:1ac0bf8a-f916-4d72-a847-7f1cd9822fd9 .
+
+camssa:34aca388-0cf5-410e-92bb-66fd35ea0d4e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc5bd9a7d0b2acc7f246522414fd5f5d579b977180bb04fa60a545cb35dae90f ;
+    cav:value "0"^^xsd:int .
+
+camssa:368d98c0-4e7e-4326-84b8-e95603128293 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4ac14cafe608f1dbe7e48f96edd7574c55f0aac2c2e99ede0418dae7225977af ;
+    cav:value "2"^^xsd:int .
+
+camssa:39e9ee14-f35e-4fe7-aa47-ecdd26031a17 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OpenPM2 is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:8350ecf5-1061-47c9-a7c2-28fa8b8d7792 .
+
+camssa:3c5f87f2-11de-4087-b7fc-b5a8dd6d1edf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OpenPM2 is a Project Management Methodology developed by the European Commission, it is focused on increasing project management capabilities. This is not strictly related to the publication of data as open data. 
+
+Tim Berners-Lee 5-star schema for Open Data:
+https://5stardata.info/en/
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127"""@en ;
+    cav:refersTo camssa:f8fb1b79-83c0-4e60-9158-cb4e3e91bb26 .
+
+camssa:3ce77c2a-140b-4480-b42c-46fa96250798 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7ab883158b51681c78f90d1a00bbb3840aa2c86e309a9abd1ad6e6eedb5e2735 ;
+    cav:value "1"^^xsd:int .
+
+camssa:3f429601-63d4-4ce8-8e95-7f00be5698a4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Taking into account the initial purpose of the specification, it can be considered that the specification is involved in fostering the comprehensibility of Public Administrations' data as well as relevant data produced for the decision-making process. It is involved by providing consistent methodology for the creation and development of coherent public services and solutions. 
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127  """@en ;
+    cav:refersTo camssa:3ce77c2a-140b-4480-b42c-46fa96250798 .
+
+camssa:4769357e-8446-456c-b3eb-41d5d48520a2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "Although the specification defines a set of principles to help implementers to be consistent, and even tools for this purpose, there are no conformity test or certifications that allow users to check the level of compliance with the requirements established."@en ;
+    cav:refersTo camssa:c28d766c-645c-45b6-a5c3-4256538577d2 .
+
+camssa:476f2cca-2b87-4da5-9abb-2799f083cab2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19598487b8ba278c3438dcfd74b74d9aad51beac08c53dbf40bf108ed09e72b2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:47f93a75-abb1-42d3-a01a-3219d6ec3aba a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3aec34db3622bf18675b8216d0fc1d68fc7eeb501b4f3326402038a3ceb95c21 ;
+    cav:value "1"^^xsd:int .
+
+camssa:4a8dc536-1821-413b-b4e5-9819beaaf6a4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ba46c76c10ad769a23ce4a9a34cb4d96a00407d5fc14ad1c791a870be7563c2b ;
+    cav:value "1"^^xsd:int .
+
+camssa:531f5e71-cf18-464c-b794-fdd394ce90a1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Even though the specification can be associated with solutions or projects aiming to ensure the availability of interfaces with internal information, the specification in itself does not foster its availability.
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127  """@en ;
+    cav:refersTo camssa:575d0113-7c0a-47a0-a428-13d639d88a45 .
+
+camssa:5551d11d-2828-4d71-ab94-3b2c644b77e5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fef5941bab92019b7692f8544de94715a42ed9ff76d89cbec4fb6f9821611925 ;
+    cav:value "2"^^xsd:int .
+
+camssa:575d0113-7c0a-47a0-a428-13d639d88a45 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-33ea90f5c1bb01d4398c57d03a25934dc5722d5ddbc98a43911ea4fb302ec54c ;
+    cav:value "0"^^xsd:int .
+
+camssa:598cc02d-c181-41b4-8155-3ee694de8465 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OpenPM2 is a public asset designed and developed by the European Commission and can be accessed and reused without any payment conditions. Therefore, it can be considered that the specifications is licensed under royalty-free basis and (F)RAND basis. 
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127 """@en ;
+    cav:refersTo camssa:8fbbedff-3f2c-4350-ae64-797ccf50d1b1 .
+
+camssa:599e9592-e7b9-45d8-b619-88e8bc41a220 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-624bc49501d58649e27cae4fb89fb5a56844685e54c5ce1625633894f8f752e1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:60faee7a-e49c-4990-a5a4-85a079397be6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6bedf555bffb837990b9eb353447fa116eb9d2384770b1dd3de46d3c5901d4f4 ;
+    cav:value "1"^^xsd:int .
+
+camssa:64fb1465-4c75-4662-9547-8aee18fce7d5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OpenPM2 is a business domain agnostic specification that can be reused in a cross-domain way. The implementation of OpenPM2 can help projects from any business domain to ensure the proper development while increasing efficiency and effectiveness. 
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127  """@en ;
+    cav:refersTo camssa:47f93a75-abb1-42d3-a01a-3219d6ec3aba .
+
+camssa:6a28b03f-8c79-4916-b61b-130daf9822e9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification does not foster the publication of data as linked open data since it is dedicated to the standardisation of processes within a project from a management perspective and not related to data publication. 
+
+Nonetheless, the methodology can help to establish priorities and enhance how services or products are oriented to the linked open data.  
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127 
+
+5-star linked open data:
+https://www.w3.org/DesignIssues/LinkedData.html"""@en ;
+    cav:refersTo camssa:1b6e121b-f12d-4862-91c3-c989ae1586bc .
+
+camssa:6c324c31-d0fc-4b75-9ec7-9845391c68ff a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OpenPM2 is a Project Management Methodology developed by the European Commission. Its purpose is to enable Project Managers (PMs) to deliver solutions and benefits to their organisations by effectively managing the entire lifecycle of their project. PM2 has been created with the needs of European Union Institutions and projects in mind but is transferable to projects in any organisation.
+
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127"""@en ;
+    cav:refersTo camssa:c67f8d30-8e31-4cff-982c-e48cf715f69d .
+
+camssa:6e277bf1-95b5-4378-958b-125d6fb948e8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The purpose of OpenPM2 seems not to be related to long term preservation of electronic records. Moreover, no information has been found to answer positively or negatively to this criterion. 
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127"""@en ;
+    cav:refersTo camssa:8dc412a4-70d4-4016-89d5-704f85056b46 .
+
+camssa:70154c79-b669-43f0-90b1-ca9457c96f05 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6d48464387e608d3022bd07338cd3859acfb0f84139186a979ef3b96baa51086 ;
+    cav:value "1"^^xsd:int .
+
+camssa:7bfb9bd0-90c3-453e-9b22-c1ab5f9c7e54 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """By applying the OpenPM2 methodology into the development of initiatives, services or products aiming to implement the once-only principle, it can leverage and promote synergies between organisations working in the same area of application. 
+
+European Institutions developing initiatives using OpenPM2 can help to develop efficient eGovernment initiatives implying the once-only principle. 
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127"""@en ;
+    cav:refersTo camssa:599e9592-e7b9-45d8-b619-88e8bc41a220 .
+
+camssa:81020884-5f68-44c6-854e-41b327a8c09e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The implementation of OpenPM methodology for developing projects including data portability steps would foster the proper development of European Public Services. 
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127"""@en ;
+    cav:refersTo camssa:0103d786-5af6-4cac-9748-839c395c7c0c .
+
+camssa:8350ecf5-1061-47c9-a7c2-28fa8b8d7792 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-838030847fa0adf54939e3feaac0ac2510924c54035e1cb671b223b54b02fd70 ;
+    cav:value "0"^^xsd:int .
+
+camssa:847e6daf-7b94-43a1-8a41-f133c457ee95 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Although the specification is a common method used by European Institutions for the development of projects, no formal agreement (SLAs among others) has been found to consider this criterion positive. 
+
+However, it is worth to note that there are several initiatives that trust OpenPM2 for the development of projects and reach objectives. As an example, OpenPM2 supports CSDP Missions and Operations.
+
+CSDP Missions and Operations:
+https://www.pm2alliance.eu/our-news/pm2-in-support-of-csdp-missions-and-operations/
+
+PM2 Alliance official webpage:
+https://www.pm2alliance.eu/"""@en ;
+    cav:refersTo camssa:fcc581e9-6abd-4af9-969e-71914d074af9 .
+
+camssa:84c7d0ab-f547-45d0-b51a-6ef16f534ab4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OpenPM2 is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, OpenPM2 can define the interoperability aspects of the "Service Delivery Model" ABBs of the EIRA Organisational View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v100"""@en ;
+    cav:refersTo camssa:ff86d03c-0c01-423d-ba7a-1aa2fb4e14fa .
+
+camssa:866b0c12-a5a7-4fe9-908e-834b25bfcfac a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8954ddabf37f4899562b9ea4c8f0bbf204f3e48c9203043bc231f368092396a2 ;
+    cav:value "0"^^xsd:int .
+
+camssa:8b0749d6-9812-4d23-bca2-5f6ab0e992ea a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "NaN"^^xsd:double .
+
+camssa:8c8c9e49-5872-49c6-86af-8cfe77668c64 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-21276471c1781fa2c7e78c8e03851e076b840beddbf5cf64f53b54b8855a01b8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:8dc412a4-70d4-4016-89d5-704f85056b46 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8a34a40e5bc5436b3530d898d75a57cf0488591887b31a5169499fe78952d84c ;
+    cav:value "2"^^xsd:int .
+
+camssa:8ed077a0-6064-48e4-9857-69d32f8cd5bf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "0"^^xsd:int .
+
+camssa:8f3a96b8-3f7d-47bf-ac28-191530b9d7e4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Even though the specification is not listed in catalogues of the European Standardisation (CEN, CENELEC, ETSI), the OpenPM2 is highly recommended and promoted within European organisations. It is published within the Publications Office website, and also it is included within ISA2 catalogue of solutions, which can be considered as a set of solutions (specs included) that are standardised at the European level.
+
+Publication Office of the European Union:
+https://op.europa.eu/en/home
+
+OpenPM2 reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-search
+
+ISA2 Solution Page:
+https://ec.europa.eu/isa2/solutions/open-pm2_en"""@en ;
+    cav:refersTo camssa:dd2b030b-e43e-49ca-b21b-c88a0b71d7fd .
+
+camssa:8fbbedff-3f2c-4350-ae64-797ccf50d1b1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a81c4b8658f57e819297eb0b7977407f8d814c6fe749c74a8ac497277ca7d9d8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:937ca685-9545-4ec1-a494-5dcea3425179 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The OpenPM2 is a specification that aims to increase the effective and efficient management of process helping them to the development of better solutions, products or services. However, its implementation is not strictly related to reach or foster the secure data exchange of the developed products and services. 
+
+Nonetheless, the use of this specification can help to determine the certain KPI helping the proper evolution of projects, and therefore a better quality in the developed solution. In this sense, the application could help to enhance how data is exchanged. 
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127"""@en ;
+    cav:refersTo camssa:8ed077a0-6064-48e4-9857-69d32f8cd5bf .
+
+camssa:96a3e351-32d6-4d72-bfc7-a2a4039bc18d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OpenPM2 establishes a common methodology for the development of processes. The adoption of this methodology can positively impact the organisational interoperability between organisations developing services or products under this methodology since they would be acting and carrying out similar steps that would allow the cooperation between them. Cooperation in cross-border projects is a powerful feature enhancing efficiency and effectiveness.
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127"""@en ;
+    cav:refersTo camssa:70154c79-b669-43f0-90b1-ca9457c96f05 .
+
+camssa:9b0097f3-3b42-4e5b-872b-e3afef5d5eda a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Not enough pieces of evidence have been found to answer positively or negatively to this criterion. It seems that OpenPM2 goal is not related to enabling e-accessibility for European Public Services.
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127"""@en ;
+    cav:refersTo camssa:5551d11d-2828-4d71-ab94-3b2c644b77e5 .
+
+camssa:9c37d25b-8582-43b7-ab4c-af83efb841bd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Not enough pieces of evidence have been found to answer positively or negatively to this criterion. Moreover, it seems that the purpose of the specification is not related to the delivery.
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127"""@en ;
+    cav:refersTo camssa:368d98c0-4e7e-4326-84b8-e95603128293 .
+
+camssa:9f452363-0a6a-4859-8a09-5ca3d92c09f4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OpenPM2 has the support of the Publication Office of the European Union as a developer community. 
+
+Publication Office of the European Union:
+https://op.europa.eu/en/home"""@en ;
+    cav:refersTo camssa:d0a78e65-a3df-432d-8700-a8e23fe27f2a .
+
+camssa:a13eda36-c877-44e0-a833-41fe256047b1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d129862d6c9639e131c7d5eef095af16ef94d57ec0d52f955bf909ba8ec688e8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:adff6d9f-ab43-4b3d-81e8-311a5c1957a3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OpenPM2 is publicly available for implementation and use for free on ISA2's webpage, and European Open Data Portal. Therefore, it can be reused by the organisations, administrations, open communities, etc. that developed it.
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127  """@en ;
+    cav:refersTo camssa:d7a13999-c85b-4168-8e14-50e6cf99a7cf .
+
+camssa:b371c347-7075-46d7-817a-9ac741c41fcb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OpenPM2 offers a set of guidelines and methods for the development of projects and aims to ensure the efficiency and effectiveness from the Project Management perspective. Since it is based on European Union and National Knowledge it can be useful when creating eGovernment innovative solutions. 
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127  """@en ;
+    cav:refersTo camssa:8c8c9e49-5872-49c6-86af-8cfe77668c64 .
+
+camssa:b4c1c103-d94f-47bc-a69e-b632267c19e4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Even though the PM2 alliance gathers the inputs from different stakeholders, there are no disclosures of a public-review being part of the decision-making process. The OpenPM in the end is produced and published by the Center of Excellence for Project Management Methodology, which congregates individuals and organisations coming from several and diverse area of knowledge. 
+
+The Center of Excellence also coordinates the PM Support Network (PSN), which in turn contributes to the development of communities and professionals executing projects using the methodology.
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127
+
+PM2 alliance and advisory commettees: 
+https://www.pm2alliance.eu/advisory-committees/"""@en ;
+    cav:refersTo camssa:1e02df29-3521-4230-8b2a-22038b709d36 .
+
+camssa:b859d55a-5079-4820-946e-85b865fe1c38 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OpenPM2 can be found for free in several European websites, for instance joinup, the European Open Data Portal, or the Publications Office website. 
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127 
+
+OpenPM2 Joinup:
+https://joinup.ec.europa.eu/collection/open-pm2-project-management-methodology"""@en ;
+    cav:refersTo camssa:e68c201a-545f-4f42-8ea3-869c7191173a .
+
+camssa:b911f985-2375-42cd-8a3d-146c12ddf468 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c09094de9d71f12686896827a205db683b6df58fa363bc5be2a7d99989e7dd0 ;
+    cav:value "0"^^xsd:int .
+
+camssa:c28d766c-645c-45b6-a5c3-4256538577d2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c967c90bfc7bc13426924eca012de349ae51d4e8f652fe64bfbec2cccc8c8146 ;
+    cav:value "0"^^xsd:int .
+
+camssa:c67f8d30-8e31-4cff-982c-e48cf715f69d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ffdbd22af1ff3c1ebb100043d062a3df160007af761caf0a8c9f50f02e609c9e ;
+    cav:value "1"^^xsd:int .
+
+camssa:ca459bef-8d29-47ea-99e4-b7dba8bb280f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OpenPM2's purpose is to enable Project Managers (PMs) to deliver solutions and benefits to their organisations by effectively managing the entire lifecycle of their project. Besides, since it helps to deliver different solutions, it helps foster to the visibility of administrative data and to support the decision-making process. Therefore, by being involved in the quality assurance of projects and data generated, it can help to enhance the visibility of public data and services, and also helping the decision-making process.
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127  """@en ;
+    cav:refersTo camssa:476f2cca-2b87-4da5-9abb-2799f083cab2 .
+
+camssa:cabedc8a-7cb4-49b5-8118-5e78b6ac8ebf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification has been constantly evolving to adapt to users needs and to ensure the effective development of projects funded with public funds. Besides, its evolution is translated into several releases where improvements have been put in the focal point. The current version was released more than two years ago, by mid-2018. This fact together with its first publication in 2016 provides enough maturity for its use in the development of public products and services. 
+
+Additionally, it is worth to note that this OpenPM has been evolved from previous Project Management Methodology, and therefore it contains a high level of lessons learned to improve its added value.
+
+OpenPM2 first edition reference:
+https://op.europa.eu/en/publication-detail/-/publication/0e3b4e84-b6cc-11e6-9e3c-01aa75ed71a1/language-en
+
+OpenPM ISA2:
+https://ec.europa.eu/isa2/solutions/open-pm2_en"""@en ;
+    cav:refersTo camssa:60faee7a-e49c-4990-a5a4-85a079397be6 .
+
+camssa:ceecc62d-b511-44df-90ad-a6da73be0214 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification does not define a cross-sector reusable data model. PM2 is a light and easy-to-implement methodology which project teams can tailor to their specific needs.
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127 """@en ;
+    cav:refersTo camssa:866b0c12-a5a7-4fe9-908e-834b25bfcfac .
+
+camssa:d097eee0-7e06-40c2-90ff-b48ea56ef760 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are no Member States recommending OpenPM2 in their ICT National Catalogues.
+ 
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards """@en ;
+    cav:refersTo camssa:b911f985-2375-42cd-8a3d-146c12ddf468 .
+
+camssa:d0a78e65-a3df-432d-8700-a8e23fe27f2a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b21a3eb972a2119979bc57368474efa809e8dd16cede48bc492e8b64da1abee9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d7a13999-c85b-4168-8e14-50e6cf99a7cf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c2cedd44f05183dae5548108bdeace2c092b84c7c5d89c475b0741ddae7fc7b2 ;
+    cav:value "1"^^xsd:int .
+
+camssa:db48491b-6db1-4479-94a6-c856a18279e3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """Open PM2 is an initiative supported by ISA2 to bring the PM2 Methodology and its benefits closer to its broader stakeholders and user community. The European Commission ISA2 Programme supports the development of solutions in the area of interoperability.
+
+ISA2 programme:
+https://ec.europa.eu/isa2/home_en
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127"""@en ;
+    cav:refersTo camssa:e08640a8-1e99-430a-908b-95f5e486f9f9 .
+
+camssa:dd2b030b-e43e-49ca-b21b-c88a0b71d7fd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a18abe4842e04b608025fd70e54c3db5c2a10130c0dab0495479e7d5effb55d ;
+    cav:value "1"^^xsd:int .
+
+camssa:e08640a8-1e99-430a-908b-95f5e486f9f9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39ffef052c31580b50b418f3991e9de7db4dc182fcf96f5a447d7f8e09560612 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e4ed222e-1065-46c9-813c-ae8573d808ca a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OpenPM2 was developed with the purpose to support the development of projects within European Institutions and to ensure maximum efficiency and effectiveness. Currently, it is used for the development of a huge variety of projects underlying from the different General Directories, concretely the DIGIT, who is the corporate author.
+
+The fact of being a tool used for European Institutions for the development of different types of projects ensures its market acceptance and usefulness for developing products and services, specifically public ones. 
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127  """@en ;
+    cav:refersTo camssa:a13eda36-c877-44e0-a833-41fe256047b1 .
+
+camssa:e68c201a-545f-4f42-8ea3-869c7191173a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17bea234285e6e633e4e21105358610ad5f5f0eaaf82f4bd50cb64ec11538984 ;
+    cav:value "1"^^xsd:int .
+
+camssa:e754157f-0559-4dda-9959-d9f1338ce634 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The specification is independent of any software, hardware, or operating system. So it can be said that OpenPM2 is independent of any specific technology or platform. Additionally, OpenPM2 provides a set of tools that can be used for the development of projects implementing this methodology. 
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127 """@en ;
+    cav:refersTo camssa:fbbcd628-8e8c-424a-b992-9f61191eee68 .
+
+camssa:f4ad946a-67de-45a7-b328-963a2974a60a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1cd71a7b6d54631ba58cc8b0655a443d696f49ec74a0f4cccc871de7789d6a60 ;
+    cav:value "1"^^xsd:int .
+
+camssa:f8fb1b79-83c0-4e60-9158-cb4e3e91bb26 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-02333ef99fbcb4f101a106bcf97c9559888756b085b1729b7c2ac9626dc4bc63 ;
+    cav:value "0"^^xsd:int .
+
+camssa:f9854395-b81f-46d2-a6c0-b64ae79949e7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The adoption of OpenPM2 as a mechanism for the standardisation of processes and steps within a project can help to reduce the harm when the size of projects varies increasing the volume. The use of OpenPM can ease the scalability of projects since it defines standardised methods for management independently of the scale of projects.
+
+OpenPM2 specification reference:
+https://op.europa.eu/en/publication-detail/-/publication/ac3e118a-cb6e-11e8-9424-01aa75ed71a1/language-en/format-PDF/source-83307127"""@en ;
+    cav:refersTo camssa:4a8dc536-1821-413b-b4e5-9819beaaf6a4 .
+
+camssa:fbbcd628-8e8c-424a-b992-9f61191eee68 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5879b43fc249f0098f3ed687235f432f71bf0c11bd3aa95e063dfdacd64606c8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:fcc581e9-6abd-4af9-969e-71914d074af9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5df7a9f6081c945a22f500aa0ba2c452b8b9cd9497bd643ac76c39d34a18c319 ;
+    cav:value "0"^^xsd:int .
+
+camssa:ff86d03c-0c01-423d-ba7a-1aa2fb4e14fa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d28663fdb5deb361d5ad773d7b7ece3c6acf8d2eb7a1222a60cb08df4c93aac ;
+    cav:value "1"^^xsd:int .
+

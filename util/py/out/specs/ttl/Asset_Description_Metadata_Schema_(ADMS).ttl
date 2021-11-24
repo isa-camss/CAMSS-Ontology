@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:aba91010-5318-439c-8292-8d1167e2acc6 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:e4940944a20f90dcd28ec5ccaa3bbd3cb74c15004568cc32968faeb0819a69a2 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "Asset Description Metadata Schema (ADMS)"@en ;
+    dcat:distribution cssvrsc:b4bc57ba-92a1-4f67-b5bd-edc4b891b79a .
+
+cssvrsc:b4bc57ba-92a1-4f67-b5bd-edc4b891b79a a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/vocab-adms/"^^xsd:anyURI .
+
+cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "W3C (http://www.w3.org)"^^xsd:string .
+

@@ -1,0 +1,487 @@
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:3ecb5d76cbd630f92497c6b7d5778c3c44bb75753a21f80d7f1148003e0079c3 a cav:Assessment,
+        owl:NamedIndividual ;
+    camss:assesses cssvrsc:0525f64dfe93f08c86035f6f7c91baf6d5a1fbc3768e502a1f16f95691a1a9aa ;
+    camss:assessmentDate "1201-01-01"^^xsd:date ;
+    camss:submissionDate "2019-12-31"^^xsd:date ;
+    camss:toolVersion tool:3.0.0 ;
+    cav:contextualisedBy sc:3aadede3d912d8ab2b20d40221274da3af8f9ee9c14f0e1226f9217a3e8953e4 ;
+    cav:resultsIn camssa:0919ab2a-f0f1-42fa-9613-afe27e069b93,
+        camssa:13da4a10-36dc-4ee6-98f4-ab0b49ce71d1,
+        camssa:1ae6407f-db13-4f65-b0ec-2d8736748c9c,
+        camssa:1e49b3e0-48ca-43ac-8a52-3b07ae65ecac,
+        camssa:22665c24-e743-4afb-b18a-a258b0b20767,
+        camssa:272b791a-6b56-4bec-ba78-5f1fd39b47d3,
+        camssa:27834379-95f5-40c8-a926-ad8a4cb61d12,
+        camssa:3eb5664d-f6ea-45b0-979f-519799277781,
+        camssa:44c87916-d816-4245-9762-a18663ebfc20,
+        camssa:44db69f0-cbec-4624-8f64-3f49e3199b97,
+        camssa:49c4179f-85f0-4f09-bb38-f32c1643a225,
+        camssa:64bf73f9-97a5-4840-9a45-a05c12e79e10,
+        camssa:71b866ba-e7fd-4d56-a8fc-7e10b1a661c5,
+        camssa:71c27c89-0fdd-45b7-8d8b-5bbe8da550ac,
+        camssa:756f91d6-cd94-4fff-a3f3-4054dc903160,
+        camssa:793faff4-2b0f-440c-babd-7585a23c1b01,
+        camssa:800b9e78-d2b9-41b6-a389-85befa478dad,
+        camssa:8c09ceb7-8527-45ba-ad33-65ccf153e62e,
+        camssa:8fe2792c-a9cb-469f-bb1a-1e2df45db641,
+        camssa:9028e515-95b3-4b1d-a67d-6af3b34d0076,
+        camssa:907421bf-6c01-40ef-b12d-66c314d50fcc,
+        camssa:9371260b-ebd8-491d-b0a8-ca7cee764420,
+        camssa:94f7c38e-f922-43b5-89dd-866b00f2cdb4,
+        camssa:9a1e0d81-ac86-410a-9c18-e4c8df292837,
+        camssa:9bcb9ca8-f4ce-47f7-99de-12d2b2bded1f,
+        camssa:9c77a296-aa80-49e4-abe6-403001021e88,
+        camssa:a0d211c3-d96c-4504-843e-84f1ac05be64,
+        camssa:a626601b-a8c3-43ef-9419-8216c1ea88d9,
+        camssa:a75d2231-d444-4eab-a949-8a7d8b0fd097,
+        camssa:c296b913-5cca-4459-ba03-cc4f9a7fcc0a,
+        camssa:c6907d4d-523f-4095-8a52-9b568035f409,
+        camssa:c9dd09d3-c610-4bed-974f-62e0ea43a4e6,
+        camssa:d717214e-ac8e-4131-a998-82be1d4a6c83,
+        camssa:ddf4453b-49f4-4365-b936-d0a78eb35919,
+        camssa:ea1b9408-0150-405f-b7fd-23e1c6d805b0,
+        camssa:eebcf257-c94e-4862-ab8f-cfa767442560,
+        camssa:f6351267-cdc2-4661-970c-8f8530286134 ;
+    cav:status status:Complete ;
+    dct:title "WS-Security (Web Services Security)"@en .
+
+camssa:ddf032efca18c9e6eaa97bc90924977af1d96bffe564b351a6081835c75d8164 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:7ac324e9-97d6-43a6-8a94-408edf9cb6ff ;
+    skos:prefLabel "CAMSS Team"@en .
+
+camssa:0013d83a-b994-4c86-98ba-5c4133e0414f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-5839144ecfb6c41a2c3cf5c1e86a6b3ad7a9e3ec9c4efa5650a6e7b9e3586335 ;
+    cav:value "1"^^xsd:int .
+
+camssa:02000d2a-625c-4084-8aba-c5bc782d2a85 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-73a8058bec757a2fdb0f8513c2f11841e982cbef76c3be82af67707c294da8b8 ;
+    cav:value "2"^^xsd:int .
+
+camssa:0919ab2a-f0f1-42fa-9613-afe27e069b93 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The Web Services Security (WS-Security) main function is to reinforce integrity and confidentiality of the messages used by SOAP specification. The purpose of SOAP 1.2 is to store, transport and exchange data through interoperable systems. Moreover WS-Security helps, SOAP 1.2 that uses XML which defines a set of rules for encoding documents in a human-readable format and machine-readable format enhancing the reusability of data and stimulating the interoperability of systems and services."@en ;
+    cav:refersTo camssa:383a815e-0340-4532-8d9a-2e787e73647d .
+
+camssa:13da4a10-36dc-4ee6-98f4-ab0b49ce71d1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "WS-Security is an extension of SOAP specification to improve the security web services, so it is dependant on it."@en ;
+    cav:refersTo camssa:7712af28-7346-4eca-a69f-a1dd13b52709 .
+
+camssa:1ae6407f-db13-4f65-b0ec-2d8736748c9c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """5 Member States are recommending WS-Security in their ICT National Catalogues.
+
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:6c1047c4-0234-45cf-b8c3-b8c2492e542d .
+
+camssa:1b63a651-ee9f-45e9-87bf-6855b3ab189c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f41cca0d171e6f64dbc2bdeae9fbc87f2ea51ac00185b22114d59ab8a06e78d0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:1e49b3e0-48ca-43ac-8a52-3b07ae65ecac a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """WS-Security is publicly available for free on OASIS Webpage.
+
+See:
+https://www.oasis-open.org/org/testimonials"""@en ;
+    cav:refersTo camssa:96d3177a-de19-4e13-b00e-ed3716dc206d .
+
+camssa:22439653-ee2a-4ba5-a72a-cdaa2a38c377 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-450e8a1f4cffbbf3de202e37bd642f098174559028df90ccc657473a6086bc0b ;
+    cav:value "2"^^xsd:int .
+
+camssa:22665c24-e743-4afb-b18a-a258b0b20767 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The application of the once-only principle in all EU Member States public administrations aims at reducing the administrative burden. To achieve this, interoperability between public administrations is a sine qua non condition. WS-Security makes safer the SOAP messages which facilitates the exchanging of information within cross border services and impacts positively the development of eGovernment."@en ;
+    cav:refersTo camssa:807594af-8fa0-4eaa-b7f2-10c1ee622d48 .
+
+camssa:25a00702-005f-44df-884a-c8bd39825cb8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a67ecbc29e70e62b18dba3ae4f8d1f91d5b3196777dbf8b58c6713cd517eb768 ;
+    cav:value "1"^^xsd:int .
+
+camssa:272b791a-6b56-4bec-ba78-5f1fd39b47d3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of WS-Security is not related to the publication of data as Open Data. Therefore, this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:d2354e0d-31c5-4bc2-9b6e-cb114acfa73e .
+
+camssa:27834379-95f5-40c8-a926-ad8a4cb61d12 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """WS-Security is included in the pan-European electronic registered delivery solutions more specifcally SPOCS LP in the Transport layer, Trust establishment and Message protocol.
+
+See:
+https://www.etsi.org/deliver/etsi_sr/019000_019099/019050/01.01.01_60/sr_019050v010101p.pdf"""@en ;
+    cav:refersTo camssa:97bf11ff-66f9-4a11-af11-7462fc18a515 .
+
+camssa:2d4e5a54-9451-4b4e-9642-cf50b47b8a57 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4017a1ae4d077fbb3847280a1c20b41bf00c32d65fc9beaa2bea8cce550ac463 ;
+    cav:value "1"^^xsd:int .
+
+camssa:383a815e-0340-4532-8d9a-2e787e73647d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-6ec33e201b803a1cc0150c0da8dc42b2a0f1029cf31e7a2c0fc81d1d8336ef36 ;
+    cav:value "1"^^xsd:int .
+
+camssa:3eb5664d-f6ea-45b0-979f-519799277781 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OASIS has defined a clear process where all the stakeholders involved have the opportunity to participate in the development of the specification development process. 
+ 
+See: 
+https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26"""@en ;
+    cav:refersTo camssa:ce3a5ac3-db5e-41f7-a5eb-2f9d4aa8f14d .
+
+camssa:44c87916-d816-4245-9762-a18663ebfc20 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """WS-Security is included in 5 national catalogue of recommended specifications. The The specification is fully aligned with at least 4 out of 5 sections of the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets
+
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:6a55eb01-87a9-4225-a5e8-c804896b32ba .
+
+camssa:44db69f0-cbec-4624-8f64-3f49e3199b97 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OASIS has defined WS-Security-dev and the standard feedback from OASIS which is the process where all the stakeholders involved have the opportunity to participate in the development of the specification development process. 
+ 
+See: 
+https://www.oasis-open.org/policies-guidelines/tc-process-2017-05-26"""@en ;
+    cav:refersTo camssa:4f515fdc-97cc-42d2-a7e2-bdd044a73fbc .
+
+camssa:493c78c6-aa6e-4b65-ac14-a751899562d9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-58010a47630ff9ea23336bf3fc558deff59905e0292551fcabc95740082cb378 ;
+    cav:value "1"^^xsd:int .
+
+camssa:49c4179f-85f0-4f09-bb38-f32c1643a225 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "WS-Security is not licensed on a (F)RAND basis."@en ;
+    cav:refersTo camssa:e53edfab-dfec-45de-bb59-67430a74adb8 .
+
+camssa:4e52e759-ef6c-40e7-81e5-74ce92045ca0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1892d3010612426c9ac2e5600b1698aab8cb88c2e0ee4ad2ab76fffeeb0d11ea ;
+    cav:value "0"^^xsd:int .
+
+camssa:4f515fdc-97cc-42d2-a7e2-bdd044a73fbc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f70d8bc1b4b6e186d69ea3f7f8cc7b2d75314b84e7f481ebe13b4e6ed8b36598 ;
+    cav:value "1"^^xsd:int .
+
+camssa:64bf73f9-97a5-4840-9a45-a05c12e79e10 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of WS-Security is not related to the publication of data as Linked Open Data. Therefore, this criterion is not applicable to this specification."@en ;
+    cav:refersTo camssa:22439653-ee2a-4ba5-a72a-cdaa2a38c377 .
+
+camssa:6865e4ed-3058-4dce-8325-2e1da0373f3d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-396b6535162f7bba7733ebcc30d2e467321ce07cd8e48b86ab8201acf27031f9 ;
+    cav:value "1"^^xsd:int .
+
+camssa:68c7dc5d-3532-4fe3-ac6e-62a5ea12a533 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1435ad894742693c2b99e329ef12399cd411ed6900f49b9658fd2231de3f201a ;
+    cav:value "1"^^xsd:int .
+
+camssa:6a55eb01-87a9-4225-a5e8-c804896b32ba a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d7be9f0dd52944e6c25f5469c86355a42ae446838bd9759b4986d21f7db4814b ;
+    cav:value "1"^^xsd:int .
+
+camssa:6c1047c4-0234-45cf-b8c3-b8c2492e542d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3671439b412291ce208a0ade6313c64aeb2942059c7543ca39322c56458bcf96 ;
+    cav:value "1"^^xsd:int .
+
+camssa:6de7710e-d93c-4bb2-8e98-bbd1cc303f0a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1d35b341bcafc21377ae6ac358b9dc087e8ad32870012c2743e49e4566440f41 ;
+    cav:value "2"^^xsd:int .
+
+camssa:71b866ba-e7fd-4d56-a8fc-7e10b1a661c5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "WS-Security main function is to enforce security for messages as an extension of SOAP, it can be said that is part ensuring the availability of the internal information."@en ;
+    cav:refersTo camssa:1b63a651-ee9f-45e9-87bf-6855b3ab189c .
+
+camssa:71c27c89-0fdd-45b7-8d8b-5bbe8da550ac a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "After checking the assessments performed by CAMSS and the list of specifications identified by the MSP Multi-stakeholder-platform, no assessment verifying the compliance of the specification with the European standardisation regulation has been found."@en ;
+    cav:refersTo camssa:4e52e759-ef6c-40e7-81e5-74ce92045ca0 .
+
+camssa:727dd3d8-ce88-4f0a-aee2-af01c14673eb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b45c8f7e446b1343c6b6961290d2106768aa43c1f123f5e436d0255c003abb50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:756f91d6-cd94-4fff-a3f3-4054dc903160 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """WS-Security is available for its study and use at OASIS’s webpage. Therefore it can be reused by the organisations, administrations, open communities, etc. that developed it.
+
+See:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=WS-Security"""@en ;
+    cav:refersTo camssa:727dd3d8-ce88-4f0a-aee2-af01c14673eb .
+
+camssa:7712af28-7346-4eca-a69f-a1dd13b52709 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e8c3529a6146f0b0d269112be717ba4e9c5979ea4f43f57d217c0f998d26ce17 ;
+    cav:value "0"^^xsd:int .
+
+camssa:77c0b39c-f798-4685-bcf3-2986c9c407d5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-83d21357ecad07668ab7f2010aefed3cebb92dab384eeae6eb7aa77def06cfc3 ;
+    cav:value "2"^^xsd:int .
+
+camssa:781203dc-7831-4e1f-b5e5-0fba337f2227 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-19c639047dab46befb5839503733c8f1e7ed8278f788a089d11d2caee84a8f7c ;
+    cav:value "2"^^xsd:int .
+
+camssa:793faff4-2b0f-440c-babd-7585a23c1b01 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The Web Services Security (WS-Security) main function is to reinforce integrity and confidentiality of the messages used by SOAP specification. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:bd8a8e4d-1ae9-4685-80c9-f25ec6dc42c1 .
+
+camssa:7ac324e9-97d6-43a6-8a94-408edf9cb6ff a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "CAMSS@everis.com" .
+
+camssa:800b9e78-d2b9-41b6-a389-85befa478dad a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are existing mechanisms to carry out WS-Security conformity. For instance, Weak WS-SecurityPolicy: Insecure Transport, Weak WS-SecurityPolicy: Insufficient Supporting Token Protection and Weak WS-SecurityPolicy: Tokens Not Protected
+
+See:
+https://github.com/YalcinYolalan/WS-SecurityAT"""@en ;
+    cav:refersTo camssa:a5fba281-9141-4edf-af41-cf5d6baa4d55 .
+
+camssa:807594af-8fa0-4eaa-b7f2-10c1ee622d48 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-01e6c1ce016de128117697d51a8fdaebb57c1f50343c081dfd72e2fbc56733a8 ;
+    cav:value "1"^^xsd:int .
+
+camssa:85c1a1a5-79ce-4717-b425-23f492e9ad38 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b4f0d1b7f1d41c70797fa200c6fc73ac01f2f1659319e5cb1cebe8f5e79c1fcb ;
+    cav:value "1"^^xsd:int .
+
+camssa:8c09ceb7-8527-45ba-ad33-65ccf153e62e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of WS-Security is not related to e-accessibility. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:e6986048-1f92-4eb7-91b9-d6b576f386e5 .
+
+camssa:8fe2792c-a9cb-469f-bb1a-1e2df45db641 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The SOAP 1.2 is included in the  European Interoperability Architecture (EIA) study explores the need for a European interoperability architecture facilitating the establishment of European public services (cross border eGovernment services). WS-Security is a SOAP 1.2 extension so it can be mapped in EIRA too.
+
+See:
+https://ec.europa.eu/isa2/sites/isa/files/isa_2.1_eia-finalreport-commonvisionforaneia.pdf"""@en ;
+    cav:refersTo camssa:6865e4ed-3058-4dce-8325-2e1da0373f3d .
+
+camssa:9028e515-95b3-4b1d-a67d-6af3b34d0076 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """SOAP 1.2 is associated to an EIRA ABB in the European Library Of Specifications (ELIS). WS-Security is a SOAP 1.2 extension so it can be mapped in EIRA too.
+
+See: 
+https://joinup.ec.europa.eu/release/eira-library-interoperability-specifications-elis/v100-beta"""@en ;
+    cav:refersTo camssa:0013d83a-b994-4c86-98ba-5c4133e0414f .
+
+camssa:907421bf-6c01-40ef-b12d-66c314d50fcc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "WS-Security main function is to enforce security for messages as an extension of SOAP. So it can be considered that helps to process data."@en ;
+    cav:refersTo camssa:a619ae32-5403-4f5f-bd94-f17602c6effb .
+
+camssa:9371260b-ebd8-491d-b0a8-ca7cee764420 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of WS-Security is not related to the reduction of administrative burderns. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:f60fc67e-0401-4fba-bb5e-5126db34f6f8 .
+
+camssa:94f7c38e-f922-43b5-89dd-866b00f2cdb4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The Web Services Security (WS-Security) main function is to reinforce integrity and confidentiality of the messages used by SOAP specification. "@en ;
+    cav:refersTo camssa:c9950ad3-8c4a-42af-9803-4dcf203da8a7 .
+
+camssa:96d3177a-de19-4e13-b00e-ed3716dc206d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-4a006ad6785e066d16c13daf48a60ee43ec33d1de1b06613c8e656ccf330a6d5 ;
+    cav:value "1"^^xsd:int .
+
+camssa:97bf11ff-66f9-4a11-af11-7462fc18a515 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0c9dd43038136296b52f50e05f9d6eef39f7b8018517224007990b15be2eb19e ;
+    cav:value "1"^^xsd:int .
+
+camssa:9a1e0d81-ac86-410a-9c18-e4c8df292837 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The Web Services Security (WS-Security) main function is to reinforce integrity and confidentiality of the messages used by SOAP specification. SOAP 1.2 is a protocol intended for exchanging structured information in a decentralized, distributed environment. SOAP uses XML technologies to define an extensible messaging framework providing a message construct that can be exchanged over a variety of underlying protocols. It can be concluded that it is proportionate to the users' needs as it helps to the well functioning of citizens, businesses and administrations."@en ;
+    cav:refersTo camssa:68c7dc5d-3532-4fe3-ac6e-62a5ea12a533 .
+
+camssa:9bcb9ca8-f4ce-47f7-99de-12d2b2bded1f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of WS-Security is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:781203dc-7831-4e1f-b5e5-0fba337f2227 .
+
+camssa:9c77a296-aa80-49e4-abe6-403001021e88 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """WS-Security is being used in the Delegated Regulation (EU) N° 885/2013 of 15 May 2013 with regard to the provision of information services for safe and secure parking places for trucks and commercial vehicles
+
+See: 
+https://ec.europa.eu/transport/sites/transport/files/themes/its/doc/safe-and-secure-parkings/user_manual_web_service_datexii_upload_v1_1.pdf"""@en ;
+    cav:refersTo camssa:d2bb1d6d-185d-424f-807f-3e6ff36b302a .
+
+camssa:a0d211c3-d96c-4504-843e-84f1ac05be64 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """The W3C Royalty-Free IPR licenses granted under the W3C Patent Policy apply to all W3C specifications, including SOAP 1.2. WS-Security is a an extension of SOAP 1.2 it can be considered that is royalty-free basis. 
+
+See:
+https://www.w3.org/TR/patent-practice#ref-AC"""@en ;
+    cav:refersTo camssa:bf1705c4-9859-46a2-8aa1-24543ce564ad .
+
+camssa:a5fba281-9141-4edf-af41-cf5d6baa4d55 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-093c1e09f5a65e4cba0247dcab5a8f4854f3e512db336b1855b9a4c48d3659e0 ;
+    cav:value "1"^^xsd:int .
+
+camssa:a619ae32-5403-4f5f-bd94-f17602c6effb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-105c699a138c27ab9a1af9174253cd7488b278f700acdbb1bdbcc3e0b9c5ec3d ;
+    cav:value "1"^^xsd:int .
+
+camssa:a626601b-a8c3-43ef-9419-8216c1ea88d9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of WS-Security is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:6de7710e-d93c-4bb2-8e98-bbd1cc303f0a .
+
+camssa:a75d2231-d444-4eab-a949-8a7d8b0fd097 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of WS-Security is not related to the long-term preservation of electronic records and other kinds of information. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:77c0b39c-f798-4685-bcf3-2986c9c407d5 .
+
+camssa:b05e56d1-8ad0-4612-a2c7-0c6dea561bea a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0229101dfe08cbe58da1e454363d30a8178a2e120466c8db23965488cae5c8b1 ;
+    cav:value "1"^^xsd:int .
+
+camssa:bd8a8e4d-1ae9-4685-80c9-f25ec6dc42c1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cf1de0bf03a8ee372af0deddf9ef5c4609f5a7bb9c7e001c89d887c6789eaf56 ;
+    cav:value "2"^^xsd:int .
+
+camssa:bf1705c4-9859-46a2-8aa1-24543ce564ad a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ef096f898c938883daab1b22e784cfaf985b5e5c855e170ecf6eab6f37b01b50 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c296b913-5cca-4459-ba03-cc4f9a7fcc0a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """OASIS is a non-profit consortium that drives the development, convergence and adoption of open standards for the global information society, WS-Security is developed and maintained by OASIS consortium. 
+
+See:
+https://www.oasis-open.org/org"""@en ;
+    cav:refersTo camssa:b05e56d1-8ad0-4612-a2c7-0c6dea561bea .
+
+camssa:c6907d4d-523f-4095-8a52-9b568035f409 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """WS-Security is available for free at the European Collaborative platform for the development of ICT solutions. 
+
+See:
+https://joinup.ec.europa.eu/solution/web-services-security"""@en ;
+    cav:refersTo camssa:2d4e5a54-9451-4b4e-9642-cf50b47b8a57 .
+
+camssa:c9950ad3-8c4a-42af-9803-4dcf203da8a7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-483e8900c47b40bc67a6bd1cbfce07884b9ac5f2c85e0214f334cc37e4e65c35 ;
+    cav:value "1"^^xsd:int .
+
+camssa:c9dd09d3-c610-4bed-974f-62e0ea43a4e6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "WS-Security helps defining a data model, which represents application-defined data structures and values as a directed edge-labelled graph of nodes."@en ;
+    cav:refersTo camssa:dc0572c7-f239-4895-96c4-f82be9351a10 .
+
+camssa:ce3a5ac3-db5e-41f7-a5eb-2f9d4aa8f14d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7aa038b5496afb8cb229c692be9a2adc175deb2d5d47e35ad67e027c9eac28ba ;
+    cav:value "1"^^xsd:int .
+
+camssa:d2354e0d-31c5-4bc2-9b6e-cb114acfa73e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b6ba3f2f556446c68c55833e72b217be87ad5f0dd07744e2c39c6070aff6c10f ;
+    cav:value "2"^^xsd:int .
+
+camssa:d2bb1d6d-185d-424f-807f-3e6ff36b302a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a1eafd9c95081eeabe19f0511239b88139f02f95e2349049eeea058a89c80f49 ;
+    cav:value "1"^^xsd:int .
+
+camssa:d717214e-ac8e-4131-a998-82be1d4a6c83 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The specification was carried out in 2004 and has been developed and maintained by OASIS. It has had one update version 1.1 in 2006. The last version contained significant changes."@en ;
+    cav:refersTo camssa:25a00702-005f-44df-884a-c8bd39825cb8 .
+
+camssa:dc0572c7-f239-4895-96c4-f82be9351a10 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a0101cb11c30c1bbf94adb74479472f2a40c53ccc4b442180fece91506c20a9d ;
+    cav:value "1"^^xsd:int .
+
+camssa:ddf4453b-49f4-4365-b936-d0a78eb35919 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """5 Member States are recommending WS-Security in their ICT National Catalogues. 
+See: 
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards"""@en ;
+    cav:refersTo camssa:85c1a1a5-79ce-4717-b425-23f492e9ad38 .
+
+camssa:e53edfab-dfec-45de-bb59-67430a74adb8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e370a4af17e89cbb70bb5079082a1e21cdee85435c8fc30b12a8987f18db367f ;
+    cav:value "1"^^xsd:int .
+
+camssa:e6986048-1f92-4eb7-91b9-d6b576f386e5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7a64b01ca9e737c550b205ba3a8a46b3fcfc9447b648ba8ef15d62d3ada26141 ;
+    cav:value "2"^^xsd:int .
+
+camssa:ea1b9408-0150-405f-b7fd-23e1c6d805b0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "The purpose of WS-Security is not related to organisational interoperability. Therefore, this criterion is not applicable to the specification."@en ;
+    cav:refersTo camssa:02000d2a-625c-4084-8aba-c5bc782d2a85 .
+
+camssa:eb20ebff-41a2-4760-bdcb-549e3a3e7419 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-41c6fd2dadb03cc64aad82cfa14f545c084f1a955a3ab7a61aab416a138c5dce ;
+    cav:value "0"^^xsd:int .
+
+camssa:eebcf257-c94e-4862-ab8f-cfa767442560 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "WS-Security is a SOAP extension, concequently it cannot be reusable for other purposes."@en ;
+    cav:refersTo camssa:eb20ebff-41a2-4760-bdcb-549e3a3e7419 .
+
+camssa:f60fc67e-0401-4fba-bb5e-5126db34f6f8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-39e7870e79b2999a8b61c97f0c356312b88174320d6464fce5639e57ec0de011 ;
+    cav:value "2"^^xsd:int .
+
+camssa:f6351267-cdc2-4661-970c-8f8530286134 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """There are several studies assessing WS-Security is mentioned in the SOAP 1.2 performance.
+
+See: 
+https://aaltodoc.aalto.fi/bitstream/handle/123456789/29224/master_Makkonen_Joni_2017.pdf?sequence=1&isAllowed=y """@en ;
+    cav:refersTo camssa:493c78c6-aa6e-4b65-ac14-a751899562d9 .
+

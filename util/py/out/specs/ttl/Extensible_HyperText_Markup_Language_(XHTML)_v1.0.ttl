@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:0cbe33a3-8508-43fb-87a3-1749125593a8 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    schema:email "CAMSS@everis.com" .
+
+cssvrsc:eac80d18d00c07fc17567f3fa106420425e82feb933d55da39281d6cebc0b8fd a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 ;
+    dct:title "Extensible HyperText Markup Language (XHTML) v1.0"@en ;
+    dcat:distribution cssvrsc:e5b30730-7893-4f83-b0f8-bfd14f8b45e0 .
+
+cssvrsc:e5b30730-7893-4f83-b0f8-bfd14f8b45e0 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/xhtml1/"^^xsd:anyURI .
+
+cssvrsc:9636eed232bdd72a742cfe71b68d60e9ec229b756af663ec6518b2809a843c23 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "W3C (http://www.w3.org)"^^xsd:string .
+
