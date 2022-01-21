@@ -12,7 +12,7 @@ et-xmlfile==1.0.1
 future==0.18.2
 idna==2.10
 ipykernel==5.4.3
-ipython==7.22.0
+ipython==7.31.1
 ipython-genutils==0.2.0
 isodate==0.6.0
 jdcal==1.4.1
