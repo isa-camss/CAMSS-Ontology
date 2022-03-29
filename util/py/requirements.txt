@@ -25,7 +25,7 @@ numpy==1.20.2
 odfpy==1.4.1
 openpyxl==3.0.6
 pandas==1.2.4
-paramiko==2.6.0
+paramiko==2.10.1
 parso==0.8.1
 pexpect==4.8.0
 pickleshare==0.7.5
