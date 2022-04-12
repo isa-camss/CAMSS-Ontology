@@ -1,0 +1,722 @@
+@prefix camss: <http://data.europa.eu/2sa/ontology#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:611a0fe7b980e68f21865272a591846948f87bb8b89b27684ad13cd9ae8a6b2c a cav:Assessment,
+        owl:NamedIndividual ;
+    cav:contextualisedBy sc:f717f525751d9de54fc478770a2fb1845767ec01f1661d602383ae868d2bb5b7 ;
+    cav:resultsIn camssa:041e8c6e-41bf-4458-90f4-cb9066a0b51e,
+        camssa:0ee0cd63-ed11-4929-a058-0e857217773a,
+        camssa:13ed53b9-6190-49f4-88d5-de4a866a846d,
+        camssa:144ec2bf-e5da-4033-bbe5-715f37115568,
+        camssa:1eaf9edd-b7c8-4bf0-b1eb-81474320ebd2,
+        camssa:1eeab58e-6f5d-4487-92ae-b2f175054d88,
+        camssa:211c8050-fed0-4b71-be3e-9fbc4337c705,
+        camssa:299cfaa8-c884-4e32-9e8c-aaae49923a81,
+        camssa:2ac4df35-2df9-4a6c-a4b7-b8df2639e106,
+        camssa:31d9a6bd-d63b-41a5-80ce-93fc927ba428,
+        camssa:46584245-6f82-4b9c-9fe9-4bced25718a6,
+        camssa:4982b6e4-c1a6-4fbf-b2d6-385bf5109f74,
+        camssa:4992ee80-72b7-42ca-bb7c-fe50be0c3d58,
+        camssa:4ff49c96-1925-4993-b25a-d42e5f64bee4,
+        camssa:516c9f1e-b1ab-4b01-850f-9d78a1940aaa,
+        camssa:56fb5a2a-05c6-4d23-b271-3874d8f31aff,
+        camssa:58593d35-9b82-4c47-ad39-dfc610b83d1e,
+        camssa:5c931b58-98d3-4734-9d6c-7574bd287f6a,
+        camssa:651cd637-638d-4db8-bd02-19c45bd45b87,
+        camssa:67268a61-f070-41ac-a928-ff9d3b9016ea,
+        camssa:677affec-7601-4289-989d-cd8c6197b560,
+        camssa:6bfb2103-a77c-4e09-9f85-36cd012818b4,
+        camssa:79db4b02-02f6-49ec-bfef-ec58b0eb1fa0,
+        camssa:84eb58d5-59ab-47a1-a99d-41b457a7476d,
+        camssa:8a25b2e1-b900-4f67-8b1c-e0e42f27d9fd,
+        camssa:8d54de60-a1ac-4fc1-b509-61e12a6bc07c,
+        camssa:90d7430a-b432-4f3f-9178-11f194d4142a,
+        camssa:9a3f47c2-8e40-4579-9d34-78ddbae2da88,
+        camssa:a5674204-ac8d-45f8-bc9b-90fff4fbda20,
+        camssa:a78d502e-1925-4d62-90db-0da285e36985,
+        camssa:a8cad5e8-4276-4960-b026-9f5f8525066b,
+        camssa:ae873a96-555c-4344-842a-0d1b28ec10b4,
+        camssa:b0db7c2a-4ea2-46a0-ab9f-3ec262048c54,
+        camssa:b10a23e8-0a26-4e92-b696-043970cd7232,
+        camssa:b313df22-67dc-470d-aaad-eb51ff0282b9,
+        camssa:b9281cd9-0220-4a48-b0bf-5c246f8d0e99,
+        camssa:bbfaabd3-ac37-498d-9528-a06bcc1b94c5,
+        camssa:ca96e945-c388-4127-a97a-f46375827a2e,
+        camssa:e3d0ddfc-7df4-4fb6-ae1d-a7725458a10a,
+        camssa:e4c636a3-a589-4d25-8e6b-d788bb7c8629,
+        camssa:f0b4bec2-e7ad-448f-afad-8d0c039cf32c,
+        camssa:f3b5e889-3fd0-475e-a180-2988175e1563,
+        camssa:f3fe6caa-8384-4124-9d28-b4812e336e2b,
+        camssa:fe995a5b-78ee-4430-b743-ae9673616cf2 ;
+    cav:status status:Complete ;
+    camss:assesses cssvrsc:7c1f89606ff29d6fa4ee1f4cd6e67f59ffebcefe54b70b325e3ab031c3c9aeb0 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.0.0 ;
+    dcterms:title "Cyber Security for Consumer Internet of Things Baseline Requirements (EN 303 645)"@en .
+
+camssa:71b734d93eea13de404910eb634943e6bc28f69d27f2f63bcbdf62230a832bb3 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:e0e6c38d-b3ac-4d03-9a35-4bd46071f07c ;
+    skos:prefLabel "CAMSS Team European Commission DG DIGIT"@en .
+
+camssa:010e3041-61c7-4ad3-95f4-f23edef10dbd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:041e8c6e-41bf-4458-90f4-cb9066a0b51e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Although organisational interoperability agreements on the cybersecurity domain are not formalised (see Cybersecurity Act reference), the EN 303 645 specification establishes a cybersecurity baseline for connected consumer products and is intended to set the basis for future IoT certification systems in Europe (see IoT Policy and Legislation reference). This baseline comprises the set of provisions defined in the specification documentation, but is not specifically designed for establishing these agreements.
+
+EN 303 645 reference:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf
+
+Cybersecurity Act reference:
+https://digital-strategy.ec.europa.eu/en/policies/cybersecurity-act#:~:text=The%20EU%20Cybersecurity%20Act%20introduces%20an%20EU-wide%20cybersecurity,see%20their%20certificates%20recognised%20across%20the%20European%20Union.
+
+IoT Policy and Legislation reference:
+https://joinup.ec.europa.eu/collection/rolling-plan-ict-standardisation/internet-things'"""@en ;
+    cav:refersTo camssa:53abaeb9-14dd-4640-a093-cfe80200ea7f .
+
+camssa:06600737-f92b-401a-a638-b93a092221d3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:09d6e06f-d366-4a01-9604-4200f5689882 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:09fd6cdf-08b6-4ba4-9c8e-61fcd00cb6db a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0cb91bc2-e85f-474b-87b3-cc8f16b78e3a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0ee0cd63-ed11-4929-a058-0e857217773a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The Technical Committee (TC) CYBER (Cybersecurity) collaborates with stakeholders (primarily, National Standards Organizations -NSOs, academics and governmental bodies) to develop standards that improve the privacy and security of organizations and citizens in Europe and all over the world (see ETSI Directives, Rules of Procedure section, and EN 303 645 homepage reference). As the EN 303 645 is a European Standard (EN), the specification has gone through (national) public enquiry and voting (see NSOs ETSI-partnerships, EN 303 645 Public enquiry, and ETSI TC CYBER Contribution references). However, public consultations on major and minor releases are not publicly visible.
+
+ETSI Directives, Rules of Procedure section:
+https://portal.etsi.org/Resources/ETSI-Directives
+
+EN 303 645 homepage reference:
+https://www.etsi.org/technologies/consumer-iot-security
+
+EN 303 645 Public Enquiry reference:
+https://www.etsi.org/newsroom/press-releases/1789-2020-06-etsi-releases-world-leading-consumer-iot-security-standard
+
+NSOs ETSI-partnerships reference:
+https://www.etsi.org/about/our-partnerships
+
+ETSI TC CYBER, Contribution reference:
+https://portal.etsi.org/tb.aspx?tbid=824#/50610-contributions'"""@en ;
+    cav:refersTo camssa:248e98b6-e978-4187-baa6-1a85d1f6312d .
+
+camssa:13ed53b9-6190-49f4-88d5-de4a866a846d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'EN 303 645 is a set of security best practices for Internet-connected consumer devices and is intended to support all parties involved in the development and manufacture of consumer IoT devices. The specification is not intended to depend on any particular specification, and therefore is platform-agnostic.
+
+EN 303 645 reference:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf'"""@en ;
+    cav:refersTo camssa:43e848e8-8aef-4e42-b985-a597c4158793 .
+
+camssa:144ec2bf-e5da-4033-bbe5-715f37115568 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of the EN 303 645 is not related to the publication of open data. Therefore, this criterion is not applicable to this specification. 
+
+EN 303 645 homepage reference:
+https://www.etsi.org/technologies/consumer-iot-security'"""@en ;
+    cav:refersTo camssa:25673563-5102-4021-bda0-31684ddcd457 .
+
+camssa:147f5cb5-fef0-4563-9e42-20669214721b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "20"^^xsd:int .
+
+camssa:1de277da-59ae-4b70-8b36-8a0cb99f62de a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "20"^^xsd:int .
+
+camssa:1eaf9edd-b7c8-4bf0-b1eb-81474320ebd2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Nowadays people entrust their personal data to an increasing number of services, which are connected to their devices and homes. In this sense, the specification explicitly addresses and enables the secure and trustworthy data exchange (see EN 303 645 reference, provision 5.8).
+
+EN 303 645 reference:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf'"""@en ;
+    cav:refersTo camssa:7100321e-0d09-4a41-912d-7e16200c4a2d .
+
+camssa:1eeab58e-6f5d-4487-92ae-b2f175054d88 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The first version of the EN 303 645 specification was published in 2019 and up to date has reached version 2.1.1. The specification's predecessor was TS 103 645, prior to its designation as a European Standard (EN) (see EN 303 645 homepage reference, OUR ROLE & ACTIVITIES section). All the specification releases can be found in the TC CYBER website or at the EN 303 645 homepage.
+
+EN 303 645 homepage reference:
+https://www.etsi.org/technologies/consumer-iot-security\""""@en ;
+    cav:refersTo camssa:c516d779-9d67-4ccb-abe7-8d6fb4ad447f .
+
+camssa:211c8050-fed0-4b71-be3e-9fbc4337c705 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of the EN 303 645 specification is not related to the comprehensibility of administrative procedures, rules data, and services. 
+
+EN 303 645 reference:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf'"""@en ;
+    cav:refersTo camssa:09d6e06f-d366-4a01-9604-4200f5689882 .
+
+camssa:248e98b6-e978-4187-baa6-1a85d1f6312d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "80"^^xsd:int .
+
+camssa:24b514c3-def6-4f07-903f-6eb73ff6c76a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:25673563-5102-4021-bda0-31684ddcd457 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:264dff38-b8ba-479f-8d77-8a54ba752535 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:29685baa-0d3d-42a2-8de5-c88537ee1415 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:299cfaa8-c884-4e32-9e8c-aaae49923a81 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"EN 303 645 is a set of security best practices for Internet-connected consumer devices and is intended to support all parties involved in the development and manufacture of consumer IoT devices. The specification's recommendations (provisions) are intended to depend on any product from the IoT domain, and therefore the specification cannot be considered technology-agnostic.
+
+EN 303 645 reference:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf\""""@en ;
+    cav:refersTo camssa:9978b6b5-5d71-4e6a-92d2-939b0fd41a81 .
+
+camssa:2ac4df35-2df9-4a6c-a4b7-b8df2639e106 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Nowadays people entrust their personal data to an increasing number of services, which are connected to their devices and homes. In this sense, the specification explicitly addresses and enables the secure and trustworthy data processing (see EN 303 645 reference, provisions 5.4, 5.10 and 5.11).
+
+EN 303 645 reference:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf'"""@en ;
+    cav:refersTo camssa:97fd5155-fb9a-46d0-b593-32a2990050b7 .
+
+camssa:2d4b8aa4-b0f3-4bef-bbfe-9de68ad33c35 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "60"^^xsd:int .
+
+camssa:2dbfa4c3-a355-4d08-821c-7e8fffef0378 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "None"^^xsd:int .
+
+camssa:31d9a6bd-d63b-41a5-80ce-93fc927ba428 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"EN 303 645 is not included in any Member States' catalogues of recommended specifications.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards\""""@en ;
+    cav:refersTo camssa:8f08dd79-fbd8-41ee-90c5-0f040d1ee7fb .
+
+camssa:33e36b11-6f8d-47f9-8961-66eeebdc9bbb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "60"^^xsd:int .
+
+camssa:3d2caa51-b6aa-43e9-9902-5e473988a0f4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3d413ad8-e611-46ac-8e2d-b873f3fec397 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "40"^^xsd:int .
+
+camssa:3ffef17a-72a1-4c3f-a15e-69eab27687e9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "20"^^xsd:int .
+
+camssa:407c2aab-3995-4ec7-905f-5d097d02d2d3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:43e848e8-8aef-4e42-b985-a597c4158793 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:46584245-6f82-4b9c-9fe9-4bced25718a6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ·EN 303 645 is not related to e-accessibility. Therefore, this criterion is considered not applicable to this specification.
+
+EN 303 645 reference:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf'"""@en ;
+    cav:refersTo camssa:09fd6cdf-08b6-4ba4-9c8e-61fcd00cb6db .
+
+camssa:46d4b4a2-ca4a-407a-aac7-ebded4eed342 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4982b6e4-c1a6-4fbf-b2d6-385bf5109f74 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of EN 303 645 is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification.
+
+EN 303 645 reference:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf'"""@en ;
+    cav:refersTo camssa:b87c3ffc-eb37-40aa-b73a-f155677447b7 .
+
+camssa:4992ee80-72b7-42ca-bb7c-fe50be0c3d58 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The EN 303 645 specification facilitates business modeling, as the specification can be deployed into any architecture for consumer IoT in a home environment. The evidence for this is that consumer IoT devices are collections of hardware and software components, with physical or network interfaces, typically connected to online or local services.
+
+EN 303 645 reference, Annex A Basic concepts and models:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf'"""@en ;
+    cav:refersTo camssa:29685baa-0d3d-42a2-8de5-c88537ee1415 .
+
+camssa:4c4c5f24-58fe-4092-bd5d-b15c585712cf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:4ff49c96-1925-4993-b25a-d42e5f64bee4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The Technical Committee (TC) CYBER (Cybersecurity) provides feature requests to open source projects and results of implementation experience to open source communities; however, not in national platforms.
+
+TC CYBER reference:
+https://www.etsi.org/cyber-security/tc-cyber-roadmap'"""@en ;
+    cav:refersTo camssa:51ae66cc-5282-4712-96b6-53ea8500532c .
+
+camssa:516c9f1e-b1ab-4b01-850f-9d78a1940aaa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:2dbfa4c3-a355-4d08-821c-7e8fffef0378 .
+
+camssa:51ae66cc-5282-4712-96b6-53ea8500532c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "20"^^xsd:int .
+
+camssa:52ccdfbc-9e06-4619-886d-b2b37de5ab47 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "40"^^xsd:int .
+
+camssa:53abaeb9-14dd-4640-a093-cfe80200ea7f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "80"^^xsd:int .
+
+camssa:56fb5a2a-05c6-4d23-b271-3874d8f31aff a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EN 303 645 specification ensures the protection of personal data according to the sixth clause of the specification documentation (see EN 303 645 reference, section 6 'Data protection provisions for consumer IoT'). Moreover, as an ETSI specification, EN 303 645 is compliant with all the European Regulations and Policies (see ETSI Role in Europe reference).
+
+EN 303 645 reference, section 6:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf
+
+ETSI Role in Europe reference:
+https://www.etsi.org/about/etsi-in-europe?highlight=WyJldXJvcGVhbiIsIidldXJvcGVhbiIsImV1cm9wZWFuJ3MiLCJyZWd1bGF0aW9ucyIsImV1cm9wZWFuIHJlZ3VsYXRpb25zIl0=\""""@en ;
+    cav:refersTo camssa:d11e5fe8-8c7d-4670-a245-05be437a0750 .
+
+camssa:58593d35-9b82-4c47-ad39-dfc610b83d1e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Although the EN 303 645 specification is not a Harmonised European Standard (HEN) following Radio Equipment Directive (RED) specification (see J. Pandza's presentation on the ENISA Cybersecurity Standardisation Event, and HEN reference), the specification is a European Standard (see EN 303 645 reference).
+
+EN 303 645 reference:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf
+
+ENISA Cybersecurity Standardisation Event 2021, Jasper Pandza presentation:
+https://www.enisa.europa.eu/events/cybersecurity_standardisation_2021/std-2021-presentations
+
+HEN reference:
+https://ec.europa.eu/growth/single-market/european-standards/harmonised-standards_en#:~:text=A%20harmonised%20standard%20is%20a%20European%20standard%20developed,the%20European%20Commission%20to%20one%20of%20these%20organisations.\""""@en ;
+    cav:refersTo camssa:4c4c5f24-58fe-4092-bd5d-b15c585712cf .
+
+camssa:5c931b58-98d3-4734-9d6c-7574bd287f6a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'EN 303 645 is associated to the consumer IoT devices domain and is not intended to be used in other domains. Therefore, the specification does not allow customisation. 
+
+EN 303 645 reference:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf'"""@en ;
+    cav:refersTo camssa:147f5cb5-fef0-4563-9e42-20669214721b .
+
+camssa:651cd637-638d-4db8-bd02-19c45bd45b87 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The EN 303 645 specification, through ETSI, participates in cooperative projects at the European level. In particular, the EU Agency for Cybersecurity (ENISA), together with ETSI and the CEN and CENELEC "Cybersecurity and Data Protection" technical committee (see J. Pandza's presentation on the ENISA Cybersecurity Standardisation Event, and CEN-CLC/JTC 13 reference), are part of several European initiatives (see Official Journal of the European Union reference) to develop "home-grown" European standards in the field of cybersecurity. For example, the specification has direct implications in the context of European certification systems.
+
+ENISA Cybersecurity Standardisation Event 2021, Jasper Pandza presentation:
+https://www.enisa.europa.eu/events/cybersecurity_standardisation_2021/std-2021-presentations
+
+CEN-CLC/JTC 13 reference:
+https://www.cencenelec.eu/areas-of-work/cenelec-sectors/digital-society-cenelec/cybersecurity-and-data-protection/
+
+Official Journal of the European Union reference:
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52020XG1210%2801%29'"""@en ;
+    cav:refersTo camssa:97941658-3847-4f00-b8d6-b96b99ab1d02 .
+
+camssa:67268a61-f070-41ac-a928-ff9d3b9016ea a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"EN 303 645 is associated to the consumer IoT devices domain. Prior to some adaptations, the specification could be extended and broaden to specific subsectors. As they state in their official website, CYBER is providing an EN 303 645 template that sets the principles for the specification to be extended. For example, the smart door locks extension is under development and is based on the EN 303 645 specification. 
+
+EN 303 645, 'Vertical Standard' section:
+https://www.etsi.org/technologies/consumer-iot-security\""""@en ;
+    cav:refersTo camssa:010e3041-61c7-4ad3-95f4-f23edef10dbd .
+
+camssa:677affec-7601-4289-989d-cd8c6197b560 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Up to date, the EN 303 645 specification does not enable digital service delivery channels. Nonetheless, the specification could enable new channels once the EU cybersecurity certification framework for ICT products is consolidated.
+
+EU cybersecurity framework reference:
+https://digital-strategy.ec.europa.eu/en/policies/cybersecurity-certification-framework'"""@en ;
+    cav:refersTo camssa:3ffef17a-72a1-4c3f-a15e-69eab27687e9 .
+
+camssa:6bfb2103-a77c-4e09-9f85-36cd012818b4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no Member State that includes the EN 303 645 specification in their national catalogue with The National Interoperability Framework (NIF) in alignment with the three categories: 1. Conceptual model for integrated public services provision, 2. interoperability layers, and 3. interoperability principles.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:9241b344-5bf9-40ca-9c6a-c55d910e39bc .
+
+camssa:6f951fbb-2160-467c-982f-2bc30d5d0c42 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "80"^^xsd:int .
+
+camssa:7100321e-0d09-4a41-912d-7e16200c4a2d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:79db4b02-02f6-49ec-bfef-ec58b0eb1fa0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"EN 303 645 is associated to the consumer IoT device and the data security domain. EN 303 645 is a comprehensive, single-purpose specification that manufacturers and IoT stakeholders need in order to meet basic security requirements (see EN 303 645 homepage, 'International alignment and adoption' section). There is no evidence of the use of the specification in the public sector.
+
+EN 303 645 homepage, 'International alignment and adoption' section:
+https://www.etsi.org/technologies/consumer-iot-security\""""@en ;
+    cav:refersTo camssa:7e2be713-2e9f-4238-a6c9-ecef7ef3ae61 .
+
+camssa:7e2be713-2e9f-4238-a6c9-ecef7ef3ae61 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "20"^^xsd:int .
+
+camssa:84eb58d5-59ab-47a1-a99d-41b457a7476d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"EN 303 645 does not define any specific methodology for testing its provisions' conformance, but it provides for each each of the implemented features a recording template that eases conformity testing in a structred way (see the Implementation Conformance Statement proforma in Annex B of the EN 303 645 specification). On the other hand, there is the ETSI TS 103 701 conformance assessment methodology for consumer IoT devices, which is intended to set a provisions conformance testing with respect to ETSI EN 303 645, giving test cases and assessment criteria for each provision.
+
+EN 303 645 reference, Annex B:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf
+
+TS 103 701 reference:
+https://etsi.org/deliver/etsi_ts/103700_103799/103701/01.01.01_60/ts_103701v010101p.pdf
+\""""@en ;
+    cav:refersTo camssa:33e36b11-6f8d-47f9-8961-66eeebdc9bbb .
+
+camssa:8a25b2e1-b900-4f67-8b1c-e0e42f27d9fd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of EN 303 645 is not related to the long-term preservation of data/information/knowledge. Therefore, this criterion is considered not applicable to this specification.
+
+EN 303 645 reference:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf'"""@en ;
+    cav:refersTo camssa:264dff38-b8ba-479f-8d77-8a54ba752535 .
+
+camssa:8d54de60-a1ac-4fc1-b509-61e12a6bc07c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The Technical Committee (TC) CYBER (Cybersecurity) provides feature requests to open source projects and results of implementation experience to open source communities. ETSI, as an acknowledged European standardisation, offers different channels for the creation of communities and the sharing of data and results in European platforms.
+
+TC CYBER reference:
+https://www.etsi.org/cyber-security/tc-cyber-roadmap'"""@en ;
+    cav:refersTo camssa:9b1e48de-37b0-4dd6-ae18-8878f9bf9f2b .
+
+camssa:8f08dd79-fbd8-41ee-90c5-0f040d1ee7fb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:90a67d8d-326e-425b-9ae8-84483a704264 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "40"^^xsd:int .
+
+camssa:90d7430a-b432-4f3f-9178-11f194d4142a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of En 303 645 specification is not related to the implementation of the once-only principle. Therefore, this criterion does not apply to this specification. 
+
+EN 303 645 reference:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf'"""@en ;
+    cav:refersTo camssa:d07ce598-fe17-4af0-bfa5-58908d7537a9 .
+
+camssa:9241b344-5bf9-40ca-9c6a-c55d910e39bc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:97941658-3847-4f00-b8d6-b96b99ab1d02 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26c3fa9eb08207b2dfbd8d7c3852f0c9db3fdc50491d24db5b2f2eb1acf68732 ;
+    cav:value "100"^^xsd:int .
+
+camssa:97fd5155-fb9a-46d0-b593-32a2990050b7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:9978b6b5-5d71-4e6a-92d2-939b0fd41a81 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "20"^^xsd:int .
+
+camssa:9a3f47c2-8e40-4579-9d34-78ddbae2da88 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of the EN 303 645 specification is not related to the visibility of administrative procedures, rules data, and services. 
+
+EN 303 645 reference:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf'"""@en ;
+    cav:refersTo camssa:24b514c3-def6-4f07-903f-6eb73ff6c76a .
+
+camssa:9b1e48de-37b0-4dd6-ae18-8878f9bf9f2b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9ce88938-b2a6-4199-91c7-9f240114dc2f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a3b81851-07f7-465e-817b-939183727284 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:a5674204-ac8d-45f8-bc9b-90fff4fbda20 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI and any of its committees, in charge of the development of EN 303 645, operates under the ETSI Intellectual Property Rigths (IPRs) and IPR Policy. The specification is licensed on a Royalty-free.
+
+IPR Policy, ETSI ownership of IPRs section:
+https://www.etsi.org/intellectual-property-rights'"""@en ;
+    cav:refersTo camssa:3d2caa51-b6aa-43e9-9902-5e473988a0f4 .
+
+camssa:a78d502e-1925-4d62-90db-0da285e36985 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The purpose of the EN 303 645 specification is not related to enabling the exposure of interfaces of public administration's services. 
+
+EN 303 645 reference:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf\""""@en ;
+    cav:refersTo camssa:06600737-f92b-401a-a638-b93a092221d3 .
+
+camssa:a8c3dd3d-a7ed-45ca-8a39-30a176d928aa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "40"^^xsd:int .
+
+camssa:a8cad5e8-4276-4960-b026-9f5f8525066b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no evidence of the inclusion of EN 303 645 in an open repository/catalogue of standards at European level.
+
+EUOS repository of standards:
+https://www.standict.eu/standards-repository
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:a3b81851-07f7-465e-817b-939183727284 .
+
+camssa:ae873a96-555c-4344-842a-0d1b28ec10b4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of the EN 303 645 specification is not related to data portability. Therefore, this criterion does not apply to this specification. 
+
+EN 303 645 reference:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf'"""@en ;
+    cav:refersTo camssa:0cb91bc2-e85f-474b-87b3-cc8f16b78e3a .
+
+camssa:b0db7c2a-4ea2-46a0-ab9f-3ec262048c54 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The Technical Committee (TC) CYBER (Cybersecurity) provides public support to members and non-members alike, with different conditions depending on ETSI membership status. Besides, it dedicates a wiki page to disseminate the Global cybersecurity Ecosystem (constituted in a specification itself, TR 103 306) to help stakeholders, and anyone, discover and identify the components of global cybersecurity.
+
+ETSI TC CYBER reference:
+https://portal.etsi.org/tb.aspx?tbid=824#/5068-home
+
+ETSI TC CYBER wiki:
+https://cyberpublicwiki.etsi.org/index.php?title=ETSI
+
+ETSI TR 103 306 reference:
+https://www.etsi.org/deliver/etsi_tr/103300_103399/103306/'"""@en ;
+    cav:refersTo camssa:6f951fbb-2160-467c-982f-2bc30d5d0c42 .
+
+camssa:b10a23e8-0a26-4e92-b696-043970cd7232 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"There is no evidence of any study directly assessing the efficiency of the EN 303 645 specification. However, there are some organisations from the private sector, offering solutions based on the specification's performance with respect to the market, that indirectly assess the specification's efficiency. It is the case of TÜV SÜD, which offers testing against the EN 303 645 specification.
+
+TÜV SÜD-EN 303 645 reference:
+https://www.tuvsud.com/en-us/industries/consumer-products-and-retail/iot-cybersecurity/\""""@en ;
+    cav:refersTo camssa:52ccdfbc-9e06-4619-886d-b2b37de5ab47 .
+
+camssa:b313df22-67dc-470d-aaad-eb51ff0282b9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The Technical Committee (TC) CYBER (Cybersecurity) is encharged of the development and maintenance of the EN 303 645 specification. As other ETSI technical committes, the TC CYBER contributes to the report writing. Participation is open prior a registration process and a financial contribution (see ETSI Directives' Rules of Procedure).
+
+ETSI Directives, Rules of Procedure:
+https://portal.etsi.org/Resources/ETSI-Directives
+
+ETSI TC CYBER press release reference:
+https://www.etsi.org/committee/1393-cyber\""""@en ;
+    cav:refersTo camssa:2d4b8aa4-b0f3-4bef-bbfe-9de68ad33c35 .
+
+camssa:b87c3ffc-eb37-40aa-b73a-f155677447b7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b9281cd9-0220-4a48-b0bf-5c246f8d0e99 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EN 303 645 specification does not simplify the delivery of European public services, but can indirectly facilitate their delivery. The specification has been included in several initiatives supported by the EU cybersecurity certification framework for ICT products  (see J. Pandza's presentation on the ENISA Cybersecurity Standardisation Event, and see EU cybersecurity certification framework reference). For example, there is the Eurosmart IoT Certification Scheme, which relies on the EN 303 645 specification, setting the first common certification scheme for IoT devices in Europe and facilitating the delivery of European public services. 
+
+ENISA Cybersecurity Standardisation Event 2021, Jasper Pandza presentation:
+https://www.enisa.europa.eu/events/cybersecurity_standardisation_2021/std-2021-presentations
+
+EU cybersecurity framework reference:
+https://digital-strategy.ec.europa.eu/en/policies/cybersecurity-certification-framework
+
+Eurosmart IoT Certification Scheme reference:
+https://www.eurosmart.com/eurosmart-iot-certification-scheme/\""""@en ;
+    cav:refersTo camssa:1de277da-59ae-4b70-8b36-8a0cb99f62de .
+
+camssa:bbfaabd3-ac37-498d-9528-a06bcc1b94c5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"EN 303 645 is associated to the consumer IoT device and the data security domain. EN 303 645 is a comprehensive, single-purpose specification that manufacturers and IoT stakeholders need in order to meet basic security requirements (see EN 303 645 homepage, 'International alignment and adoption' section). European directives are currently making an effort to verticalise the consumer IoT industry (see EN 303 645 homepage reference, about the vertical standard concept), opening up new possibilities to other domains (see Europe Plans on IoT reference). However, there is no evidence of the use of the specification in other domains, nor in the public sector.
+
+EN 303 645 homepage, 'International alignment and adoption' section:
+https://www.etsi.org/technologies/consumer-iot-security
+
+EN 303 645 homepage, 'Vertical Standard' section:
+https://www.etsi.org/technologies/consumer-iot-security
+
+Europe Plans on IoT reference:
+https://joinup.ec.europa.eu/collection/rolling-plan-ict-standardisation/internet-things\""""@en ;
+    cav:refersTo camssa:3d413ad8-e611-46ac-8e2d-b873f3fec397 .
+
+camssa:c44b87c7-4b3f-4486-a629-f1f11feb9177 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69dbbbfc4ff4c79244a3bd99f7c3f883f2a7114ec515cb4d576f0d807c94b9fd ;
+    cav:value "100"^^xsd:int .
+
+camssa:c516d779-9d67-4ccb-abe7-8d6fb4ad447f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:ca96e945-c388-4127-a97a-f46375827a2e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"There is no evidence of any study directly assessing the effectiveness of the EN 303 645 specification. However, there are some organisations from the private sector, offering solutions based on the specification's performance with respect to the market, that indirectly assess the specification's effectiveness. It is the case of TÜV SÜD, which offers testing against the EN 303 645 specification.
+
+TÜV SÜD-EN 303 645 reference:
+https://www.tuvsud.com/en-us/industries/consumer-products-and-retail/iot-cybersecurity/\""""@en ;
+    cav:refersTo camssa:90a67d8d-326e-425b-9ae8-84483a704264 .
+
+camssa:d07ce598-fe17-4af0-bfa5-58908d7537a9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d11e5fe8-8c7d-4670-a245-05be437a0750 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:dfb81e2f-964d-4442-8ec8-bb3123200cfd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e0e6c38d-b3ac-4d03-9a35-4bd46071f07c a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "DIGIT-CAMSS@eu.europa.eu"@en .
+
+camssa:e3d0ddfc-7df4-4fb6-ae1d-a7725458a10a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI and any of its committees, in charge of the development of EN 303 645, operates under the ETSI Intellectual Property Rigths (IPRs) and IPR Policy. The specification is licensed on a (F)RAND basis.
+
+Intellectual Property Rights Policy, ETSI ownership of IPRs section: 
+https://www.etsi.org/intellectual-property-rights'"""@en ;
+    cav:refersTo camssa:9ce88938-b2a6-4199-91c7-9f240114dc2f .
+
+camssa:e4c636a3-a589-4d25-8e6b-d788bb7c8629 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of the EN 303 645 specification is not related to data portability. Therefore, this criterion does not apply to this specification. 
+
+EN 303 645 reference:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf'"""@en ;
+    cav:refersTo camssa:dfb81e2f-964d-4442-8ec8-bb3123200cfd .
+
+camssa:f0b4bec2-e7ad-448f-afad-8d0c039cf32c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'This specification is not currently included in the EIRA Library of Interoperability Specifications (ELIS), but will be included in the next release of the ELIS. The response to this criterion is positive because EN 303 645 is mappable to the European Interoperability Reference Architecture (EIRA).
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110'"""@en ;
+    cav:refersTo camssa:407c2aab-3995-4ec7-905f-5d097d02d2d3 .
+
+camssa:f3b5e889-3fd0-475e-a180-2988175e1563 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The EN 303 645 specification addresses the most significant and widespread security weaknesses. Due to the large consumer IoT landscape, it is inevitable that the applicability of the provisions (recommendations) will depend on the device, which gives the specification a degree of flexibility (see 'Reporting implementation' section). In this sense, the specification allow for partial implementation.
+
+EN 303 645 reference, 'Reporting implementation' section:
+https://www.etsi.org/deliver/etsi_en/303600_303699/303645/02.01.01_60/en_303645v020101p.pdf\""""@en ;
+    cav:refersTo camssa:a8c3dd3d-a7ed-45ca-8a39-30a176d928aa .
+
+camssa:f3fe6caa-8384-4124-9d28-b4812e336e2b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The EN 303 645 specification is not included in any national catalogue. However, the specification has been recommended by some European national agencies like the Federal Office for Information Security (BSI) in Germany, or has been integrated in a public service like the Cybersecurity label in Finland to certify safe smart devices and assist consumers in buying safer products.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards
+
+Finnish Transport and Communications Agency Traficom reference:
+https://www.kyberturvallisuuskeskus.fi/en/news/finland-becomes-first-european-country-certify-safe-smart-devices-new-cybersecurity-label
+
+German BSI reference:
+https://www.bsi.bund.de/DE/Service-Navi/Presse/Pressemitteilungen/Presse2020/SmartHome_130720.html'"""@en ;
+    cav:refersTo camssa:c44b87c7-4b3f-4486-a629-f1f11feb9177 .
+
+camssa:fe995a5b-78ee-4430-b743-ae9673616cf2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The first version of the EN 303 645 specification was published in 2019 and superseded the ETSI TS 103 645 specification for consumer Internet of Things (CIoT); the latter was the first standard for cybersecurity in the Internet of Things, which was considered as a security baseline for Internet-connected consumer products and a basis for future IoT certification schemes. As a proof of market acceptance, at present EN 103 701 is meant to serve as an input to a forthcoming EU cybersecurity certification system, as proposed in the Cybersecurity Act (see ETSI Work Programme reference).
+
+EN 303 645 homepage reference:
+https://www.etsi.org/technologies/consumer-iot-security
+
+TS 103 645 reference:
+https://www.etsi.org/newsroom/press-releases/1549-2019-02-etsi-releases-first-globally-applicable-standard-for-consumer-iot-security
+
+TS 103 701 reference:
+https://www.etsi.org/deliver/etsi_ts/103700_103799/103701/01.01.01_60/ts_103701v010101p.pdf
+
+ETSI Work Programme reference:
+https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=58434&curItemNr=39&totalNrItems=296&optDisplay=100000&qSORT=TB&qETSI_ALL=&SearchPage=TRUE&qINCLUDE_SUB_TB=True&qINCLUDE_MOVED_ON=&qEND_CURRENT_STATUS_CODE=11+WI%3BM58&qSTOP_FLG=N&qKEYWORD_BOOLEAN=OR&qCLUSTER_BOOLEAN=OR&qCLUSTER=19&qFREQUENCIES_BOOLEAN=OR&qSTOPPING_OUTDATED=&butExpertSearch=Search&includeNonActiveTB=FALSE&includeSubProjectCode=FALSE&qREPORT_TYPE='"""@en ;
+    cav:refersTo camssa:46d4b4a2-ca4a-407a-aac7-ebded4eed342 .
+
