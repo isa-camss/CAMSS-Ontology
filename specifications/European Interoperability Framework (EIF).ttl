@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:df3d7ef9-c473-4446-8cb0-62a0066aa4c9 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:4c29de14a9cf50ef38f64ea1933e2c5889b23e0a68a6b7259c334b0d00c0082d ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:fa3a7cf6ccb859ff672f6579e000e61d96f0756c83c13b96e3139ae97beb13bd a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:4c29de14a9cf50ef38f64ea1933e2c5889b23e0a68a6b7259c334b0d00c0082d ;
+    dct:title "European Interoperability Framework (EIF)"@en ;
+    dcat:distribution cssvrsc:9437eac9-df2c-4b1e-839d-9e7f50817b21 .
+
+cssvrsc:9437eac9-df2c-4b1e-839d-9e7f50817b21 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://ec.europa.eu/isa2/eif_en"^^xsd:anyURI .
+
+cssvrsc:4c29de14a9cf50ef38f64ea1933e2c5889b23e0a68a6b7259c334b0d00c0082d a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "European Commission"^^xsd:string .
+

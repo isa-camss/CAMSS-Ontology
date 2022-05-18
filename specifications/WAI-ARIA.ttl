@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:d22a7f4993386b2cbdf6d21bc369c92bbdf5c5df6ce46fa89574c0a633e2b469 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
+    dct:title "WAI-ARIA"@en ;
+    dcat:distribution cssvrsc:47128735-6709-4e16-b9e3-aa7f12206a35 .
+
+cssvrsc:f282c668-efb6-4628-8784-947be58784ed a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:47128735-6709-4e16-b9e3-aa7f12206a35 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.w3.org/TR/wai-aria/"^^xsd:anyURI .
+
+cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "W3C (https://www.w3.org)"^^xsd:string .
+

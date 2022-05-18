@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:04650c42-120a-49e4-b2d7-f777e3620903 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:7c1f89606ff29d6fa4ee1f4cd6e67f59ffebcefe54b70b325e3ab031c3c9aeb0 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
+    dct:title "Cyber Security for Consumer Internet of Things Baseline Requirements (EN 303 645)"@en ;
+    dcat:distribution cssvrsc:e60d4554-97ce-4bb9-9098-7f9019f68e57 .
+
+cssvrsc:e60d4554-97ce-4bb9-9098-7f9019f68e57 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.etsi.org/technologies/consumer-iot-security"^^xsd:anyURI .
+
+cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "ETSI (https://www.etsi.org/)"^^xsd:string .
+

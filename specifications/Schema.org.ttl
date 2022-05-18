@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:5a81dd874f6ef2c75576b4c7594373c802831daf20243c70d0459ed71ca09a8c a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:629bdcdf6ffd2d15e817fc5617f4b7c7de4fcceacc7e8e746d941bc1d10ce23a ;
+    dct:title "Schema.org"@en ;
+    dcat:distribution cssvrsc:2db43385-5d63-4f83-a907-82a72ecfeefb .
+
+cssvrsc:62a4d389-c07d-4072-b63a-c738777f814d a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:629bdcdf6ffd2d15e817fc5617f4b7c7de4fcceacc7e8e746d941bc1d10ce23a ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:2db43385-5d63-4f83-a907-82a72ecfeefb a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://github.com/schemaorg/schemaorg/blob/main/data/releases/14.0/schema-all.html"^^xsd:anyURI .
+
+cssvrsc:629bdcdf6ffd2d15e817fc5617f4b7c7de4fcceacc7e8e746d941bc1d10ce23a a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "Schema.org (SDO/SSO)"^^xsd:string .
+

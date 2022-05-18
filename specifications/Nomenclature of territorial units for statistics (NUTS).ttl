@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:30429b0f-de92-4044-b360-7cb9bb21bac2 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:f0a73374aa2db36977d473f5a6e3d6fb70ec29af4cbee92c6565a68c8d788ec9 ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:fdb314a96c718420f5bd2980558e2fb413b60f28e8ccb87669744be3f337d7f7 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:f0a73374aa2db36977d473f5a6e3d6fb70ec29af4cbee92c6565a68c8d788ec9 ;
+    dct:title "Nomenclature of territorial units for statistics (NUTS)"@en ;
+    dcat:distribution cssvrsc:f492990d-7a5f-4078-b419-ce15cea185be .
+
+cssvrsc:f492990d-7a5f-4078-b419-ce15cea185be a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://ec.europa.eu/eurostat/web/nuts/history"^^xsd:anyURI .
+
+cssvrsc:f0a73374aa2db36977d473f5a6e3d6fb70ec29af4cbee92c6565a68c8d788ec9 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "European Commission (EUROSTAT)"^^xsd:string .
+

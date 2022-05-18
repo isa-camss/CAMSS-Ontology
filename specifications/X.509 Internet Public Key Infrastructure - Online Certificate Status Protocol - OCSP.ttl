@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:39eee9a3f8d54dac0e11456b98c29454ebb157dc3a8991f456b7b659bf990370 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "X.509 Internet Public Key Infrastructure - Online Certificate Status Protocol - OCSP"@en ;
+    dcat:distribution cssvrsc:6d9ef91d-dad3-47d1-96d1-452d8a31544b .
+
+cssvrsc:7489acae-3843-4146-b082-83852188b040 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:6d9ef91d-dad3-47d1-96d1-452d8a31544b a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://datatracker.ietf.org/doc/html/rfc2560"^^xsd:anyURI .
+
+cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "IETF (https://www.ietf.org/)"^^xsd:string .
+

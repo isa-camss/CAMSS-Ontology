@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:90b892f316000b3f7e9c96ff2c0cb7bd8a2e5da58051db814f8471f3e64e4f42 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:6c1b650bbb0c62db6302de8b252e39c070c9c851bbd9b92cbf091420c0a48d86 ;
+    dct:title "XBRL GL (Global Ledger Taxonomy)"@en ;
+    dcat:distribution cssvrsc:8733dbd8-e8f7-4219-9fb1-60f5054eb7ca .
+
+cssvrsc:eb459d1b-90e6-4cae-9fab-bd6ebd7f2b28 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:6c1b650bbb0c62db6302de8b252e39c070c9c851bbd9b92cbf091420c0a48d86 ;
+    schema:email "Elina Koskentalo, XBRL Finland: elina.koskentalo@tieke.fi" .
+
+cssvrsc:8733dbd8-e8f7-4219-9fb1-60f5054eb7ca a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://specifications.xbrl.org/work-product-index-xbrl-gl-xbrl-gl-2017.html"^^xsd:anyURI .
+
+cssvrsc:6c1b650bbb0c62db6302de8b252e39c070c9c851bbd9b92cbf091420c0a48d86 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "XBRL International"^^xsd:string .
+

@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:2fb2044e-6f73-479f-94cd-9ad5d3affa0f a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:fecd5681dc5dc6e2f413b28ce95e50f6aa2ce9fbef201fa3c11844af5799b2e3 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 ;
+    dct:title "REST"@en ;
+    dcat:distribution cssvrsc:ba358778-3e2f-4270-a50b-e833570d6c11 .
+
+cssvrsc:ba358778-3e2f-4270-a50b-e833570d6c11 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://restfulapi.net/"^^xsd:anyURI .
+
+cssvrsc:f45f6c8ef56563dd5fe289d6817c3a398df2a29fc9fad70d5114d6a5a1fa3815 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "W3C (https://www.w3.org)"^^xsd:string .
+

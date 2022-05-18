@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:3ff85bb1-4cee-4cb2-a22a-52603ef0c10e a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:7af36b51dd97cd4c7d169ff9ed38c389d3514811e4edc3b3cbca9e2c2dc60064 ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:5d64fb2f0abfb7a00c8bb30877ca88441cae1fdd82d0de123c38da49ee7ec4a2 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:7af36b51dd97cd4c7d169ff9ed38c389d3514811e4edc3b3cbca9e2c2dc60064 ;
+    dct:title "GITB Test Description Language (TDL)"@en ;
+    dcat:distribution cssvrsc:c82e6f20-c1c6-43b3-b7ba-2936434fd715 .
+
+cssvrsc:c82e6f20-c1c6-43b3-b7ba-2936434fd715 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.itb.ec.europa.eu/docs/tdl/latest/introduction/index.html"^^xsd:anyURI .
+
+cssvrsc:7af36b51dd97cd4c7d169ff9ed38c389d3514811e4edc3b3cbca9e2c2dc60064 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "CEN"^^xsd:string .
+

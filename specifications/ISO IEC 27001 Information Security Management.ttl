@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:4909c79d2759fc5cdbd6e87160f397452ee9484bd8d9e9bf838be385108c987c a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:6dc87bf3ac7649b799be35cdd8b3a0bdae66a0447c69c286e01df5c87c589859 ;
+    dct:title "ISO IEC 27001 Information Security Management"@en ;
+    dcat:distribution cssvrsc:9dfda5f3-3277-4068-a523-bf007ac945d7 .
+
+cssvrsc:e0ed0206-e4e2-4c4a-a3ea-b681717f4aaf a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:6dc87bf3ac7649b799be35cdd8b3a0bdae66a0447c69c286e01df5c87c589859 ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:9dfda5f3-3277-4068-a523-bf007ac945d7 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.iso.org/standard/54534.html"^^xsd:anyURI .
+
+cssvrsc:6dc87bf3ac7649b799be35cdd8b3a0bdae66a0447c69c286e01df5c87c589859 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "ISO"^^xsd:string .
+

@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:8d8a9063977269b9511a82b8c6e20a2fb19da720bde0b3e6d37175b3a9945737 a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:e34973b5408251e8bb734cc2138da8e9868a3eeeba384e8ee220b52bd0e16cd9 ;
+    dct:title "CEN TC 428 -  ICT Professionalism and Digital Competences - European Competency Framework (The European Union's European e-Competence Framework (e-CF) (EN 16234-1 e-CF) "@en ;
+    dcat:distribution cssvrsc:f8fbab9a-796f-4d8d-bbdb-94be764554bb .
+
+cssvrsc:91477e64-fc78-4292-823d-a24186dc3ea6 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:e34973b5408251e8bb734cc2138da8e9868a3eeeba384e8ee220b52bd0e16cd9 ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:f8fbab9a-796f-4d8d-bbdb-94be764554bb a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://standards.cencenelec.eu/dyn/www/f?p=205:110:0::::FSP_PROJECT:67073&cs=15E62ED24D608A5F10D6BEE8E6D50FA10"^^xsd:anyURI .
+
+cssvrsc:e34973b5408251e8bb734cc2138da8e9868a3eeeba384e8ee220b52bd0e16cd9 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "European Committee for Standardization (CEN)"^^xsd:string .
+

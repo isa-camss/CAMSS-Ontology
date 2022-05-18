@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:985d914a-4c6a-4bdf-80a0-ea3aaf7ff03a a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:47ecb660c1e71c27d8675deb68dbf7310c872805fdea6bee7b6029900561804e ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:e0041e683c35119779bcb5ebef3ea214e56127e3b5d0f32c844302d945308b22 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:47ecb660c1e71c27d8675deb68dbf7310c872805fdea6bee7b6029900561804e ;
+    dct:title "Skills Framework for the Information Age (SFIA)"@en ;
+    dcat:distribution cssvrsc:5092dc4b-4acf-4d55-8565-16e9c73ed203 .
+
+cssvrsc:5092dc4b-4acf-4d55-8565-16e9c73ed203 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://sfia-online.org/en/sfia-8/documentation"^^xsd:anyURI .
+
+cssvrsc:47ecb660c1e71c27d8675deb68dbf7310c872805fdea6bee7b6029900561804e a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "SFIA Foundation"^^xsd:string .
+

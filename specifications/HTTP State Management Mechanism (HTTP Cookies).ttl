@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:951c2de2-40e3-4b7e-af6d-d37fb2158bf2 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:b5dbdc5464062afbee26dd0d80d88ac87acdf4c7da929603b5a470b9777f446d a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b ;
+    dct:title "HTTP State Management Mechanism (HTTP Cookies)"@en ;
+    dcat:distribution cssvrsc:8ea513de-c99b-46dd-809f-7fec839cd1ce .
+
+cssvrsc:8ea513de-c99b-46dd-809f-7fec839cd1ce a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://datatracker.ietf.org/doc/html/rfc6265"^^xsd:anyURI .
+
+cssvrsc:888cf0b93c3579f6c2782f5252e66631753f4654323c600c5df8c573d796c37b a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "IETF (https://www.ietf.org/)"^^xsd:string .
+
