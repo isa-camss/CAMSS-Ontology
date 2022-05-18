@@ -1,8 +1,8 @@
-@prefix camss: <http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea#> .
-@prefix cav: <http://data.europa.eu/w21/2c930c7b-5e2f-4954-8522-bd3411339d6c#> .
-@prefix cssv: <http://data.europa.eu/w21/e1f84ab1-bad6-4e95-b37a-e54ba7dfc551#> .
+@prefix camss: <http://data.europa.eu/2sa#> .
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> 
 @prefix sh: <http:/www.w3.org/ns/shacl#> .
-@prefix : <http://data.europa.eu/w21/f4ae84dc-714b-43bc-a275-e48704ac79ea> .
+@prefix : <https://data.europa.eu/2sa/ontology#> .
 
 :Assessment_Shape a sh:NodeShape ;
     sh:name "Assessment"@en ;
