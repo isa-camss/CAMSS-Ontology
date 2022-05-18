@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:a88ec924-bd63-4e2a-aa40-19ee2c308a57 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:0ea5970eb96f3b7439fff82de3cde75def20698632a7e5b4a4bc222b4fbfb32e ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:ea1887cf6ceb4929fc4a5de8a2180ce8ce23f197de2b61a275d88cd46323fb6a a cssv:Standard,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:0ea5970eb96f3b7439fff82de3cde75def20698632a7e5b4a4bc222b4fbfb32e ;
+    dct:title "Codes for the representation of names of languages-- Part 2: alpha-3 code (ISO 639-2)"@en ;
+    dcat:distribution cssvrsc:16073de4-dda5-4a3b-80bc-5b87ec8df8c8 .
+
+cssvrsc:16073de4-dda5-4a3b-80bc-5b87ec8df8c8 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.loc.gov/standards/iso639-2/langhome.html"^^xsd:anyURI .
+
+cssvrsc:0ea5970eb96f3b7439fff82de3cde75def20698632a7e5b4a4bc222b4fbfb32e a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "Library of Congress (LOC)"^^xsd:string .
+
