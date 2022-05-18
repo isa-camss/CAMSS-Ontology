@@ -1,0 +1,705 @@
+@prefix camss: <http://data.europa.eu/2sa/ontology#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:71b734d93eea13de404910eb634943e6bc28f69d27f2f63bcbdf62230a832bb3 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:d0106bd7-896c-4617-b213-937a7fc44a5e ;
+    skos:prefLabel "CAMSS Team European Commission DG DIGIT"@en .
+
+camssa:fce7b05e4f0e7b158fee58e08c16ac38e8c01b00d8df86a3a6fe8b3dc6303efa a cav:Assessment,
+        owl:NamedIndividual ;
+    cav:contextualisedBy sc:f717f525751d9de54fc478770a2fb1845767ec01f1661d602383ae868d2bb5b7 ;
+    cav:resultsIn camssa:02e6f4da-f8f0-493c-a078-893fda153afb,
+        camssa:0e08a925-904c-40a6-977b-9f3159674b1c,
+        camssa:1c724435-bedb-47ca-b48c-44b8e1e77250,
+        camssa:218f8a3e-e34a-43e6-a47e-839e90b1595d,
+        camssa:23763a96-126d-422c-9ea4-2098da798a0e,
+        camssa:2cae4f6f-5731-4c29-91f9-923fe61f892b,
+        camssa:2d20d50c-7445-41ce-a7a7-1f282a93bb66,
+        camssa:3107fc3a-6ee8-44fe-a7fd-6ed67cf5f7fa,
+        camssa:3722794f-be63-4be4-8e71-58b40d103901,
+        camssa:456249e9-db87-4da0-a86f-fbe3efc3ed5d,
+        camssa:49f6928e-4c02-4f36-83aa-23ab15e7675d,
+        camssa:4b721122-efb0-46aa-b468-06c40e9260f9,
+        camssa:59ab53f0-e9bf-4340-be50-38360df1c289,
+        camssa:5bf546af-761d-4b31-9ecc-f6126b6d5903,
+        camssa:62baa825-9653-4956-b5aa-ad46b8b84b16,
+        camssa:6ca8bd2e-f0ee-40e0-9121-6e83bc24a905,
+        camssa:6d656d97-4ffe-49e1-a855-b732e7ca2af7,
+        camssa:7378acfc-03f4-4b26-a50d-fd0c021cd438,
+        camssa:75a28cb7-7a91-4488-b93e-0435bb48ed80,
+        camssa:78c81d71-2f9c-4054-b91f-8b03ecf2524e,
+        camssa:78d074e4-6a6b-4d38-9b1b-9f87d2be19d8,
+        camssa:7f0c3c20-7104-494f-8bf9-95c8ab92ff88,
+        camssa:8266a831-054d-4541-a193-4d72956d59df,
+        camssa:845892c7-fbc2-4b9e-b247-fba243034f8e,
+        camssa:875fc338-0af8-4d4d-9d8b-bc850a59e5fd,
+        camssa:878c16cf-2cee-4088-a2c2-32e37a6cdbdb,
+        camssa:972b8fb3-edab-4a91-b158-9c1f2af239fd,
+        camssa:97c35641-4799-4b46-8edc-077d7f14e16c,
+        camssa:9b968986-6e0e-4922-bc3a-33dd19aa6b37,
+        camssa:9e86df7d-5524-4e7e-afec-67e9e14dcc9f,
+        camssa:b0c44f3a-e413-4df1-ba4f-a80143e41f4c,
+        camssa:b64e2633-85e2-4ca1-8ea5-16e50e85cdeb,
+        camssa:c6cd16de-5255-4d41-bdc3-6a4493146448,
+        camssa:c9e64de5-7178-4ae6-b407-b36a0299c226,
+        camssa:cedc408a-e4c0-46c8-9eac-bb9d9d7f0bf7,
+        camssa:d39ad9a0-ec2c-4757-b3b8-0216914f55cf,
+        camssa:db3436c2-0714-4f8c-8549-89b6b61c4c03,
+        camssa:dbfa86ca-b660-46a0-a64b-8dc8d06b18a1,
+        camssa:e93a7bf3-fd8e-43f0-80a8-3dc2ab44a002,
+        camssa:eaf1bad4-33e0-4518-af4e-ca1510bbf1da,
+        camssa:ee720baa-ac6d-4750-8b75-a869a75f0732,
+        camssa:fca30640-047a-4043-bc15-4c130ce498bd,
+        camssa:fcdb22ae-64ac-47d3-9607-1a3088f77684,
+        camssa:fea13b28-3eb3-45ac-b386-4da9c299f989 ;
+    cav:status status:Complete ;
+    camss:assesses cssvrsc:8d8a9063977269b9511a82b8c6e20a2fb19da720bde0b3e6d37175b3a9945737 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.0.0 ;
+    dct:title "CEN TC 428 -  ICT Professionalism and Digital Competences - European Competency Framework (The European Union's European e-Competence Framework (e-CF) (EN 16234-1 e-CF) "@en .
+
+camssa:005a9fc1-4ef2-4520-8b65-ef4d0a40826e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:02b2eb83-c2d3-4eac-8a72-2af8760c1dac a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:02e6f4da-f8f0-493c-a078-893fda153afb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Although the EN 16234-1 e-CF specification does not make any reference to interoperability issues, the CEN/TC 428 results are aligned with different models and frameworks, and attention has been paid to ensure that these relationships are well defined and published. For example, according to Joinup's Rolling Plan for ICT Standardisation, an update of EN-16234-1 e-CF is in progress, which is intended to add references to the SFIA (Skills Framework for the Information Age) model.
+
+Joinup-2021 Rolling Plan for ICT Standardisation reference, Education, Digital skills and Digital learning section:
+https://joinup.ec.europa.eu/collection/rolling-plan-ict-standardisation/education-digital-skills-and-digital-learning
+
+Skills Framework for the Information Age (SFIA) reference:
+https://www.sfia-online.org/en?msclkid=3c1ee036b64d11ec990d0b2d87d7154a\""""@en ;
+    cav:refersTo camssa:5981fdd3-0387-4d1f-ac1b-a0bd2b9d3266 .
+
+camssa:0cb4674c-0d43-40b0-a1e5-9525e4866602 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:0e08a925-904c-40a6-977b-9f3159674b1c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ITPE conducts conferences and webinars within various communities using the specification to give a voice to anyone who wants to give their opinion on the EN 16234-1 e-CF specification, including national participation.
+
+IT Professionalism Europe (ITPE) reference, Events:
+https://itprofessionalism.org/events/'"""@en ;
+    cav:refersTo camssa:2c8629e4-1181-4cb8-b1c1-2a0ad12beb2e .
+
+camssa:0f5cf334-b2a6-4d64-872a-5e85580c3bdc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1000eb1e-3152-4566-b223-37fd184c9f5c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26c3fa9eb08207b2dfbd8d7c3852f0c9db3fdc50491d24db5b2f2eb1acf68732 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1c724435-bedb-47ca-b48c-44b8e1e77250 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The purpose of EN 16234-1 e-CF is not related to the exposure of interfaces to access the public administration's services. Therefore, this criterion is not applicable to this specification.
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-1 e-CF:
+https://standards.cencenelec.eu/dyn/www/f?p=205:110:0::::FSP_PROJECT:67073&cs=15E62ED24D608A5F10D6BEE8E6D50FA10\""""@en ;
+    cav:refersTo camssa:51b5f9bf-95dc-4dd1-a80c-c2df2fbe67c4 .
+
+camssa:218f8a3e-e34a-43e6-a47e-839e90b1595d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'As an organisational enabler, EN 16234-1 e-CF aims to provide a standard that includes some other essentials for any IT professional, such as their basic skill set, their education and training qualification and certification, and the ethics around worker development. In this sense, the specification is not only usable beyond the business-specific domain, but also is designed to be implemented in any other domain.
+
+Joinup-2021 Rolling Plan for ICT Standardisation reference, Education, Digital skills and Digital learning section:
+https://joinup.ec.europa.eu/collection/rolling-plan-ict-standardisation/education-digital-skills-and-digital-learning'"""@en ;
+    cav:refersTo camssa:fe0424a0-a48f-4431-8338-fb0f928e926c .
+
+camssa:23763a96-126d-422c-9ea4-2098da798a0e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:93d9977f-9074-45a0-a79a-1a7c02afd5a6 .
+
+camssa:271d6703-825f-4cad-af48-5859be761154 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "20"^^xsd:int .
+
+camssa:2c1e8102-56d9-4591-a4c5-53b97cda80cc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:2c8629e4-1181-4cb8-b1c1-2a0ad12beb2e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:2cae4f6f-5731-4c29-91f9-923fe61f892b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are no requirements for compliance and conformance analysis testing defined by the EN 16234-1 e-CF specification.
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-1 e-CF:
+https://standards.cencenelec.eu/dyn/www/f?p=205:110:0::::FSP_PROJECT:67073&cs=15E62ED24D608A5F10D6BEE8E6D50FA10'"""@en ;
+    cav:refersTo camssa:f801dfc6-faa5-478f-b4da-8a2f4c697844 .
+
+camssa:2d20d50c-7445-41ce-a7a7-1f282a93bb66 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no Member State that includes EN 16234-1 e-CF in their national catalogue with its National Interoperability Framework (NIF) in alignment with the three categories: 1. Conceptual model for integrated public services provision, 2. interoperability layers, and 3. interoperability principles.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:c3799ea7-40ba-4e9a-a3ce-c7874c020094 .
+
+camssa:3107fc3a-6ee8-44fe-a7fd-6ed67cf5f7fa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'EN 16234-1 first appeared as a common framework of professional digital and IT competences, skills and knowledge in 2008, known as CEN Workgroup Agreement (CWA) 15893-1:2008 (see CEN Workshop on ICT Skills reference, List of CWAs section). EN 16234-1 v2.0 of the standard was launched in 2010 (known as CWA 16234-1:2010), and a third release in 2014 (CWA 16234-1:2014). In 2016, EN 16234-1 e-CF (EN 16234-1:2016) was adopted as a European Standard (see CEN/TC 428 "ICT Professionalism and Digital Competences" Business Plan 2022 reference, section 1.1). The official lastest version of the EN 16234-1 e-CF specification was published in 2019 (EN 16234-1:2019), which corresponds to version 4.0. Although the specification meets the requirements for a mature specification, there is no documentation on its development processes. 
+
+CEN Workshop on ICT Skills reference, List of CWAs section:
+http://relaunch.ecompetences.eu/cen-ict-skills-workshop/
+
+CEN/TC 428 "ICT Professionalism and Digital Competences" Business Plan 2022 reference, section 1.1:
+https://standards.cencenelec.eu/BPCEN/1218399.pdf'"""@en ;
+    cav:refersTo camssa:93f90788-3649-42be-9231-bef7f61008a5 .
+
+camssa:318a1168-fe29-46af-9506-a3cc504b865e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:31b7aef3-b08b-4c31-adbe-0cd0bc8f9fff a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "80"^^xsd:int .
+
+camssa:34c6913f-300a-469f-ae3c-3319f3922e9f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "20"^^xsd:int .
+
+camssa:3722794f-be63-4be4-8e71-58b40d103901 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no evidence of the inclusion of EN 16234-1 e-CF in an open repository/catalogue of standards at European level.
+
+EUOS repository of standards:
+https://www.standict.eu/standards-repository
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:8c6a5a40-d511-434b-9c3a-1fc0d052aebc .
+
+camssa:3f89de72-d88e-4dc1-b374-c1b56588a7b2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:456249e9-db87-4da0-a86f-fbe3efc3ed5d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The IT Professionalism Europe (ITPE) publishes some analysis on the EN 16234-1 e-CF component in different sectors of the European economy. The e-Competence Framework is positively evaluated as an effective enabler of SME communications. 
+
+IT Professionalism Europe (ITPE) reference, Reports & Publications section, 'e-CF for SME’s – competence need analysis' document:
+https://itprofessionalism.org/app/uploads/2019/08/Competence-need-Analysis.pdf\""""@en ;
+    cav:refersTo camssa:85de2c58-a039-41ea-8ddf-8484cb109af4 .
+
+camssa:49f6928e-4c02-4f36-83aa-23ab15e7675d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The EN 16234-1 e-CF framework is intended to serve as a device to represent the European e-Competence Framework, which focuses on skills and competences of the ICT professional workforce. EN 16234-1 e-CF has a self-contained structure and behaves as a single-purpose device; therefore, the specification does not allow customisation.
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-1 e-CF:
+https://standards.cencenelec.eu/dyn/www/f?p=205:110:0::::FSP_PROJECT:67073&cs=15E62ED24D608A5F10D6BEE8E6D50FA10'"""@en ;
+    cav:refersTo camssa:ecdc3a6b-43da-4ec5-aa29-b17ccea5415b .
+
+camssa:4a4e2506-2f69-4dcb-98af-fb04c23d5b43 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4b721122-efb0-46aa-b468-06c40e9260f9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"EN 16234-1 e-CF provides a common European description of the knowledge, skills and competences of the ICT professional workforce in any sector of activity. According to Joinup's Rolling Plan for ICT Standardisation, the use of the specification will increase the development and promotion of ICT professionalism, digital skills and e-learning in all sectors of society and industry.
+
+Joinup-2021 Rolling Plan for ICT Standardisation reference, Education, Digital skills and Digital learning section:
+https://joinup.ec.europa.eu/collection/rolling-plan-ict-standardisation/education-digital-skills-and-digital-learning\""""@en ;
+    cav:refersTo camssa:803b905b-8b48-43d6-a246-900091402d62 .
+
+camssa:4f6a1152-b3db-48de-924d-af6091efe2ac a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:51b5f9bf-95dc-4dd1-a80c-c2df2fbe67c4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:5981fdd3-0387-4d1f-ac1b-a0bd2b9d3266 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "40"^^xsd:int .
+
+camssa:59ab53f0-e9bf-4340-be50-38360df1c289 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'EN 16234-1 e-CF does facilitate the modelling of business processes. The Digital Organisational Frameworks and IT Professionalism (DigiFrame) seeks to reach a mutual agreement on new coordinated procedures for reliable, effective and efficient measurement and forecasting of the demand and supply of high-tech skills at European and national level.
+
+IT Professionalism Europe (ITPE) reference, Reports & Publications section, Workshops on the Digiframe (2018) – Presentations subsection:
+https://itprofessionalism.org/app/uploads/2021/01/DIGIFRAME_workshop-4-morningafternoon_report_201811205_final.pdf
+'"""@en ;
+    cav:refersTo camssa:ed427794-15fd-46b7-b895-c760ab4647b0 .
+
+camssa:5b7b30e0-7149-4b47-b784-b79d74747c28 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "20"^^xsd:int .
+
+camssa:5bf546af-761d-4b31-9ecc-f6126b6d5903 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"According to the CEN-CENELEX Guide 8, all patents, including EN 16234-1 e-CF, are licensed on a royalty-free basis. However, the specification should be purchased from each of the national standardisation organisations' sales points.
+
+CEN-CENELEC Guide 8 reference, section 4.1:
+https://www.cencenelec.eu/media/Guides/CEN-CLC/cenclcguide8.pdf
+
+National standardisation organisations reference:
+https://standards.cencenelec.eu/dyn/www/f?p=205:35:0::::FSP_SURR_WI:67073&cs=1D6A0AE3F4B33063EC3BB54B719082165\""""@en ;
+    cav:refersTo camssa:70b93d59-b6ed-4a2c-bd57-3894ef8f78ce .
+
+camssa:5c086879-b721-430c-acd2-ab31e548086e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5e5ce812-b301-4db9-8393-22b2257d879b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69dbbbfc4ff4c79244a3bd99f7c3f883f2a7114ec515cb4d576f0d807c94b9fd ;
+    cav:value "20"^^xsd:int .
+
+camssa:62baa825-9653-4956-b5aa-ad46b8b84b16 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The EN 16234-1 e-CF framework is intended to serve as a device to represent the European e-Competence Framework, which focuses on skills and competences of the ICT professional workforce. There is no possibility to extend the specification, as EN 16234-1 e-CF has a single purpose.
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-1 e-CF:
+https://standards.cencenelec.eu/dyn/www/f?p=205:110:0::::FSP_PROJECT:67073&cs=15E62ED24D608A5F10D6BEE8E6D50FA10'"""@en ;
+    cav:refersTo camssa:5b7b30e0-7149-4b47-b784-b79d74747c28 .
+
+camssa:69a4a4a4-5cab-4490-8bc6-1227ced6e79a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:6a5271ff-8036-4038-a6b7-70709ce04db7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:6ca8bd2e-f0ee-40e0-9121-6e83bc24a905 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no Member State recommending EN 16234-1 e-CF in its ICT National Catalogue.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:5e5ce812-b301-4db9-8393-22b2257d879b .
+
+camssa:6d656d97-4ffe-49e1-a855-b732e7ca2af7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'EN 16234-1 e-CF provides a common European description of the knowledge, skills and competences of the ICT professional workforce in all sectors. It contributes to moving towards a comprehensive framework for ICT practitioners integrating different building blocks relying not only on the EN 16234-1 e-CF but also on the e-CF User Guide (EN 16234-2) and the e-CF Methodologies (EN 16234-3).
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-1 e-CF:
+https://standards.cencenelec.eu/dyn/www/f?p=205:32:0::::FSP_ORG_ID,FSP_LANG_ID:1218399,25&cs=1C0456547BD827F5A977AD2936836C8DA
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-2 User Guide:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:110:0::::FSP_PROJECT,FSP_ORG_ID:70377,1218399&cs=13178F0C970F6172F57335317C3456DD8
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-3 Methodology:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:110:0::::FSP_PROJECT,FSP_ORG_ID:70378,1218399&cs=192D0AD053B765C617E43CC16AD1D4019'"""@en ;
+    cav:refersTo camssa:31b7aef3-b08b-4c31-adbe-0cd0bc8f9fff .
+
+camssa:70b93d59-b6ed-4a2c-bd57-3894ef8f78ce a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "20"^^xsd:int .
+
+camssa:7378acfc-03f4-4b26-a50d-fd0c021cd438 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of EN 16234-1 e-CF is not related to the visibility of administrative procedures, rules data and services. Therefore, this criterion is not applicable to this specification.
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-1 e-CF:
+https://standards.cencenelec.eu/dyn/www/f?p=205:110:0::::FSP_PROJECT:67073&cs=15E62ED24D608A5F10D6BEE8E6D50FA10'"""@en ;
+    cav:refersTo camssa:6a5271ff-8036-4038-a6b7-70709ce04db7 .
+
+camssa:75a28cb7-7a91-4488-b93e-0435bb48ed80 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ITPE conducts conferences and webinars within various communities using the specification to give a voice to anyone who wants to give their opinion on the EN 16234-1 e-CF specification, including European participation.
+
+IT Professionalism Europe (ITPE) reference, Events:
+https://itprofessionalism.org/events/'"""@en ;
+    cav:refersTo camssa:d7bf6cbd-d44a-4caf-af3e-681348b1c7bf .
+
+camssa:78c81d71-2f9c-4054-b91f-8b03ecf2524e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of EN 16234-1 e-CF is not related to data portability. Therefore, this criterion is not applicable to this specification.
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-1 e-CF:
+https://standards.cencenelec.eu/dyn/www/f?p=205:110:0::::FSP_PROJECT:67073&cs=15E62ED24D608A5F10D6BEE8E6D50FA10'"""@en ;
+    cav:refersTo camssa:0f5cf334-b2a6-4d64-872a-5e85580c3bdc .
+
+camssa:78d074e4-6a6b-4d38-9b1b-9f87d2be19d8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There exist two independent communities, one providing public support and the other one in charge of the EN 16234-1 e-CF specification maintenance (see CEN/TC 428 "ICT Professionalism and Digital Competences" Business Plan 2022). On one side, there is the IT Professionalism Europe (ITPE), which was created in 2018 and performs all activities related to counselling and advice under this specification; and on the other side, there is the CEN/TC 428 - ICT Professionalism and Digital Competences which is in charge of the maintenance of the specification, although it is also responsible to provide public support. The CEN/TC 428 comprises participants from national and CEN-recognised working groups (see CEN/TC 428 "ICT Professionalism and Digital Competences" Business Plan 2022 reference, section 5 and CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences section, CEN/TC 428 Subcommittees and Working Groups). Interestingly, only ITPE provides an e-CF preview through the Access e-CF Explorer service. 
+
+IT Professionalism Europe (ITPE) reference:
+https://itprofessionalism.org/about-us/
+
+CEN/TC 428 "ICT Professionalism and Digital Competences" Business Plan 2022 reference:
+https://standards.cencenelec.eu/BPCEN/1218399.pdf
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences section, CEN/TC 428 Subcommittees and Working Groups:
+https://standards.cencenelec.eu/dyn/www/f?p=205:29:0::::FSP_ORG_ID,FSP_LANG_ID:1218399,25&cs=1C0456547BD827F5A977AD2936836C8DA#1
+
+IT Professionalism Europe (ITPE) reference, Access e-CF Explorer:
+https://itprofessionalism.org/about-it-professionalism/competences/the-e-competence-framework/'"""@en ;
+    cav:refersTo camssa:828845dc-5d6c-4bb0-a48d-950278216b76 .
+
+camssa:7f0c3c20-7104-494f-8bf9-95c8ab92ff88 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There exist different initiatives across Europe adopting the EN 16234-1 e-CF specification. It is the case of the Digital Competence Framework for Citizens (DigComp) initiative, which provides a common understanding of what digital competences, knowledge, skills and attitudes are, and helps citizens to engage with digital, new and emerging technologies.
+
+Digital Competence Framework for Citizens (DigComp) reference:
+https://joint-research-centre.ec.europa.eu/digcomp_en?msclkid=27a7a8f2b64611eca3ebf019d32a2764'"""@en ;
+    cav:refersTo camssa:1000eb1e-3152-4566-b223-37fd184c9f5c .
+
+camssa:803b905b-8b48-43d6-a246-900091402d62 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8266a831-054d-4541-a193-4d72956d59df a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The EN 16234-1 e-CF framework is not dependent on any other specification, operating system or web platform; therefore, the specification is platform-agnostic.
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-1 e-CF:
+https://standards.cencenelec.eu/dyn/www/f?p=205:110:0::::FSP_PROJECT:67073&cs=15E62ED24D608A5F10D6BEE8E6D50FA10'"""@en ;
+    cav:refersTo camssa:02b2eb83-c2d3-4eac-8a72-2af8760c1dac .
+
+camssa:828845dc-5d6c-4bb0-a48d-950278216b76 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:845892c7-fbc2-4b9e-b247-fba243034f8e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of EN 16234-1 e-CF is not related to the protection of personal data in Public Administrations. Therefore, this criterion is not applicable to this specification.
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-1 e-CF:
+https://standards.cencenelec.eu/dyn/www/f?p=205:110:0::::FSP_PROJECT:67073&cs=15E62ED24D608A5F10D6BEE8E6D50FA10'"""@en ;
+    cav:refersTo camssa:c391bb51-8f8e-4013-af4b-84210f5a3ae2 .
+
+camssa:85de2c58-a039-41ea-8ddf-8484cb109af4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "80"^^xsd:int .
+
+camssa:875fc338-0af8-4d4d-9d8b-bc850a59e5fd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of EN 16234-1 e-CF is not related to enabling the long-term preservation of data, information nor knowledge. Therefore, this criterion does not apply to this specification.
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-1 e-CF:
+https://standards.cencenelec.eu/dyn/www/f?p=205:110:0::::FSP_PROJECT:67073&cs=15E62ED24D608A5F10D6BEE8E6D50FA10'"""@en ;
+    cav:refersTo camssa:318a1168-fe29-46af-9506-a3cc504b865e .
+
+camssa:878c16cf-2cee-4088-a2c2-32e37a6cdbdb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The EN 16234-1 e-CF framework is intended to serve as a device to represent the European e-Competence Framework, which focuses on skills and competences of the ICT professional workforce. There is no possibility of partial implementation of the specification, as EN 16234-1 e-CF has a single purpose.
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-1 e-CF:
+https://standards.cencenelec.eu/dyn/www/f?p=205:110:0::::FSP_PROJECT:67073&cs=15E62ED24D608A5F10D6BEE8E6D50FA10'"""@en ;
+    cav:refersTo camssa:271d6703-825f-4cad-af48-5859be761154 .
+
+camssa:8c6a5a40-d511-434b-9c3a-1fc0d052aebc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:93d9977f-9074-45a0-a79a-1a7c02afd5a6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "None"^^xsd:int .
+
+camssa:93f90788-3649-42be-9231-bef7f61008a5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "80"^^xsd:int .
+
+camssa:972b8fb3-edab-4a91-b158-9c1f2af239fd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Only nationally recognised members as well as national and CEN-recognised working groups are allowed to contribute to the development of the EN 16234-1 e-CF specification. There is no evidence of external and individual contributions, and there is no provision made for them in the CEN Internal Regulations (see CEN-CENELEC Internal Regulations reference, Part 2, section 3). Depending on the degree of involvement, financial contributions could be also applicable (CEN-CENELEC Internal Regulations reference, Part 1, CEN (1A) section, Annexes).
+
+CEN-CENELEC Internal Regulations reference, CEN Statuses, Members (IV) section:
+https://boss.cen.eu/reference-material/refdocs/pages/
+
+CEN-CENELEC Internal Regulations reference, Part 2, section 3:
+https://boss.cen.eu/reference-material/refdocs/pages/
+
+CEN-CENELEC Internal Regulations reference, Part 1, CEN (1A) section, Annexes:
+https://boss.cen.eu/reference-material/refdocs/pages/'"""@en ;
+    cav:refersTo camssa:ee4d71a1-7cd1-4f76-8b1a-b2522c01a40c .
+
+camssa:97c35641-4799-4b46-8edc-077d7f14e16c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'EN 16234-1 e-CF is already associated with EIRA ABBs in the EIRA Library Of Specifications (ELIS). More specifically, the e-CF can define the interoperability aspects of the Interoperability Skill ABB of the EIRA Organisational View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss
+/solution/elis/release/v110 '"""@en ;
+    cav:refersTo camssa:0cb4674c-0d43-40b0-a1e5-9525e4866602 .
+
+camssa:98edc4a2-09c3-437e-aada-35589049e5e4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:999a6b7c-4858-42f4-b7b6-557652d9b991 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9b968986-6e0e-4922-bc3a-33dd19aa6b37 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'As EN 16234-1 e-CF was designed as a common standardised framework for Europe-wide application, resulting from a common effort between the public and private domains, the specification has sufficient market acceptance for its use in the development of digital solutions and services. Nowadays the IT Professionalism Europe (ITPE) is in charge of carrying out all the consultive efforts regarding the EN 16234-1 e-CF specification (see CEN/TC 428 "ICT Professionalism and Digital Competences" Business Plan 2022 reference, section 1.1).
+
+CEN/TC 428 "ICT Professionalism and Digital Competences" Business Plan 2022 reference, section 1.1:
+https://standards.cencenelec.eu/BPCEN/1218399.pdf
+
+IT Professionalism Europe (ITPE) reference, e-Competence Framework:
+https://itprofessionalism.org/about-it-professionalism/competences/the-e-competence-framework/'"""@en ;
+    cav:refersTo camssa:4f6a1152-b3db-48de-924d-af6091efe2ac .
+
+camssa:9e86df7d-5524-4e7e-afec-67e9e14dcc9f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'According to the CEN-CENELEX Guide 8, EN 16234-1 e-CF is available with any restrictions related to (F)RAND.
+
+CEN-CENELEC Guide 8 reference, section 5:
+https://www.cencenelec.eu/media/Guides/CEN-CLC/cenclcguide8.pdf'"""@en ;
+    cav:refersTo camssa:005a9fc1-4ef2-4520-8b65-ef4d0a40826e .
+
+camssa:acbd8a44-a3b1-424a-9e72-b8f6acf2ff40 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "80"^^xsd:int .
+
+camssa:b0c44f3a-e413-4df1-ba4f-a80143e41f4c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of EN 16234-1 e-CF is not related to the secure processing of data. Therefore, this criterion does not apply to this specification.
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-1 e-CF:
+https://standards.cencenelec.eu/dyn/www/f?p=205:110:0::::FSP_PROJECT:67073&cs=15E62ED24D608A5F10D6BEE8E6D50FA10'"""@en ;
+    cav:refersTo camssa:69a4a4a4-5cab-4490-8bc6-1227ced6e79a .
+
+camssa:b64e2633-85e2-4ca1-8ea5-16e50e85cdeb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of EN 16234-1 e-CF is not related to e-accessibility. Therefore, this criterion does not apply to this specification.
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-1 e-CF:
+https://standards.cencenelec.eu/dyn/www/f?p=205:110:0::::FSP_PROJECT:67073&cs=15E62ED24D608A5F10D6BEE8E6D50FA10'"""@en ;
+    cav:refersTo camssa:999a6b7c-4858-42f4-b7b6-557652d9b991 .
+
+camssa:b75f9716-99c1-430b-973e-ad3a674b378e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c3799ea7-40ba-4e9a-a3ce-c7874c020094 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:c391bb51-8f8e-4013-af4b-84210f5a3ae2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c6a068de-4969-4569-86fe-d534e2618e25 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "80"^^xsd:int .
+
+camssa:c6cd16de-5255-4d41-bdc3-6a4493146448 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The EN 16234-1 e-CF framework represents the European e-Competence Framework, which focuses on skills and competences of the ICT professional workforce. Although the specification might evolve in accordance with different frameworks such as the European Qualifications Framework (EQF), European Skills, Competences, Qualifications and Occupations (ESCO), or the global skills and competency framework for the digital world (SFIA), the EN 16234-1 e-CF specification is not dependent on any other specification, and can be considered technology-agnostic (further information on CEN/TC 428 "ICT Professionalism and Digital Competences" Business Plan 2022 reference, section 3).
+
+CEN/TC 428 "ICT Professionalism and Digital Competences" Business Plan 2022 reference, section 3:
+https://standards.cencenelec.eu/BPCEN/1218399.pdf
+
+EQF reference:
+https://europa.eu/europass/en/european-qualifications-framework-eqf?msclkid=4e01b391b58811ec86a2e49c305e4614
+
+ESCO reference:
+https://esco.ec.europa.eu/en/about-esco/what-esco
+
+SFIA reference:
+https://sfia-online.org/en/about-sfia'"""@en ;
+    cav:refersTo camssa:f7553495-eb89-444d-b073-6de3be9ada0f .
+
+camssa:c9e64de5-7178-4ae6-b407-b36a0299c226 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The IT Professionalism Europe (ITPE) publishes some analysis on the EN 16234-1 e-CF component in different sectors of the European economy. The e-Competence Framework was positively evaluated by the Estonian Association of Information Technology and Telecommunications (ITL) which demonstrated that its application is efficient in policy decision-making.
+
+IT Professionalism Europe (ITPE) reference, Reports & Publications section, 'e-CF for EU & national policy makers' document:
+https://itprofessionalism.org/app/uploads/2019/08/for-EU-national-policy-makers.pdf
+
+Estonian Association of Information Technology and Telecommunications (ITL) reference:
+https://itl.ee/en/\""""@en ;
+    cav:refersTo camssa:acbd8a44-a3b1-424a-9e72-b8f6acf2ff40 .
+
+camssa:cd6e301d-3798-4319-8c48-a9a42607f874 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cedc408a-e4c0-46c8-9eac-bb9d9d7f0bf7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'EN 16234-1 e-CF provides a reference framework for the ICT workforce and contributes inter alia to the adoption of the Shaping Europe's digital future approach (see CEN/TC 428 "ICT Professionalism and Digital Competences" Business Plan 2022 reference, section 1.4). Digital transformation sets out actions to the development of digital public services.
+
+CEN/TC 428 "ICT Professionalism and Digital Competences" Business Plan 2022 reference, section 1.4:
+https://standards.cencenelec.eu/BPCEN/1218399.pdf
+
+Shaping Europe's digital future reference:
+https://ec.europa.eu/info/strategy/priorities-2019-2024/europe-fit-digital-age/shaping-europe-digital-future_en'"""@en ;
+    cav:refersTo camssa:b75f9716-99c1-430b-973e-ad3a674b378e .
+
+camssa:d0106bd7-896c-4617-b213-937a7fc44a5e a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "DIGIT-CAMSS@ec.europa.eu" .
+
+camssa:d39ad9a0-ec2c-4757-b3b8-0216914f55cf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of the EN 16234-1 e-CF framework is not related to facilitating the publication of open data. Therefore, this criterion is not applicable to this specification.
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-1 e-CF:
+https://standards.cencenelec.eu/dyn/www/f?p=205:110:0::::FSP_PROJECT:67073&cs=15E62ED24D608A5F10D6BEE8E6D50FA10'"""@en ;
+    cav:refersTo camssa:5c086879-b721-430c-acd2-ab31e548086e .
+
+camssa:d7bf6cbd-d44a-4caf-af3e-681348b1c7bf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:db3436c2-0714-4f8c-8549-89b6b61c4c03 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'EN 16234-1 e-CF could be used in a multilingual context beyond its original purpose, which is the representation of a common and standardised e-Competence Framework at European level.
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-1 e-CF:
+https://standards.cencenelec.eu/dyn/www/f?p=205:110:0::::FSP_PROJECT:67073&cs=15E62ED24D608A5F10D6BEE8E6D50FA10'"""@en ;
+    cav:refersTo camssa:4a4e2506-2f69-4dcb-98af-fb04c23d5b43 .
+
+camssa:dbfa86ca-b660-46a0-a64b-8dc8d06b18a1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'EN 16234-1 e-CF is a self-contained language intended to represent a common European description of the knowledge, skills and competences of the ICT professional workforce. In this sense, the specification allows relevant information to be reused. There is no evidence of any relation between e-CF and the Once-Only Principle (OOP).
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-1 e-CF:
+https://standards.cencenelec.eu/dyn/www/f?p=205:110:0::::FSP_PROJECT:67073&cs=15E62ED24D608A5F10D6BEE8E6D50FA10'"""@en ;
+    cav:refersTo camssa:c6a068de-4969-4569-86fe-d534e2618e25 .
+
+camssa:e93a7bf3-fd8e-43f0-80a8-3dc2ab44a002 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'EN 16234-1 e-CF can be well adapted to new digital service channels and is intended to help new digital service channels to be deployed as describred in the Shaping Europe's digital future approach (see CEN/TC 428 "ICT Professionalism and Digital Competences" Business Plan 2022 reference, section 1.4).
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-1 e-CF:
+https://standards.cencenelec.eu/dyn/www/f?p=205:110:0::::FSP_PROJECT:67073&cs=15E62ED24D608A5F10D6BEE8E6D50FA10
+
+CEN/TC 428 "ICT Professionalism and Digital Competences" Business Plan 2022 reference, section 1.4:
+https://standards.cencenelec.eu/BPCEN/1218399.pdf'"""@en ;
+    cav:refersTo camssa:98edc4a2-09c3-437e-aada-35589049e5e4 .
+
+camssa:eaf1bad4-33e0-4518-af4e-ca1510bbf1da a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of EN 16234-1 e-CF is not related to data portability. Therefore, this criterion is not applicable to this specification.
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-1 e-CF:
+https://standards.cencenelec.eu/dyn/www/f?p=205:110:0::::FSP_PROJECT:67073&cs=15E62ED24D608A5F10D6BEE8E6D50FA10'"""@en ;
+    cav:refersTo camssa:f243d0bf-8f2e-4b2c-b57d-b21383696690 .
+
+camssa:ecdc3a6b-43da-4ec5-aa29-b17ccea5415b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "20"^^xsd:int .
+
+camssa:ed427794-15fd-46b7-b895-c760ab4647b0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ee4d71a1-7cd1-4f76-8b1a-b2522c01a40c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "60"^^xsd:int .
+
+camssa:ee720baa-ac6d-4750-8b75-a869a75f0732 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'EN 16234-1 e-CF does not foresee public reviews. There is no direct evidence that a public review is conducted according to the CEN/TC 428 "ICT Professionalism and Digital Competences" and IT Professionalism Europe (ITPE) documentation.
+
+CEN/TC 428 "ICT Professionalism and Digital Competences" Business Plan 2022 reference:
+https://standards.cencenelec.eu/BPCEN/1218399.pdf
+
+IT Professionalism Europe (ITPE) reference, Archive section:
+https://itprofessionalism.org/resource-library/reports-publications/archive/'"""@en ;
+    cav:refersTo camssa:34c6913f-300a-469f-ae3c-3319f3922e9f .
+
+camssa:f243d0bf-8f2e-4b2c-b57d-b21383696690 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f7553495-eb89-444d-b073-6de3be9ada0f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f801dfc6-faa5-478f-b4da-8a2f4c697844 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "20"^^xsd:int .
+
+camssa:fca30640-047a-4043-bc15-4c130ce498bd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'EN 16234-1 e-CF is included in the CEN-CENELEC repository of standards.
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:3f89de72-d88e-4dc1-b374-c1b56588a7b2 .
+
+camssa:fcdb22ae-64ac-47d3-9607-1a3088f77684 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of EN 16234-1 e-CF is not related to the secure exchange of data. Therefore, this criterion does not apply to this specification.
+
+CEN reference, CEN/TC 428 - ICT Professionalism and Digital Competences (Published standards), EN 16234-1 e-CF:
+https://standards.cencenelec.eu/dyn/www/f?p=205:110:0::::FSP_PROJECT:67073&cs=15E62ED24D608A5F10D6BEE8E6D50FA10'"""@en ;
+    cav:refersTo camssa:cd6e301d-3798-4319-8c48-a9a42607f874 .
+
+camssa:fe0424a0-a48f-4431-8338-fb0f928e926c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fea13b28-3eb3-45ac-b386-4da9c299f989 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'According to the CEN/TC 428's Business Plan for 2022, EN 16234-1 e-CF is a European standard since 2016.
+
+CEN/TC 428 "ICT Professionalism and Digital Competences" Business Plan 2022 reference, section 1.1:
+https://standards.cencenelec.eu/BPCEN/1218399.pdf'"""@en ;
+    cav:refersTo camssa:2c1e8102-56d9-4591-a4c5-53b97cda80cc .
+

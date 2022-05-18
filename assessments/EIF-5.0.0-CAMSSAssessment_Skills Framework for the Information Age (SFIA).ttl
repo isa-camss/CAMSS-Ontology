@@ -1,0 +1,686 @@
+@prefix camss: <http://data.europa.eu/2sa/ontology#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:71b734d93eea13de404910eb634943e6bc28f69d27f2f63bcbdf62230a832bb3 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:c3cdf783-30c4-4605-a312-3673dea70469 ;
+    skos:prefLabel "CAMSS Team European Commission DG DIGIT"@en .
+
+camssa:9f03388ec54abc5d4607b2e42f9e9dacbf9bc0a67ff8d90ffd14dd9b79928e92 a cav:Assessment,
+        owl:NamedIndividual ;
+    cav:contextualisedBy sc:f717f525751d9de54fc478770a2fb1845767ec01f1661d602383ae868d2bb5b7 ;
+    cav:resultsIn camssa:0a324808-6231-4c9d-8cce-6add875d8ac0,
+        camssa:0aa5f66b-2168-4e77-acaf-a28a6209f844,
+        camssa:0eff2c4f-4e9d-4dee-b790-d5d9d259444d,
+        camssa:1184f56d-bcfd-4d6d-8dab-1b97ce8009ae,
+        camssa:11ffb1d3-9201-4342-ad7d-30b4fa832bca,
+        camssa:15899e05-7b0b-41fd-bc1d-cdd4656e24b2,
+        camssa:15f3e448-abf2-4f72-8ddd-88fe07d43531,
+        camssa:160de17b-6476-4c32-82a3-b9ac0dfef3de,
+        camssa:17142722-dcbe-427c-9bd5-9d908d04155d,
+        camssa:27d3ddd1-197e-497d-b203-a57bcb907be0,
+        camssa:2dbab802-a4e5-43b6-9752-d4fd5616b171,
+        camssa:31110f2d-6da0-4092-b4fe-605552f85f43,
+        camssa:37395be4-e6fc-4ad2-9d65-4560f6f4193e,
+        camssa:38f77202-1c41-476f-95e4-5998aaa5d600,
+        camssa:3d2c572f-4805-4510-adcb-0cbd429c781a,
+        camssa:3f494f43-46c6-49e5-a46d-82db35a511a5,
+        camssa:41cd4238-e633-428e-bebb-405a5b6fe622,
+        camssa:465bbae3-52aa-4ec9-ba46-a3b477fe5784,
+        camssa:48e4038c-c927-4686-9e69-81c7d714353c,
+        camssa:4dc73f63-713f-4988-ba7a-7effb6bd5b11,
+        camssa:4ebcca9a-3914-43d5-b1b8-69856df8d015,
+        camssa:709451f4-7704-4edd-aa0c-622fa953b883,
+        camssa:8ea175d2-86be-4acf-99f4-a93ffd441c82,
+        camssa:904f48ee-0d42-4661-94e8-662c92061952,
+        camssa:9268beac-63d5-4513-9dd0-1be7c15c235c,
+        camssa:948dce75-7e59-422e-a00e-92a4b38de9d8,
+        camssa:99190f0b-c0fe-4321-8031-569e1eefbc63,
+        camssa:9a6c0de8-1b52-4c54-922f-53cedb936237,
+        camssa:9f1c9c35-53c4-4525-8b82-acb9a25d385a,
+        camssa:a4cbab1e-3efa-4ca1-b6a0-e0d9fb381454,
+        camssa:b655329d-5c4a-4488-a01e-d5b4729004c2,
+        camssa:be8554d2-e0a9-4f50-9935-03d4bb3e22d0,
+        camssa:ca9119d1-1a39-46d3-82bb-fc28603b1ee8,
+        camssa:ce22491d-2d98-4873-922c-bdb9adb69e03,
+        camssa:d124a906-d91d-4b95-b69b-8ae1bd0deeac,
+        camssa:d876162b-db85-4ae7-a192-775bbc471aaf,
+        camssa:d9a5d7bb-2693-4e47-a50c-97c9e1b57b99,
+        camssa:db1a8310-709a-4627-abd3-f7d2ccb840be,
+        camssa:de6b78ca-59e8-4424-be58-bdb7fd8cb1f6,
+        camssa:e8de4cea-cb29-4a68-ae87-41e2837350b6,
+        camssa:e9bc6650-84d9-4bbf-b9d9-285de43a7392,
+        camssa:eb161f84-491a-4ea3-a4e8-002486ab22b1,
+        camssa:ed0c3c9a-19b8-4570-8e8a-0be924ceaed3,
+        camssa:fd61306d-5460-47e1-aa5e-2211bc0e19d9 ;
+    cav:status status:Complete ;
+    camss:assesses cssvrsc:e0041e683c35119779bcb5ebef3ea214e56127e3b5d0f32c844302d945308b22 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.0.0 ;
+    dct:title "Skills Framework for the Information Age (SFIA)"@en .
+
+camssa:0402e19c-e5e9-43c1-b277-87353f4b69f0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "None"^^xsd:int .
+
+camssa:0a324808-6231-4c9d-8cce-6add875d8ac0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'SFIA is a framework for the ICT community that defines the skills and competencies required by business and technology professionals. The specification is intended to serve as an organisational framework within companies and public administrations as a kind of facilitator for the comprehensibility of organisational procedures.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:ddfffff5-3c88-4974-aa8c-89cace881674 .
+
+camssa:0a446646-95ba-4729-94ec-3fc7b1373e65 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26c3fa9eb08207b2dfbd8d7c3852f0c9db3fdc50491d24db5b2f2eb1acf68732 ;
+    cav:value "20"^^xsd:int .
+
+camssa:0aa5f66b-2168-4e77-acaf-a28a6209f844 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The SFIA Foundation is a collaborative organisation responsible for the maintenance and distribution of SFIA. The entire SFIA maintenance process is open to public consultation. The organisation offers users various channels of communication, namely the SFIA User Forum via the LikedIn job platform.
+
+SFIA reference, About SFIA section:
+https://sfia-online.org/en/about-sfia
+
+SFIA reference, LinkedIn:
+https://www.linkedin.com/groups/1934300/'"""@en ;
+    cav:refersTo camssa:a235f962-b2f4-4794-a858-d0ed7faafe58 .
+
+camssa:0b174411-c790-40e7-95c8-cc1765d41df1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:0eff2c4f-4e9d-4dee-b790-d5d9d259444d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The SFIA Foundation intends to align the SFIA specification with different models and frameworks. At present, there are some workgroups that prove this trend, for example through the development of the EU ICT Role Profiles (see SFIA reference, Tools and resources section, Standard skills profiles subsection, European Union-EU ICT Role Profiles, CEN/CENELEC Workshop Agreements (CWA) 16458-1:2018 European ICT Professional Role Profiles – Part 1: 30 ICT). However, there is no explicit provisions to achieve this end.
+
+SFIA reference, Tools and resources section, Standard skills profiles subsection, European Union-EU ICT Role Profiles, CEN/CENELEC Workshop Agreements (CWA) 16458-1:2018 European ICT Professional Role Profiles – Part 1: 30 ICT:
+https://sfia-online.org/en/tools-and-resources/standard-industry-skills-profiles/european-union/eu-ict-role-profiles'"""@en ;
+    cav:refersTo camssa:ff37aba0-cd00-4fc5-84c4-ea193330492d .
+
+camssa:104f5d02-723d-4208-b4ce-14ea74822297 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "20"^^xsd:int .
+
+camssa:1184f56d-bcfd-4d6d-8dab-1b97ce8009ae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of SFIA is not related to the secure processing of data. Therefore, this criterion does not apply to this specification.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:a126d972-9039-44fe-8e85-df7b98861613 .
+
+camssa:11ffb1d3-9201-4342-ad7d-30b4fa832bca a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The purpose of SFIA is not related to the exposure of interfaces to access the public administration's services. Therefore, this criterion is not applicable to this specification.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8\""""@en ;
+    cav:refersTo camssa:67242902-04e0-41c2-8472-f0527a27a3b0 .
+
+camssa:1307480b-18d5-40be-87f3-7b44a6597ed9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:15899e05-7b0b-41fd-bc1d-cdd4656e24b2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"All SFIA releases are subject to public review. Although anyone can contribute to the development of the SFIA specification, it is worth to note that only the SFIA team and key stakeholders are involved in final decisions. The entire process is transparent, meaning that changes and all the supporting documents are publicly available in the dedicated SFIA-release section (see SFIA reference, Start of SFIA 8 consultation section).
+
+SFIA release reference, SFIA version 8, 'The story behind the content' section:
+https://sfia-online.org/en/sfia-8#autotoc-item-autotoc-7
+
+SFIA reference, Start of SFIA 8 consultation section:
+https://www.sfia-online.org/en/sfia-8/start-of-sfia-8-consultation?msclkid=59a790c2ba5711eca7d3c3c3b117d15a\""""@en ;
+    cav:refersTo camssa:303c11d4-4bfb-48d2-9dc0-e63e516fe4df .
+
+camssa:15f3e448-abf2-4f72-8ddd-88fe07d43531 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"There are some comparative reports of SFIA and other ICT skills and competence frameworks such as the e-Competence Framework (see SFIA reference, Tools and Resources section, Collaborations subsection, 'SFIA – e-CF Comparison & Mapping Review' document), which indirectly assesses the SFIA specification's effectiveness.
+
+SFIA reference, Tools and Resources section, Collaborations subsection:
+https://sfia-online.org/en/tools-and-resources/collaborations
+
+SFIA reference, Tools and Resources section, Collaborations subsection, 'SFIA – e-CF Comparison & Mapping Review' document:
+https://sfia-online.org/en/assets/documents/e-cf/sfia-e-cf-comparison-mapping-report-v1-0.pdf\""""@en ;
+    cav:refersTo camssa:cf15ef6e-80eb-4f4f-99f1-3a29686b2df4 .
+
+camssa:160de17b-6476-4c32-82a3-b9ac0dfef3de a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'SFIA is intended to serve as a device to represent skills and competences of any ICT professional workforce. There is no possibility of tailoring the SFIA specification, nor any kind of authorising process is allowed, since SFIA has a single purpose.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:104f5d02-723d-4208-b4ce-14ea74822297 .
+
+camssa:16c3d239-6295-4df1-94e3-ff2fb8aa5784 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "20"^^xsd:int .
+
+camssa:17142722-dcbe-427c-9bd5-9d908d04155d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'SFIA is already associated with EIRA ABBs in the EIRA Library Of Specifications (ELIS). More specifically, the specification can define the interoperability aspects of the Interoperability Skill ABB of the EIRA Organisational View.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss
+/solution/elis/release/v110 '"""@en ;
+    cav:refersTo camssa:7ae12003-327e-4d9d-b9d4-2e2d98eb4dab .
+
+camssa:27d3ddd1-197e-497d-b203-a57bcb907be0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"There is no evidence of any assessment of the SFIA specification's efficiency.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8\""""@en ;
+    cav:refersTo camssa:a8b3f128-d312-41b4-99df-c4cdc5b24e87 .
+
+camssa:297b0f57-6e2f-4869-9e0d-f8450ffc7c72 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "80"^^xsd:int .
+
+camssa:2dbab802-a4e5-43b6-9752-d4fd5616b171 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of SFIA is not related to the protection of personal data in Public Administrations. Therefore, this criterion is not applicable to this specification.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:6345fbc5-8ab7-4502-9ade-e17b19562e79 .
+
+camssa:303c11d4-4bfb-48d2-9dc0-e63e516fe4df a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:31110f2d-6da0-4092-b4fe-605552f85f43 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'SFIA is intended to serve as a device to represent the skills and competences of any ICT professional workforce which largely benefits the reuse of relevant information in all information systems. There is no evidence of any relationship between SFIA and the One Time One Principle (OOP).
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:52ed161d-efc0-40e3-9003-2bbf3d194abf .
+
+camssa:339f51c5-55e5-4942-9a1e-0e407dd69de1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69dbbbfc4ff4c79244a3bd99f7c3f883f2a7114ec515cb4d576f0d807c94b9fd ;
+    cav:value "20"^^xsd:int .
+
+camssa:37395be4-e6fc-4ad2-9d65-4560f6f4193e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no evidence of the use of SFIA in any European Cross-border project or initiative.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:0a446646-95ba-4729-94ec-3fc7b1373e65 .
+
+camssa:38f77202-1c41-476f-95e4-5998aaa5d600 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'SFIA is a framework that is not aligned to any specific technology, provider or industry. Therefore, the specification is technology agnostic.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:7991f628-1f4c-402c-9423-9502d0213198 .
+
+camssa:3d2c572f-4805-4510-adcb-0cbd429c781a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'SFIA is intended to serve as a device to represent the European e-Competence Framework, which focuses on skills and competences of the ICT professional workforce. There is no possibility to extend the specification, since SFIA has a single purpose.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:a1945c23-d4e1-4a83-ae33-d7e3fdc7ab47 .
+
+camssa:3e905b5f-24e2-4146-a877-7c9f8c6c763f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3f494f43-46c6-49e5-a46d-82db35a511a5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of SFIA is not related to the visibility of administrative procedures, rules data and services. Therefore, this criterion is not applicable to this specification.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:fe5071e9-b15d-4060-86f7-8b28283fab5c .
+
+camssa:41cd4238-e633-428e-bebb-405a5b6fe622 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no Member State recommending SFIA in its ICT National Catalogue.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:339f51c5-55e5-4942-9a1e-0e407dd69de1 .
+
+camssa:465bbae3-52aa-4ec9-ba46-a3b477fe5784 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of SFIA is not related to the simplification of European public services. Therefore, this criterion does not apply to this specification.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:d8f8ca99-7ef7-49d9-9067-c16e06aeaa97 .
+
+camssa:48e4038c-c927-4686-9e69-81c7d714353c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'SFIA is a framework for defining skills and competences in digital communities. In this sense, the specification is domain-agnostic and can be used in any domain where the ICT sector can operate.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:3e905b5f-24e2-4146-a877-7c9f8c6c763f .
+
+camssa:4dc73f63-713f-4988-ba7a-7effb6bd5b11 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of SFIA is not related to data portability. Therefore, this criterion is not applicable to this specification.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:78deed63-760a-47e1-bd01-3efb57061a59 .
+
+camssa:4ebcca9a-3914-43d5-b1b8-69856df8d015 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'SFIA is intended to serve as a device to represent the skills and competences of any ICT professional workforce. Although the specification does not foresee specific support for multilingualism, SFIA could be used in any multilingual context since it represents concepts and their scope.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8
+'"""@en ;
+    cav:refersTo camssa:66b648a9-4830-494c-bcb7-0e8fa81f636f .
+
+camssa:52ed161d-efc0-40e3-9003-2bbf3d194abf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "80"^^xsd:int .
+
+camssa:57dd9573-75d1-4f24-be99-e468bb4394b6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6345fbc5-8ab7-4502-9ade-e17b19562e79 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:66b648a9-4830-494c-bcb7-0e8fa81f636f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "40"^^xsd:int .
+
+camssa:67242902-04e0-41c2-8472-f0527a27a3b0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:6781a00e-de10-4dd1-9cdb-bd500153ebe3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6a292c0c-2263-4c94-9a6f-89a526d97e85 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6e451cc0-fcdf-48ca-aaea-4e6dbfee13de a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:709451f4-7704-4edd-aa0c-622fa953b883 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'SFIA has been adopted by governments, companies and individuals since its inception in 2000. For example, at European level SFIA has been mapped to the e-Competence Framework (see SFIA reference, Standard skills profiles section, EU ICT Role Profiles subsection). In addition, SFIA has created a worldwide community of users for the collaborative development of the specification. SFIA has not only been kept relevant through open consultation, but also has been updated every few years to address the changing needs of industry and business. In addition, the maintenance of SFIA is carried out with the support of relevant stakeholders in governmental organisations world-wide (see SFIA reference, Standard skills profiles section, USA National Initiative for Cybersecurity Education (NICE) subsection).
+
+SFIA reference, Standard skills profiles section, EU ICT Role Profiles subsection:
+https://sfia-online.org/en/tools-and-resources/standard-industry-skills-profiles/european-union/eu-ict-role-profiles 
+
+SFIA reference, About SFIA section:
+https://sfia-online.org/en/about-sfia
+
+SFIA reference, Standard skills profiles section, USA National Initiative for Cybersecurity Education (NICE) subsection:
+https://sfia-online.org/en/tools-and-resources/standard-industry-skills-profiles/usa-national-initiative-for-cybersecurity-education-nice-work-roles'"""@en ;
+    cav:refersTo camssa:297b0f57-6e2f-4869-9e0d-f8450ffc7c72 .
+
+camssa:78deed63-760a-47e1-bd01-3efb57061a59 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7991f628-1f4c-402c-9423-9502d0213198 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7ae12003-327e-4d9d-b9d4-2e2d98eb4dab a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:8ea175d2-86be-4acf-99f4-a93ffd441c82 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'According to the SFIA licensing, public sector organisations can use SFIA on the same terms as the corporate user licence (SFIA reference, Choosing a licence). The SFIA Foundation ensures royalty-free basis under certain use cases, then the specification does not provide a royalty-free licence in most cases.
+
+SFIA reference, Choosing a licence:
+https://sfia-online.org/en/licensing-sfia/choosing-a-licence
+
+SFIA reference, Corporate user licence:
+https://sfia-online.org/en/licensing-sfia/corporate-user-licence'"""@en ;
+    cav:refersTo camssa:b6f79126-8e78-4f06-a44c-4ce939cb9062 .
+
+camssa:904f48ee-0d42-4661-94e8-662c92061952 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no mention of SFIA in any official document stating its conformance in regards to Regulation 1025/2012.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technicalspecifications_en
+
+CENELEC and CEN search tool catalogue:https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:16c3d239-6295-4df1-94e3-ff2fb8aa5784 .
+
+camssa:9268beac-63d5-4513-9dd0-1be7c15c235c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of SFIA is not related to the secure exchange of data. Therefore, this criterion does not apply to this specification.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:9a8d0ddb-1b55-4242-86e4-13db8d2abd58 .
+
+camssa:948dce75-7e59-422e-a00e-92a4b38de9d8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no evidence of the inclusion of SFIA in an open repository/catalogue of standards at European level.
+
+EUOS repository of standards:
+https://www.standict.eu/standards-repository
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:c8a714d8-d4cf-4d8e-a2c0-99949b643bda .
+
+camssa:99190f0b-c0fe-4321-8031-569e1eefbc63 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of SFIA is not related to data portability. Therefore, this criterion is not applicable to this specification.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:57dd9573-75d1-4f24-be99-e468bb4394b6 .
+
+camssa:9a6c0de8-1b52-4c54-922f-53cedb936237 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of SFIA is not related to e-accessibility. Therefore, this criterion does not apply to this specification.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:6781a00e-de10-4dd1-9cdb-bd500153ebe3 .
+
+camssa:9a8d0ddb-1b55-4242-86e4-13db8d2abd58 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9de52fb3-b3f9-43fa-8807-035710c8efb2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "80"^^xsd:int .
+
+camssa:9f1c9c35-53c4-4525-8b82-acb9a25d385a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'SFIA is a framework that is not aligned to any specific platform, provider or industry. Therefore, the specification is platform agnostic.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:a803461d-3c00-4eaf-81d9-047b8fe4dd59 .
+
+camssa:a07e3aee-9cc0-43f3-8ab9-c4784f9a93d6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a126d972-9039-44fe-8e85-df7b98861613 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:a1945c23-d4e1-4a83-ae33-d7e3fdc7ab47 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "20"^^xsd:int .
+
+camssa:a235f962-b2f4-4794-a858-d0ed7faafe58 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a4cbab1e-3efa-4ca1-b6a0-e0d9fb381454 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The SFIA Foundation provides and organises webinars, conference and trainings where users of country-specific platforms can share their data and results on the use of the SFIA specification.
+
+SFIA reference, Get Help section, SFUA partners:
+https://sfia-online.org/en/get-help/partners'"""@en ;
+    cav:refersTo camssa:1307480b-18d5-40be-87f3-7b44a6597ed9 .
+
+camssa:a52fbebd-8ca6-4153-87de-61770a12bafc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a803461d-3c00-4eaf-81d9-047b8fe4dd59 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:a8b3f128-d312-41b4-99df-c4cdc5b24e87 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:ae6c5fc6-a62b-4788-92f5-b3cc4833a41a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:b655329d-5c4a-4488-a01e-d5b4729004c2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'At present, SFIA brings together professional skills, knowledge and behavioural factors, promoting business modelling among the different actors in an organisation. SFIA can be applied by certification providers of all types (public and private).
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:b6fb5bd1-c9de-4bd2-a11d-913da6132501 .
+
+camssa:b6f79126-8e78-4f06-a44c-4ce939cb9062 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "20"^^xsd:int .
+
+camssa:b6fb5bd1-c9de-4bd2-a11d-913da6132501 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:be8554d2-e0a9-4f50-9935-03d4bb3e22d0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no Member State that includes SFIA in their national catalogue with its National Interoperability Framework (NIF) in alignment with the three categories: 1. Conceptual model for integrated public services provision, 2. interoperability layers, and 3. interoperability principles.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:ec19504d-8c0d-4a82-9cc2-2667ec04c64d .
+
+camssa:c3cdf783-30c4-4605-a312-3673dea70469 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "DIGIT-CAMSS@eu.europa.eu" .
+
+camssa:c8a714d8-d4cf-4d8e-a2c0-99949b643bda a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:c8f520b9-60d6-4e25-8df6-40c74a385737 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "20"^^xsd:int .
+
+camssa:ca9119d1-1a39-46d3-82bb-fc28603b1ee8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The SFIA Foundation provides and organises webinars, conference and trainings where users can share their data and results world-wide, including European platforms.
+
+SFIA reference, March 2022-SFIA update:
+https://sfia-online.org/en/news/march-2022-sfia-update?msclkid=16935e81bb4511ec9e5c03c7f99e833f'"""@en ;
+    cav:refersTo camssa:a52fbebd-8ca6-4153-87de-61770a12bafc .
+
+camssa:ce22491d-2d98-4873-922c-bdb9adb69e03 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of SFIA is not related to enabling digital service delivery channels. Therefore, this criterion does not apply to this specification.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:0b174411-c790-40e7-95c8-cc1765d41df1 .
+
+camssa:cf15ef6e-80eb-4f4f-99f1-3a29686b2df4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "40"^^xsd:int .
+
+camssa:d124a906-d91d-4b95-b69b-8ae1bd0deeac a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After checking the SFIA Foundation homepage, there is no reference to (F)RAND values in the available documentation.
+
+SFIA reference, Choosing a licence:
+https://sfia-online.org/en/licensing-sfia/choosing-a-licence'"""@en ;
+    cav:refersTo camssa:ef611e65-51c1-4635-afe4-78fb9c44e8d4 .
+
+camssa:d876162b-db85-4ae7-a192-775bbc471aaf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of SFIA is not related to facilitating the publication of open data. Therefore, this criterion is not applicable to this specification.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:6a292c0c-2263-4c94-9a6f-89a526d97e85 .
+
+camssa:d8f8ca99-7ef7-49d9-9067-c16e06aeaa97 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d9a5d7bb-2693-4e47-a50c-97c9e1b57b99 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of the inclusion of SFIA within any European catalogue of standards.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:ae6c5fc6-a62b-4788-92f5-b3cc4833a41a .
+
+camssa:db1a8310-709a-4627-abd3-f7d2ccb840be a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'SFIA is intended to serve as a device to represent skills and competences of any ICT professional workforce. There is no possibility of partial implementation of the specification, as SFIA has a single purpose.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:c8f520b9-60d6-4e25-8df6-40c74a385737 .
+
+camssa:ddef5809-d7d9-4ce7-ad39-83957fb3a576 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "20"^^xsd:int .
+
+camssa:ddfffff5-3c88-4974-aa8c-89cace881674 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "80"^^xsd:int .
+
+camssa:de6b78ca-59e8-4424-be58-bdb7fd8cb1f6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are no requirements for compliance and conformance analysis testing defined by the SFIA specification.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:ddef5809-d7d9-4ce7-ad39-83957fb3a576 .
+
+camssa:e8de4cea-cb29-4a68-ae87-41e2837350b6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:0402e19c-e5e9-43c1-b277-87353f4b69f0 .
+
+camssa:e9bc6650-84d9-4bbf-b9d9-285de43a7392 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Any interested party may propose and request modifications to SFIA definitions and skills/competence coverage after a registration process (SFIA reference, Future SFIA section, Change requests subsection). In addition, the SFIA Foundation facilitates a collaborative platform to promote visibility of the specification across different sectors (see SFIA reference, SFIA Views).
+
+SFIA reference, Future SFIA section, Change requests subsection:
+https://sfia-online.org/en/sfia-9/change-requests
+
+SFIA reference, SFIA Views:
+https://sfia-online.org/en/sfia-8/sfia-views'"""@en ;
+    cav:refersTo camssa:9de52fb3-b3f9-43fa-8807-035710c8efb2 .
+
+camssa:eb161f84-491a-4ea3-a4e8-002486ab22b1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"SFIA was first published in 2000 and was a framework for the ICT community. Between 2001 and 2005, SFIA has gone through a second and third release, in which the specification evolved into a framework that defines the skills and competencies required by business and technology professionals (Slideshare-SFIA reference, SFIA version 4). Since the release of SFIA 4 in 2008, successive versions have been incrementally modified to meet the changing needs of the world-wide ICT sector; a major consultation was held in 2011 through SFIA's online consultation forum (see SFIA reference, Transition to SFIA 5 document). All supporting specification processes for versions five (2011), six (2015), seven (2018) and eight (2021) are publicly available on the 'Moving to SFIA' subsections (see SFIA reference, SFIA 8 section, 'Moving to SFIA 8' subsection, and SFIA reference, Older versions-SFIA 7 section, 'Moving to SFIA 7'-'Summary of changes in SFIA 7' subsection). The specification is therefore sufficiently mature for its use in the development of digital solutions and/or services.
+
+Slideshare-SFIA reference, SFIA version 4:
+https://www.slideshare.net/sfiauser/sfia-version-4
+
+SFIA reference, SFIA 8 section, 'Moving to SFIA 8' subsection:
+https://sfia-online.org/en/sfia-8/moving-to-sfia-8/summary-of-changes-in-sfia-8
+
+SFIA reference, Older versions-SFIA 7 section, 'Moving to SFIA 7'-'Summary of changes in SFIA 7' subsection:
+https://sfia-online.org/en/legacy-sfia/sfia-7/moving-to-sfia-7/summary-of-changes-in-sfia-7
+
+SFIA reference, Transition to SFIA 5 document:
+https://sfia-online.org/en/legacy-sfia/sfia-5/transition_sfia_5-en.pdf/@@download/file/transition_SFIA_5.en.pdf\""""@en ;
+    cav:refersTo camssa:6e451cc0-fcdf-48ca-aaea-4e6dbfee13de .
+
+camssa:ec19504d-8c0d-4a82-9cc2-2667ec04c64d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:ed0c3c9a-19b8-4570-8e8a-0be924ceaed3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of SFIA is not related to enabling the long-term preservation of data, information nor knowledge. Therefore, this criterion does not apply to this specification.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:ed64e358-0a8f-479a-a856-85bc0b1696af .
+
+camssa:ed64e358-0a8f-479a-a856-85bc0b1696af a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:ef611e65-51c1-4635-afe4-78fb9c44e8d4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "20"^^xsd:int .
+
+camssa:fd61306d-5460-47e1-aa5e-2211bc0e19d9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'SFIA is a framework for defining skills and competences in digital communities. In this sense, the specification is domain-agnostic and can be implemented across business domains where the ICT sector can operate.
+
+SFIA reference:
+https://sfia-online.org/en/sfia-8'"""@en ;
+    cav:refersTo camssa:a07e3aee-9cc0-43f3-8ab9-c4784f9a93d6 .
+
+camssa:fe5071e9-b15d-4060-86f7-8b28283fab5c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:ff37aba0-cd00-4fc5-84c4-ea193330492d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "40"^^xsd:int .
+

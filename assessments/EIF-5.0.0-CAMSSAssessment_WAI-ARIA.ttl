@@ -2,7 +2,7 @@
 @prefix camssa: <http://data.europa.eu/2sa/assessments/> .
 @prefix cav: <http://data.europa.eu/2sa/cav#> .
 @prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix sc: <http://data.europa.eu/2sa/scenarios#> .
@@ -12,145 +12,119 @@
 @prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-camssa:611a0fe7b980e68f21865272a591846948f87bb8b89b27684ad13cd9ae8a6b2c a cav:Assessment,
+camssa:10573e0de226750fa67e30392c645682b553fb34de310f7181fdbca51c18ec52 a cav:Assessment,
         owl:NamedIndividual ;
     cav:contextualisedBy sc:f717f525751d9de54fc478770a2fb1845767ec01f1661d602383ae868d2bb5b7 ;
-    cav:resultsIn camssa:00dd6df2-e335-4272-a61f-7ac78c288ffe,
-        camssa:02b313e0-e208-4ee8-95bd-f5c1b3ef8997,
-        camssa:0eab0457-120a-4506-a01f-1ca085a8ab58,
-        camssa:171d50df-ce57-4be0-956d-77ea4cc3826e,
-        camssa:1c7af9d6-bfa2-4456-9ef7-f8a36cf4c6ff,
-        camssa:1cd57397-df54-4bf3-8b77-8fd14b668247,
-        camssa:1dd0a209-98d0-4a9f-ad01-1569e43ff8e2,
-        camssa:27e08ed6-0aef-4976-9bf0-e8429ed3dc2b,
-        camssa:36f07894-8085-4046-af58-45c45e8d6d21,
-        camssa:44158d32-b8f5-4fbd-a69f-3ebfc51abcb0,
-        camssa:4446681f-235f-41d9-b462-0cad07d718ec,
-        camssa:46e898d4-344f-4d36-9982-9d5b65fdad8c,
-        camssa:4957ae01-1997-47a4-b2a1-7c1da95afe2c,
-        camssa:4de31369-f394-42b7-b0b0-d44975214f5d,
-        camssa:54ee8c7e-444d-4e9e-ae9e-d32022a55ac4,
-        camssa:5f676825-2ff2-40b3-b475-f59d1dc0834d,
-        camssa:612bd33d-7460-4a96-99a1-c5a0410ba848,
-        camssa:62068528-93d9-4767-8895-8b3bc1d4b888,
-        camssa:64e4c9da-c193-40a8-932b-0d520ddac18a,
-        camssa:6861fa4d-0c5c-4f38-aa7b-8e2c22e2ef79,
-        camssa:68d46f8c-8e73-4257-9bb7-0c95460a8e1c,
-        camssa:7840493c-3a85-4f0c-9d92-e7242cd5d9d1,
-        camssa:7a034228-1d03-4e96-bfc9-635be058fd6d,
-        camssa:7df6dc74-a29a-4090-9708-d5e092a68d29,
-        camssa:8115d6bf-804a-4faf-91a5-9666482543a7,
-        camssa:8122451a-22a4-4b48-ac1a-a8047390596a,
-        camssa:82377cde-ed7b-43e5-a8ed-2789616c1a7e,
-        camssa:82c36f01-9b63-4ee9-a449-6fedb2e9d88f,
-        camssa:8a4e2afc-ae47-4ac7-beb4-b6ed5f967941,
-        camssa:90d72427-6726-40df-b524-dee7fc4442b5,
-        camssa:9c7f97a6-bdeb-4a9a-8aa8-c534cc3a6bb9,
-        camssa:9d2469c4-8527-44c4-8c2c-098ce971cc2e,
-        camssa:9e83cf5e-89e4-4d6f-b2de-e3acb1e49d91,
-        camssa:b3d0864c-9f46-4552-b3a5-ed5756242b74,
-        camssa:b864306f-5128-46c2-b01a-4117e7dd484b,
-        camssa:be1fe5eb-4600-4267-a5f2-5df017ff0a2d,
-        camssa:deaf0016-8569-4a03-9ad8-7d39d08f4f45,
-        camssa:e1fd79f8-3910-485e-b4bc-d5280f19eea0,
-        camssa:e495fd57-980c-45a9-bc72-6fa6ec125b31,
-        camssa:e971a05f-891a-4c18-8d0e-27a29415438e,
-        camssa:e9c52bbc-2282-499c-9670-291a023912b5,
-        camssa:ee793d4a-cb94-41e1-8205-4b0962fa72f9,
-        camssa:f555929c-1c19-4403-9ec0-81da87b7b6fa,
-        camssa:f8d78889-b728-4350-afb7-6ac9d851a667 ;
+    cav:resultsIn camssa:0bbfd3ea-d5f7-4d82-a6db-3ad36d160f16,
+        camssa:0f198539-488c-49fc-b480-d6d49e71c825,
+        camssa:198a46ff-7085-47a9-beab-d6b9e0f2710a,
+        camssa:1c2d9cc8-b774-4945-8681-eb766be517ae,
+        camssa:23e5bbf2-b02c-4ac4-8dce-e7d2f426e428,
+        camssa:29f9e0ba-0c46-4bdc-852c-b855bd46e58a,
+        camssa:2fe636f6-0596-4fc1-aa43-e83d519ff5f0,
+        camssa:31a24510-6035-434f-bd6e-04349a974a20,
+        camssa:3398f2ba-8322-4956-bd73-07a7462826e2,
+        camssa:34a00f1a-c45d-4c7a-8346-fd19e242c84b,
+        camssa:35c36519-c10e-4fa7-a102-8b9ed7623435,
+        camssa:390f5f1f-8547-4513-931b-04b27445b078,
+        camssa:44e8de94-30f5-43d6-a63e-017020ffd69c,
+        camssa:45a30782-355d-47d5-b786-a4d13f1cea03,
+        camssa:48a06de2-f6d6-4d6c-b792-60a8b448af56,
+        camssa:4e77ffa7-5ef8-4f18-a35d-38792e5c80c3,
+        camssa:4f7ce646-b3c9-4526-9689-5c6e293c0878,
+        camssa:536aac16-7e80-43e9-b372-0aebbf7c0be9,
+        camssa:64e18de3-c21b-4901-a146-821dae8e178c,
+        camssa:6ac5d6ba-3550-4f98-83bc-5f5b3fb3b521,
+        camssa:6c36e71f-c9f3-49b5-8336-7f407d7d1aa3,
+        camssa:6ed1e0a5-d618-4486-bba5-efb29576ecfd,
+        camssa:75ea71bd-63cc-4d17-8e8e-22d90229b1f6,
+        camssa:7c3f6a6a-257c-4302-aa49-3a3d20c7caff,
+        camssa:7ff8c5f8-0747-4e10-91d6-86e3435c6ac1,
+        camssa:892ca12e-5935-4820-8379-b897c0ded9b4,
+        camssa:9637f557-d9e3-4618-a662-b3376669ab0a,
+        camssa:a1dbcc82-244d-4319-98cb-6e9241bcaa5b,
+        camssa:a554ad50-4e02-41a4-93d6-cb7a516a842c,
+        camssa:ad01d135-d3df-43a5-a1c8-f5a94cb3b225,
+        camssa:b2147666-4bd7-441e-9a84-5db3590ea4cf,
+        camssa:bdb2fdd6-af3a-4326-a880-3dc63f062e56,
+        camssa:c1b32db3-643e-4010-9fa4-db19b6f9b712,
+        camssa:d4744187-b0c0-402e-9c54-817db1887285,
+        camssa:d64ee48a-3a77-4c60-96a9-7d6e8e7746fe,
+        camssa:d79c11e0-f254-4b31-9109-165d5b37162f,
+        camssa:ddfa160a-f449-4bfb-b66f-56f4e5da6421,
+        camssa:e00c5afe-9475-4e33-b235-4c455102a2d3,
+        camssa:e0909f5f-89e3-4d15-bfb1-2d32ad81a5c1,
+        camssa:ea2a21c0-2116-491a-bdfe-b4ec0df32931,
+        camssa:f7f3430a-7a95-4588-873f-a07d69ac38d5,
+        camssa:fad2bbfe-3ebe-4f60-8ff5-7e1d1ab9a262,
+        camssa:fb115485-a317-48d0-88c7-be7f02cd5c56,
+        camssa:fcb4d7c0-3f3f-422e-b13d-ea7e174c721d ;
     cav:status status:Complete ;
     camss:assesses cssvrsc:d22a7f4993386b2cbdf6d21bc369c92bbdf5c5df6ce46fa89574c0a633e2b469 ;
     camss:assessmentDate "None"^^xsd:date ;
     camss:submissionDate "None"^^xsd:date ;
     camss:toolVersion tool:5.0.0 ;
-    dcterms:title "WAI-ARIA"@en .
+    dct:title "WAI-ARIA"@en .
 
 camssa:71b734d93eea13de404910eb634943e6bc28f69d27f2f63bcbdf62230a832bb3 a owl:NamedIndividual,
         org:Organization ;
-    camss:contactPoint camssa:dc7a20e4-c945-467f-b2f4-7a77920bbb20 ;
+    camss:contactPoint camssa:145aeccb-05d5-4cf3-86f0-cbb240ed2724 ;
     skos:prefLabel "CAMSS Team European Commission DG DIGIT"@en .
 
-camssa:00dd6df2-e335-4272-a61f-7ac78c288ffe a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of WAI-ARIA is increasing accessibility of web content and applications for a large range of users, either with special needs or without disabilities. Therefore, this specification addresses and enables e-accessibility.
-
-WAI-ARIA reference, section 1:
-https://www.w3.org/TR/wai-aria/'"""@en ;
-    cav:refersTo camssa:37b4d41d-f1b0-4915-ae97-b559d68d5e85 .
-
-camssa:02b313e0-e208-4ee8-95bd-f5c1b3ef8997 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'WAI-ARIA is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, WAI-ARIA can define the interoperability aspects of the Human Interface ABB of the EIRA Technical View.
-
-EIRA Library of Interoperability Specifications (ELIS):
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110'"""@en ;
-    cav:refersTo camssa:4e6552d1-5657-43c5-9172-ca65d0b0132d .
-
-camssa:09965f71-3dce-4c7e-b5c0-cb3d241bf75b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-26c3fa9eb08207b2dfbd8d7c3852f0c9db3fdc50491d24db5b2f2eb1acf68732 ;
-    cav:value "20"^^xsd:int .
-
-camssa:0b8c4352-a00e-47c0-a4d2-fd9b7b8748ed a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
-    cav:value "100"^^xsd:int .
-
-camssa:0eab0457-120a-4506-a01f-1ca085a8ab58 a cav:Statement,
+camssa:0bbfd3ea-d5f7-4d82-a6db-3ad36d160f16 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'This specification provides a conceptual model of roles, states and properties that can be used to increase the accessibility and interoperability of web content and web applications. In this sense, the specification eases the implementation process of European public services.
 
 WAI-ARIA reference:
 https://www.w3.org/TR/wai-aria/'"""@en ;
-    cav:refersTo camssa:cb96403f-8025-469a-82a4-097edad6f37a .
+    cav:refersTo camssa:bd8ab949-9776-4719-b344-270ad2ba0e62 .
 
-camssa:13abbef8-4e72-402d-9856-f7d435179f24 a cav:Score,
+camssa:0ccd7927-7386-464c-ad53-7118992d06d4 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
     cav:value "100"^^xsd:int .
 
-camssa:171d50df-ce57-4be0-956d-77ea4cc3826e a cav:Statement,
+camssa:0f198539-488c-49fc-b480-d6d49e71c825 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'This specification provides a conceptual model of roles, states and properties that can be used to increase the accessibility and interoperability of web content and web applications. In this sense, the specification eases the development of European public services.
+    cav:judgement """'WAI-ARIA is already associated with EIRA ABBs in the European Library Of Specifications (ELIS). More specifically, WAI-ARIA can define the interoperability aspects of the Human Interface ABB of the EIRA Technical View.
 
-WAI-ARIA reference:
-https://www.w3.org/TR/wai-aria/'"""@en ;
-    cav:refersTo camssa:798e21b5-21f4-4e38-95fd-6afbfb9bfc4e .
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110'"""@en ;
+    cav:refersTo camssa:9dd753e0-587f-4a01-bfab-e2fedf635bbe .
 
-camssa:18ae377f-41df-4a41-b6fb-23f5f912b1e6 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
-    cav:value "100"^^xsd:int .
-
-camssa:1931a54f-d68e-4bb2-a2fb-0babfcdbea10 a cav:Score,
+camssa:0f9b95d2-851c-4a12-be62-b0ffcfbfe499 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
     cav:value "100"^^xsd:int .
 
-camssa:1c7af9d6-bfa2-4456-9ef7-f8a36cf4c6ff a cav:Statement,
+camssa:0f9ca96c-6e47-434c-8bf2-3b54236bf495 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """"The specification is intended to properly convey user interface behaviours and structural information to assistive technologies in document-level markup. The Spanish Public Administration, through the Observatory of Web Accessibility, is updating mobile user interfaces in all their services.
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "40"^^xsd:int .
 
-WAI-ARIA reference, Abstract section:
-https://www.w3.org/TR/wai-aria/
-
-PAe reference, 'Proceedings of the Observatory of Web Accessibility' section:
-https://administracionelectronica.gob.es/pae_Home/en/pae_Estrategias/pae_Accesibilidad/pae_Observatorio_de_Accesibilidad.html?idioma=en\""""@en ;
-    cav:refersTo camssa:0b8c4352-a00e-47c0-a4d2-fd9b7b8748ed .
-
-camssa:1cd57397-df54-4bf3-8b77-8fd14b668247 a cav:Statement,
+camssa:145aeccb-05d5-4cf3-86f0-cbb240ed2724 a schema:ContactPoint,
         owl:NamedIndividual ;
-    cav:judgement """'According to the 5 star Open Data model suggested by Tim Berners-Lee about how to publish linked data, the second star corresponds to the availability of data as structured data. WAI-ARIA is a document-level markup language, therefore it structures data as any other mark-up languages (e.g. HTTP or XML). 
+    schema:email "DIGIT-CAMSS@eu.europa.eu" .
 
-WAI-ARIA reference:
-https://www.w3.org/TR/wai-aria/
+camssa:17e3a9ef-abd1-47b9-a5af-f0bd5fd47572 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
 
-Tim Berners-Lee 5-star schema for Open Data:   
-https://5stardata.info/en/	'"""@en ;
-    cav:refersTo camssa:8df5cd5d-7619-4e22-a803-84416fb7c9fe .
+camssa:198a46ff-7085-47a9-beab-d6b9e0f2710a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"WAI-ARIA is not included in any Member States' catalogues of recommended specifications.
 
-camssa:1dd0a209-98d0-4a9f-ad01-1569e43ff8e2 a cav:Statement,
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards\""""@en ;
+    cav:refersTo camssa:9a82535d-54b9-4c72-8b07-9ccd2e615bf5 .
+
+camssa:1be819f8-c427-47f4-bd8e-0e74cc8f30e7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:1c2d9cc8-b774-4945-8681-eb766be517ae a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'The specification is complemented by a conformance testing platform to allow testing of implementations. Moreover, the ARIA initiative proposes tools and methods to evaluate such implementations.
 
@@ -159,9 +133,122 @@ https://www.w3.org/WAI/test-evaluate/
 
 WAI-ARIA reference:
 https://www.w3.org/TR/wai-aria/'"""@en ;
-    cav:refersTo camssa:6cab24e2-1f33-45a6-9d1e-166c23f80eba .
+    cav:refersTo camssa:e521c7f9-5f46-4102-9259-5be5d09fae5d .
 
-camssa:27e08ed6-0aef-4976-9bf0-e8429ed3dc2b a cav:Statement,
+camssa:2010f0c6-65ec-4a97-a6ce-722ebb5a1483 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:23e5bbf2-b02c-4ac4-8dce-e7d2f426e428 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of WAI-ARIA is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification. 
+
+WAI-ARIA reference:
+https://www.w3.org/TR/wai-aria/'"""@en ;
+    cav:refersTo camssa:8e91f544-0f34-4761-afb8-c5a8921b14f2 .
+
+camssa:29f9e0ba-0c46-4bdc-852c-b855bd46e58a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no such assessments addressing the effectiveness of the specification. This might be due to the early-stage development of the specification.
+
+Besides, the ARIA initiative proposes tools and methods to evaluate e-accessibility. In this sense, in the future there might exist such reports.
+
+WAI-ARIA github, issue tracking:
+https://github.com/w3c/aria-practices/issues/
+
+WAI-ARIA reference:
+https://www.w3.org/TR/wai-aria/'"""@en ;
+    cav:refersTo camssa:73b8d983-bf03-4a66-a13f-26932c8fcfbe .
+
+camssa:2fe636f6-0596-4fc1-aa43-e83d519ff5f0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WAI-ARIA was conceived for assistive web technologies. Since this specification complements both HTML and SVG2, it can be implemented in any domain where one of these two other specifications coexist with. A good example is the Mozilla developer community, which has implemented this specification for HTML4 and HTML5, along with the functional specificities that characterise both implementations.
+
+WAI-ARIA reference:
+https://www.w3.org/TR/wai-aria/
+
+Mozilla reference, ARIA section:
+https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA'"""@en ;
+    cav:refersTo camssa:0f9b95d2-851c-4a12-be62-b0ffcfbfe499 .
+
+camssa:31a24510-6035-434f-bd6e-04349a974a20 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WAI-ARIA has the Web Accessibility Initiative - Communities of Practice (WAI-COOP) platform for sharing results and best practices. Therefore, the specification encourages the creation of open information about the specification and encourages relevant communities from the EU to share their results; therefore, this platform also extends at national level.
+
+WAI-COOP reference:
+https://www.w3.org/WAI/about/projects/wai-coop/'"""@en ;
+    cav:refersTo camssa:82c5da75-3333-43c6-972d-c52c0e40aa05 .
+
+camssa:3398f2ba-8322-4956-bd73-07a7462826e2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'One Member State is recommending WAI-ARIA as an accessibility standard. However, the specification is not listed in its ICT National Catalogue. This Member State is Spain.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards
+
+PAe Accessibility Standards reference:
+https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Accesibilidad/pae_normativa/pae_eInclusion_Normas_Accesibilidad.html?idioma=en'"""@en ;
+    cav:refersTo camssa:6446bd9f-f087-4f6b-b152-80fc4130a0b9 .
+
+camssa:34a00f1a-c45d-4c7a-8346-fd19e242c84b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The implementation of the WAI-ARIA relies on specifications, such as HTML, and also on specialised APIs developed by some operating systems, such as the Microsoft Active Accessibility API. Dependence on these Accessibility APIs is a sign of platform dependence.
+
+WAI-ARIA reference, section 1.1:
+https://www.w3.org/TR/wai-aria/'"""@en ;
+    cav:refersTo camssa:b8ccdf30-2fe8-4330-a3a3-a0b6d4f3e675 .
+
+camssa:35c36519-c10e-4fa7-a102-8b9ed7623435 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no such assessment addressing the efficiency of the specification. This might be due to the early-stage development of the specification.
+
+Besides, the ARIA initiative proposes tools and methods to evaluate e-accessibility. In this sense, in the future there might exist such reports.
+
+WAI-ARIA github, issue tracking:
+https://github.com/w3c/aria-practices/issues/
+
+WAI-ARIA reference:
+https://www.w3.org/TR/wai-aria/'"""@en ;
+    cav:refersTo camssa:59d7973e-9c94-4008-9533-0e2834ddf0c6 .
+
+camssa:363ec1b3-a41a-40d3-91ae-f14ab7edb437 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:36569494-93e7-48bb-835b-f2f9f488b122 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:369889dd-23e6-4367-8768-a3bb84a0e5dc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26c3fa9eb08207b2dfbd8d7c3852f0c9db3fdc50491d24db5b2f2eb1acf68732 ;
+    cav:value "20"^^xsd:int .
+
+camssa:390f5f1f-8547-4513-931b-04b27445b078 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'No formal agreements have been found established between organisations or administrations involved in European public service provision including the usage of WAI-ARIA.
+
+ICT Technical Specifications reference:
+https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en'"""@en ;
+    cav:refersTo camssa:369889dd-23e6-4367-8768-a3bb84a0e5dc .
+
+camssa:40dba7a7-82a9-46a9-bb04-cf7fae4b636d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:44e8de94-30f5-43d6-a63e-017020ffd69c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no Member State that includes WAI-ARIA in their national catalogue with The National Interoperability Framework (NIF) in alignment with the three categories 1. Conceptual model for integrated public services provision, 2. interoperability layers, and 3. interoperability principles.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:fe96db11-4699-4d0e-b8a5-1318d8ad067f .
+
+camssa:45a30782-355d-47d5-b786-a4d13f1cea03 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'According to the 5 star Open Data model suggested by Tim Berners-Lee about how to publish linked data, the second star corresponds to the availability of data as structured data. WAI-ARIA is intended to be used to increase semantics in programming languages like HTML5 and vector image formats like SVG2, or to be used as an accessibility enhancement technology in other markup-based languages not including support for Accessible Rich Internet Applications (ARIA). Therefore, it eases the publication of open data.
 
@@ -170,68 +257,279 @@ https://www.w3.org/TR/wai-aria/
 
 Tim Berners-Lee 5-star schema for Open Data:   
 https://5stardata.info/en/		'"""@en ;
-    cav:refersTo camssa:b2bc5a35-9a54-4b4c-985c-838803c1e0dc .
+    cav:refersTo camssa:8fe41e0a-18b7-4367-91a0-045f4eecc073 .
 
-camssa:27f9ea88-9d0e-4db4-b6cc-62a30fae055e a cav:Score,
+camssa:48a06de2-f6d6-4d6c-b792-60a8b448af56 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
-    cav:value "100"^^xsd:int .
+    cav:judgement """'The purpose of WAI-ARIA is not related to the secure of data exchange. Therefore, this criterion is not applicable to this specification. 
 
-camssa:353ffb0a-a69e-4c55-aea8-7fed872318ff a cav:Score,
+WAI-ARIA reference:
+https://www.w3.org/TR/wai-aria/'"""@en ;
+    cav:refersTo camssa:2010f0c6-65ec-4a97-a6ce-722ebb5a1483 .
+
+camssa:4e77ffa7-5ef8-4f18-a35d-38792e5c80c3 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
-    cav:value "100"^^xsd:int .
+    cav:judgement """'There is the Accessible Rich Internet Applications Working Group (ARIA WG) which aims to develop technologies that improve the accessibility of web content for people with disabilities, which includes the continued development of WAI-ARIA. Participating in the WG requires a W3C account.
 
-camssa:36f07894-8085-4046-af58-45c45e8d6d21 a cav:Statement,
+W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
+
+ARIA Working Group reference:
+https://www.w3.org/WAI/ARIA/
+
+W3C Process document:
+https://www.w3.org/2021/Process-20211102/#groups'"""@en ;
+    cav:refersTo camssa:5925dde3-0faa-43d8-b322-1995cfbbdbf6 .
+
+camssa:4f7ce646-b3c9-4526-9689-5c6e293c0878 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of WAI-ARIA is not related to the secure processing of data. Therefore, this criterion is not applicable to this specification. 
+
+WAI-ARIA reference:
+https://www.w3.org/TR/wai-aria/'"""@en ;
+    cav:refersTo camssa:68d35204-66db-4d33-8aef-b4aa23bebdf4 .
+
+camssa:536aac16-7e80-43e9-b372-0aebbf7c0be9 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'The French "General framework for improving accessibility" (RGAA) includes the WAI-ARIA specification in their e-accessibility policies. This implies a willingness to use this technology.
 
 RGAA reference: 
 https://www.numerique.gouv.fr/publications/rgaa-accessibilite/methode-rgaa/criteres/'"""@en ;
-    cav:refersTo camssa:433ca0e1-bbb9-4090-8817-0dfe51879ca9 .
+    cav:refersTo camssa:ef87e109-d21b-4edc-b870-5ea4e2547be0 .
 
-camssa:37b4d41d-f1b0-4915-ae97-b559d68d5e85 a cav:Score,
+camssa:5925dde3-0faa-43d8-b322-1995cfbbdbf6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:59d7973e-9c94-4008-9533-0e2834ddf0c6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "40"^^xsd:int .
+
+camssa:6446bd9f-f087-4f6b-b152-80fc4130a0b9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69dbbbfc4ff4c79244a3bd99f7c3f883f2a7114ec515cb4d576f0d807c94b9fd ;
+    cav:value "100"^^xsd:int .
+
+camssa:64e18de3-c21b-4901-a146-821dae8e178c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification enables developers to create custom widgets and other web application components.
+
+WAI-ARIA reference, section 1:
+https://www.w3.org/TR/wai-aria/'"""@en ;
+    cav:refersTo camssa:df5d786d-196f-41ba-9eb1-a0dc84accb06 .
+
+camssa:6512078c-fefd-4321-a67f-8a16db5bf09a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:672081ec-4d39-470a-9e95-bfe3a9f7040c a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
     cav:value "100"^^xsd:int .
 
-camssa:3822ca51-4403-48f4-9036-0ba89ec5d3ef a cav:Score,
+camssa:68d35204-66db-4d33-8aef-b4aa23bebdf4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:6ac5d6ba-3550-4f98-83bc-5f5b3fb3b521 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:e00d1606-f5f1-4766-ba23-fb0b0858d852 .
+
+camssa:6c36e71f-c9f3-49b5-8336-7f407d7d1aa3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The roles, state and properties that are defined in this specification do not form a complete web language or format. The implementation of WAI-ARIA relies on the context of a host language, like HTML, and can be partially implemented.
+
+WAI-ARIA Authoring Practice reference:
+https://www.w3.org/TR/wai-aria-practices/
+
+WAI-ARIA User Agent Implementation Guide:
+https://www.w3.org/TR/wai-aria-implementation/'"""@en ;
+    cav:refersTo camssa:96552449-6544-4c41-ac77-c2c0d8cecb7a .
+
+camssa:6c97f3cf-221e-48ed-8d4c-6ee97781941c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6ed1e0a5-d618-4486-bba5-efb29576ecfd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WAI-ARIA has the Web Accessibility Initiative - Communities of Practice (WAI-COOP) platform for sharing results and best practices. Therefore, the specification encourages the creation of open information about the specification and encourages relevant communities to share their results at the European level.
+
+WAI-COOP reference:
+https://www.w3.org/WAI/about/projects/wai-coop/'"""@en ;
+    cav:refersTo camssa:bb357e46-28fa-4370-9291-0fa006d9c136 .
+
+camssa:73b8d983-bf03-4a66-a13f-26932c8fcfbe a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
     cav:value "40"^^xsd:int .
 
-camssa:417c79cf-52a8-43c2-9ff6-35851ef1f731 a cav:Score,
+camssa:75ea71bd-63cc-4d17-8e8e-22d90229b1f6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of WAI-ARIA as a European standard.
+
+ICT technical specifications:
+https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:779c31ed-f079-4ebe-84ad-6a5f4d8dce68 .
+
+camssa:779c31ed-f079-4ebe-84ad-6a5f4d8dce68 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "20"^^xsd:int .
+
+camssa:7c3f6a6a-257c-4302-aa49-3a3d20c7caff a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Several implementations are assessing the usefulness and exploring how the usage of this specification can enhance the accessibility to digital platforms. Some of them are React Aria and Mozilla. However, this does not extend to the European Public Service.
+
+Mozilla reference, Accessibility section:
+https://developer.mozilla.org/en-US/docs/Web/Accessibility
+
+React Aria reference, home page:
+https://react-spectrum.adobe.com/react-aria/'"""@en ;
+    cav:refersTo camssa:0f9ca96c-6e47-434c-8bf2-3b54236bf495 .
+
+camssa:7df0116f-a169-4394-8528-96f2907cd421 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "20"^^xsd:int .
+
+camssa:7ff8c5f8-0747-4e10-91d6-86e3435c6ac1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of WAI-ARIA is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
+
+WAI-ARIA reference:
+https://www.w3.org/TR/wai-aria/'"""@en ;
+    cav:refersTo camssa:d71bb611-2ac6-4c10-b5bb-ce97c42c7aa4 .
+
+camssa:82c5da75-3333-43c6-972d-c52c0e40aa05 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:83db39cb-489b-4f2e-aa2b-dc908a4a15b5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "80"^^xsd:int .
+
+camssa:85217698-5fb2-42db-a203-9767a41dfe4e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "60"^^xsd:int .
+
+camssa:892ca12e-5935-4820-8379-b897c0ded9b4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of WAI-ARIA is increasing accessibility of web content and applications for a large range of users, either with special needs or without disabilities. Therefore, this specification addresses and enables e-accessibility.
+
+WAI-ARIA reference, section 1:
+https://www.w3.org/TR/wai-aria/'"""@en ;
+    cav:refersTo camssa:672081ec-4d39-470a-9e95-bfe3a9f7040c .
+
+camssa:8e91f544-0f34-4761-afb8-c5a8921b14f2 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:8fe41e0a-18b7-4367-91a0-045f4eecc073 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9637f557-d9e3-4618-a662-b3376669ab0a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'This specification provides a conceptual model of roles, states and properties that can be used to increase the accessibility and interoperability of web content and web applications. In this sense, the specification eases the development of European public services.
+
+WAI-ARIA reference:
+https://www.w3.org/TR/wai-aria/'"""@en ;
+    cav:refersTo camssa:363ec1b3-a41a-40d3-91ae-f14ab7edb437 .
+
+camssa:96552449-6544-4c41-ac77-c2c0d8cecb7a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "60"^^xsd:int .
+
+camssa:9a82535d-54b9-4c72-8b07-9ccd2e615bf5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:9dd753e0-587f-4a01-bfab-e2fedf635bbe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:a1dbcc82-244d-4319-98cb-6e9241bcaa5b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WAI-ARIA enhances assistive technologies to interact with accessibility APIs and can restructure, simplify, stylise, or rescale content to help a different set of users.
+
+WAI-ARIA reference, section 1.6:
+https://www.w3.org/TR/wai-aria/'"""@en ;
+    cav:refersTo camssa:40dba7a7-82a9-46a9-bb04-cf7fae4b636d .
+
+camssa:a554ad50-4e02-41a4-93d6-cb7a516a842c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:ab60d075-4096-4f7c-9c49-a01cf48a36f8 .
+
+camssa:ab60d075-4096-4f7c-9c49-a01cf48a36f8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ad01d135-d3df-43a5-a1c8-f5a94cb3b225 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'CIRCABC (Communication and Information Resource Centre for Administrations, Businesses and Citizens) is a collaborative platform that enables administrations, businesses and citizens to manage and share resources in private workplaces. This platform includes the WAI-ARIA specification, which is meant to facilitate the organisational aspects of this platform.
+
+CIRCABC reference:
+https://joinup.ec.europa.eu/collection/communication-and-information-resource-centre-administrations-businesses-and-citizens-circabc/solution/circabc/about'"""@en ;
+    cav:refersTo camssa:febf29fb-40cb-43a1-962f-b71eedca63f5 .
+
+camssa:b2147666-4bd7-441e-9a84-5db3590ea4cf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Assistive technologies convey suitable information to people with disabilities by introducing web widgets and structuring web content. In this sense, personal data protection is not addressed by this specification.
+
+WAI-ARIA reference, Abstract section:
+https://www.w3.org/TR/wai-aria/'"""@en ;
+    cav:refersTo camssa:17e3a9ef-abd1-47b9-a5af-f0bd5fd47572 .
+
+camssa:b8ccdf30-2fe8-4330-a3a3-a0b6d4f3e675 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "20"^^xsd:int .
+
+camssa:ba68614f-51c8-4c79-b998-bf5ed85dbf6e a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
     cav:value "100"^^xsd:int .
 
-camssa:433ca0e1-bbb9-4090-8817-0dfe51879ca9 a cav:Score,
+camssa:bb357e46-28fa-4370-9291-0fa006d9c136 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
     cav:value "100"^^xsd:int .
 
-camssa:44158d32-b8f5-4fbd-a69f-3ebfc51abcb0 a cav:Statement,
+camssa:bd8ab949-9776-4719-b344-270ad2ba0e62 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement "nan"@en ;
-    cav:refersTo camssa:27f9ea88-9d0e-4db4-b6cc-62a30fae055e .
-
-camssa:4446681f-235f-41d9-b462-0cad07d718ec a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'WAI-ARIA was conceived for assistive web technologies. As it was created to enhance e-accessibility and to simplify web navigation, it can be used in any other domain as a visibility enhancement. It is the case of Google Extensions with which the user can customise web content by means of the HTML Document Object Model (HTML DOM).
-
-WAI-ARIA reference:
-https://www.w3.org/TR/wai-aria/
-
-WAI-ARIA Chrome Extension reference:
-https://developer.chrome.com/docs/extensions/mv3/a11y/#aria'"""@en ;
-    cav:refersTo camssa:73e04670-7e2a-4957-bcd3-f84d1393854f .
-
-camssa:444e6ee6-1764-401d-a98c-d835ee9ceda5 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
     cav:value "100"^^xsd:int .
 
-camssa:46e898d4-344f-4d36-9982-9d5b65fdad8c a cav:Statement,
+camssa:bdb2fdd6-af3a-4326-a880-3dc63f062e56 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no evidence of the inclusion of WAI-ARIA in an open repository/catalogue of standards at European level.
+
+EUOS repository of standards:
+https://www.standict.eu/standards-repository
+
+CENELEC and CEN search tool catalogue:
+https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
+    cav:refersTo camssa:f5e80849-48d5-482c-84a6-e3ebb9bc58c1 .
+
+camssa:c1b32db3-643e-4010-9fa4-db19b6f9b712 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'As stated in the specification home page and in Joinup, the application is under development and has not reached a major release v2.0. Nonetheless, the new version of the specification (v1.1) is available since 2017 and it has overcome the existing issues from its first delivery (v1.0) in 2014, and a draft version of the following release (v1.2) is also available from December 2021.
 
@@ -243,251 +541,116 @@ https://www.w3.org/WAI/ARIA/roadmap
 
 Joinup WAI-ARIA reference:
 https://joinup.ec.europa.eu/collection/w3c-standards-and-technical-reports/solution/using-wai-aria-html/about'"""@en ;
-    cav:refersTo camssa:eb4a622a-07a1-4bc9-ad3f-9f978232e14d .
+    cav:refersTo camssa:fdfe85df-b74e-40ca-99f7-5c32ba690b39 .
 
-camssa:4957ae01-1997-47a4-b2a1-7c1da95afe2c a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'CIRCABC (Communication and Information Resource Centre for Administrations, Businesses and Citizens) is a collaborative platform that enables administrations, businesses and citizens to manage and share resources in private workplaces. This platform includes the WAI-ARIA specification, which is meant to facilitate the organisational aspects of this platform.
-
-CIRCABC reference:
-https://joinup.ec.europa.eu/collection/communication-and-information-resource-centre-administrations-businesses-and-citizens-circabc/solution/circabc/about'"""@en ;
-    cav:refersTo camssa:6f339356-a22b-4f6b-8333-1e9354ea575f .
-
-camssa:4de31369-f394-42b7-b0b0-d44975214f5d a cav:Statement,
+camssa:d4744187-b0c0-402e-9c54-817db1887285 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement "nan"@en ;
-    cav:refersTo camssa:417c79cf-52a8-43c2-9ff6-35851ef1f731 .
+    cav:refersTo camssa:ba68614f-51c8-4c79-b998-bf5ed85dbf6e .
 
-camssa:4e6552d1-5657-43c5-9172-ca65d0b0132d a cav:Score,
+camssa:d64ee48a-3a77-4c60-96a9-7d6e8e7746fe a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
-    cav:value "100"^^xsd:int .
-
-camssa:54163cb6-1a20-4131-ab9c-4dea4d6ede69 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
-    cav:value "20"^^xsd:int .
-
-camssa:54ee8c7e-444d-4e9e-ae9e-d32022a55ac4 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'WAI-ARIA has the Web Accessibility Initiative - Communities of Practice (WAI-COOP) platform for sharing results and best practices. Therefore, the specification encourages the creation of open information about the specification and encourages relevant communities to share their results at the European level.
-
-WAI-COOP reference:
-https://www.w3.org/WAI/about/projects/wai-coop/'"""@en ;
-    cav:refersTo camssa:b789380e-5139-4680-acbd-de3646dd8f16 .
-
-camssa:5f676825-2ff2-40b3-b475-f59d1dc0834d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "nan"@en ;
-    cav:refersTo camssa:18ae377f-41df-4a41-b6fb-23f5f912b1e6 .
-
-camssa:612bd33d-7460-4a96-99a1-c5a0410ba848 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of WAI-ARIA is not related to the secure processing of data. Therefore, this criterion is not applicable to this specification. 
+    cav:judgement """'According to the 5 star Open Data model suggested by Tim Berners-Lee about how to publish linked data, the second star corresponds to the availability of data as structured data. WAI-ARIA is a document-level markup language, therefore it structures data as any other mark-up languages (e.g. HTTP or XML). 
 
 WAI-ARIA reference:
-https://www.w3.org/TR/wai-aria/'"""@en ;
-    cav:refersTo camssa:af623d3e-4af5-48f1-977c-a81bd2ca8179 .
+https://www.w3.org/TR/wai-aria/
 
-camssa:62068528-93d9-4767-8895-8b3bc1d4b888 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of WAI-ARIA is not related to long term preservation of electronic records. Therefore, this criterion is considered not applicable to this specification. 
+Tim Berners-Lee 5-star schema for Open Data:   
+https://5stardata.info/en/	'"""@en ;
+    cav:refersTo camssa:6c97f3cf-221e-48ed-8d4c-6ee97781941c .
 
-WAI-ARIA reference:
-https://www.w3.org/TR/wai-aria/'"""@en ;
-    cav:refersTo camssa:b8705341-371e-4b0b-b94d-1d386707de16 .
-
-camssa:633045ab-0c8c-4340-b222-6ce2bb457d99 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
-    cav:value "80"^^xsd:int .
-
-camssa:64e4c9da-c193-40a8-932b-0d520ddac18a a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'There is no such assessment addressing the efficiency of the specification. This might be due to the early-stage development of the specification.
-
-Besides, the ARIA initiative proposes tools and methods to evaluate e-accessibility. In this sense, in the future there might exist such reports.
-
-WAI-ARIA github, issue tracking:
-https://github.com/w3c/aria-practices/issues/
-
-WAI-ARIA reference:
-https://www.w3.org/TR/wai-aria/'"""@en ;
-    cav:refersTo camssa:877f8090-4e5b-4726-820d-2bc77c1d3a80 .
-
-camssa:66134832-d151-423b-b728-7ca25cbc19f7 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
-    cav:value "60"^^xsd:int .
-
-camssa:67779086-01e5-424c-a4fa-d89eafdd1d3b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
-    cav:value "100"^^xsd:int .
-
-camssa:6861fa4d-0c5c-4f38-aa7b-8e2c22e2ef79 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The roles, state and properties that are defined in this specification do not form a complete web language or format. The implementation of WAI-ARIA relies on the context of a host language, like HTML, and can be partially implemented.
-
-WAI-ARIA Authoring Practice reference:
-https://www.w3.org/TR/wai-aria-practices/
-
-WAI-ARIA User Agent Implementation Guide:
-https://www.w3.org/TR/wai-aria-implementation/'"""@en ;
-    cav:refersTo camssa:66134832-d151-423b-b728-7ca25cbc19f7 .
-
-camssa:68d46f8c-8e73-4257-9bb7-0c95460a8e1c a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of WAI-ARIA is not related to the modelling of business processes. Therefore, this criterion is not applicable to the specification. 
-
-WAI-ARIA reference:
-https://www.w3.org/TR/wai-aria/'"""@en ;
-    cav:refersTo camssa:77006c32-cc4e-462c-8f2f-c65147731dec .
-
-camssa:6cab24e2-1f33-45a6-9d1e-166c23f80eba a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
-    cav:value "100"^^xsd:int .
-
-camssa:6f339356-a22b-4f6b-8333-1e9354ea575f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
-    cav:value "80"^^xsd:int .
-
-camssa:7083d166-403e-4c4f-8178-549d41a42ff9 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
-    cav:value "20"^^xsd:int .
-
-camssa:73e04670-7e2a-4957-bcd3-f84d1393854f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
-    cav:value "100"^^xsd:int .
-
-camssa:76ae11ca-1b9a-4c87-94fe-fb5013f6797e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
-    cav:value "60"^^xsd:int .
-
-camssa:76cbd111-004b-4946-9e65-9c5bbb2185e6 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
-    cav:value "100"^^xsd:int .
-
-camssa:77006c32-cc4e-462c-8f2f-c65147731dec a cav:Score,
+camssa:d71bb611-2ac6-4c10-b5bb-ce97c42c7aa4 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
     cav:value "100"^^xsd:int .
 
-camssa:7840493c-3a85-4f0c-9d92-e7242cd5d9d1 a cav:Statement,
+camssa:d79c11e0-f254-4b31-9109-165d5b37162f a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'The purpose of WAI-ARIA is not related to the secure of data exchange. Therefore, this criterion is not applicable to this specification. 
+    cav:judgement """"The specification is intended to properly convey user interface behaviours and structural information to assistive technologies in document-level markup. The Spanish Public Administration, through the Observatory of Web Accessibility, is updating mobile user interfaces in all their services.
+
+WAI-ARIA reference, Abstract section:
+https://www.w3.org/TR/wai-aria/
+
+PAe reference, 'Proceedings of the Observatory of Web Accessibility' section:
+https://administracionelectronica.gob.es/pae_Home/en/pae_Estrategias/pae_Accesibilidad/pae_Observatorio_de_Accesibilidad.html?idioma=en\""""@en ;
+    cav:refersTo camssa:0ccd7927-7386-464c-ad53-7118992d06d4 .
+
+camssa:ddfa160a-f449-4bfb-b66f-56f4e5da6421 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'WAI-ARIA is meant to augment semantics in languages such as HTML5 and SVG2, or to serve as an accessibility enhancement technology in other languages that do not specifically include support for ARIA. In this sense, customisation may evolve faster than other web host standards, enabling additional digital service delivery channels.
+
+WAI-ARIA reference, section 1.4:
+https://www.w3.org/TR/wai-aria/'"""@en ;
+    cav:refersTo camssa:1be819f8-c427-47f4-bd8e-0e74cc8f30e7 .
+
+camssa:df5d786d-196f-41ba-9eb1-a0dc84accb06 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:e00c5afe-9475-4e33-b235-4c455102a2d3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The implementation of the specification relies on the HTML or SVG2 specifications. Therefore, WAI-ARIA is not technology-agnostic.
 
 WAI-ARIA reference:
 https://www.w3.org/TR/wai-aria/'"""@en ;
-    cav:refersTo camssa:444e6ee6-1764-401d-a98c-d835ee9ceda5 .
+    cav:refersTo camssa:7df0116f-a169-4394-8528-96f2907cd421 .
 
-camssa:798e21b5-21f4-4e38-95fd-6afbfb9bfc4e a cav:Score,
+camssa:e00d1606-f5f1-4766-ba23-fb0b0858d852 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
     cav:value "100"^^xsd:int .
 
-camssa:7a034228-1d03-4e96-bfc9-635be058fd6d a cav:Statement,
+camssa:e0909f5f-89e3-4d15-bfb1-2d32ad81a5c1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The Spanish "Accessibility Observatory" offers a methodology to ensure the monitoring and evolution of e-accessibility services, and includes WAI-ARIA as one of the elements reporting the current status of e-Accessibility in digital public services. The WAI-ARIA specification is implemented in this methodology and scopes comprehensibility of website contents when combined mainly with HTML.
+
+PAe reference, Survey Methodology PDF:
+https://administracionelectronica.gob.es/pae_Home/en/pae_Estrategias/pae_Accesibilidad/pae_Observatorio_de_Accesibilidad.html?idioma=en'"""@en ;
+    cav:refersTo camssa:83db39cb-489b-4f2e-aa2b-dc908a4a15b5 .
+
+camssa:e521c7f9-5f46-4102-9259-5be5d09fae5d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:ea2a21c0-2116-491a-bdfe-b4ec0df32931 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of WAI-ARIA is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification. 
+
+WAI-ARIA reference:
+https://www.w3.org/TR/wai-aria/'"""@en ;
+    cav:refersTo camssa:6512078c-fefd-4321-a67f-8a16db5bf09a .
+
+camssa:ec2bfeb1-bbcc-4f89-b299-d62ec55eb5a4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:eefcd568-4276-4812-b83d-853c739ec3b9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:ef87e109-d21b-4edc-b870-5ea4e2547be0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:f5e80849-48d5-482c-84a6-e3ebb9bc58c1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "20"^^xsd:int .
+
+camssa:f7f3430a-7a95-4588-873f-a07d69ac38d5 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'There is no reference to WAI-ARIA and a European use case explicitly stating that the specification allows relevant information and data to be reused. However, since WAI-ARIA can extend a host language, a grid can reuse the elements and attributes of an HTML table element. 
 
 WAI-ARIA reference, section 5.4, Grid subsection:
 https://www.w3.org/TR/wai-aria/'"""@en ;
-    cav:refersTo camssa:76ae11ca-1b9a-4c87-94fe-fb5013f6797e .
+    cav:refersTo camssa:85217698-5fb2-42db-a203-9767a41dfe4e .
 
-camssa:7df6dc74-a29a-4090-9708-d5e092a68d29 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'Several implementations are assessing the usefulness and exploring how the usage of this specification can enhance the accessibility to digital platforms. Some of them are React Aria and Mozilla. However, this does not extend to the European Public Service.
-
-Mozilla reference, Accessibility section:
-https://developer.mozilla.org/en-US/docs/Web/Accessibility
-
-React Aria reference, home page:
-https://react-spectrum.adobe.com/react-aria/'"""@en ;
-    cav:refersTo camssa:dfb46385-4652-409c-bfd6-073b1703d018 .
-
-camssa:80b1b1c3-2de2-4190-8415-47dd9e4db1a1 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
-    cav:value "20"^^xsd:int .
-
-camssa:8115d6bf-804a-4faf-91a5-9666482543a7 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'Assistive technologies convey suitable information to people with disabilities by introducing web widgets and structuring web content. In this sense, personal data protection is not addressed by this specification.
-
-WAI-ARIA reference, Abstract section:
-https://www.w3.org/TR/wai-aria/'"""@en ;
-    cav:refersTo camssa:67779086-01e5-424c-a4fa-d89eafdd1d3b .
-
-camssa:8122451a-22a4-4b48-ac1a-a8047390596a a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The implementation of the WAI-ARIA relies on specifications, such as HTML, and also on specialised APIs developed by some operating systems, such as the Microsoft Active Accessibility API. Dependence on these Accessibility APIs is a sign of platform dependence.
-
-WAI-ARIA reference, section 1.1:
-https://www.w3.org/TR/wai-aria/'"""@en ;
-    cav:refersTo camssa:93361ea1-8e34-49f9-aad8-75e26d257180 .
-
-camssa:82377cde-ed7b-43e5-a8ed-2789616c1a7e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'There is no evidence of the inclusion of WAI-ARIA in an open repository/catalogue of standards at European level.
-
-EUOS repository of standards:
-https://www.standict.eu/standards-repository
-
-CENELEC and CEN search tool catalogue:
-https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
-    cav:refersTo camssa:ddaeea76-bfc1-4d86-8f93-620065af1a6c .
-
-camssa:82c36f01-9b63-4ee9-a449-6fedb2e9d88f a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'There is no Member State that includes WAI-ARIA in their national catalogue with The National Interoperability Framework (NIF) in alignment with the three categories 1. Conceptual model for integrated public services provision, 2. interoperability layers, and 3. interoperability principles.
-
-CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
-    cav:refersTo camssa:80b1b1c3-2de2-4190-8415-47dd9e4db1a1 .
-
-camssa:877f8090-4e5b-4726-820d-2bc77c1d3a80 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
-    cav:value "40"^^xsd:int .
-
-camssa:8a4e2afc-ae47-4ac7-beb4-b6ed5f967941 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'There is no such assessments addressing the effectiveness of the specification. This might be due to the early-stage development of the specification.
-
-Besides, the ARIA initiative proposes tools and methods to evaluate e-accessibility. In this sense, in the future there might exist such reports.
-
-WAI-ARIA github, issue tracking:
-https://github.com/w3c/aria-practices/issues/
-
-WAI-ARIA reference:
-https://www.w3.org/TR/wai-aria/'"""@en ;
-    cav:refersTo camssa:3822ca51-4403-48f4-9036-0ba89ec5d3ef .
-
-camssa:8df5cd5d-7619-4e22-a803-84416fb7c9fe a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
-    cav:value "100"^^xsd:int .
-
-camssa:90d72427-6726-40df-b524-dee7fc4442b5 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'WAI-ARIA has the Web Accessibility Initiative - Communities of Practice (WAI-COOP) platform for sharing results and best practices. Therefore, the specification encourages the creation of open information about the specification and encourages relevant communities from the EU to share their results; therefore, this platform also extends at national level.
-
-WAI-COOP reference:
-https://www.w3.org/WAI/about/projects/wai-coop/'"""@en ;
-    cav:refersTo camssa:a3d09718-d28d-463a-9630-4682a3c6d43b .
-
-camssa:93361ea1-8e34-49f9-aad8-75e26d257180 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
-    cav:value "20"^^xsd:int .
-
-camssa:9c7f97a6-bdeb-4a9a-8aa8-c534cc3a6bb9 a cav:Statement,
+camssa:fad2bbfe-3ebe-4f60-8ff5-7e1d1ab9a262 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'The W3C Royalty-Free IPR licences granted under the W3C Patent Policy apply to all W3C specifications, including WAI-ARIA.
 
@@ -496,202 +659,39 @@ https://www.w3.org/TR/patent-practice#ref-AC
 
 WAI-ARIA participation charter, section 8:
 https://www.w3.org/2018/11/aria-charter'"""@en ;
-    cav:refersTo camssa:13abbef8-4e72-402d-9856-f7d435179f24 .
+    cav:refersTo camssa:eefcd568-4276-4812-b83d-853c739ec3b9 .
 
-camssa:9d2469c4-8527-44c4-8c2c-098ce971cc2e a cav:Statement,
+camssa:fb115485-a317-48d0-88c7-be7f02cd5c56 a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'After checking the different standard catalogues at supra-national level, there is no evidence of WAI-ARIA as a European standard.
-
-ICT technical specifications:
-https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en
-
-CENELEC and CEN search tool catalogue:
-https://standards.cencenelec.eu/dyn/www/f?p=CEN:105::RESET::::'"""@en ;
-    cav:refersTo camssa:a68366fa-bd7f-408f-b0e2-a93ac60c500a .
-
-camssa:9e83cf5e-89e4-4d6f-b2de-e3acb1e49d91 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of WAI-ARIA is not related to the delivery of multilingual public services. Therefore, this criterion is not applicable to this specification. 
+    cav:judgement """'WAI-ARIA was conceived for assistive web technologies. As it was created to enhance e-accessibility and to simplify web navigation, it can be used in any other domain as a visibility enhancement. It is the case of Google Extensions with which the user can customise web content by means of the HTML Document Object Model (HTML DOM).
 
 WAI-ARIA reference:
-https://www.w3.org/TR/wai-aria/'"""@en ;
-    cav:refersTo camssa:d572d66d-8232-43bb-b20a-7fd5f80f8c63 .
+https://www.w3.org/TR/wai-aria/
 
-camssa:9eca81ae-9b5c-450e-a2d3-d790d8d43223 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
-    cav:value "100"^^xsd:int .
+WAI-ARIA Chrome Extension reference:
+https://developer.chrome.com/docs/extensions/mv3/a11y/#aria'"""@en ;
+    cav:refersTo camssa:36569494-93e7-48bb-835b-f2f9f488b122 .
 
-camssa:a3d09718-d28d-463a-9630-4682a3c6d43b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
-    cav:value "100"^^xsd:int .
-
-camssa:a68366fa-bd7f-408f-b0e2-a93ac60c500a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
-    cav:value "20"^^xsd:int .
-
-camssa:af623d3e-4af5-48f1-977c-a81bd2ca8179 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
-    cav:value "100"^^xsd:int .
-
-camssa:b2bc5a35-9a54-4b4c-985c-838803c1e0dc a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
-    cav:value "100"^^xsd:int .
-
-camssa:b3d0864c-9f46-4552-b3a5-ed5756242b74 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'No formal agreements have been found established between organisations or administrations involved in European public service provision including the usage of WAI-ARIA.
-
-ICT Technical Specifications reference:
-https://ec.europa.eu/growth/single-market/european-standards/ict-standardisation/ict-technical-specifications_en'"""@en ;
-    cav:refersTo camssa:09965f71-3dce-4c7e-b5c0-cb3d241bf75b .
-
-camssa:b789380e-5139-4680-acbd-de3646dd8f16 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
-    cav:value "100"^^xsd:int .
-
-camssa:b864306f-5128-46c2-b01a-4117e7dd484b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'WAI-ARIA is meant to augment semantics in languages such as HTML5 and SVG2, or to serve as an accessibility enhancement technology in other languages that do not specifically include support for ARIA. In this sense, customisation may evolve faster than other web host standards, enabling additional digital service delivery channels.
-
-WAI-ARIA reference, section 1.4:
-https://www.w3.org/TR/wai-aria/'"""@en ;
-    cav:refersTo camssa:eb8aa952-6c3b-4b9a-bf5d-f311644b1d01 .
-
-camssa:b8705341-371e-4b0b-b94d-1d386707de16 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
-    cav:value "100"^^xsd:int .
-
-camssa:be1fe5eb-4600-4267-a5f2-5df017ff0a2d a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"WAI-ARIA is not included in any Member States' catalogues of recommended specifications.
-
-CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards\""""@en ;
-    cav:refersTo camssa:7083d166-403e-4c4f-8178-549d41a42ff9 .
-
-camssa:c8d1d05e-c8b7-45ab-b70f-7fe72556e079 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
-    cav:value "100"^^xsd:int .
-
-camssa:cb96403f-8025-469a-82a4-097edad6f37a a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
-    cav:value "100"^^xsd:int .
-
-camssa:d33baa5c-cefa-4f49-8c97-5f5b6ffdc931 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-69dbbbfc4ff4c79244a3bd99f7c3f883f2a7114ec515cb4d576f0d807c94b9fd ;
-    cav:value "100"^^xsd:int .
-
-camssa:d572d66d-8232-43bb-b20a-7fd5f80f8c63 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
-    cav:value "100"^^xsd:int .
-
-camssa:dc7a20e4-c945-467f-b2f4-7a77920bbb20 a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "DIGIT-CAMSS@eu.europa.eu"@en .
-
-camssa:ddaeea76-bfc1-4d86-8f93-620065af1a6c a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
-    cav:value "20"^^xsd:int .
-
-camssa:deaf0016-8569-4a03-9ad8-7d39d08f4f45 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The implementation of the specification relies on the HTML or SVG2 specifications. Therefore, WAI-ARIA is not technology-agnostic.
-
-WAI-ARIA reference:
-https://www.w3.org/TR/wai-aria/'"""@en ;
-    cav:refersTo camssa:54163cb6-1a20-4131-ab9c-4dea4d6ede69 .
-
-camssa:dfb46385-4652-409c-bfd6-073b1703d018 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
-    cav:value "40"^^xsd:int .
-
-camssa:e1fd79f8-3910-485e-b4bc-d5280f19eea0 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'WAI-ARIA enhances assistive technologies to interact with accessibility APIs and can restructure, simplify, stylise, or rescale content to help a different set of users.
-
-WAI-ARIA reference, section 1.6:
-https://www.w3.org/TR/wai-aria/'"""@en ;
-    cav:refersTo camssa:c8d1d05e-c8b7-45ab-b70f-7fe72556e079 .
-
-camssa:e495fd57-980c-45a9-bc72-6fa6ec125b31 a cav:Statement,
+camssa:fcb4d7c0-3f3f-422e-b13d-ea7e174c721d a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'Extensibility is possible, as the specification documentation suggests the use of the Roles component of the specification to enable it.
 
 WAI-ARIA reference, section 1.1:
 https://www.w3.org/TR/wai-aria/'"""@en ;
-    cav:refersTo camssa:9eca81ae-9b5c-450e-a2d3-d790d8d43223 .
+    cav:refersTo camssa:ec2bfeb1-bbcc-4f89-b299-d62ec55eb5a4 .
 
-camssa:e971a05f-891a-4c18-8d0e-27a29415438e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The Spanish "Accessibility Observatory" offers a methodology to ensure the monitoring and evolution of e-accessibility services, and includes WAI-ARIA as one of the elements reporting the current status of e-Accessibility in digital public services. The WAI-ARIA specification is implemented in this methodology and scopes comprehensibility of website contents when combined mainly with HTML.
-
-PAe reference, Survey Methodology PDF:
-https://administracionelectronica.gob.es/pae_Home/en/pae_Estrategias/pae_Accesibilidad/pae_Observatorio_de_Accesibilidad.html?idioma=en'"""@en ;
-    cav:refersTo camssa:633045ab-0c8c-4340-b222-6ce2bb457d99 .
-
-camssa:e9c52bbc-2282-499c-9670-291a023912b5 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'There is the Accessible Rich Internet Applications Working Group (ARIA WG) which aims to develop technologies that improve the accessibility of web content for people with disabilities, which includes the continued development of WAI-ARIA. Participating in the WG requires a W3C account.
-
-W3C has a defined and publicly available Process for the Development and approval process of the specification as a recommended standard. Also, a clear Release Notes tracking the changes of the different versions is archived.
-
-ARIA Working Group reference:
-https://www.w3.org/WAI/ARIA/
-
-W3C Process document:
-https://www.w3.org/2021/Process-20211102/#groups'"""@en ;
-    cav:refersTo camssa:353ffb0a-a69e-4c55-aea8-7fed872318ff .
-
-camssa:eb4a622a-07a1-4bc9-ad3f-9f978232e14d a cav:Score,
+camssa:fdfe85df-b74e-40ca-99f7-5c32ba690b39 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
     cav:value "60"^^xsd:int .
 
-camssa:eb8aa952-6c3b-4b9a-bf5d-f311644b1d01 a cav:Score,
+camssa:fe96db11-4699-4d0e-b8a5-1318d8ad067f a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
-    cav:value "100"^^xsd:int .
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
 
-camssa:ee793d4a-cb94-41e1-8205-4b0962fa72f9 a cav:Statement,
+camssa:febf29fb-40cb-43a1-962f-b71eedca63f5 a cav:Score,
         owl:NamedIndividual ;
-    cav:judgement """'The specification enables developers to create custom widgets and other web application components.
-
-WAI-ARIA reference, section 1:
-https://www.w3.org/TR/wai-aria/'"""@en ;
-    cav:refersTo camssa:76cbd111-004b-4946-9e65-9c5bbb2185e6 .
-
-camssa:f555929c-1c19-4403-9ec0-81da87b7b6fa a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'WAI-ARIA was conceived for assistive web technologies. Since this specification complements both HTML and SVG2, it can be implemented in any domain where one of these two other specifications coexist with. A good example is the Mozilla developer community, which has implemented this specification for HTML4 and HTML5, along with the functional specificities that characterise both implementations.
-
-WAI-ARIA reference:
-https://www.w3.org/TR/wai-aria/
-
-Mozilla reference, ARIA section:
-https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA'"""@en ;
-    cav:refersTo camssa:1931a54f-d68e-4bb2-a2fb-0babfcdbea10 .
-
-camssa:f8d78889-b728-4350-afb7-6ac9d851a667 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'One Member State is recommending WAI-ARIA as an accessibility standard. However, the specification is not listed in its ICT National Catalogue. This Member State is Spain.
-
-CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards
-
-PAe Accessibility Standards reference:
-https://administracionelectronica.gob.es/pae_Home/pae_Estrategias/pae_Accesibilidad/pae_normativa/pae_eInclusion_Normas_Accesibilidad.html?idioma=en'"""@en ;
-    cav:refersTo camssa:d33baa5c-cefa-4f49-8c97-5f5b6ffdc931 .
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "80"^^xsd:int .
 

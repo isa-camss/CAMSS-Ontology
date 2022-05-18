@@ -2,7 +2,7 @@
 @prefix camssa: <http://data.europa.eu/2sa/assessments/> .
 @prefix cav: <http://data.europa.eu/2sa/cav#> .
 @prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dct: <http://purl.org/dc/terms/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix sc: <http://data.europa.eu/2sa/scenarios#> .
@@ -12,347 +12,127 @@
 @prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-camssa:611a0fe7b980e68f21865272a591846948f87bb8b89b27684ad13cd9ae8a6b2c a cav:Assessment,
+camssa:2836247db1b027768ff05fa3087daec1689555e8d7843766707f25e1bf8fd636 a cav:Assessment,
         owl:NamedIndividual ;
     cav:contextualisedBy sc:f717f525751d9de54fc478770a2fb1845767ec01f1661d602383ae868d2bb5b7 ;
-    cav:resultsIn camssa:00526294-f0c2-436f-b1ce-1c8b105ce41d,
-        camssa:0e43d027-f55f-49c5-945d-78c750c52caa,
-        camssa:11b9ac79-b709-4234-beb0-1891d3d76b91,
-        camssa:1266ab1f-efa8-4774-8c7b-bda881f554d1,
-        camssa:13809777-786b-40b8-8832-7fa3b3dde0c3,
-        camssa:1a5eb1e4-bcd1-43e6-a0ea-0ff3177bee45,
-        camssa:2145160d-a1b1-4b23-adfc-520ad600ef6e,
-        camssa:26e78db1-c02e-4b88-808a-18db9c1f2da2,
-        camssa:2c03edd7-c64f-47b4-8ff2-aec123416227,
-        camssa:2c88014a-7808-47b6-bb93-cd2d011be2b4,
-        camssa:3037cf8a-ca05-4640-bb21-d3a6b09bf6f1,
-        camssa:3190f405-3980-430c-a491-43b21b6fae67,
-        camssa:37cb1376-484f-4f9a-83d8-99b2817b29aa,
-        camssa:39166ce8-d0d9-473e-9a6a-ee92b3bfb864,
-        camssa:3fc5b81e-a390-4862-9a24-b8ef41d3eaca,
-        camssa:40a618f3-502c-4d46-bf94-7832165e4c59,
-        camssa:42a8287b-9ab5-4323-b2ce-adaf207923af,
-        camssa:43712a8e-652c-4779-9710-a3d66b6cc500,
-        camssa:5055140e-20a9-46bf-ace1-ccca738eb334,
-        camssa:5ab3118d-56a5-4cb5-94bf-19dfe3382da7,
-        camssa:5e44de33-2a54-4b49-a61c-f193f6cf71f0,
-        camssa:6044214c-035a-4e39-b161-9783f9ac21dc,
-        camssa:7fc8d6ac-9f94-4539-89f7-40bd4938372d,
-        camssa:802279b5-2d9d-4efc-8bfc-26c434b9b49e,
-        camssa:81c8c610-2781-4c2e-b8e3-784d89018424,
-        camssa:8b16b70b-4b89-414d-bd68-2e3b4ced5558,
-        camssa:954aba93-2d45-4267-a332-492deb22dd59,
-        camssa:a1a54e67-6ec5-4dbf-b273-27bfb5130208,
-        camssa:a213a567-0c9d-4151-b386-28653911b029,
-        camssa:a4916bda-d3ec-4905-b8b7-f6fa1dc61194,
-        camssa:aadaf883-8c47-4a9b-ba3f-48fe422c44a9,
-        camssa:ac47a3b1-f8ea-48a2-8307-084f406aeb27,
-        camssa:b04a18d3-7ffa-47c5-bfdf-19a6199c0ebf,
-        camssa:b9c3d6b8-95d0-43ae-a6fa-f4a3f044e80b,
-        camssa:baeead35-6fa4-4eed-a923-ba9e14c0c972,
-        camssa:be5ba85b-7e22-484c-bb48-55e129677d43,
-        camssa:c125439d-b990-4258-8226-fae812c0c263,
-        camssa:c433749e-0f73-4a08-b900-6c2bc569d89e,
-        camssa:c5258859-205d-41db-85ae-c5cdfae954fc,
-        camssa:c9d1a8e7-18d2-42ec-83d6-d3b66c8d1498,
-        camssa:d447954a-7e57-4f2f-9fb9-2c6ae1ec7975,
-        camssa:d9008d4f-be3e-4331-ad32-fd9c763aec3b,
-        camssa:fac9160e-f950-4fc5-8f9c-db73eba1cd70,
-        camssa:fb2b5daa-2d92-464f-9875-18b9adad3f8d ;
+    cav:resultsIn camssa:00b64f97-4ef3-4420-9178-8d3432012dbd,
+        camssa:034e9970-54f5-45da-bf18-02bf1590629a,
+        camssa:036be90d-04f2-4a91-9ec7-2fcaac7091ff,
+        camssa:04234b1e-aa62-4f2c-bac0-e819b06faa4e,
+        camssa:0e168dfa-7042-43bc-8d41-a91fab4faa35,
+        camssa:16e4e36c-f8dc-406f-9cff-118418cf3083,
+        camssa:17806bce-b491-48e8-b9d7-696d28a73c11,
+        camssa:17d614e4-7fc1-4529-b60d-5b69bb98f58f,
+        camssa:1ad24aa9-0d10-4b60-805b-3844c38935d0,
+        camssa:1d993073-f0fd-4dcd-a4e4-a3aa7f482549,
+        camssa:217a8380-0d11-4ba2-afad-d048914ea42a,
+        camssa:250f94cf-4d1f-4f0c-ad12-a7f59077eb58,
+        camssa:2b33b0c8-864b-4c67-b306-9ee75130a9f6,
+        camssa:2e585964-7b6b-4383-aa12-d493552326d8,
+        camssa:3779d87b-ffb8-4e56-8605-a66f69defebb,
+        camssa:3dbc5acd-e856-4361-b032-9aab151c8ce7,
+        camssa:448e1d51-0941-465e-81fd-358645227ab3,
+        camssa:5f381c59-54e3-473a-9abf-39bad52449fc,
+        camssa:6d06dc00-2aa4-47c8-ae2c-be6e99270bbb,
+        camssa:6e7aa267-fc76-4b01-8e32-6f753281fe3e,
+        camssa:70c754b6-6405-42ae-977f-196fa6c53fdb,
+        camssa:73ee35f5-7094-4af3-a78f-09159236cd3f,
+        camssa:749f6429-8dc4-4474-b585-87123e88b20b,
+        camssa:74cc1465-b001-4bc7-9863-e0a82716c6e5,
+        camssa:7a38dc68-ccc6-4bef-82ce-1b45b23e087f,
+        camssa:817f49fa-ed21-47fb-9347-5ae11511ea90,
+        camssa:8b604596-84a1-4791-a088-919e7a565c27,
+        camssa:8e13d61d-850f-45c8-bbdb-96ab09b22685,
+        camssa:9586755d-32d9-4b51-810f-776c8ac5c881,
+        camssa:a2e21185-935f-46ef-869c-52623f519394,
+        camssa:b920582a-8dfd-4f99-855c-c497e4ad6fc2,
+        camssa:bd09b5c7-adc6-45e3-93e9-5e4b7730e7aa,
+        camssa:bfa977a7-030c-4325-8d96-6fe3bc33fc64,
+        camssa:c08e899a-5c37-451a-b9d2-b5e87e38e43b,
+        camssa:c0edb81f-a33b-4c46-a4e6-fdc0fc566b24,
+        camssa:cbda1a18-1ee5-471f-ae57-276e1ad47c08,
+        camssa:cced0c13-56b1-4754-a4f4-a29f4bcef36e,
+        camssa:d417df3b-b823-4bf0-98f8-49dd82abbd67,
+        camssa:d6c056b2-25bd-47d4-b64c-da8abc9640e6,
+        camssa:d9659057-df50-4494-8763-55f69e72bb64,
+        camssa:f0386105-9a99-4bab-985b-7ec42bad589f,
+        camssa:f209f823-b5b4-4133-a725-bbd34fe5bd95,
+        camssa:f723817e-20cd-4264-9913-159d143696de,
+        camssa:f86b09cd-03a0-4b89-ae28-8d0b93d17f8b ;
     cav:status status:Complete ;
     camss:assesses cssvrsc:fdb314a96c718420f5bd2980558e2fb413b60f28e8ccb87669744be3f337d7f7 ;
     camss:assessmentDate "None"^^xsd:date ;
     camss:submissionDate "None"^^xsd:date ;
     camss:toolVersion tool:5.0.0 ;
-    dcterms:title "Nomenclature of territorial units for statistics (NUTS)"@en .
+    dct:title "Nomenclature of territorial units for statistics (NUTS)"@en .
 
 camssa:71b734d93eea13de404910eb634943e6bc28f69d27f2f63bcbdf62230a832bb3 a owl:NamedIndividual,
         org:Organization ;
-    camss:contactPoint camssa:0bde5434-2712-481f-bcff-7e79b0701654 ;
+    camss:contactPoint camssa:c56970fd-95e4-48b8-a8ab-623706d7a2e3 ;
     skos:prefLabel "CAMSS Team European Commission DG DIGIT"@en .
 
-camssa:00526294-f0c2-436f-b1ce-1c8b105ce41d a cav:Statement,
+camssa:00b64f97-4ef3-4420-9178-8d3432012dbd a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'NUTS is intended to serve as a device to identify administrative zones in the EU and beyond the EU borders. There is no possibility of tailoring NUTS coding system, nor any kind of authorising process is allowed, as NUTS was conceived for a unique purpose.
+    cav:judgement """'The purpose of NUTS is not related to the protection of personal data in Public Administrations. Therefore, this criterion is not applicable to this specification. 
 
 EUROSTAT reference, NUTS Principles and Characteristics section:
 https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
-    cav:refersTo camssa:f8021992-6a9c-4f2b-bf90-7ceada97bcea .
+    cav:refersTo camssa:7639a726-4817-44a4-a0fb-e0aca19a734e .
 
-camssa:06ab2efc-3ad1-425d-b141-42c93c60e90d a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
-    cav:value "60"^^xsd:int .
-
-camssa:09188441-6449-4436-b0ab-f338ed7a78a9 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
-    cav:value "100"^^xsd:int .
-
-camssa:0bde5434-2712-481f-bcff-7e79b0701654 a schema:ContactPoint,
-        owl:NamedIndividual ;
-    schema:email "DIGIT-CAMSS@eu.europa.eu"@en .
-
-camssa:0e43d027-f55f-49c5-945d-78c750c52caa a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'EUROSTAT makes available a Linked Open Data section where the European Commission publishes data and  all kinds of statistical analysis based on the NUTS classification, encouraging the creation of communities around the specification at European level.
-
-EUROSTAT reference, NUTS Linked Open Data section:
-https://ec.europa.eu/eurostat/web/nuts/linked-open-data'"""@en ;
-    cav:refersTo camssa:b0ee2f5b-249d-44dd-8806-adcb1cad9343 .
-
-camssa:11b9ac79-b709-4234-beb0-1891d3d76b91 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'There is only one Member State recommending NUTS in its ICT National Catalogue. This Member State is Ireland.
-
-National catalogue Ireland: 
-https://data.gov.ie/pages/opendatatechnicalframework#recommended-standards-for-open-data'"""@en ;
-    cav:refersTo camssa:f82fb6de-99cb-4fa5-840e-1ef90da2772e .
-
-camssa:1266ab1f-efa8-4774-8c7b-bda881f554d1 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'NUTS designates geographical areas within a legal and institutional framework in which an administrative authority is empowered to take administrative or policy decisions. In this sense, the specification facilitates the modelling of business processes by defining administrative or policy requirements within a legal and institutional framework.
-
-EUR-LEX reference, REGULATION (EC) No 1059/2003:
-https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:02003R1059-20180118&qid=1519136753473'"""@en ;
-    cav:refersTo camssa:49216f88-b3c1-4c7f-93b0-f32bfac044cf .
-
-camssa:13809777-786b-40b8-8832-7fa3b3dde0c3 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'NUTS is intended to serve as a device to identify administrative zones in the EU and non-EU regions. There is no possibility to extend the coding system as NUTS was conceived for a unique purpose.
-
-EUROSTAT reference, NUTS Principles and Characteristics section:
-https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
-    cav:refersTo camssa:27f47dbc-327a-498d-9a97-504c1009a913 .
-
-camssa:1a5eb1e4-bcd1-43e6-a0ea-0ff3177bee45 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'NUTS is already associated with EIRA ABBs in the EIRA Library Of Specifications (ELIS). More specifically, NUTS can define the interoperability aspects of the Controlled Vocabulary ABB of the EIRA Semantic View.
-
-EIRA Library of Interoperability Specifications (ELIS):
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110					'"""@en ;
-    cav:refersTo camssa:2715940a-964c-4b75-8511-d605d0302b58 .
-
-camssa:1c0cd236-8024-4def-8a21-3ff7540e9781 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
-    cav:value "100"^^xsd:int .
-
-camssa:2145160d-a1b1-4b23-adfc-520ad600ef6e a cav:Statement,
+camssa:034e9970-54f5-45da-bf18-02bf1590629a a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'NUTS classification is not dependent on any other specification, operating system or web platform; therefore, NUTS is platform-agnostic.
 
 EUROSTAT reference, NUTS Principles and Characteristics section:
 https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
-    cav:refersTo camssa:09188441-6449-4436-b0ab-f338ed7a78a9 .
+    cav:refersTo camssa:7cebfe30-d88b-481e-9ad2-45bcc21fcd9a .
 
-camssa:21fafcd7-5871-47ff-b450-562a86f890d4 a cav:Score,
+camssa:036be90d-04f2-4a91-9ec7-2fcaac7091ff a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
-    cav:value "100"^^xsd:int .
+    cav:judgement """'NUTS is already associated with EIRA ABBs in the EIRA Library Of Specifications (ELIS). More specifically, NUTS can define the interoperability aspects of the Controlled Vocabulary ABB of the EIRA Semantic View.
 
-camssa:26e78db1-c02e-4b88-808a-18db9c1f2da2 a cav:Statement,
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110					'"""@en ;
+    cav:refersTo camssa:6b41b521-da93-4f43-aa9c-a3a337f6a989 .
+
+camssa:04234b1e-aa62-4f2c-bac0-e819b06faa4e a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'The purpose of NUTS is not related to facilitating the publication of open data. Therefore, this criterion is not applicable to this specification. 
-
-EUROSTAT reference, NUTS Principles and Characteristics section:
-https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
-    cav:refersTo camssa:80d7d56e-69fc-4ff7-bd66-8b6a1b8b0dec .
-
-camssa:2715940a-964c-4b75-8511-d605d0302b58 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
-    cav:value "100"^^xsd:int .
-
-camssa:27f47dbc-327a-498d-9a97-504c1009a913 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
-    cav:value "20"^^xsd:int .
-
-camssa:2c03edd7-c64f-47b4-8ff2-aec123416227 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"EUROSTAT (European Commission) ensures the maintenance of the NUTS classification. However, NUTS does not encourage the creation of communities nor does not promote the sharing of data and results in any national platform, except for some (non-)European states that have individually shared their data and results on their respective national platforms (see EconStor Publications reference, Croatia's NUTS implementation document, and Scotland government reference, Scotland's NUTS implementation document).
-
-EUROSTAT reference, NUTS Principles and Characteristics section:
-https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics
-
-EconStor Publications reference, Croatia's NUTS implementation document:
-https://www.econstor.eu/bitstream/10419/115958/1/ERSA2003_096.pdf
-
-Scotland government reference, Scotland's NUTS implementation document:
-https://www.gov.scot/publications/review-nomenclature-units-territorial-statistics-nuts-boundaries/\""""@en ;
-    cav:refersTo camssa:48bef480-243a-46c3-bc1f-0496acff414b .
-
-camssa:2c88014a-7808-47b6-bb93-cd2d011be2b4 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"The NUTS classification counts for funding projects within the EU, that is the European Regional Development Fund, the European Social Fund Plus and the Cohesion Fund. Besides, the specification RDF model has been revised in 2018, so that it could be mapped to a European Legislation Identifier (ELI), and as a consequence the NUTS classification can be linked to other EU Vocabularies and used in other European cross-border initiatives.
-
-EUR-LEX reference, COMMISSION IMPLEMENTING DECISION (EU) 2021/1130:
-https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32021D1130
-
-ISA Programme-Joinup reference, 'Revise the NUTS RDF model' document:
-https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/document/supporting-implementation-persistent-uri-policy-eu-institutions\""""@en ;
-    cav:refersTo camssa:8c08c568-fc91-48ac-a411-18e55c9092af .
-
-camssa:3037cf8a-ca05-4640-bb21-d3a6b09bf6f1 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of NUTS is not related to the secure exchange of data. Therefore, this criterion does not apply to this specification. 
-
-EUROSTAT reference, NUTS Principles and Characteristics section:
-https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
-    cav:refersTo camssa:c6df4fb2-3e3d-4332-83b3-50a83ae1aeda .
-
-camssa:3190f405-3980-430c-a491-43b21b6fae67 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'NUTS has been developed and deployed by the European Commission; therefore, the specification is a European Standard.
-
-EUROSTAT reference, NUTS Principles and Characteristics section:
-https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
-    cav:refersTo camssa:e8c478f9-682b-4445-a981-7abe171b56e7 .
-
-camssa:3261ece4-a550-4c42-9a95-798e448413ed a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
-    cav:value "100"^^xsd:int .
-
-camssa:37cb1376-484f-4f9a-83d8-99b2817b29aa a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"Criteria used to define NUTS codes do exist, but there is not a reference document to this end: 'NUTS 1981- NUTS 1999' and 'REGULATION (EC) No 1059/2003'.
-
-EUROSTAT reference, History of NUTS section, 'NUTS 1981 - NUTS 1999' document, 'Structure of this document' section:
-https://ec.europa.eu/eurostat/web/nuts/history
-
-EUR-LEX reference, REGULATION (EC) No 1059/2003' document:
-https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:02003R1059-20180118&qid=1519136753473\""""@en ;
-    cav:refersTo camssa:a37eddfe-a560-4ed9-a5b5-e4a2276adfd9 .
-
-camssa:39166ce8-d0d9-473e-9a6a-ee92b3bfb864 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of NUTS is not related to the visibility of administrative procedures, rules data and services. Therefore, this criterion is not applicable to this specification. 
-
-EUROSTAT reference, History of NUTS section:
-https://ec.europa.eu/eurostat/web/nuts/history'"""@en ;
-    cav:refersTo camssa:617e6407-51fa-40d5-bc8f-b3502d37cc65 .
-
-camssa:3fc5b81e-a390-4862-9a24-b8ef41d3eaca a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"NUTS facilitates organisational interoperability agreements as some of its elements are mappable to other EU Vocabularies elements through the European Legislation Identifier (ELI). However, provisions easing the drafting of such agreements are provided in auxiliary documentation (see ISA Programme-Joinup reference, 'Revise the NUTS RDF model' document).
-
-ISA Programme-Joinup reference, 'Revise the NUTS RDF model' document:
-https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/document/supporting-implementation-persistent-uri-policy-eu-institutions\""""@en ;
-    cav:refersTo camssa:c4145320-e07a-442b-b38d-99ce75da5acb .
-
-camssa:40a618f3-502c-4d46-bf94-7832165e4c59 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'NUTS could be used in a multilingual context beyond a statistical purpose. The specification could be useful in determining the linguistic and dialectical areas when establishing a specific European public service.
-
-EUROSTAT reference, NUTS Principles and Characteristics section:
-https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
-    cav:refersTo camssa:791b6e22-43e2-4bc0-8263-1c277cac3e5a .
-
-camssa:413aa1be-fafd-43e9-83e7-a18f279aff03 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
-    cav:value "20"^^xsd:int .
-
-camssa:42a8287b-9ab5-4323-b2ce-adaf207923af a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"NUTS releases do not foresee public reviews. Any amendment to the NUTS classification is a Member States' competence (see European Commission reference, Regulation (EC) No 1059/2003 document, provision 13). In case of any revision concerning the NUTS classification, the Member State in question has to replace historical data set by time series according to the new classification within a two-years period (see European Commission reference, Regulation (EC) No 1059/2003 document, Article 2(5)). EU adoption of the new classification and its duration are subject to a feasibility evaluation.
-
-EUROSTAT reference, History of NUTS section:
-https://ec.europa.eu/eurostat/web/nuts/history
-
-European Commission reference, Regulation (EC) No 1059/2003 document, provision 13:
-https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1405939838475&uri=CELEX:32003R1059\""""@en ;
-    cav:refersTo camssa:f5723f44-c851-41ac-b0b1-9a74c395f16e .
-
-camssa:43712a8e-652c-4779-9710-a3d66b6cc500 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'Only Member States, in collaboration with the European Commission, are in charge of sumbitting any amendment on the NUTS classification. Therefore, NUTS has support from several communities which provide public support and manage its maintenance.
-
-European Commission reference, Regulation (EC) No 1059/2003 document, Article 5:
-https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1405939838475&uri=CELEX:32003R1059'"""@en ;
-    cav:refersTo camssa:8d83c34d-cab6-44cc-9519-ad9afe24676f .
-
-camssa:48bef480-243a-46c3-bc1f-0496acff414b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
-    cav:value "20"^^xsd:int .
-
-camssa:49216f88-b3c1-4c7f-93b0-f32bfac044cf a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
-    cav:value "100"^^xsd:int .
-
-camssa:5055140e-20a9-46bf-ace1-ccca738eb334 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of NUTS is not related to the implementation of the once-only principle. Therefore, this criterion does not apply to this specification. 
-
-EUROSTAT reference, NUTS Principles and Characteristics section:
-https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
-    cav:refersTo camssa:1c0cd236-8024-4def-8a21-3ff7540e9781 .
-
-camssa:59dc936b-a105-44d3-834d-40123f80b81c a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
-    cav:value "None"^^xsd:int .
-
-camssa:5ab3118d-56a5-4cb5-94bf-19dfe3382da7 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The EUROSTAT (European Commission) is in charge of maintaining and publishing each of the three NUTS levels. The specification is upgraded by national, regional and local administrations and representatives of the Member States in collaboration with the European Commission. However, contributions are not always available (see EUROSTAT-NUTS lattest amendments reference, History of NUTS section, NUTS 2021 XLS document).
-
-European Parliament reference:
-https://www.europarl.europa.eu/factsheets/en/sheet/99/la-nomenclatura-comun-de-unidades-territoriales-estadisticas-nuts-
-
-EUROSTAT-NUTS lattest amendments reference, History of NUTS section, NUTS 2021 XLS document:
-https://ec.europa.eu/eurostat/web/nuts/history'"""@en ;
-    cav:refersTo camssa:413aa1be-fafd-43e9-83e7-a18f279aff03 .
-
-camssa:5e44de33-2a54-4b49-a61c-f193f6cf71f0 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of NUTS is not related to data portability. Therefore, this criterion is not applicable to this specification. 
-
-EUROSTAT reference, History of NUTS section:
-https://ec.europa.eu/eurostat/web/nuts/history'"""@en ;
-    cav:refersTo camssa:3261ece4-a550-4c42-9a95-798e448413ed .
-
-camssa:6044214c-035a-4e39-b161-9783f9ac21dc a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'NUTS provides a statistical specification to address the needs for data harmonisation in terms of conducting surveys, applying policies and comparing data across the European Union. The specification should not be confused with the Administrative Territorial Unit (ATU) which is another specification representing the subdivisions of a country, mainly focuses on administrative purposes.
+    cav:judgement """'The NUTS classification has been developed by a lage community within the European Commission (EC) and all the EC patents are available with any restrictions related to royalty-free basis.
 
 EC reference, Regulation (EC) No 1059/2003 document:
-https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1405939838475&uri=CELEX:32003R1059
+https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1405939838475&uri=CELEX:32003R1059'"""@en ;
+    cav:refersTo camssa:7f985485-3c53-46a3-acae-94893f9276e0 .
 
-ATU-Joinup reference, About Administrative territorial unit type:
-https://joinup.ec.europa.eu/collection/eu-semantic-interoperability-catalogue/solution/administrative-territorialunit-type/about'"""@en ;
-    cav:refersTo camssa:7f0e5bff-6329-47c2-894d-ba35a67e3329 .
-
-camssa:617e6407-51fa-40d5-bc8f-b3502d37cc65 a cav:Score,
+camssa:0485ca9d-c559-42dd-80e9-cd5fc6b2a687 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:assignedTo sc:c-26c3fa9eb08207b2dfbd8d7c3852f0c9db3fdc50491d24db5b2f2eb1acf68732 ;
     cav:value "100"^^xsd:int .
 
-camssa:7316bff2-efb8-41e5-9313-d7d7701a7935 a cav:Score,
+camssa:07f39df2-3176-4637-a2d4-d27ee41b3852 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
-    cav:value "60"^^xsd:int .
-
-camssa:754e7172-7670-46af-8b4b-b3dcc84a5a4b a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
     cav:value "100"^^xsd:int .
 
-camssa:791b6e22-43e2-4bc0-8263-1c277cac3e5a a cav:Score,
+camssa:0e168dfa-7042-43bc-8d41-a91fab4faa35 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
-    cav:value "40"^^xsd:int .
+    cav:judgement """"NUTS introduced the ISO 2-letter codes in 1999, a specification designating country codes (for example, BE3 for the Walloon region in Belgium, where BE corresponds to the ISO-2 letter code of Belgium) (see EUROSTAT reference, History of NUTS section, 'NUTS 1981 - MUTS 1999' document). However, the NUTS classification is not dependent on the ISO 2 specification, and the UK code ('UK') is a clear counterexample to the ISO standard ('GB' according to ISO 2). Therefore, NUTS is technology-agnostic.
 
-camssa:7f0e5bff-6329-47c2-894d-ba35a67e3329 a cav:Score,
+EUROSTAT reference, History of NUTS section, 'NUTS 1981 - MUTS 1999' document:
+https://ec.europa.eu/eurostat/web/nuts/history
+
+EUROSTAT reference, NUTS Principles and Characteristics section:
+https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics\""""@en ;
+    cav:refersTo camssa:38c26646-6805-45b4-8b0c-34c5b10d1308 .
+
+camssa:16e4e36c-f8dc-406f-9cff-118418cf3083 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
-    cav:value "100"^^xsd:int .
+    cav:judgement """'There is only one Member State recommending NUTS in its ICT National Catalogue. This Member State is Ireland.
 
-camssa:7fc8d6ac-9f94-4539-89f7-40bd4938372d a cav:Statement,
+National catalogue Ireland: 
+https://data.gov.ie/pages/opendatatechnicalframework#recommended-standards-for-open-data'"""@en ;
+    cav:refersTo camssa:2b172f2c-4617-4f19-b7d8-cb045c769385 .
+
+camssa:17806bce-b491-48e8-b9d7-696d28a73c11 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'NUTS is included within a national catalogue of recommended specifications. It belongs to Ireland. The National Interoperability Framework (NIF) of this Member State is partially aligned with the European Interoperability Framework (EIF) according to the National Interoperability Framework Observatory (NIFO) factsheets. There is middle-low performance in the Interopearability Governance, Legal and Organisational layers, and there exist some shorcuts in the Conceptual Model with regards to Internal Information sources and services, Base Registries and the conceptual model, compared to the EU average.
 
@@ -361,48 +141,33 @@ https://data.gov.ie/pages/opendatatechnicalframework#recommended-standards-for-o
 
 NIFO factsheets:
 https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/digital-public-administration-factsheets-2021'"""@en ;
-    cav:refersTo camssa:b29247aa-0e9d-435e-b9c4-ca9c7c5073d9 .
+    cav:refersTo camssa:85a2a440-75c7-4109-b082-a9bf3301b355 .
 
-camssa:802279b5-2d9d-4efc-8bfc-26c434b9b49e a cav:Statement,
+camssa:17d614e4-7fc1-4529-b60d-5b69bb98f58f a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """"There is no evidence of available studies directly assessing the efficiency of this specification. However, there are some use case evaluations submitted by (non-)European administrations where effectiveness is analysed. It is the case of Scotland, which publicly depicted the implementation process of NUTS and explicitly shows the way in which the specification can be adapted to disparate territories.
-
-EUROSTAT reference, NUTS Principles and Characteristics section:
-https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics
-
-Scotland government reference, Scotland's NUTS implementation document:
-https://www.gov.scot/publications/review-nomenclature-units-territorial-statistics-nuts-boundaries/\""""@en ;
-    cav:refersTo camssa:96edb577-4181-400e-9efe-c922a2cf2bea .
-
-camssa:80836a52-99fb-4430-859c-cfe1be6bce4c a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
-    cav:value "100"^^xsd:int .
-
-camssa:80d7d56e-69fc-4ff7-bd66-8b6a1b8b0dec a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
-    cav:value "100"^^xsd:int .
-
-camssa:81c8c610-2781-4c2e-b8e3-784d89018424 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of NUTS is not related to enabling the long-term preservation of data, information nor knowledge. Therefore, this criterion does not apply to this specification. 
+    cav:judgement """'NUTS is intended to serve as a device to identify administrative zones in the EU and non-EU regions. There is no possibility to extend the coding system as NUTS was conceived for a unique purpose.
 
 EUROSTAT reference, NUTS Principles and Characteristics section:
 https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
-    cav:refersTo camssa:21fafcd7-5871-47ff-b450-562a86f890d4 .
+    cav:refersTo camssa:3b701194-2a5a-4566-8bb4-d47a81d3fd4a .
 
-camssa:8596633c-bd21-41a4-8b8e-89095cdf70ab a cav:Score,
+camssa:1991a8ce-869c-4d3d-8bb9-1b559c892cb1 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
-    cav:value "20"^^xsd:int .
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "60"^^xsd:int .
 
-camssa:8a6d6c9f-7bf8-43c6-87df-c575f798c85b a cav:Score,
+camssa:1ad24aa9-0d10-4b60-805b-3844c38935d0 a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
-    cav:value "100"^^xsd:int .
+    cav:judgement """"NUTS releases do not foresee public reviews. Any amendment to the NUTS classification is a Member States' competence (see European Commission reference, Regulation (EC) No 1059/2003 document, provision 13). In case of any revision concerning the NUTS classification, the Member State in question has to replace historical data set by time series according to the new classification within a two-years period (see European Commission reference, Regulation (EC) No 1059/2003 document, Article 2(5)). EU adoption of the new classification and its duration are subject to a feasibility evaluation.
 
-camssa:8b16b70b-4b89-414d-bd68-2e3b4ced5558 a cav:Statement,
+EUROSTAT reference, History of NUTS section:
+https://ec.europa.eu/eurostat/web/nuts/history
+
+European Commission reference, Regulation (EC) No 1059/2003 document, provision 13:
+https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1405939838475&uri=CELEX:32003R1059\""""@en ;
+    cav:refersTo camssa:33d44f1a-6f77-4d1a-b536-458b179bf050 .
+
+camssa:1d993073-f0fd-4dcd-a4e4-a3aa7f482549 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """"NUTS started to be used within the European Union's territory as a reference coding system in 1999, although its use dates back to the 1970's (see EUROSTAT reference, History of NUTS section, 'NUTS 1981 - MUTS 1999' document). This specification has gone through different amendments since1999, some of these changes resulting from the adhesion of new Member States and the consequent addition of new codes. All the documentation on NUTS releases is publicly available (see EUROSTAT reference, History of NUTS section, NUTS versions documents).
 
@@ -411,177 +176,27 @@ https://ec.europa.eu/eurostat/web/nuts/history
 
 EUROSTAT reference, History of NUTS section, NUTS versions documents:
 https://ec.europa.eu/eurostat/web/nuts/history\""""@en ;
-    cav:refersTo camssa:9ab050a6-6076-495d-acd0-1767e1209f6d .
+    cav:refersTo camssa:1f350848-0213-4951-8a5d-b1faa3b9faef .
 
-camssa:8c08c568-fc91-48ac-a411-18e55c9092af a cav:Score,
+camssa:1e05ab56-8b86-4194-bad3-2a68aece4f3a a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-26c3fa9eb08207b2dfbd8d7c3852f0c9db3fdc50491d24db5b2f2eb1acf68732 ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
     cav:value "100"^^xsd:int .
 
-camssa:8d83c34d-cab6-44cc-9519-ad9afe24676f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
-    cav:value "100"^^xsd:int .
-
-camssa:954aba93-2d45-4267-a332-492deb22dd59 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'NUTS is included in the Taxonomies EU Vocabularies repository of standards.
-
-Publications Office, EU Vocabularies repository:
-https://op.europa.eu/en/web/eu-vocabularies/taxonomies'"""@en ;
-    cav:refersTo camssa:ed23496b-742b-40fc-948b-27c2816ab8e4 .
-
-camssa:96edb577-4181-400e-9efe-c922a2cf2bea a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
-    cav:value "40"^^xsd:int .
-
-camssa:9ab050a6-6076-495d-acd0-1767e1209f6d a cav:Score,
+camssa:1f350848-0213-4951-8a5d-b1faa3b9faef a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
     cav:value "100"^^xsd:int .
 
-camssa:9e547d26-b4da-40a9-a35a-36e8a56ab1ef a cav:Score,
+camssa:217a8380-0d11-4ba2-afad-d048914ea42a a cav:Statement,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
-    cav:value "60"^^xsd:int .
+    cav:judgement """'Only Member States, in collaboration with the European Commission, are in charge of sumbitting any amendment on the NUTS classification. Therefore, NUTS has support from several communities which provide public support and manage its maintenance.
 
-camssa:9f389c2d-8870-4c90-8e8d-b3c55878152e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
-    cav:value "100"^^xsd:int .
-
-camssa:a1a54e67-6ec5-4dbf-b273-27bfb5130208 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The NUTS classification has been developed by a lage community within the European Commission (EC) and all the EC patents are available with any restrictions related to (F)RAND.
-
-European Commission reference, Regulation (EC) No 1059/2003 document:
-https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1405939838475&uri=CELEX:32003R1059
-'"""@en ;
-    cav:refersTo camssa:8a6d6c9f-7bf8-43c6-87df-c575f798c85b .
-
-camssa:a213a567-0c9d-4151-b386-28653911b029 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The NUTS classification has been developed by a lage community within the European Commission (EC) and all the EC patents are available with any restrictions related to royalty-free basis.
-
-EC reference, Regulation (EC) No 1059/2003 document:
+European Commission reference, Regulation (EC) No 1059/2003 document, Article 5:
 https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1405939838475&uri=CELEX:32003R1059'"""@en ;
-    cav:refersTo camssa:9f389c2d-8870-4c90-8e8d-b3c55878152e .
+    cav:refersTo camssa:07f39df2-3176-4637-a2d4-d27ee41b3852 .
 
-camssa:a37eddfe-a560-4ed9-a5b5-e4a2276adfd9 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
-    cav:value "60"^^xsd:int .
-
-camssa:a4916bda-d3ec-4905-b8b7-f6fa1dc61194 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of NUTS is not related to e-accessibility. Therefore, this criterion does not apply to this specification. 
-
-EUROSTAT reference, NUTS Principles and Characteristics section:
-https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
-    cav:refersTo camssa:c399a00a-efaa-4390-91cf-13cfc5fd0d4f .
-
-camssa:aadaf883-8c47-4a9b-ba3f-48fe422c44a9 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"In the context of the implementation of the persistent URI policy for EU institutions, NUTS contributes to the simplification of delivery of European public services as the NUTS classification allows to link data files (datasets) to a specific region, enchancing data discovery within the EU via HTTP scheme.
-
-EUROSTAT reference, NUTS Principles and Characteristics section:
-https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics
-
-ISA Programme-Joinup reference, 'Revise the NUTS RDF model' document:
-https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/document/supporting-implementation-persistent-uri-policy-eu-institutions\""""@en ;
-    cav:refersTo camssa:ae63753c-ce3d-486a-b38e-4d0ab38972d4 .
-
-camssa:ac47a3b1-f8ea-48a2-8307-084f406aeb27 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement "nan"@en ;
-    cav:refersTo camssa:59dc936b-a105-44d3-834d-40123f80b81c .
-
-camssa:ae63753c-ce3d-486a-b38e-4d0ab38972d4 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
-    cav:value "100"^^xsd:int .
-
-camssa:af193a71-0e27-4f9a-895c-6bbfd270dbb1 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
-    cav:value "100"^^xsd:int .
-
-camssa:b04a18d3-7ffa-47c5-bfdf-19a6199c0ebf a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of NUTS is not related to data portability. Therefore, this criterion is not applicable to this specification. 
-
-EUROSTAT reference, History of NUTS section:
-https://ec.europa.eu/eurostat/web/nuts/history'"""@en ;
-    cav:refersTo camssa:80836a52-99fb-4430-859c-cfe1be6bce4c .
-
-camssa:b0ee2f5b-249d-44dd-8806-adcb1cad9343 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
-    cav:value "100"^^xsd:int .
-
-camssa:b29247aa-0e9d-435e-b9c4-ca9c7c5073d9 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
-    cav:value "60"^^xsd:int .
-
-camssa:b9c3d6b8-95d0-43ae-a6fa-f4a3f044e80b a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'NUTS is intended to serve as a device to identify administrative zones in the EU and beyond the EU borders. There is no possibility of partial implementation of the specification, as NUTS has a single purpose.
-
-EUROSTAT reference, NUTS Principles and Characteristics section:
-https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
-    cav:refersTo camssa:8596633c-bd21-41a4-8b8e-89095cdf70ab .
-
-camssa:baeead35-6fa4-4eed-a923-ba9e14c0c972 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'The purpose of NUTS is not related to the secure processing of data. Therefore, this criterion does not apply to this specification. 
-
-EUROSTAT reference, NUTS Principles and Characteristics section:
-https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
-    cav:refersTo camssa:754e7172-7670-46af-8b4b-b3dcc84a5a4b .
-
-camssa:be5ba85b-7e22-484c-bb48-55e129677d43 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"The specification is included in 1 Member State' catalogue of recommended specifications. This Member State is Ireleand.
-
-National catalogue Ireland: 
-https://data.gov.ie/pages/opendatatechnicalframework#recommended-standards-for-open-data
-
-CAMSS List of Standards:
-https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards\""""@en ;
-    cav:refersTo camssa:af193a71-0e27-4f9a-895c-6bbfd270dbb1 .
-
-camssa:c125439d-b990-4258-8226-fae812c0c263 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"NUTS was originally created to be used in a statistical environment and its field of application is not expected to change in the short term. However, NUTS could be used 'as-is' to other domains, in the sense that territorial divisions are also interesting in other statistical research areas like tourism (see NUTS tourism-application reference), and not only limited to the fields of policy and demography.
-
-EUROSTAT reference, NUTS Principles and Characteristics section:
-https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics
-
-NUTS tourism-application reference:
-https://journals.sagepub.com/doi/abs/10.1177/0047287520979673\""""@en ;
-    cav:refersTo camssa:e25274d6-35b8-4e43-af6e-f84b82905e37 .
-
-camssa:c399a00a-efaa-4390-91cf-13cfc5fd0d4f a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
-    cav:value "100"^^xsd:int .
-
-camssa:c4145320-e07a-442b-b38d-99ce75da5acb a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
-    cav:value "40"^^xsd:int .
-
-camssa:c433749e-0f73-4a08-b900-6c2bc569d89e a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """"NUTS was originally created to be used in a statistical environment and its field of application is not expected to change in the short term. However, NUTS could be implemented 'as-is' to other domains, in the sense that territorial divisions are also interesting in other statistical research areas, and not only limited to the fields of policy and demography. At the time being, there is no reference to any implementation use case of the NUTS specification.
-
-EUROSTAT reference, NUTS Principles and Characteristics section:
-https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics\""""@en ;
-    cav:refersTo camssa:e78b34cb-48de-4346-bf4b-e089f0fd2efb .
-
-camssa:c5258859-205d-41db-85ae-c5cdfae954fc a cav:Statement,
+camssa:250f94cf-4d1f-4f0c-ad12-a7f59077eb58 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """"There is no evidence of available studies directly assessing the specification's effectiveness. However, there are some use case evaluations submitted by (non-)European administrations where effectiveness is analysed. It is the case of Croatia, which sponsored a study (through the Ekonomski institut, Zagreb) on the implementation of NUTS in its territory (see EconStor Publications reference, NUTS implementation document); and more specifically, on the implementation and suitability of NUTS level 2, which raised a lot of debate at the time of the study.
 
@@ -593,102 +208,308 @@ https://www.econstor.eu/bitstream/10419/115958/1/ERSA2003_096.pdf
 
 Ekonomski institut reference, Ivana Rasic document authoring:
 https://www.eizg.hr/about-us/employees/researchers/ivana-rasic-phd/218\""""@en ;
-    cav:refersTo camssa:06ab2efc-3ad1-425d-b141-42c93c60e90d .
+    cav:refersTo camssa:7e590303-d597-4666-8c17-13cbac59cebd .
 
-camssa:c6df4fb2-3e3d-4332-83b3-50a83ae1aeda a cav:Score,
+camssa:26d7d723-fd28-47b1-b1a7-5d37ffaaad9f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2b172f2c-4617-4f19-b7d8-cb045c769385 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69dbbbfc4ff4c79244a3bd99f7c3f883f2a7114ec515cb4d576f0d807c94b9fd ;
+    cav:value "100"^^xsd:int .
+
+camssa:2b33b0c8-864b-4c67-b306-9ee75130a9f6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of NUTS is not related to the visibility of administrative procedures, rules data and services. Therefore, this criterion is not applicable to this specification. 
+
+EUROSTAT reference, History of NUTS section:
+https://ec.europa.eu/eurostat/web/nuts/history'"""@en ;
+    cav:refersTo camssa:39e6f98e-9b3e-40a6-bc45-4c89c55c7139 .
+
+camssa:2e585964-7b6b-4383-aa12-d493552326d8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'NUTS could be used in a multilingual context beyond a statistical purpose. The specification could be useful in determining the linguistic and dialectical areas when establishing a specific European public service.
+
+EUROSTAT reference, NUTS Principles and Characteristics section:
+https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
+    cav:refersTo camssa:74d89de6-d37e-45b0-9cfc-411586d24611 .
+
+camssa:301ac275-c303-474c-9332-6528b4d540c1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "80"^^xsd:int .
+
+camssa:313b3851-bfce-44c4-8b85-6a1994c60c29 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "20"^^xsd:int .
+
+camssa:33d44f1a-6f77-4d1a-b536-458b179bf050 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "20"^^xsd:int .
+
+camssa:34309d93-2f2b-4fc8-8144-67c538870c8d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:347bcec7-144d-437e-ab3d-0bb8538169ff a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:370b2da5-51eb-4cf8-9412-9f11fcfd3347 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
     cav:value "100"^^xsd:int .
 
-camssa:c9d1a8e7-18d2-42ec-83d6-d3b66c8d1498 a cav:Statement,
+camssa:3779d87b-ffb8-4e56-8605-a66f69defebb a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """'The purpose of NUTS is not related to the protection of personal data in Public Administrations. Therefore, this criterion is not applicable to this specification. 
+    cav:judgement """'NUTS designates geographical areas within a legal and institutional framework in which an administrative authority is empowered to take administrative or policy decisions. In this sense, the specification facilitates the modelling of business processes by defining administrative or policy requirements within a legal and institutional framework.
 
-EUROSTAT reference, NUTS Principles and Characteristics section:
-https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
-    cav:refersTo camssa:d220a0b3-ae21-4bf3-97a7-53bebd12ed8f .
+EUR-LEX reference, REGULATION (EC) No 1059/2003:
+https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:02003R1059-20180118&qid=1519136753473'"""@en ;
+    cav:refersTo camssa:26d7d723-fd28-47b1-b1a7-5d37ffaaad9f .
 
-camssa:cab2c3da-5109-4bab-81bc-1186b7b1b689 a cav:Score,
+camssa:37b89788-93e8-4183-a81b-a5c6a98cd6aa a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:38c26646-6805-45b4-8b0c-34c5b10d1308 a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
     cav:value "100"^^xsd:int .
 
-camssa:d220a0b3-ae21-4bf3-97a7-53bebd12ed8f a cav:Score,
+camssa:39e6f98e-9b3e-40a6-bc45-4c89c55c7139 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:3b701194-2a5a-4566-8bb4-d47a81d3fd4a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "20"^^xsd:int .
+
+camssa:3dbc5acd-e856-4361-b032-9aab151c8ce7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of NUTS is not related to the secure processing of data. Therefore, this criterion does not apply to this specification. 
+
+EUROSTAT reference, NUTS Principles and Characteristics section:
+https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
+    cav:refersTo camssa:70457b38-4eca-4e8c-bef7-554b4f2a3ff4 .
+
+camssa:41103622-3c50-4d21-98e2-59858f7a42e3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "20"^^xsd:int .
+
+camssa:448e1d51-0941-465e-81fd-358645227ab3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"There is no evidence of available studies directly assessing the efficiency of this specification. However, there are some use case evaluations submitted by (non-)European administrations where effectiveness is analysed. It is the case of Scotland, which publicly depicted the implementation process of NUTS and explicitly shows the way in which the specification can be adapted to disparate territories.
+
+EUROSTAT reference, NUTS Principles and Characteristics section:
+https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics
+
+Scotland government reference, Scotland's NUTS implementation document:
+https://www.gov.scot/publications/review-nomenclature-units-territorial-statistics-nuts-boundaries/\""""@en ;
+    cav:refersTo camssa:fa87cae2-bb13-4e25-bbef-0769c8cb9431 .
+
+camssa:44a5a486-e889-4cb9-8d7f-94fd0960a019 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "20"^^xsd:int .
+
+camssa:49a33aa1-13de-4145-823d-4b0f33e06dce a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5a59a1a1-b211-482a-98e9-4fc58f3469b1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "60"^^xsd:int .
+
+camssa:5f381c59-54e3-473a-9abf-39bad52449fc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of NUTS is not related to data portability. Therefore, this criterion is not applicable to this specification. 
+
+EUROSTAT reference, History of NUTS section:
+https://ec.europa.eu/eurostat/web/nuts/history'"""@en ;
+    cav:refersTo camssa:90958098-5d9f-4cd4-8693-45527ca50cf8 .
+
+camssa:61510770-f4c7-4e24-b507-29b4f8ce064f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:64879119-7ffe-464d-87a7-a736a60e18b3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:6b41b521-da93-4f43-aa9c-a3a337f6a989 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:6d06dc00-2aa4-47c8-ae2c-be6e99270bbb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of NUTS is not related to enabling the long-term preservation of data, information nor knowledge. Therefore, this criterion does not apply to this specification. 
+
+EUROSTAT reference, NUTS Principles and Characteristics section:
+https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
+    cav:refersTo camssa:61510770-f4c7-4e24-b507-29b4f8ce064f .
+
+camssa:6e7aa267-fc76-4b01-8e32-6f753281fe3e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Criteria used to define NUTS codes do exist, but there is not a reference document to this end: 'NUTS 1981- NUTS 1999' and 'REGULATION (EC) No 1059/2003'.
+
+EUROSTAT reference, History of NUTS section, 'NUTS 1981 - NUTS 1999' document, 'Structure of this document' section:
+https://ec.europa.eu/eurostat/web/nuts/history
+
+EUR-LEX reference, REGULATION (EC) No 1059/2003' document:
+https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:02003R1059-20180118&qid=1519136753473\""""@en ;
+    cav:refersTo camssa:5a59a1a1-b211-482a-98e9-4fc58f3469b1 .
+
+camssa:70457b38-4eca-4e8c-bef7-554b4f2a3ff4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:70c754b6-6405-42ae-977f-196fa6c53fdb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of NUTS is not related to e-accessibility. Therefore, this criterion does not apply to this specification. 
+
+EUROSTAT reference, NUTS Principles and Characteristics section:
+https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
+    cav:refersTo camssa:7a572c22-499c-496e-8f3f-c6e25115e7ff .
+
+camssa:71cf31da-216d-4bb6-91f3-c89c1d655d05 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "80"^^xsd:int .
+
+camssa:73ee35f5-7094-4af3-a78f-09159236cd3f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"In the context of the implementation of the persistent URI policy for EU institutions, NUTS contributes to the simplification of delivery of European public services as the NUTS classification allows to link data files (datasets) to a specific region, enchancing data discovery within the EU via HTTP scheme.
+
+EUROSTAT reference, NUTS Principles and Characteristics section:
+https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics
+
+ISA Programme-Joinup reference, 'Revise the NUTS RDF model' document:
+https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/document/supporting-implementation-persistent-uri-policy-eu-institutions\""""@en ;
+    cav:refersTo camssa:347bcec7-144d-437e-ab3d-0bb8538169ff .
+
+camssa:749f6429-8dc4-4474-b585-87123e88b20b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"EUROSTAT (European Commission) ensures the maintenance of the NUTS classification. However, NUTS does not encourage the creation of communities nor does not promote the sharing of data and results in any national platform, except for some (non-)European states that have individually shared their data and results on their respective national platforms (see EconStor Publications reference, Croatia's NUTS implementation document, and Scotland government reference, Scotland's NUTS implementation document).
+
+EUROSTAT reference, NUTS Principles and Characteristics section:
+https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics
+
+EconStor Publications reference, Croatia's NUTS implementation document:
+https://www.econstor.eu/bitstream/10419/115958/1/ERSA2003_096.pdf
+
+Scotland government reference, Scotland's NUTS implementation document:
+https://www.gov.scot/publications/review-nomenclature-units-territorial-statistics-nuts-boundaries/\""""@en ;
+    cav:refersTo camssa:d47e0bcb-637a-4af5-bad4-e411271d00e3 .
+
+camssa:74addffc-46dd-4a8f-bc1f-5c70748dd76b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:74cc1465-b001-4bc7-9863-e0a82716c6e5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of NUTS is not related to data portability. Therefore, this criterion is not applicable to this specification. 
+
+EUROSTAT reference, History of NUTS section:
+https://ec.europa.eu/eurostat/web/nuts/history'"""@en ;
+    cav:refersTo camssa:ab7c529c-9e05-46d2-b267-15540c232a8a .
+
+camssa:74d89de6-d37e-45b0-9cfc-411586d24611 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "40"^^xsd:int .
+
+camssa:7639a726-4817-44a4-a0fb-e0aca19a734e a cav:Score,
         owl:NamedIndividual ;
     cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
     cav:value "100"^^xsd:int .
 
-camssa:d447954a-7e57-4f2f-9fb9-2c6ae1ec7975 a cav:Statement,
+camssa:7a38dc68-ccc6-4bef-82ce-1b45b23e087f a cav:Statement,
         owl:NamedIndividual ;
-    cav:judgement """"NUTS introduced the ISO 2-letter codes in 1999, a specification designating country codes (for example, BE3 for the Walloon region in Belgium, where BE corresponds to the ISO-2 letter code of Belgium) (see EUROSTAT reference, History of NUTS section, 'NUTS 1981 - MUTS 1999' document). However, the NUTS classification is not dependent on the ISO 2 specification, and the UK code ('UK') is a clear counterexample to the ISO standard ('GB' according to ISO 2). Therefore, NUTS is technology-agnostic.
+    cav:judgement """'NUTS is included in the Taxonomies EU Vocabularies repository of standards.
 
-EUROSTAT reference, History of NUTS section, 'NUTS 1981 - MUTS 1999' document:
-https://ec.europa.eu/eurostat/web/nuts/history
+Publications Office, EU Vocabularies repository:
+https://op.europa.eu/en/web/eu-vocabularies/taxonomies'"""@en ;
+    cav:refersTo camssa:34309d93-2f2b-4fc8-8144-67c538870c8d .
 
-EUROSTAT reference, NUTS Principles and Characteristics section:
-https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics\""""@en ;
-    cav:refersTo camssa:cab2c3da-5109-4bab-81bc-1186b7b1b689 .
-
-camssa:d639f56a-6537-46a5-9e39-ecbaec636300 a cav:Score,
+camssa:7a572c22-499c-496e-8f3f-c6e25115e7ff a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
     cav:value "100"^^xsd:int .
 
-camssa:d9008d4f-be3e-4331-ad32-fd9c763aec3b a cav:Statement,
+camssa:7cebfe30-d88b-481e-9ad2-45bcc21fcd9a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:7e590303-d597-4666-8c17-13cbac59cebd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "60"^^xsd:int .
+
+camssa:7f985485-3c53-46a3-acae-94893f9276e0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:817f49fa-ed21-47fb-9347-5ae11511ea90 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The EUROSTAT (European Commission) is in charge of maintaining and publishing each of the three NUTS levels. The specification is upgraded by national, regional and local administrations and representatives of the Member States in collaboration with the European Commission. However, contributions are not always available (see EUROSTAT-NUTS lattest amendments reference, History of NUTS section, NUTS 2021 XLS document).
+
+European Parliament reference:
+https://www.europarl.europa.eu/factsheets/en/sheet/99/la-nomenclatura-comun-de-unidades-territoriales-estadisticas-nuts-
+
+EUROSTAT-NUTS lattest amendments reference, History of NUTS section, NUTS 2021 XLS document:
+https://ec.europa.eu/eurostat/web/nuts/history'"""@en ;
+    cav:refersTo camssa:313b3851-bfce-44c4-8b85-6a1994c60c29 .
+
+camssa:85a2a440-75c7-4109-b082-a9bf3301b355 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "60"^^xsd:int .
+
+camssa:8b604596-84a1-4791-a088-919e7a565c27 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"NUTS was originally created to be used in a statistical environment and its field of application is not expected to change in the short term. However, NUTS could be used 'as-is' to other domains, in the sense that territorial divisions are also interesting in other statistical research areas like tourism (see NUTS tourism-application reference), and not only limited to the fields of policy and demography.
+
+EUROSTAT reference, NUTS Principles and Characteristics section:
+https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics
+
+NUTS tourism-application reference:
+https://journals.sagepub.com/doi/abs/10.1177/0047287520979673\""""@en ;
+    cav:refersTo camssa:71cf31da-216d-4bb6-91f3-c89c1d655d05 .
+
+camssa:8e13d61d-850f-45c8-bbdb-96ab09b22685 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """'The purpose of NUTS is not related to enabling digital service delivery channels. Therefore, this criterion does not apply to this specification. 
 
 EUROSTAT reference, NUTS Principles and Characteristics section:
 https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
-    cav:refersTo camssa:d639f56a-6537-46a5-9e39-ecbaec636300 .
+    cav:refersTo camssa:f5718e24-7849-4633-8e46-54fde2d9a243 .
 
-camssa:e25274d6-35b8-4e43-af6e-f84b82905e37 a cav:Score,
+camssa:90958098-5d9f-4cd4-8693-45527ca50cf8 a cav:Score,
         owl:NamedIndividual ;
-    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
-    cav:value "80"^^xsd:int .
-
-camssa:e78b34cb-48de-4346-bf4b-e089f0fd2efb a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
-    cav:value "80"^^xsd:int .
-
-camssa:e8c478f9-682b-4445-a981-7abe171b56e7 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
     cav:value "100"^^xsd:int .
 
-camssa:ed23496b-742b-40fc-948b-27c2816ab8e4 a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
-    cav:value "100"^^xsd:int .
-
-camssa:f5723f44-c851-41ac-b0b1-9a74c395f16e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
-    cav:value "20"^^xsd:int .
-
-camssa:f8021992-6a9c-4f2b-bf90-7ceada97bcea a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
-    cav:value "20"^^xsd:int .
-
-camssa:f82fb6de-99cb-4fa5-840e-1ef90da2772e a cav:Score,
-        owl:NamedIndividual ;
-    cav:assignedTo sc:c-69dbbbfc4ff4c79244a3bd99f7c3f883f2a7114ec515cb4d576f0d807c94b9fd ;
-    cav:value "100"^^xsd:int .
-
-camssa:fac9160e-f950-4fc5-8f9c-db73eba1cd70 a cav:Statement,
-        owl:NamedIndividual ;
-    cav:judgement """'NUTS was conceived for statistical and decision-making purposes. At the time being the specification can contribute to overcome interoperability barriers and enable the exposure of such interfaces. No evidence was found on this regard; however, in future Regulations, the specification may contribute to the exposure of internal information systems within the GEOSTAT initiative. 
-
-EUROSTAT reference, NUTS Principles and Characteristics section:
-https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics
-
-EUROSTAT-GISCO reference, GEOSTAT initiative:
-https://ec.europa.eu/eurostat/web/gisco/gisco-activities/integrating-statistics-geospatial-information/geostat-initiative'"""@en ;
-    cav:refersTo camssa:9e547d26-b4da-40a9-a35a-36e8a56ab1ef .
-
-camssa:fb2b5daa-2d92-464f-9875-18b9adad3f8d a cav:Statement,
+camssa:9586755d-32d9-4b51-810f-776c8ac5c881 a cav:Statement,
         owl:NamedIndividual ;
     cav:judgement """"NUTS can contribute to the comprehensibility of administrative procedures, rules data and services, since this classification narrowly reflects the territorial administrative division of the Member States and supports the availability of data and the capacity to implement national and European policies by using interactive maps like the GISCO's database, which eases the understanding of these divisions.
 
@@ -697,5 +518,184 @@ https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics
 
 GISCO's database reference:
 https://ec.europa.eu/eurostat/web/gisco\""""@en ;
-    cav:refersTo camssa:7316bff2-efb8-41e5-9313-d7d7701a7935 .
+    cav:refersTo camssa:1991a8ce-869c-4d3d-8bb9-1b559c892cb1 .
+
+camssa:a2e21185-935f-46ef-869c-52623f519394 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'NUTS has been developed and deployed by the European Commission; therefore, the specification is a European Standard.
+
+EUROSTAT reference, NUTS Principles and Characteristics section:
+https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
+    cav:refersTo camssa:ab4b159d-3810-40dc-9e88-81ad1f70e33d .
+
+camssa:ab4b159d-3810-40dc-9e88-81ad1f70e33d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:ab7c529c-9e05-46d2-b267-15540c232a8a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b920582a-8dfd-4f99-855c-c497e4ad6fc2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of NUTS is not related to the secure exchange of data. Therefore, this criterion does not apply to this specification. 
+
+EUROSTAT reference, NUTS Principles and Characteristics section:
+https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
+    cav:refersTo camssa:370b2da5-51eb-4cf8-9412-9f11fcfd3347 .
+
+camssa:ba7e335a-148a-49d2-a2ce-124d514c3a9c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bd09b5c7-adc6-45e3-93e9-5e4b7730e7aa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The NUTS classification has been developed by a lage community within the European Commission (EC) and all the EC patents are available with any restrictions related to (F)RAND.
+
+European Commission reference, Regulation (EC) No 1059/2003 document:
+https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1405939838475&uri=CELEX:32003R1059
+'"""@en ;
+    cav:refersTo camssa:74addffc-46dd-4a8f-bc1f-5c70748dd76b .
+
+camssa:bfa977a7-030c-4325-8d96-6fe3bc33fc64 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The specification is included in 1 Member State' catalogue of recommended specifications. This Member State is Ireleand.
+
+National catalogue Ireland: 
+https://data.gov.ie/pages/opendatatechnicalframework#recommended-standards-for-open-data
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards\""""@en ;
+    cav:refersTo camssa:64879119-7ffe-464d-87a7-a736a60e18b3 .
+
+camssa:c08e899a-5c37-451a-b9d2-b5e87e38e43b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:d467b16b-cd5b-4eba-ac7e-cd5611a7bcf6 .
+
+camssa:c0edb81f-a33b-4c46-a4e6-fdc0fc566b24 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"NUTS facilitates organisational interoperability agreements as some of its elements are mappable to other EU Vocabularies elements through the European Legislation Identifier (ELI). However, provisions easing the drafting of such agreements are provided in auxiliary documentation (see ISA Programme-Joinup reference, 'Revise the NUTS RDF model' document).
+
+ISA Programme-Joinup reference, 'Revise the NUTS RDF model' document:
+https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/document/supporting-implementation-persistent-uri-policy-eu-institutions\""""@en ;
+    cav:refersTo camssa:c145ec81-6ef5-46ba-b452-b7ee94b229da .
+
+camssa:c145ec81-6ef5-46ba-b452-b7ee94b229da a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "40"^^xsd:int .
+
+camssa:c5232baf-d1ce-4f91-896b-8af68b10d19a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "60"^^xsd:int .
+
+camssa:c56970fd-95e4-48b8-a8ab-623706d7a2e3 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "DIGIT-CAMSS@eu.europa.eu" .
+
+camssa:cbda1a18-1ee5-471f-ae57-276e1ad47c08 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The NUTS classification counts for funding projects within the EU, that is the European Regional Development Fund, the European Social Fund Plus and the Cohesion Fund. Besides, the specification RDF model has been revised in 2018, so that it could be mapped to a European Legislation Identifier (ELI), and as a consequence the NUTS classification can be linked to other EU Vocabularies and used in other European cross-border initiatives.
+
+EUR-LEX reference, COMMISSION IMPLEMENTING DECISION (EU) 2021/1130:
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex%3A32021D1130
+
+ISA Programme-Joinup reference, 'Revise the NUTS RDF model' document:
+https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/document/supporting-implementation-persistent-uri-policy-eu-institutions\""""@en ;
+    cav:refersTo camssa:0485ca9d-c559-42dd-80e9-cd5fc6b2a687 .
+
+camssa:cced0c13-56b1-4754-a4f4-a29f4bcef36e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'NUTS is intended to serve as a device to identify administrative zones in the EU and beyond the EU borders. There is no possibility of tailoring NUTS coding system, nor any kind of authorising process is allowed, as NUTS was conceived for a unique purpose.
+
+EUROSTAT reference, NUTS Principles and Characteristics section:
+https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
+    cav:refersTo camssa:41103622-3c50-4d21-98e2-59858f7a42e3 .
+
+camssa:d417df3b-b823-4bf0-98f8-49dd82abbd67 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"NUTS was originally created to be used in a statistical environment and its field of application is not expected to change in the short term. However, NUTS could be implemented 'as-is' to other domains, in the sense that territorial divisions are also interesting in other statistical research areas, and not only limited to the fields of policy and demography. At the time being, there is no reference to any implementation use case of the NUTS specification.
+
+EUROSTAT reference, NUTS Principles and Characteristics section:
+https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics\""""@en ;
+    cav:refersTo camssa:301ac275-c303-474c-9332-6528b4d540c1 .
+
+camssa:d467b16b-cd5b-4eba-ac7e-cd5611a7bcf6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "None"^^xsd:int .
+
+camssa:d47e0bcb-637a-4af5-bad4-e411271d00e3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "20"^^xsd:int .
+
+camssa:d6c056b2-25bd-47d4-b64c-da8abc9640e6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'EUROSTAT makes available a Linked Open Data section where the European Commission publishes data and  all kinds of statistical analysis based on the NUTS classification, encouraging the creation of communities around the specification at European level.
+
+EUROSTAT reference, NUTS Linked Open Data section:
+https://ec.europa.eu/eurostat/web/nuts/linked-open-data'"""@en ;
+    cav:refersTo camssa:49a33aa1-13de-4145-823d-4b0f33e06dce .
+
+camssa:d9659057-df50-4494-8763-55f69e72bb64 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'NUTS provides a statistical specification to address the needs for data harmonisation in terms of conducting surveys, applying policies and comparing data across the European Union. The specification should not be confused with the Administrative Territorial Unit (ATU) which is another specification representing the subdivisions of a country, mainly focuses on administrative purposes.
+
+EC reference, Regulation (EC) No 1059/2003 document:
+https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1405939838475&uri=CELEX:32003R1059
+
+ATU-Joinup reference, About Administrative territorial unit type:
+https://joinup.ec.europa.eu/collection/eu-semantic-interoperability-catalogue/solution/administrative-territorialunit-type/about'"""@en ;
+    cav:refersTo camssa:ba7e335a-148a-49d2-a2ce-124d514c3a9c .
+
+camssa:f0386105-9a99-4bab-985b-7ec42bad589f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of NUTS is not related to the implementation of the once-only principle. Therefore, this criterion does not apply to this specification. 
+
+EUROSTAT reference, NUTS Principles and Characteristics section:
+https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
+    cav:refersTo camssa:37b89788-93e8-4183-a81b-a5c6a98cd6aa .
+
+camssa:f209f823-b5b4-4133-a725-bbd34fe5bd95 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of NUTS is not related to facilitating the publication of open data. Therefore, this criterion is not applicable to this specification. 
+
+EUROSTAT reference, NUTS Principles and Characteristics section:
+https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
+    cav:refersTo camssa:1e05ab56-8b86-4194-bad3-2a68aece4f3a .
+
+camssa:f5718e24-7849-4633-8e46-54fde2d9a243 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:f723817e-20cd-4264-9913-159d143696de a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'NUTS was conceived for statistical and decision-making purposes. At the time being the specification can contribute to overcome interoperability barriers and enable the exposure of such interfaces. No evidence was found on this regard; however, in future Regulations, the specification may contribute to the exposure of internal information systems within the GEOSTAT initiative. 
+
+EUROSTAT reference, NUTS Principles and Characteristics section:
+https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics
+
+EUROSTAT-GISCO reference, GEOSTAT initiative:
+https://ec.europa.eu/eurostat/web/gisco/gisco-activities/integrating-statistics-geospatial-information/geostat-initiative'"""@en ;
+    cav:refersTo camssa:c5232baf-d1ce-4f91-896b-8af68b10d19a .
+
+camssa:f86b09cd-03a0-4b89-ae28-8d0b93d17f8b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'NUTS is intended to serve as a device to identify administrative zones in the EU and beyond the EU borders. There is no possibility of partial implementation of the specification, as NUTS has a single purpose.
+
+EUROSTAT reference, NUTS Principles and Characteristics section:
+https://ec.europa.eu/eurostat/web/nuts/principles-and-characteristics'"""@en ;
+    cav:refersTo camssa:44a5a486-e889-4cb9-8d7f-94fd0960a019 .
+
+camssa:fa87cae2-bb13-4e25-bbef-0769c8cb9431 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "40"^^xsd:int .
 
