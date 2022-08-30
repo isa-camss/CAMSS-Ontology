@@ -1,0 +1,718 @@
+@prefix camss: <http://data.europa.eu/2sa/ontology#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:2eaacad3d339f2fa3c4c903372f20245377333cd8882478206941b2ef0a3ba73 a cav:Assessment,
+        owl:NamedIndividual ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:026ff008-a1b1-4650-ab1d-2cdee4696461,
+        camssa:057bfd38-2838-48e6-b9e6-2e7c87595534,
+        camssa:0c58310d-ee40-409b-96c9-406472baac2e,
+        camssa:0eb8d42a-21f8-4cd4-9fb7-d12dd1a10481,
+        camssa:180eab58-6517-425a-b854-6972b0fef958,
+        camssa:238e81bd-4d19-4ceb-b2fb-bcedfe25609d,
+        camssa:2bf70d86-a121-4ae7-9e89-0637c6c2917e,
+        camssa:37209851-4d47-4a33-a7d2-21aaeeaab076,
+        camssa:3f747a27-f293-4791-b0cb-7a0274664bf4,
+        camssa:4922bab2-2c2f-4445-8e97-ac9c6ff1581c,
+        camssa:4da8bf2e-7f87-4f03-a06f-7d1ffd6a5f77,
+        camssa:5a6144f7-e36c-4e2a-98ab-088dc98985df,
+        camssa:5b7fe75f-bb29-4a54-a535-b7a567faab83,
+        camssa:5c19733d-7b50-47bd-9d48-901a0ea1b43c,
+        camssa:5c1a8f68-dfd0-42d1-b90f-5da4727dd05a,
+        camssa:5c8da603-254d-4a41-a210-0b60c66b02e0,
+        camssa:5f53d794-e510-4009-9185-f3eae497c42a,
+        camssa:67715286-2c53-437f-bdbe-e43ad94afb0e,
+        camssa:6f7a59f2-12ba-4543-904d-248ca0f5a1d7,
+        camssa:6fe24835-660d-4f1f-ab8e-bc3343561387,
+        camssa:7b402258-41a9-46a4-8422-e3da26b356cf,
+        camssa:7e60c62c-d521-4ff4-b3b5-8cffc4f8b242,
+        camssa:812d2d43-3779-4673-9ed1-92b1efe48098,
+        camssa:842b7a7c-4822-4fd9-aa7f-099687ccc453,
+        camssa:848cf9ae-3459-4115-842c-60e29b00ab2f,
+        camssa:8c04addb-9c01-4fe6-a7d9-961f9842f5d5,
+        camssa:8d460fa8-919e-45b4-81f1-0763d41e7f8d,
+        camssa:8ec7dcdc-fc22-4bc3-838e-bbdc86541dc9,
+        camssa:9141b693-fae4-47f8-8d86-b84b7774ee91,
+        camssa:95c42ab3-3e67-48f5-8086-2f9294db8c12,
+        camssa:a633a455-7496-435d-9d54-dce79c2cb762,
+        camssa:a8389140-1ba5-4ab0-88a4-69be9fc4a3d8,
+        camssa:a9fdf586-42ee-4014-bca3-dce38136103f,
+        camssa:aa52bf45-08d4-4750-a374-67b130d3ce35,
+        camssa:b071bec2-c0c2-4048-a33a-2f2bf3f59cd9,
+        camssa:b10dbf05-9a70-4f6e-aa45-3f881e86d659,
+        camssa:b8bfe659-5c66-4a13-b056-bf0345ef46fa,
+        camssa:bc9615b0-5f71-40b2-af24-4d3dc6d01150,
+        camssa:c2fcae99-63d3-41cd-bab0-7bb886ca18d4,
+        camssa:d835d0ee-3d04-4d16-82c8-9ee0a683d2fd,
+        camssa:da001317-b4ae-44bf-81b4-692f5342960e,
+        camssa:e57efcfe-04a7-43c6-bce7-a0018b2314a0,
+        camssa:f29939a5-2c47-477e-9fe5-412f99cf41ab,
+        camssa:fd342bbf-5ff9-4dca-b95b-4c07bac4c66d ;
+    cav:status status:Complete ;
+    camss:assesses cssvrsc:9820db589c536cbbfbb653647fabbe7a4b5dda36f9a54f0e40da9e16e66cfc64 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    dct:title "Electronic Signatures and Infrastructures (ESI); Testing Conformance and Interoperability of Trusted Lists; Part 1: Specifications for testing conformance of XML representation of Trusted Lists"@en .
+
+camssa:71b734d93eea13de404910eb634943e6bc28f69d27f2f63bcbdf62230a832bb3 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:e73c1848-9ea9-4749-b917-bdecc29a59ef ;
+    skos:prefLabel "CAMSS Team European Commission DG DIGIT"@en .
+
+camssa:01be744c-e33a-4937-991a-6deb2f9f8ac3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "60"^^xsd:int .
+
+camssa:026ff008-a1b1-4650-ab1d-2cdee4696461 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 614-1 is a European standard, delivered by a European Standardisation organisation (ETSI), 
+according to the specification documentation.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:398c1f37-bc9a-4ab1-8ba1-88cc70a47c6d .
+
+camssa:03ba6aee-903a-42d6-8921-74eafb97076d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "80"^^xsd:int .
+
+camssa:057bfd38-2838-48e6-b9e6-2e7c87595534 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After researching for implementations of ETSI TS 119 614-1 that justify market acceptance, no disclousures 
+have been found.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:90668dbe-5739-42e0-b280-36e23427d6b5 .
+
+camssa:0a1cccf0-99c5-4ab7-a8cd-88bcca52083e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0c58310d-ee40-409b-96c9-406472baac2e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The main purpose of the specification is about Testing the Conformance and Interoperability of Trusted Lists, 
+so in each one of the test that are performed in the specification, conformance is assessed.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:29d5f9e0-e09b-403e-b9d9-e863fb6501cd .
+
+camssa:0eb8d42a-21f8-4cd4-9fb7-d12dd1a10481 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is focused on testing implementation of Trusted List according to ETSI TS 119 612.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:571e514a-5c06-4025-9004-5018a6fcc21b .
+
+camssa:180eab58-6517-425a-b854-6972b0fef958 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI and any of its committees, in charge of the development of ETSI TS 119 614-1, operates under 
+the ETSI Intellectual Property Rights (IPRs) and IPR Policy. The specification is licensed on a royalty-free basis.
+
+Intellectual Property Rights Policy, ETSI ownership of IPRs section:
+https://www.etsi.org/intellectual-property-rights'"""@en ;
+    cav:refersTo camssa:eddbc8d7-12ea-4129-8b54-ab3a365ff67c .
+
+camssa:19f00129-667f-48d9-93ab-f97efa57edd8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:238e81bd-4d19-4ceb-b2fb-bcedfe25609d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After researching there has been no success finding any assessments about the specification effectiveness.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:6942b9b5-76ed-45c7-b962-260a2506cd09 .
+
+camssa:29d5f9e0-e09b-403e-b9d9-e863fb6501cd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "60"^^xsd:int .
+
+camssa:2bf70d86-a121-4ae7-9e89-0637c6c2917e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Each test performed by the specification has a tag EUMS (European Union Member State) that varies 
+depending on the Member State or not Member State using the specification, so although not explicitly 
+recommended, there are Member States that use it.
+This is supporting eIDAS implementations especifically for validating the requirements from ETSI TS 119 
+614-1 V1.1.1
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:5e83e948-7988-4ba1-8dd1-650cc5436b9a .
+
+camssa:2c0a2dc8-8f02-4fa2-a8e6-9987bb89eb81 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "40"^^xsd:int .
+
+camssa:2df3f43c-9c29-4660-8d41-1eab22f885f5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:2e6353e2-dd6e-4cb4-99bd-9454a69e3089 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "20"^^xsd:int .
+
+camssa:34074a03-bd02-43f5-a6ff-a4613bf4e8bb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:35d0f69b-32c6-4bef-a84a-0398d3ef2bfb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "80"^^xsd:int .
+
+camssa:362b22f6-cea3-4006-ad41-877dc0bf873c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:36441853-8a94-4ca6-b344-bb21b4c0843f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:37209851-4d47-4a33-a7d2-21aaeeaab076 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of the specification is not related to the facilitation of modelling business processes, therefore 
+this criterion is not applicable to this specification.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:34074a03-bd02-43f5-a6ff-a4613bf4e8bb .
+
+camssa:398c1f37-bc9a-4ab1-8ba1-88cc70a47c6d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:3b2f7dce-9de4-4be5-ae73-0128e685a428 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "80"^^xsd:int .
+
+camssa:3c1e343c-617f-4a86-9f6c-bc5de3c2fbf7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:3caa9d00-eadb-4122-a00c-19d1eddbe2fd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:3f747a27-f293-4791-b0cb-7a0274664bf4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 614-1 has the support of various communities listed in the following link as "Supporting 
+Organizations", including Universities, private and public companies. The ESI technical committee provides 
+public support to members and non-members alike, with different conditions depending on ETSI 
+membership status.
+
+Portal ETSI reference:
+https://portal.etsi.org/webapp/workprogram/Report_WorkItem.asp?WKI_ID=39422
+
+ESI technical committe reference:
+https://www.etsi.org/committee/1399-esi'"""@en ;
+    cav:refersTo camssa:03ba6aee-903a-42d6-8921-74eafb97076d .
+
+camssa:4922bab2-2c2f-4445-8e97-ac9c6ff1581c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification does not talk about any kind of customisation.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:2e6353e2-dd6e-4cb4-99bd-9454a69e3089 .
+
+camssa:4da8bf2e-7f87-4f03-a06f-7d1ffd6a5f77 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TS 119 614-1 is a testing conformance suite that can be applied in any domain and context where the 
+exchange of documents is required. Therefore, the specification is usable beyond any business-specific 
+domain and can be used in any kind of organisation.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:362b22f6-cea3-4006-ad41-877dc0bf873c .
+
+camssa:51c1c14d-1f06-4ee5-99b7-92a7accee232 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "40"^^xsd:int .
+
+camssa:5357cf46-2bb5-4bb4-b04b-17f26dd4efb1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:55dcf718-6746-4307-8a4c-5070db91e099 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "80"^^xsd:int .
+
+camssa:571e514a-5c06-4025-9004-5018a6fcc21b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "40"^^xsd:int .
+
+camssa:5a6144f7-e36c-4e2a-98ab-088dc98985df a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TS 119 614-1 is a testing conformance suite that can be applied in any domain and context where the 
+exchange of documents is required. Therefore, the specification is usable beyond any business-specific 
+domain and ensures its implementation across business domains.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:0a1cccf0-99c5-4ab7-a8cd-88bcca52083e .
+
+camssa:5b7fe75f-bb29-4a54-a535-b7a567faab83 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Each test performed by the specification has a tag EUMS (European Union Member State) that varies 
+depending on the Member State or not Member State using the specification, so although not explicitly 
+recommended, there are Member States that use it.
+This is supporting eIDAS implementations especifically for validating the requirements from ETSI TS 119 614-1 V1.1.1.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:edf811b4-67f5-48b8-94eb-0de19c6d29e3 .
+
+camssa:5c19733d-7b50-47bd-9d48-901a0ea1b43c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification admits multiple extension elements in the TSL Testing such as Scheme Extension 
+elements, Information Extension elements, Service Information Extension elements, Extension Type 
+instances, etc.
+
+ETSI TS 119 614-1 page 5 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:19f00129-667f-48d9-93ab-f97efa57edd8 .
+
+camssa:5c1a8f68-dfd0-42d1-b90f-5da4727dd05a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 614-1 can be found on the specifications and standards repository of its own standards 
+development organization, the European Telecommunication Standards Institute (ETSI).
+
+ETSI Standards Repository Search:
+https://www.etsi.org/standards#page=1&search=ETSI%20TS%20119%20614-
+1&title=1&etsiNumber=1&content=1&version=0&onApproval=1&published=1&historical=1&startDate=1988-
+01-15&endDate=2022-07-
+25&harmonized=0&keyword=&TB=&stdType=&frequency=&mandate=&collection=&sort=1'"""@en ;
+    cav:refersTo camssa:6ad546ae-a1ed-438f-a073-8159af66c3c3 .
+
+camssa:5c8da603-254d-4a41-a210-0b60c66b02e0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of the specification is not related to supporting the evolution of European public services, 
+therefore it does not promote or hinder it.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:de45ec6d-55b9-4332-a233-e4128162b408 .
+
+camssa:5e83e948-7988-4ba1-8dd1-650cc5436b9a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5f53d794-e510-4009-9185-f3eae497c42a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After searching in different catalogues and repositories, there is no evidence found of ETSI TS 119 614-1 
+being included in the catalogue of any Member State or the List of Standards.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss
+/camss-list-standards'"""@en ;
+    cav:refersTo camssa:83badd1f-7206-418d-ad9f-7725b4df1858 .
+
+camssa:6302ed28-64e7-4b06-a462-be1114b2e2e5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:67715286-2c53-437f-bdbe-e43ad94afb0e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI and any of its committees, in charge of the development of ETSI TS 119 614-1, operate under the 
+ETSI Intellectual Property Rights (IPRs) and IPR Policy. The specification is licensed on a (F)RAND basis.
+
+Intellectual Property Rights Policy, ETSI ownership of IPRs section:
+https://www.etsi.org/intellectual-property-rights'"""@en ;
+    cav:refersTo camssa:c0b8f618-53de-4a56-829d-93a499407f15 .
+
+camssa:6942b9b5-76ed-45c7-b962-260a2506cd09 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "20"^^xsd:int .
+
+camssa:6ad546ae-a1ed-438f-a073-8159af66c3c3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6f7a59f2-12ba-4543-904d-248ca0f5a1d7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After researching there has been no success finding any assessments about the specification effectiveness.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:74bf871f-2729-4570-b6e7-9f42642ee5d8 .
+
+camssa:6fe24835-660d-4f1f-ab8e-bc3343561387 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'By testing the requirements established in ETSI TS 119 612, which aims to enable trusted list for validating 
+the stutus of services, the specification helps to enhance and upgrade the delivery of digital service delivery channels.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:dcaff257-8d18-41c9-a06b-e1f2892cf096 .
+
+camssa:722d0c70-acf4-4b0d-b07a-5131a6599c3f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "80"^^xsd:int .
+
+camssa:72689dd1-cd5a-44dc-8648-31f6e62b8fba a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "80"^^xsd:int .
+
+camssa:72c0d408-2c04-4d24-945b-4f16cb2dc6ed a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "100"^^xsd:int .
+
+camssa:74bf871f-2729-4570-b6e7-9f42642ee5d8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "20"^^xsd:int .
+
+camssa:7b402258-41a9-46a4-8422-e3da26b356cf a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are Directives regulating participation on the development of standards. Participation is limited to 
+membership approval and sometimes the payment of a fee.
+ETSI’s standards-making process has been clearly defined after years of experience. The organisation has 
+adopted the open approach which means direct participation and consensus as a basis to develop 
+standards. All the stakeholders have the opportunity to participate directly in the process of standardisation 
+through the technical committees created to develop ETSI’s technical specifications and standards. The 
+decision-making process includes a public review, where stakeholders involved can provide technical 
+feedback in order to enhance and maximize the quality and accuracy of the standards. 
+
+ETSI Portal reference: 
+https://portal.etsi.org/TB-SiteMap/esi/esi-activities'"""@en ;
+    cav:refersTo camssa:01be744c-e33a-4937-991a-6deb2f9f8ac3 .
+
+camssa:7cd1493c-4566-4612-a65b-552754735f87 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:7d7107eb-96c4-4084-b74a-65b73a5d2ee1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "80"^^xsd:int .
+
+camssa:7e60c62c-d521-4ff4-b3b5-8cffc4f8b242 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The only part of the implementation that can be optional is a prerequisite in the test assertion, which is a 
+logical expression (similar to a Predicate) which further qualifies the Target for undergoing the core test that 
+addresses the Normative Statement.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:e25f0a30-0a78-4371-9c5b-5f48ff7259b7 .
+
+camssa:812d2d43-3779-4673-9ed1-92b1efe48098 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TS 119 614-1 is a set of conformance testing practices for electronic signatures and preservation and is 
+intended to support the development and manufacture of different solutions at EU level. The specification is intentionally not linked to any software development technology and is also intentionally agnostic on implementation strategies. This is one of the reasons why the test assertions set includes tests on the correctness of the structure of all elements specified by the XML Schemas associated with ETSI TS 119 612.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:88573eaa-6528-4622-979c-b18cedcf0b48 .
+
+camssa:83badd1f-7206-418d-ad9f-7725b4df1858 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:842b7a7c-4822-4fd9-aa7f-099687ccc453 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are Directives regulating participation on the development of standards. Participation is limited to 
+membership approval and sometimes the payment of a fee.
+ETSI’s standards-making process has been clearly defined after years of experience. The organisation has 
+adopted the open approach which means direct participation and consensus as a basis to develop 
+standards. All the stakeholders have the opportunity to participate directly in the process of standardisation 
+through the technical committees created to develop ETSI’s technical specifications and standards. The 
+decision-making process includes a public review, where stakeholders involved can provide technical 
+feedback in order to enhance and maximize the quality and accuracy of the standards. 
+
+ETSI Portal reference: 
+https://portal.etsi.org/TB-SiteMap/esi/esi-activities'"""@en ;
+    cav:refersTo camssa:72689dd1-cd5a-44dc-8648-31f6e62b8fba .
+
+camssa:848cf9ae-3459-4115-842c-60e29b00ab2f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of the specification is not related to supporting the implementation of European public services, 
+therefore it does not promote or hinder it.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:2c0a2dc8-8f02-4fa2-a8e6-9987bb89eb81 .
+
+camssa:85f52f8d-b4ed-4056-90fb-d8362219c7d6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:88573eaa-6528-4622-979c-b18cedcf0b48 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:8c04addb-9c01-4fe6-a7d9-961f9842f5d5 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is associated with EIRA ABB's in the EIRA Library of Interoperability Specifications (ELIS). 
+More specifically, the specification uses the ABB's "Data Quality Component" and "Data Quality Service".
+
+ELIS link:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss
+/solution/elis/release/v110'"""@en ;
+    cav:refersTo camssa:5357cf46-2bb5-4bb4-b04b-17f26dd4efb1 .
+
+camssa:8d460fa8-919e-45b4-81f1-0763d41e7f8d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Since the specification is focused on testing the Trusted Lists established on web services and their schema according to the requirements established in  ETSI TS 119 612, the implementation and usage of the specification can increase the visibility and reliabilityof public organisations procedures and rules.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:7d7107eb-96c4-4084-b74a-65b73a5d2ee1 .
+
+camssa:8ec7dcdc-fc22-4bc3-838e-bbdc86541dc9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ETSI TS 119 614-1 is not related to the reuse of information. Therefore this criterion is not 
+applicable to this specification.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:36441853-8a94-4ca6-b344-bb21b4c0843f .
+
+camssa:90668dbe-5739-42e0-b280-36e23427d6b5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "20"^^xsd:int .
+
+camssa:9141b693-fae4-47f8-8d86-b84b7774ee91 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """' No evidence nor disclosures have been found in the specification regarding fostering or harming the long-term preservation of information.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:51c1c14d-1f06-4ee5-99b7-92a7accee232 .
+
+camssa:95c42ab3-3e67-48f5-8086-2f9294db8c12 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is supporting the implementation of eIDAS regulation. Therefore, European organisations in charge of public services are prone to share and improve shared public services and the results of applying them.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:3c1e343c-617f-4a86-9f6c-bc5de3c2fbf7 .
+
+camssa:a18e87b1-81fa-49b9-97fc-fd50730dbbae a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a633a455-7496-435d-9d54-dce79c2cb762 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """' By testing the requirements established in ETSI TS 119 612, which aims to enable a trusted list for validating the status of services, the specification can help to enhance and upgrade the delivery of digital public services.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:b54862bc-fcb3-4d78-9bc8-9450a24713cb .
+
+camssa:a6b439cd-39da-44cd-bfba-51339f6f2fcb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a8389140-1ba5-4ab0-88a4-69be9fc4a3d8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'As ETSI TS 119 614-1 was released in 2016, it has 2 years of maturity and can be proof that demonstrates it 
+has overcome possible difficulties.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:3b2f7dce-9de4-4be5-ae73-0128e685a428 .
+
+camssa:a9fdf586-42ee-4014-bca3-dce38136103f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is a testing section which is about Testing multilingual string types. The Predicate of that Test is the 
+value of the lang attribute which specifies the language of the message.
+
+ETSI TS 119 614-1 reference, page 9 (Testing multilingual string types):
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:35d0f69b-32c6-4bef-a84a-0398d3ef2bfb .
+
+camssa:aa52bf45-08d4-4750-a374-67b130d3ce35 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of ETSI TS 119 614-1 is not related to the secure exchange of data. Therefore this criterion is 
+not applicable to this specification.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:6302ed28-64e7-4b06-a462-be1114b2e2e5 .
+
+camssa:b071bec2-c0c2-4048-a33a-2f2bf3f59cd9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is supporting the implementation of eIDAS regulation. Therefore, European organisations in charge of public services are prone to share and improve shared public services and the results of applying them.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:a6b439cd-39da-44cd-bfba-51339f6f2fcb .
+
+camssa:b10dbf05-9a70-4f6e-aa45-3f881e86d659 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification is not related to the publication of public data as open data. Therefore this criterion is not 
+applicable to this specification. 
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:a18e87b1-81fa-49b9-97fc-fd50730dbbae .
+
+camssa:b54862bc-fcb3-4d78-9bc8-9450a24713cb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:b8bfe659-5c66-4a13-b056-bf0345ef46fa a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no Member State that includes ETSI TS 102 640-2 in their national catalogue with its National 
+Interoperability Framework (NIF) in alignment with the three categories: 1. Conceptual model for integrated 
+public services provision, 2. interoperability layers, and 3. interoperability principles.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss
+/camss-list-standards
+
+NIFO Factsheets:
+https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/digital-public\\x02administration-factsheets-2021'"""@en ;
+    cav:refersTo camssa:7cd1493c-4566-4612-a65b-552754735f87 .
+
+camssa:bc9615b0-5f71-40b2-af24-4d3dc6d01150 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'In the specification's reference document, there is a list of referenced documents necessary for the 
+application of the present document, among those referenced documents is included the "Secure Hash 
+Standard (SHS)" that enables secure processing of data.
+
+ETSI TS 119 614-1 reference, page 7:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:722d0c70-acf4-4b0d-b07a-5131a6599c3f .
+
+camssa:c0b8f618-53de-4a56-829d-93a499407f15 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c2fcae99-63d3-41cd-bab0-7bb886ca18d4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'TS 119 614-1 is intentionally not linked to any software development platform and is also intentinoally 
+agnostic on implementation strategies. This is one of the reasons why the test assertions set includes tests 
+on the correctness of the structure of all the elements specified by the XML Schemas associated with ETSI 
+TS 119 612.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:3caa9d00-eadb-4122-a00c-19d1eddbe2fd .
+
+camssa:d835d0ee-3d04-4d16-82c8-9ee0a683d2fd a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"The purpose of TS 119 614-1 is not related to enabling the exposure of interfaces of public administration's 
+services. Therefore, this criterion is not applicable to the specification. 
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf\""""@en ;
+    cav:refersTo camssa:72c0d408-2c04-4d24-945b-4f16cb2dc6ed .
+
+camssa:da001317-b4ae-44bf-81b4-692f5342960e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of the specification is not related to the facilitation of organisational interoperability agreements, 
+therefore this criterion is not applicable to this specification.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:85f52f8d-b4ed-4056-90fb-d8362219c7d6 .
+
+camssa:dcaff257-8d18-41c9-a06b-e1f2892cf096 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:de45ec6d-55b9-4332-a233-e4128162b408 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "40"^^xsd:int .
+
+camssa:e25f0a30-0a78-4371-9c5b-5f48ff7259b7 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "40"^^xsd:int .
+
+camssa:e57efcfe-04a7-43c6-bce7-a0018b2314a0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:f780968a-2dd3-401d-9e00-be9765fbae87 .
+
+camssa:e73c1848-9ea9-4749-b917-bdecc29a59ef a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "DIGIT-CAMSS@ec.europa.eu" .
+
+camssa:eddbc8d7-12ea-4129-8b54-ab3a365ff67c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "20"^^xsd:int .
+
+camssa:edf811b4-67f5-48b8-94eb-0de19c6d29e3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f29939a5-2c47-477e-9fe5-412f99cf41ab a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of TS 119 614-1 is not related to ensuring the protection of personal data managed by public 
+administrations. Therefore, this criterion is not applicable to the specification. 
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:2df3f43c-9c29-4660-8d41-1eab22f885f5 .
+
+camssa:f780968a-2dd3-401d-9e00-be9765fbae87 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "None"^^xsd:int .
+
+camssa:fd342bbf-5ff9-4dca-b95b-4c07bac4c66d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Since the specification is focused on testing the Trusted Lists established on web services and their schema according to the requirements established in  ETSI TS 119 612, the implementation and usage of the specification can increase the visibility and reliability of public organisations procedures and rules.
+
+ETSI TS 119 614-1 reference:
+https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf'"""@en ;
+    cav:refersTo camssa:55dcf718-6746-4307-8a4c-5070db91e099 .
+

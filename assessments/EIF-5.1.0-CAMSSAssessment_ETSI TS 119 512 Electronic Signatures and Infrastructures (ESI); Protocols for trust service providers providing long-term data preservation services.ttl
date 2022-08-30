@@ -1,0 +1,702 @@
+@prefix camss: <http://data.europa.eu/2sa/ontology#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:71b734d93eea13de404910eb634943e6bc28f69d27f2f63bcbdf62230a832bb3 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:a56a3c9a-6693-48b9-83b9-e6c8a12d38d9 ;
+    skos:prefLabel "CAMSS Team European Commission DG DIGIT"@en .
+
+camssa:de0a7af18700560f0abaecdfa348f412222b00606dd1e860ebaecee7de70e100 a cav:Assessment,
+        owl:NamedIndividual ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:0638142b-5221-44f6-9617-0b44f9a94419,
+        camssa:0c0d96c3-a1fb-4785-b153-689671747df4,
+        camssa:10b5854c-433c-44a8-9896-17c4d97bfdb9,
+        camssa:11695f16-bde2-4075-bf1e-85d9df24be9c,
+        camssa:17c1da9a-dc00-44c8-b39a-06d0450a8e7f,
+        camssa:29bc4066-f167-4178-bae7-26b2ce65340a,
+        camssa:2ddd694d-8814-4005-ac9e-76747dfca76e,
+        camssa:307ce1b4-2974-4bbc-9553-9222ae44a6c6,
+        camssa:34c1ee74-460e-4dc9-b0c8-3eae6394d58f,
+        camssa:37ee4fef-1cdb-4a99-bc9c-b33e46f9e20e,
+        camssa:397e5c7e-8373-4c70-8c56-e8770ec0d1ff,
+        camssa:3b4228f9-bbc5-4829-9e13-bc141289605a,
+        camssa:420946e1-0ec1-40db-883c-9b31f3eda09c,
+        camssa:4333b7b3-69c5-4d21-b2ec-4c658e982aa1,
+        camssa:445fbd93-eb15-4f05-b9ce-bcbe5e46f4f9,
+        camssa:4cea824a-1e1e-43f7-8bac-dd785eabd508,
+        camssa:53c13360-c0b4-4b99-8eca-08b8257d58e8,
+        camssa:55ad8af6-1f86-4597-b024-2bf593554862,
+        camssa:6161091c-57f0-40f0-a4d4-ef1ed066c5bc,
+        camssa:61da65db-960c-4cd2-bd0d-5b8fe1853752,
+        camssa:674bed47-bb83-4afe-a97c-dcf671e5b197,
+        camssa:69cd5b50-adcb-4c7d-9fd2-ddab554d687f,
+        camssa:70838fd4-6c39-48cd-9e1a-3799cfd14e03,
+        camssa:73393091-93d1-4af7-9bf3-8be77a0beb13,
+        camssa:7aa8ca31-b25a-4048-8116-b829ce6c2b5b,
+        camssa:7afc6f36-3eb9-4bf1-bcf9-d011f2df5d12,
+        camssa:7c5f713f-0de6-4b00-bf12-d2ae77f34a58,
+        camssa:853e93fd-174a-4a22-a912-b29b079dde4a,
+        camssa:90c96410-e25b-434b-89e2-1a87d2faa3c4,
+        camssa:9ab1534b-3e36-4e4e-872f-b5f653505c3e,
+        camssa:9b724c26-fce3-442e-b682-f48d7cd71258,
+        camssa:9e780742-9fea-43af-852d-d2cfcd285f88,
+        camssa:9f533ca1-5a30-41a4-8a89-3ff5aad43860,
+        camssa:a7b2695c-4097-4613-a388-7d78114f1726,
+        camssa:aa870394-eaf1-4375-aba2-bc7dc8523d51,
+        camssa:af991864-1e55-4fbc-82c7-5f7cad66d4e9,
+        camssa:afd22728-2ca2-49c3-8fb4-548bbc0d98ab,
+        camssa:b135a4a0-ec4c-4315-b135-1d44653936d6,
+        camssa:deaa5ecc-ccd2-4db3-bfb3-31211423c32f,
+        camssa:e3fee4d9-8e94-4fda-b1fa-e2ec82d9c39e,
+        camssa:ea3a6cf1-4d70-4576-96a6-b6236958970f,
+        camssa:ef216676-7864-47e2-9efb-a6b75eb42807,
+        camssa:f0e67b77-9e16-4017-b579-1764ec1f8e73,
+        camssa:f748d424-a796-4adb-9f6b-8c81252884cb ;
+    cav:status status:Complete ;
+    camss:assesses cssvrsc:e5b93bfdb3252d290b8d69275202406c6a66d38f3b85d1afc7dd834d4e0c3085 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    dct:title "ETSI TS 119 512 Electronic Signatures and Infrastructures (ESI); Protocols for trust service providers providing long-term data preservation services"@en .
+
+camssa:062d96f0-f586-41de-8852-63c91e127fac a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0638142b-5221-44f6-9617-0b44f9a94419 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 512 is being used in the eIDAS project, which focuses on the creation of e-signature services aiming to enable secure cross-border transactions.  eIDAS is based on the Regulation (EU) No 910/2014 of the European Parliament and of the Council of 23 July 2014 on electronic identification and trust services for electronic transactions in the internal market.  
+
+Regulation (EU) No 910/2014 of the European Parliament and of the Council of 23 July 2014 on electronic identification and trust services for electronic transactions in the internal market:
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf'"""@en ;
+    cav:refersTo camssa:5b0a6258-956b-4388-b53b-114393f7be5a .
+
+camssa:076fcd34-466b-4e85-a14c-b0b89a965827 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:08452e4a-76ea-4863-8a17-0e1c35101c19 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "60"^^xsd:int .
+
+camssa:0b9ba3e0-6266-4148-b18c-c34504c07e90 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0c0d96c3-a1fb-4785-b153-689671747df4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 512 does not rely on any specific platform.  
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf'"""@en ;
+    cav:refersTo camssa:5ca9df21-1168-4209-a1fa-ec4ba70dab50 .
+
+camssa:10b5854c-433c-44a8-9896-17c4d97bfdb9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There is no Member State that includes the ETSI TS 119  512 in their national catalogue with Their National Interoperability Framework (NIF) in alignment with the three categories 1. Conceptual model for integrated public servicesprovision, 2. interoperability layers, and 3. interoperability principles.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:733e9b39-3417-4109-b766-bf78a720442d .
+
+camssa:10e1ce55-0955-4dc6-bf90-bca2634e044a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "20"^^xsd:int .
+
+camssa:11695f16-bde2-4075-bf1e-85d9df24be9c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI and any of its committees, in charge of the development of ETSI TS 119 512, operates under the ETSI Intellectual Property Rigths (IPRs) and IPR Policy. The specification is licensed on a Royalty-free.
+
+ETSI ownership of IPRs section:
+https://www.etsi.org/intellectual-property-rights'"""@en ;
+    cav:refersTo camssa:924fd4de-6482-455f-bf69-f129445f08c3 .
+
+camssa:158a8dca-4190-4a6e-887f-1c69b2cbc886 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:17c1da9a-dc00-44c8-b39a-06d0450a8e7f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 512 specifies policy and security protocols for trust service providers providing long-term preservation of digital signatures and of general data using digital signature techniques.  The specification performance is closely related to the different specifications involved in electronic signatures across borders. In the context of the European internal market (see article below) , it can be considered as an asset for the creation of solutions enhancing the interoperability between administrations and businesses when eSignature, and long preservation of electronic records is needed. 
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf
+
+ETSI TS 119 512 Working group:
+https://portal.etsi.org/webapp/workprogram/Report_WorkItem.asp?WKI_ID=61427
+
+Article: Towards a standardised preservation service for qualified electronic signatures and qualified electronic seals:
+https://dl.gi.de/bitstream/handle/20.500.12116/20980/proceedings-01.pdf?sequence=1&isAllowed=y'"""@en ;
+    cav:refersTo camssa:34b01e06-ae8b-42be-9c0f-2cc37208e769 .
+
+camssa:1abc0168-4888-4293-aef8-d881bdef7c8d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "20"^^xsd:int .
+
+camssa:1e156831-c477-4caf-8ac6-55e8466d0b3d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:1ff9e972-8966-4862-b3cb-040c97d07233 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "100"^^xsd:int .
+
+camssa:24538530-5965-4391-bd93-7aa9713f762d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:29bc4066-f167-4178-bae7-26b2ce65340a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'When it comes to the preservation mechanisms, ETSI TS 119 512 specifies a data structure "EvidenceExchange", which contains preservation objects and preservation evidences to support seamless export and import from one preservation service to another one using evidence records, As an example, ETSI TS 119 512 is implemented in Germany and its TR-ESOR middleware, therefore proving it can support the evolution of European public services.
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf    
+
+TR-ESOR Preservation of Evidence of Cryptographically Signed Document:
+https://www.bsi.bund.de/EN/Service-Navi/Publications/TechnicalGuidelines/TR03125/TechnicalGuidelines_03125_node.html'"""@en ;
+    cav:refersTo camssa:3bac0c4b-0cb0-404a-95d8-544db118cce5 .
+
+camssa:2c0c44d7-e97c-4d11-8fd5-6d1232e4ef23 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "20"^^xsd:int .
+
+camssa:2c67c127-3975-40be-a74d-ee8d02f914a9 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "40"^^xsd:int .
+
+camssa:2ddd694d-8814-4005-ac9e-76747dfca76e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 512 is not related to e-accessibility. Therefore this criterion is not applicable to this specification.
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf'"""@en ;
+    cav:refersTo camssa:062d96f0-f586-41de-8852-63c91e127fac .
+
+camssa:2ea336e7-1982-46bc-b0d4-e1c3b7e007e5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:307ce1b4-2974-4bbc-9553-9222ae44a6c6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 512 is not directly related to data protection, as its main purpose is to specify protocols for trust service providers providing long-term data preservation services for digital signatures and general data. Data protection considerations are overlooked given that they are addressed by its companion document ETSI TS 119 511 (Policy and security requirements for trust service providers providing long-term preservation of digital signatures or general data using digital signature techniques)
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf
+
+ETSI TS 119 511 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119511/01.01.01_60/ts_119511v010101p.pdf'"""@en ;
+    cav:refersTo camssa:3a6924d7-78f2-47d8-bd10-4705b64f2e8e .
+
+camssa:34b01e06-ae8b-42be-9c0f-2cc37208e769 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:34c1ee74-460e-4dc9-b0c8-3eae6394d58f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The ETSI and any of its committees, in charge of the development of ETSI TS 119 512, operates under the ETSI Intellectual Property Rigths (IPRs) and IPR Policy. The specification is licensed on a (F)RAND basis.
+
+ETSI ownership of IPRs section: 
+https://www.etsi.org/intellectual-property-rights'"""@en ;
+    cav:refersTo camssa:94c85a84-1ec1-4e8d-9b6d-419f15b5bfcd .
+
+camssa:37ee4fef-1cdb-4a99-bc9c-b33e46f9e20e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Extesion mechanisms are provided by ETSI TS 119 512. For example, there can be found preservation-specific extensions for ASiC-related components (see section 5.5) and extensions for other preservation object formats (see section 5.6)
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf    '"""@en ;
+    cav:refersTo camssa:7452cc04-ff0a-4370-abd1-80d432526994 .
+
+camssa:397e5c7e-8373-4c70-8c56-e8770ec0d1ff a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 512 has been developed by the European Telecommunication Standards Institute (ETSI), an independent, not-for-profit, standardization organization in the field of information and communications.
+
+About ETSI:
+https://www.etsi.org/about/about-us'"""@en ;
+    cav:refersTo camssa:5b115fc1-9f24-4381-b4a5-f0cec1100358 .
+
+camssa:3a6924d7-78f2-47d8-bd10-4705b64f2e8e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "60"^^xsd:int .
+
+camssa:3b4228f9-bbc5-4829-9e13-bc141289605a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 512 is part of the Electronic Signatures and Infrastructure (ESI) family of specifications, and is dependent on some of their protocols and semantics they convey, therefore, this specification is not technology agnostic.  
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf'"""@en ;
+    cav:refersTo camssa:1abc0168-4888-4293-aef8-d881bdef7c8d .
+
+camssa:3bac0c4b-0cb0-404a-95d8-544db118cce5 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:420946e1-0ec1-40db-883c-9b31f3eda09c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 512 protocols are designed in a way that can be implemented separately depending on the preservation goals (see section 4.2) or the storage models (see section 4.3).  Partial implementations therefore are allowed in this specification.
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf'"""@en ;
+    cav:refersTo camssa:a59471ae-9816-4f47-a402-08668d752f53 .
+
+camssa:42dc9cec-3f3f-48c0-8d87-75b9fd085029 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4333b7b3-69c5-4d21-b2ec-4c658e982aa1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI’s standards-making process has been clearly defined after years of experience. The organisation has adopted the open approach which means direct participation and consensus as a basis to develop standards. All the stakeholders have the opportunity to participate directly in the process of standardisation through the technical committees created to develop ETSI’s technical specifications and standards. The decision-making process includes a public review, where stakeholders involved can provide technical feedback in order to enhance and maximize the quality and accuracy of the standards. 
+
+ETSI standard making:
+https://www.etsi.org/standards/standards-making'"""@en ;
+    cav:refersTo camssa:aaaa5a8f-156f-4b1d-b043-1e715b3408ba .
+
+camssa:43b91d58-2800-46df-914d-b37ded56778c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:445fbd93-eb15-4f05-b9ce-bcbe5e46f4f9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 512 specification is distributed from the ETSI platform. ETSI supports European regulations and legislation through the creation of Harmonised European Standards. ETSI’s mission is to provide platforms where interested parties come together and collaborate on the development and promotion of standards  for Information and Communication Technology (ICT) systems and services.
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf'"""@en ;
+    cav:refersTo camssa:43b91d58-2800-46df-914d-b37ded56778c .
+
+camssa:4ae6407e-ce71-4f25-ad33-72b2be06d073 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:4cea824a-1e1e-43f7-8bac-dd785eabd508 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 512 is designed to support possible customisations depending on the business-specific needs and requiremets.
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf    '"""@en ;
+    cav:refersTo camssa:6b4ff8a1-9d2e-49f2-9f69-9b6a791181d4 .
+
+camssa:53c13360-c0b4-4b99-8eca-08b8257d58e8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Cryptographic algorithms are the basis of e-signatures encryption. ETSI TS 119 512 is furthermore developed for trust service providers for the storing and retrieval of information and data that require a high degree of security in their processing and exchange.  
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf'"""@en ;
+    cav:refersTo camssa:70f38ac1-9781-410e-94ac-fb8efe283958 .
+
+camssa:55ad8af6-1f86-4597-b024-2bf593554862 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 512 is already associated with EIRA ABBs in the EIRA Library Of Interoperability Specifications 
+(ELIS). More specifically, ETSI TS 119 512 can define the "e-Signature Creation Service" and the "e-Signature Verification and Validation Service" ABB of the EIRA Technical view.
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110
+'"""@en ;
+    cav:refersTo camssa:4ae6407e-ce71-4f25-ad33-72b2be06d073 .
+
+camssa:5b0a6258-956b-4388-b53b-114393f7be5a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5b115fc1-9f24-4381-b4a5-f0cec1100358 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "100"^^xsd:int .
+
+camssa:5ca9df21-1168-4209-a1fa-ec4ba70dab50 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:5da11512-717f-4951-95b5-4629035b6992 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "80"^^xsd:int .
+
+camssa:6161091c-57f0-40f0-a4d4-ef1ed066c5bc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'According to section 4.4 of the documentation, ETSI TS 119 512 provides an interface between users and preservation services, however, specific provision are fully achieved if it is combined with its companion documents ETS TS 119 511 therefore, enabling the visibility of administrative procedures, rules and services if combined with other specifications.
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf
+
+TR-ESOR Preservation of Evidence of Cryptographically Signed Document:
+https://www.bsi.bund.de/EN/Service-Navi/Publications/TechnicalGuidelines/TR03125/TechnicalGuidelines_03125_node.html'"""@en ;
+    cav:refersTo camssa:7a86d2de-ba97-44f4-94b2-657ca3ba6f0b .
+
+camssa:61da65db-960c-4cd2-bd0d-5b8fe1853752 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 512 can facilitate the modelling of business processes when it comes to defining the relationships among the preservation schemes,  preservation profiles and their related policies on a given business-specific trust service (see section 4.4).
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf'"""@en ;
+    cav:refersTo camssa:77a4de8a-1138-4acc-ac16-ba25fa9f3cbd .
+
+camssa:674bed47-bb83-4afe-a97c-dcf671e5b197 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'When it comes to the preservation mechanisms, ETSI TS 119 512 specifies a data structure "EvidenceExchange", which contains preservation objects and preservation evidences to support seamless export and import from one preservation service to another one using evidence records, therefore enhancing interoperability between systems and ensuring data portability.
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf    '"""@en ;
+    cav:refersTo camssa:158a8dca-4190-4a6e-887f-1c69b2cbc886 .
+
+camssa:69cd5b50-adcb-4c7d-9fd2-ddab554d687f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 512 can be found on the specifications and standards repository of its own standards development organization, the European Telecommunication Standards Institute (ETSI).  
+
+ETSI standards repository:
+https://www.etsi.org/committee/1399-esi'"""@en ;
+    cav:refersTo camssa:1e156831-c477-4caf-8ac6-55e8466d0b3d .
+
+camssa:6b4ff8a1-9d2e-49f2-9f69-9b6a791181d4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:70838fd4-6c39-48cd-9e1a-3799cfd14e03 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There has not been found any community sharing their data and results on national platforms.  However, ETSI TS 119 512 indirectly encourages the creation of communities on national platforms through ETSI membership and directives.
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf'"""@en ;
+    cav:refersTo camssa:c1690795-7237-40b4-941c-8e54dce4e8b6 .
+
+camssa:70f38ac1-9781-410e-94ac-fb8efe283958 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:73393091-93d1-4af7-9bf3-8be77a0beb13 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The puropse of ETSI TS 119 512 is not related to the publication of open data, therefore this criterion is not applicable to the specification.
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf
+
+Tim Berners-Lee 5-star schema for Open Data:   
+https://5stardata.info/en/'"""@en ;
+    cav:refersTo camssa:2ea336e7-1982-46bc-b0d4-e1c3b7e007e5 .
+
+camssa:733e9b39-3417-4109-b766-bf78a720442d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "20"^^xsd:int .
+
+camssa:7452cc04-ff0a-4370-abd1-80d432526994 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:77a4de8a-1138-4acc-ac16-ba25fa9f3cbd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:790157a1-64b4-4cd8-a9cd-6850233f0707 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "80"^^xsd:int .
+
+camssa:7a86d2de-ba97-44f4-94b2-657ca3ba6f0b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "80"^^xsd:int .
+
+camssa:7aa8ca31-b25a-4048-8116-b829ce6c2b5b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Cryptographic algorithms are the basis of e-signatures encryption. ETSI TS 119 512 is furthermore developed for trust service providers for the storing and retrieval of information and data that require a high degree of security in their processing and exchange.  
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf'"""@en ;
+    cav:refersTo camssa:b4ab4188-b872-4cae-b814-c6ad7acf992c .
+
+camssa:7afc6f36-3eb9-4bf1-bcf9-d011f2df5d12 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 512 has been developed to enable the long-term preservation of electronic signatures, in which case it also includes the retrieval of these electronic signatures through a storage system. The features provided by this specification are considered very valuable in reducing the administrative burden, as it facilitates the storage and preservation of data, ensuring that document signatures remain valid over time.
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf'"""@en ;
+    cav:refersTo camssa:7b58a492-ceb8-47d2-b886-4f701d692bbe .
+
+camssa:7b58a492-ceb8-47d2-b886-4f701d692bbe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:7c5f713f-0de6-4b00-bf12-d2ae77f34a58 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The implementation of e-signature is a mean that allows administrations and stakeholders to exchange digital data reducing the amount of non-digital documents exchanged. Additionally, it fosters the reuse of data across borders, which as well takes part in the administrative burden reduction. 
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf
+
+ETSI EN 319 401 specification:
+https://www.etsi.org/deliver/etsi_en/319400_319499/319401/02.03.01_60/en_319401v020301p.pdf'"""@en ;
+    cav:refersTo camssa:076fcd34-466b-4e85-a14c-b0b89a965827 .
+
+camssa:7e063d75-57a3-4c7c-a915-84a88a1245cb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "None"^^xsd:int .
+
+camssa:822db373-5487-4901-9e44-84a325416065 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:853e93fd-174a-4a22-a912-b29b079dde4a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There has not been found any platform to test conformance to ETSI TS 119 512, nonetheless, the specification lists a set of requirements needed to comply with in order to be conformant can be checked manually wether or not applied. 
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf'"""@en ;
+    cav:refersTo camssa:08452e4a-76ea-4863-8a17-0e1c35101c19 .
+
+camssa:88c0a94b-debb-471b-96a8-874afffc7d80 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "60"^^xsd:int .
+
+camssa:90c96410-e25b-434b-89e2-1a87d2faa3c4 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Although it is mostly suited for public administrations, ETSI TS 119 512 protocols can be used in any business domains.  For example, the specification uses different preservation schemes that build the so-called preservation profiles (see eIDAS reference)
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf
+
+eIDAS blog, New APIs for the eIDAS-Ecosystem:
+https://blog.eid.as/tag/etsi-ts-119-512-en/'"""@en ;
+    cav:refersTo camssa:0b9ba3e0-6266-4148-b18c-c34504c07e90 .
+
+camssa:924fd4de-6482-455f-bf69-f129445f08c3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:94c85a84-1ec1-4e8d-9b6d-419f15b5bfcd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9ab1534b-3e36-4e4e-872f-b5f653505c3e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After searching in different catalogues and repositories, there is no evidence found of ETSI TS 119 512 being included in the catalogue of any Member State.
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf'"""@en ;
+    cav:refersTo camssa:2c0c44d7-e97c-4d11-8fd5-6d1232e4ef23 .
+
+camssa:9b724c26-fce3-442e-b682-f48d7cd71258 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The puropes of ETSI TS 119 512 is not related to the exposure of interfaces.  Therefore this criterion is not applicable to this specification.
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf'"""@en ;
+    cav:refersTo camssa:2c67c127-3975-40be-a74d-ee8d02f914a9 .
+
+camssa:9e780742-9fea-43af-852d-d2cfcd285f88 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement "nan"@en ;
+    cav:refersTo camssa:7e063d75-57a3-4c7c-a915-84a88a1245cb .
+
+camssa:9f533ca1-5a30-41a4-8a89-3ff5aad43860 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 512  has been developed to provide services for the long-term preservation of data in general.  The specification fosters the implementation of the once-only principle by ensuring data is well preserved and stored, and that it can also be retrieved when needed. 
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf'"""@en ;
+    cav:refersTo camssa:42dc9cec-3f3f-48c0-8d87-75b9fd085029 .
+
+camssa:a0d13048-a49c-4ceb-be62-b70090e186c3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "60"^^xsd:int .
+
+camssa:a56a3c9a-6693-48b9-83b9-e6c8a12d38d9 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "DIGIT-CAMSS@ec.europa.eu" .
+
+camssa:a59471ae-9816-4f47-a402-08668d752f53 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:a7b2695c-4097-4613-a388-7d78114f1726 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 512 is maintained by ETSI, one of the European Agencies for Standardisation. 
+
+About ETSI:
+https://www.etsi.org/about
+
+ETSI TS 119 512 Working group:
+https://portal.etsi.org/webapp/workprogram/Report_WorkItem.asp?WKI_ID=61427'"""@en ;
+    cav:refersTo camssa:cfdbbd00-75a9-4c7a-acd9-99f8754939eb .
+
+camssa:aa870394-eaf1-4375-aba2-bc7dc8523d51 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Although it is mostly suited for public administrations, ETSI TS 119 512 protocols can be implemented in any business domains.  For example, the specification uses different preservation schemes that build the so-called preservation profiles (see eIDAS reference)
+
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf
+
+eIDAS blog, New APIs for the eIDAS-Ecosystem:
+https://blog.eid.as/tag/etsi-ts-119-512-en/'"""@en ;
+    cav:refersTo camssa:822db373-5487-4901-9e44-84a325416065 .
+
+camssa:aaaa5a8f-156f-4b1d-b043-1e715b3408ba a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "60"^^xsd:int .
+
+camssa:af991864-1e55-4fbc-82c7-5f7cad66d4e9 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification performs efficienetly in accordance with the TR-ESOR middleware techincal guidelines.
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf
+
+TR-ESOR Preservation of Evidence of Cryptographically Signed Document:
+https://www.bsi.bund.de/EN/Service-Navi/Publications/TechnicalGuidelines/TR03125/TechnicalGuidelines_03125_node.html'"""@en ;
+    cav:refersTo camssa:a0d13048-a49c-4ceb-be62-b70090e186c3 .
+
+camssa:afd22728-2ca2-49c3-8fb4-548bbc0d98ab a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI’s standards-making process has been clearly defined after years of experience. The organisation has adopted the open approach which means direct participation and consensus as a basis to develop standards. All the stakeholders have the opportunity to participate directly in the process of standardisation through the technical committees created to develop ETSI’s technical specifications and standards. The decision-making process includes a public review, where stakeholders involved can provide technical feedback in order to enhance and maximize the quality and accuracy of the standards. 
+
+ETSI standard making:
+https://www.etsi.org/standards/standards-making'"""@en ;
+    cav:refersTo camssa:790157a1-64b4-4cd8-a9cd-6850233f0707 .
+
+camssa:b135a4a0-ec4c-4315-b135-1d44653936d6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After searching the different national catalogues, there has not been found any European Member State recommending ETSI TS 119 512.
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf'"""@en ;
+    cav:refersTo camssa:10e1ce55-0955-4dc6-bf90-bca2634e044a .
+
+camssa:b4ab4188-b872-4cae-b814-c6ad7acf992c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "100"^^xsd:int .
+
+camssa:c1690795-7237-40b4-941c-8e54dce4e8b6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:cac9b30a-7482-4954-b49c-b910ad799850 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "80"^^xsd:int .
+
+camssa:cfdbbd00-75a9-4c7a-acd9-99f8754939eb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d1f7eba2-d364-4f82-96f3-24eb8142b74f a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "100"^^xsd:int .
+
+camssa:deaa5ecc-ccd2-4db3-bfb3-31211423c32f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The specification performs effectively in accordance with the TR-ESOR middleware techincal guidelines.
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf
+
+TR-ESOR Preservation of Evidence of Cryptographically Signed Document:
+https://www.bsi.bund.de/EN/Service-Navi/Publications/TechnicalGuidelines/TR03125/TechnicalGuidelines_03125_node.html'"""@en ;
+    cav:refersTo camssa:88c0a94b-debb-471b-96a8-874afffc7d80 .
+
+camssa:e3fee4d9-8e94-4fda-b1fa-e2ec82d9c39e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 512 is not related to multilingualism.  Therefore this criterion is not related to this specification.
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf'"""@en ;
+    cav:refersTo camssa:d1f7eba2-d364-4f82-96f3-24eb8142b74f .
+
+camssa:ea3a6cf1-4d70-4576-96a6-b6236958970f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 512 is part of the Electronic Signatures Infrastructure (ESI) family of specifications.  the ESI dates back to 2012, when the  General Policy Requirements for Trust Service Providers supporting Electronic Signatures (ETSI EN 319 401) specification was first issued.  Since its first publication, there have been many extensions one of which is ETSI TS 119 512, whose version 2.3 was released in 2020 when the eIDAS regulation identified the need to create protocols to develop preservation services for trust service providers,  as mentioned in ETSI SR 019 510, giving birth to both TS 119 511 and TS 199 512 specifications.
+
+
+ESI specification history:
+https://standards.globalspec.com/std/14387016/EN%20319%20401
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf
+
+ETSI EN 319 401 specification:
+https://www.etsi.org/deliver/etsi_en/319400_319499/319401/02.03.01_60/en_319401v020301p.pdf
+
+eIDAS blog, New APIs for the eIDAS-Ecosystem:
+https://blog.eid.as/tag/etsi-ts-119-512-en/'"""@en ;
+    cav:refersTo camssa:5da11512-717f-4951-95b5-4629035b6992 .
+
+camssa:ef216676-7864-47e2-9efb-a6b75eb42807 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'ETSI TS 119 512  is a component derived from the actions implemented on the basis of the Regulation (EU) No 910/2014 of the European Parliament and of the Council of 23 July 2014 on electronic identification and trust services for electronic transactions in the internal market.  The aim of this regulation is to enhance interoperability when it comes to trust services of e-signatures in the European context.  
+
+Regulation (EU) No 910/2014 of the European Parliament and of the Council of 23 July 2014 on electronic identification and trust services for electronic transactions in the internal market:
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2014.257.01.0073.01.ENG'"""@en ;
+    cav:refersTo camssa:24538530-5965-4391-bd93-7aa9713f762d .
+
+camssa:f0e67b77-9e16-4017-b579-1764ec1f8e73 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'According to section 4.4 of the documentation, ETSI TS 119 512 provides an interface between users and preservation services, however, specific provision are fully achieved if it is combined with its companion documents ETS TS 119 511 therefore, enabling the visibility of administrative procedures, rules and services if combined with other specifications.
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf
+
+TR-ESOR Preservation of Evidence of Cryptographically Signed Document:
+https://www.bsi.bund.de/EN/Service-Navi/Publications/TechnicalGuidelines/TR03125/TechnicalGuidelines_03125_node.html'"""@en ;
+    cav:refersTo camssa:cac9b30a-7482-4954-b49c-b910ad799850 .
+
+camssa:f748d424-a796-4adb-9f6b-8c81252884cb a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The main purpose of ETSI TS 119 512 is to provide protocols for trust service providers providing 
+long-term data preservation services of e-signatures and of general data.  
+
+ETSI TS 119 512 specification:
+https://www.etsi.org/deliver/etsi_ts/119500_119599/119512/01.01.02_60/ts_119512v010102p.pdf'"""@en ;
+    cav:refersTo camssa:1ff9e972-8966-4862-b3cb-040c97d07233 .
+
