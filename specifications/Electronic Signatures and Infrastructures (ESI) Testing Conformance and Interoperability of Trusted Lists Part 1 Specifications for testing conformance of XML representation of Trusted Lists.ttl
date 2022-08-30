@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:4c545531-9aed-416b-abaf-248b714cbe82 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:9820db589c536cbbfbb653647fabbe7a4b5dda36f9a54f0e40da9e16e66cfc64 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 ;
+    dct:title "Electronic Signatures and Infrastructures (ESI);Testing Conformance and Interoperability of Trusted Lists; Part 1: Specifications for testing conformance of XML representation of Trusted Lists"@en ;
+    dcat:distribution cssvrsc:f4b05373-13f5-4f57-ac14-8f1617408122 .
+
+cssvrsc:f4b05373-13f5-4f57-ac14-8f1617408122 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "https://www.etsi.org/deliver/etsi_ts/119600_119699/11961401/01.01.01_60/ts_11961401v010101p.pdf"^^xsd:anyURI .
+
+cssvrsc:ac238409c453c2f386dcbc77523fa03f0cf621660f5742ffb78cc942f25f8d17 a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "ETSI (https://www.etsi.org/)"^^xsd:string .
+
