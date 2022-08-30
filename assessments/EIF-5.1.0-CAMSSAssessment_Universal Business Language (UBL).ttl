@@ -1,0 +1,742 @@
+@prefix camss: <http://data.europa.eu/2sa/ontology#> .
+@prefix camssa: <http://data.europa.eu/2sa/assessments/> .
+@prefix cav: <http://data.europa.eu/2sa/cav#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix sc: <http://data.europa.eu/2sa/scenarios#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix status: <http://data.europa.eu/2sa/rsc/assessment-status#> .
+@prefix tool: <http://data.europa.eu/2sa/rsc/toolkit-version#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+camssa:37876dfd2d513da1ae2da1a24e9ce0fc52cd66258065093a4ded1120240bdd10 a cav:Assessment,
+        owl:NamedIndividual ;
+    cav:contextualisedBy sc:87c1faa38c024ef8225a36b2c5d472986ac937ab61b86d8e80edd5468c4eab28 ;
+    cav:resultsIn camssa:126317f8-744a-4035-a57b-faf035665cc7,
+        camssa:15c46b0f-cf05-4204-851e-5cefd6d72e5f,
+        camssa:15e4f35c-8f23-4ca3-903a-589be2ce2133,
+        camssa:17f4b09f-301e-4047-94a2-e7c613f63d3a,
+        camssa:2c700a2a-25eb-4f1b-b7db-3a15f94684e2,
+        camssa:35fb3c6f-d70b-4b05-9f84-9d58248dd12d,
+        camssa:3a861d62-f7e7-4f08-91cf-01512412741d,
+        camssa:3d1cd831-25bc-4905-a9eb-3f414f7e33ca,
+        camssa:3e7e7d60-fb71-45d5-ba7b-07d0b95af41d,
+        camssa:43d23f44-7c8c-4878-a48c-994baf254fab,
+        camssa:480b01d4-6473-4378-9575-8dac130bc51e,
+        camssa:4cc56a9b-db10-4adf-a8fb-ac66fe02d8c6,
+        camssa:4dfae94b-8a5f-4658-bde9-c5a66d23d068,
+        camssa:56e5afde-5f40-4ecb-87c1-ad0e8f5ed3f0,
+        camssa:5af885f7-e99d-4f9c-8d1f-a16827c4f6ec,
+        camssa:5ccf80fb-7f67-49f3-9ee0-5f1ccd861890,
+        camssa:60f3b62c-9114-452f-8fa3-bf5386ce14b1,
+        camssa:60fc7652-2101-4c2f-9a01-0a17f9b57799,
+        camssa:6558289f-8afc-4cf9-964e-d4039a590d84,
+        camssa:66e4028a-13f5-4347-907e-7225fd5a7cf8,
+        camssa:68cfb9d5-5dc1-4df2-ad9a-8e8a79118664,
+        camssa:6acd80ff-ddac-492c-abbe-00861af8cf4e,
+        camssa:6d8229e3-de3a-462b-9d4b-774fc7e18677,
+        camssa:6e8f00f8-a183-405a-9a94-0d9a25575bfc,
+        camssa:7eea407b-608b-4dc1-be99-dc955694a5fe,
+        camssa:89d959ce-b170-40f0-9e74-e979a437f10c,
+        camssa:8bbe3839-5ee6-4e80-83dc-edd48c8afe8b,
+        camssa:96e084b8-7ab0-478f-ae98-19c865741363,
+        camssa:a2b26b22-43b8-458a-971e-dcf2268e29ae,
+        camssa:ad34ac25-19d0-4396-8d6a-cb84fc613cce,
+        camssa:aec4bcc4-9890-4318-8a9d-8eed8f39633b,
+        camssa:bcb264a1-9541-40a6-837d-fcae554e9d99,
+        camssa:bde1ad1c-286f-49ec-bcf3-58d68205e5e8,
+        camssa:d57aa6eb-1c0c-47ff-a927-80b2a6d4ce09,
+        camssa:d9c66fb3-b48e-4c98-8782-0bb283deb136,
+        camssa:d9fc9db2-f2f8-4b8c-ae2a-93056914b2e2,
+        camssa:e1479c72-d19c-446d-955b-9986f3b8e587,
+        camssa:e48d66b9-d890-4a3a-8232-11eaf6a8a4c8,
+        camssa:e63d15f3-c0eb-4cc1-a378-9a328c90e09a,
+        camssa:e896a792-ccdf-461b-a4f5-5f7fb3535665,
+        camssa:f2bd9a77-3758-489e-a31d-21fac9111252,
+        camssa:f31d687e-3888-4b35-92d6-eaa3a67d3aa2,
+        camssa:f93278e9-996e-412d-9a3b-11dc9a3328d3,
+        camssa:f998a005-0440-4ba9-a9a8-7fb0f049f93b ;
+    cav:status status:Complete ;
+    camss:assesses cssvrsc:b059e5051bb83f9abf3009b747716a429d552c29ffec38039c830dbe2f45a1b9 ;
+    camss:assessmentDate "None"^^xsd:date ;
+    camss:submissionDate "None"^^xsd:date ;
+    camss:toolVersion tool:5.1.0 ;
+    dct:title "Universal Business Language (UBL)"@en .
+
+camssa:e05430394ffea430cb1fcf8fe744cff2ad203b79d3de6c182b2d34a76d1d2317 a owl:NamedIndividual,
+        org:Organization ;
+    camss:contactPoint camssa:fb3a3abd-910e-4c2c-984d-924897e1b830 ;
+    skos:prefLabel "CAMSS Team European Commission DG-DIGIT"@en .
+
+camssa:048e591c-c98a-4151-8c82-a54fd8bd7bd3 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0b122f4f42ca2089ee158a31d932d6a0332aa3a4d04acce1e2e7aa140815a0ec ;
+    cav:value "100"^^xsd:int .
+
+camssa:06d973bc-deb0-49f4-a169-1f4602fcb138 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ceebc7042ff4b3525981f67e306167d9711ac0bce6ea07a067cdb4881854db97 ;
+    cav:value "80"^^xsd:int .
+
+camssa:0740414a-8da5-49c0-86b3-04c82699d208 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e46f1a4a060cc7e143e32e4833c94af9164c37bc0d4c844bd1fa974ffb2ac225 ;
+    cav:value "100"^^xsd:int .
+
+camssa:0dea4c54-cf27-4bd9-b331-cfea9b0d2710 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9c03a344765a6b8da57c4a7d40647791b737e3e1feecc14e3d59f2c69bdb246b ;
+    cav:value "100"^^xsd:int .
+
+camssa:126317f8-744a-4035-a57b-faf035665cc7 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """"Some European projects using UBL have been found to conduct effectiveness assessments.  Such is the case of PEPPOL BIS Billing or ESPD.  In addition, There has been found an article assessing the impact of UBL implementation among SME's in developing countries.
+
+Suitable EAI architectures are necessary to fit interoperability challenges of SME's in less developed countries:
+https://www.academia.edu/10858900/Suitable_EAI_architectures_are_necessary_to_fit_interoperability_challenges_of_SMEs_in_less_developed_countries
+
+Peppol BIS Billing 3.0
+https://docs.peppol.eu/poacc/billing/3.0/\""""@en ;
+    cav:refersTo camssa:818a9df6-2be9-4c45-a7dc-110b3b429b07 .
+
+camssa:15c46b0f-cf05-4204-851e-5cefd6d72e5f a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'UBL is independent of any specification and can be implemented without any dependency on platforms.
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html'"""@en ;
+    cav:refersTo camssa:9d29bee3-2190-4f5f-bf9d-70519819f9f1 .
+
+camssa:15e4f35c-8f23-4ca3-903a-589be2ce2133 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'As defined by the OASIS Technical Committee (TC), the UBL TC is involved in the release lifecycle of 
+the specification. External contribution to this committee is possible through open channels. Up-to-date, the 
+UBL TC has announced three public reviews; however, the topic selection of these reviews is independent 
+of the external contributors.
+
+UBL OASIS Technical Committee reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ubl'"""@en ;
+    cav:refersTo camssa:75340d81-7a58-44de-a3b5-2ed9449ed8af .
+
+camssa:17f4b09f-301e-4047-94a2-e7c613f63d3a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The flexible approach of UBL makes it an adaptable specification, that can change based on future business and administrative needs, therefore supporting the evolution of European Public Services.
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html'"""@en ;
+    cav:refersTo camssa:728f3080-47ef-4752-a06d-70638ececa79 .
+
+camssa:260ac945-e7f6-4f97-9ef3-3c67e9318013 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a2e2820561158593079cf28230b73b9b7f1cb83da49b04d2317790e20c0c706f ;
+    cav:value "60"^^xsd:int .
+
+camssa:2c700a2a-25eb-4f1b-b7db-3a15f94684e2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of UBL is not related to e-accessibility.  Therefore this criterion is not applicable to this specification.
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html'"""@en ;
+    cav:refersTo camssa:5942332f-7f59-44a3-bdf8-09aac2ec7c1d .
+
+camssa:2e03c3e0-a709-4bba-908a-669dbd4c0899 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-69e927013383f3944a629c01e930a6663b8304aa5f3137b9a5de3c02d34da401 ;
+    cav:value "100"^^xsd:int .
+
+camssa:31ed9672-2b68-4220-acf4-819ffad0f0c6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-1624157830122d60825aa5aa88ab70d0b140b2e7e510086699f9a9773efef6bd ;
+    cav:value "100"^^xsd:int .
+
+camssa:35fb3c6f-d70b-4b05-9f84-9d58248dd12d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'UBL design is its support for customization to meet the needs of individual organizations while maintaining complete interoperability within the standard framework. UBL simplifies the delivery of European public services as it provides a universally understood and recoginzed syntax for legally binding business documents, and therefore, reduces the administrative burden. A European Example is the ESPD project.
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html
+
+ESPD project document:
+https://docs.ted.europa.eu/ESPD-EDM/3.0.1/xml_technical_handbook.html'"""@en ;
+    cav:refersTo camssa:698b869e-866c-4251-a7b0-845c0a55259d .
+
+camssa:364d1c4f-db08-4c5b-a524-fa794da98f96 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-812668363d8f0cc562041fae6c588e1555372bf0bf5c16835be996dd72070013 ;
+    cav:value "100"^^xsd:int .
+
+camssa:3a861d62-f7e7-4f08-91cf-01512412741d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of UBL is not related to te secure exchange of data.  Therefore this criterion is not applicable to this specification.  
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html'"""@en ;
+    cav:refersTo camssa:bcf40db9-6a03-4894-8fd0-235414094377 .
+
+camssa:3d1cd831-25bc-4905-a9eb-3f414f7e33ca a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'UBL is designed to plug directly into existing business, accounting, legal, auditing, and records management practices, eliminating the re-keying of data required by traditional fax, scanned-image and paper-based supply chains and in doing so provides an entry point into electronic business for small and medium-sized businesses.  Therefore UBL actively supports comprehensibility as is the case of the ESPD project.
+
+Developer community OASIS. UBL functionalities:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ubl#functionality
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html
+
+ESPD reference, Legal framework and context section:
+https://docs.ted.europa.eu/ESPD-EDM/3.0.1/xml_business_handbook.html#_i_1_1_legal_framework_and_context'"""@en ;
+    cav:refersTo camssa:ccba2207-d1d7-4931-b6b0-523763e668b8 .
+
+camssa:3e7e7d60-fb71-45d5-ba7b-07d0b95af41d a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The Joinup platform comprises a large European community of developers, some of who are focused on UBL implementations.  Among the different issues addressed we can find tutorials, or discussion forums related to the specification.  
+
+Joinup: About OASIS Universal Business Language (UBL)
+https://joinup.ec.europa.eu/collection/eprocurement/solution/oasis-universal-business-language-ubl/about
+
+UBL in Github:
+https://github.com/oasis-tcs/ubl'"""@en ;
+    cav:refersTo camssa:7c715e1c-f79a-469c-b6e5-bf6066aac3a6 .
+
+camssa:42b3f083-6d43-4ba5-af2c-53b44d538bfe a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-f53dee88cf8529a93a68be781005e903c270057da1a72e2f89e8cb154be0c51b ;
+    cav:value "100"^^xsd:int .
+
+camssa:43d23f44-7c8c-4878-a48c-994baf254fab a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'UBL fosters data processing as it is a specification used to exchange information between systems and parties with a specific format. Therefore, by applying structure to documents and providing the data types expected, the usage of UBL can be useful for trustworthy data processing. In the case of security, there are no provisions.
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html'"""@en ;
+    cav:refersTo camssa:260ac945-e7f6-4f97-9ef3-3c67e9318013 .
+
+camssa:480b01d4-6473-4378-9575-8dac130bc51e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Being XML-based, UBL can uniformily reuse data, however, there are no specific provisions addressing this topic. 
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html'"""@en ;
+    cav:refersTo camssa:06d973bc-deb0-49f4-a169-1f4602fcb138 .
+
+camssa:48cbf2df-3033-41b5-a6ed-04a868c360b1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cd828c0ec9887027bdb6b981560bde593cda27c080298ab36323ba5441ba4c31 ;
+    cav:value "100"^^xsd:int .
+
+camssa:4cc56a9b-db10-4adf-a8fb-ac66fe02d8c6 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'UBL is an Extensible Mark up Language (XML) based specification.  XML is a markup language and file format for storing, transmitting and reconstructing arbitrary data, and it emphasizes simplicity generality and usability across the internet.  For that matter, XML supports at least one of the five stars of Tim Berners-Lee scale.
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html
+
+Tim Berners-Lee 5-star schema for Open Data: 
+https://5stardata.info/en/'"""@en ;
+    cav:refersTo camssa:0740414a-8da5-49c0-86b3-04c82699d208 .
+
+camssa:4dfae94b-8a5f-4658-bde9-c5a66d23d068 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The OASIS Universal Business Language (UBL) Standard, version 2.1, has been designated by the European Commission as one of the first consortium standards officially eligible for referencing in tenders from public administrations. Still UBL is not considered a European standard although it is recoginzed as such.
+
+COMMISSION IMPLEMENTING DECISION of 31 October 2014 on the identification of Universal Business Language version 2.1 for referencing in public procurement:
+https://eur-lex.europa.eu/legal-content/ES/TXT/?qid=1657095448506&uri=CELEX:32014D0771'"""@en ;
+    cav:refersTo camssa:cffc87bb-5e8b-4c03-92fc-db4c205e8927 .
+
+camssa:56e5afde-5f40-4ecb-87c1-ad0e8f5ed3f0 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Conforming to the UBL standard means that all business document types remain machine-readable and therefore enhances interoperability between systems, as the document transfer is done in a standardized way.
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html'"""@en ;
+    cav:refersTo camssa:62c40d11-a759-41fb-802a-a9614b7da3a4 .
+
+camssa:5942332f-7f59-44a3-bdf8-09aac2ec7c1d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-b37687b8bb3dbd4c6f96969358cf5d70900d1ccd01402cea7668da6303bec4b4 ;
+    cav:value "100"^^xsd:int .
+
+camssa:5af885f7-e99d-4f9c-8d1f-a16827c4f6ec a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The OASIS Technical Committee, in charge of the development of OData, operates under RF (royalty-free) 
+on RAND Mode of the OASIS IPR Policy. Therefore, the specification is licensed on a Royalty-free basis.
+
+OASIS Intellectual Property guidelines, section 5.2:
+https://www.oasis-open.org/policies-guidelines/ipr/
+
+UBL Intellectual Property Rights policy: 
+https://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html#S-IPR-POLICY'"""@en ;
+    cav:refersTo camssa:48cbf2df-3033-41b5-a6ed-04a868c360b1 .
+
+camssa:5ccf80fb-7f67-49f3-9ee0-5f1ccd861890 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'UBL appears in Joinup as one of the identiefied ICT specifications for e-procurement.
+
+Joinup distribution of UBL:
+https://joinup.ec.europa.eu/collection/ict-standards-procurement/identified-ict-specifications-procurement'"""@en ;
+    cav:refersTo camssa:aa326ad9-bb24-4553-8da3-ac26b3a818bb .
+
+camssa:60d075a6-597d-42e3-a3e9-37dea90d51cf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6fa642bc8eceff2b1d333dc1123748399264c028fde2fd78308f0a0209ae21b ;
+    cav:value "100"^^xsd:int .
+
+camssa:60f3b62c-9114-452f-8fa3-bf5386ce14b1 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'UBL is an internationally-standardized specification for a suite of common business documents (invoices, purchase orders, waybills, etc.) and a concrete XML syntax (using XSD or RNC) for expressing those documents in a machine-readable format. It is flexible enough to include its own business objects and XML syntax as extensions. It is structured in such a way that it can make business documents utilizing a common library of business objects.
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html
+
+UBL guidelines for customization:
+https://docs.oasis-open.org/ubl/guidelines/UBL2-Customization1.0cs01.pdf'"""@en ;
+    cav:refersTo camssa:c1de63b4-4c92-4ac9-ac95-6caeded259cd .
+
+camssa:60fc7652-2101-4c2f-9a01-0a17f9b57799 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Some European projects using UBL have been found to conduct effciency assessments.  Such is the case of PEPPOL BIS Billing or ESPD.  In addition, there has been found some academic papers and assess the efficiency of UBL conformity to specific data models.  
+
+
+Peppol BIS Billing 3.0
+https://docs.peppol.eu/poacc/billing/3.0/
+
+UBL data model architecture discussion paper:
+https://www.academia.edu/3213815/UBL_v2_Data_Model_Architecture_Discussion_Paper'"""@en ;
+    cav:refersTo camssa:8ecb5881-beec-4a88-a59c-00bddbfceeb6 .
+
+camssa:62c40d11-a759-41fb-802a-a9614b7da3a4 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-c8a79448e829e27f47318879de4899c3a6404aa66d7d8954e7a680cf6e5d1ca2 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6365265a-f169-473a-be9d-30a2d3b5af6c a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-ec3f8a897147f530040ab94fb9bbee9fdad56e7256b2ce6fbb63cf1465315d91 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6558289f-8afc-4cf9-964e-d4039a590d84 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'UBL conceptual model is based on modeling systems such as entity/relationship modeling and the unified modeling language.  The use of UBL has many benefits for the modelling of business processes, among which we can highlight that it provides detailed textual descriptions, explanations, and examples of each of its specified functions and messages, as well as clear rules for extension and a number of subsets and tool resources.
+
+The Meaning of UBL: The Value of a Semantic Data Model:
+http://ubl.xml.org/forum/the-meaning-of-ubl-the-value-of-a-semantic-data-model'"""@en ;
+    cav:refersTo camssa:88648543-3d54-440e-843a-9e4b42314d2e .
+
+camssa:66e4028a-13f5-4347-907e-7225fd5a7cf8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Although designed for use in business supply chains it can be (and has been) adapted for other contexts of use. This is because all the business document constructs in a UBL are drawn from a single library of reusable components. Therefore, UBL can be implemented across business domains.
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html
+
+Developer community OASIS. UBL functionalities:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ubl#functionality'"""@en ;
+    cav:refersTo camssa:92cc726d-2194-4e88-aed5-d409e43c93f8 .
+
+camssa:68cfb9d5-5dc1-4df2-ad9a-8e8a79118664 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'UBL is the product of an open and accountable OASIS Technical Committee with participation from a variety of international and industry data standards organizations. It was originally approved as an OASIS standard in 2004 and is among the most mature and widely implemented OASIS Standards. In 2014 the European Commission declared UBL 2.1 officially eligible for referencing in tenders from public administrations and in 2015 UBL 2.1 was also approved as ISO/IEC 19845:2015, establishing UBL as a true international standard for use by governmental bodies globally. With this endorsement, UBL has reached the maximum level of sanction possible for an international standard. The current version, UBL 2.3, was approved in 2021.
+
+Developer community OASIS. UBL functionalities:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ubl#sanction'"""@en ;
+    cav:refersTo camssa:42b3f083-6d43-4ba5-af2c-53b44d538bfe .
+
+camssa:693115d4-024e-46a3-95d4-2da28c818246 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-51782b9aa4b92f4aba322a549b9d3972e304ca68f9353073c29add782502d910 ;
+    cav:value "100"^^xsd:int .
+
+camssa:698b869e-866c-4251-a7b0-845c0a55259d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-e225f44a0b0939b1b30a1ab03b2f38baeca8699c0cd44b4e39adbe19ffbb3542 ;
+    cav:value "100"^^xsd:int .
+
+camssa:6acd80ff-ddac-492c-abbe-00861af8cf4e a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'UBL addresses some provisions on digital signature (see section 5.2.4 of specification), enabling the archiving and long-term preservation of information.
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html'"""@en ;
+    cav:refersTo camssa:cbac8576-bab0-41c1-8db5-453699150e81 .
+
+camssa:6d8229e3-de3a-462b-9d4b-774fc7e18677 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are three Member States recommending UBL in their ICT National Catalogues. These Member 
+States are The Netherlands Malta and Greece.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:048e591c-c98a-4151-8c82-a54fd8bd7bd3 .
+
+camssa:6dfb4370-222e-4e3d-9854-5e8ac9509d32 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-8c0e1d9d02fa1d534bed0962df3492708c99afbc6343ac8dc671bbabae75aca2 ;
+    cav:value "80"^^xsd:int .
+
+camssa:6e8f00f8-a183-405a-9a94-0d9a25575bfc a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'UBL foresees support for multilingual context as it provides clear rules for extension and a number of subsets and tool resources such as localization dictionaries in Chinese, Danish, German, Italian, Japanese, Korean, Spanish and Turkish. This enables communities to create explicit extensions that are locally profiled for their context of use.
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html
+
+The Meaning of UBL: The Value of a Semantic Data Model:
+http://ubl.xml.org/forum/the-meaning-of-ubl-the-value-of-a-semantic-data-model'"""@en ;
+    cav:refersTo camssa:aa7af8ba-10ae-41e2-bede-4543dc12310a .
+
+camssa:728f3080-47ef-4752-a06d-70638ececa79 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3c0edf049cd95575b46d688ed31be0ccce7a5822c5bcc22adf05d491f01f2780 ;
+    cav:value "100"^^xsd:int .
+
+camssa:75340d81-7a58-44de-a3b5-2ed9449ed8af a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3b3b2febe9a7e3ad44bdefc47b0bbcafc7a2e677e9570d6ad822efbe1f7d41e2 ;
+    cav:value "40"^^xsd:int .
+
+camssa:7c715e1c-f79a-469c-b6e5-bf6066aac3a6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-cc272cd8a2e3e9c5e4edaa5ac7d59735c377a9db89d6958335a2cf0538761ab3 ;
+    cav:value "100"^^xsd:int .
+
+camssa:7eea407b-608b-4dc1-be99-dc955694a5fe a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'UBL helps to ensure interoperability when it comes to define processes for setting standards-based infrastructure  for electronic Extensible Markup Language (XML) business documents exchange. This is why, among other reasons, it appears as one of the setting standards for the  "Commission Implementing Decision of 3 April 2014 on the identification of ICT technical specifications eligible for referencing in public procurement"
+
+COMMISSION IMPLEMENTING DECISION of 31 October 2014 on the identification of Universal Business Language version 2.1 for referencing in public procurement:
+https://eur-lex.europa.eu/legal-content/ES/TXT/?qid=1657095448506&uri=CELEX:32014D0771'"""@en ;
+    cav:refersTo camssa:693115d4-024e-46a3-95d4-2da28c818246 .
+
+camssa:818a9df6-2be9-4c45-a7dc-110b3b429b07 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-0e9bb259b84413d890a0fd548e40f255bb983a3add2eb7a737283f711e23d523 ;
+    cav:value "60"^^xsd:int .
+
+camssa:88648543-3d54-440e-843a-9e4b42314d2e a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-22c3c5b40201f4ab2cb64a2d34b7665f8d0d1562f2a3e1a493dd3312608c7537 ;
+    cav:value "100"^^xsd:int .
+
+camssa:89d959ce-b170-40f0-9e74-e979a437f10c a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'An important aspect of UBL design is its support for customization to meet the needs of individual organizations while maintaining complete interoperability within the standard framework. To suit the requirements of specific relationships, data structures of arbitrary complexity can be added to UBL documents without breaking XML validation against the standard schemas.
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html
+
+Developer community OASIS. UBL functionalities:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ubl#functionality
+
+UBL Guidelines for customization:
+https://docs.oasis-open.org/ubl/guidelines/UBL2-Customization1.0cs01.pdf'"""@en ;
+    cav:refersTo camssa:b6e43218-f86c-4daa-a83e-b3d2e4289b37 .
+
+camssa:8bbe3839-5ee6-4e80-83dc-edd48c8afe8b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'UBL is highly adaptable to the business-specific needs, allowing for partial implementations depending on the requirements of any particular context where it is to be applied.
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html'"""@en ;
+    cav:refersTo camssa:6365265a-f169-473a-be9d-30a2d3b5af6c .
+
+camssa:8ecb5881-beec-4a88-a59c-00bddbfceeb6 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d2c939f8f97b2a02c254da4add5fcbea1311d465178344adc029d82366a0f642 ;
+    cav:value "100"^^xsd:int .
+
+camssa:92cc726d-2194-4e88-aed5-d409e43c93f8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-25deb65536af2c7e82f921c56df2c7e21093b2c06fdddd63021b4bccea0b9cd7 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9552eaf0-6604-4cfe-b0f2-e5ab308859fc a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-52e41801b0db7274d934a229fee15e657273655d70d448d16706fcbe0e4f9746 ;
+    cav:value "100"^^xsd:int .
+
+camssa:96e084b8-7ab0-478f-ae98-19c865741363 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'There are three Member States recommending UBL in their ICT National Catalogues. These Member 
+States are The Netherlands, Malta and Greece.
+
+CAMSS List of Standards:
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/camss-list-standards'"""@en ;
+    cav:refersTo camssa:f5fb3b26-82ea-42dc-9f8e-669b00ef37a0 .
+
+camssa:9ab3bd6c-0214-43d2-a401-943066f21f1b a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3dd3a1fb1ac7d78d162dab36230e70a34459f38a795e765cc5fdd304c8c04907 ;
+    cav:value "100"^^xsd:int .
+
+camssa:9d29bee3-2190-4f5f-bf9d-70519819f9f1 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9420538a5a92af199b492414dd056ab7134e456f005895261b1a5b15a3f2814e ;
+    cav:value "100"^^xsd:int .
+
+camssa:a2b26b22-43b8-458a-971e-dcf2268e29ae a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The Github repository is a developer community that hosts many discussions around UBL implementation in domain-specific business contexts.  These discussions also share their data and results and are open to contributions.
+
+UBL in Github:
+https://github.com/oasis-tcs/ubl'"""@en ;
+    cav:refersTo camssa:31ed9672-2b68-4220-acf4-819ffad0f0c6 .
+
+camssa:aa326ad9-bb24-4553-8da3-ac26b3a818bb a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-549e39fc635763b9466e09688714b2908fcf7a349d4f4f0fe2a761bd6f502733 ;
+    cav:value "100"^^xsd:int .
+
+camssa:aa7af8ba-10ae-41e2-bede-4543dc12310a a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26d7b17ff73e55cbf2e7b90ec0eaca8627f132b000e1c8f2de8e5157d8ebe216 ;
+    cav:value "80"^^xsd:int .
+
+camssa:ad34ac25-19d0-4396-8d6a-cb84fc613cce a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The OASIS Technical Committee, in charge of the development of UBL, operates under RF (royalty-free) 
+on RAND Mode of the UBL IPR Policy. Therefore, the specification is licensed on a (F)RAND basis.
+
+OASIS Intellectual Property Rights Policy, section 10.2.2:
+https://www.oasis-open.org/policies-guidelines/ipr/
+
+UBL Intellectual Property Rights policy: 
+https://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html#S-IPR-POLICY'"""@en ;
+    cav:refersTo camssa:9552eaf0-6604-4cfe-b0f2-e5ab308859fc .
+
+camssa:aec4bcc4-9890-4318-8a9d-8eed8f39633b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'After looking in the European Library of Interoperability Specifications, we can conclude UBL has not been mapped into the EIRA, although it is planned to be added in the Data Model ABB (semantic view).
+
+EIRA Library of Interoperability Specifications (ELIS):
+https://joinup.ec.europa.eu/collection/common-assessment-method-standards-and-specifications-camss/solution/elis/release/v110'"""@en ;
+    cav:refersTo camssa:d18d73d7-c5b5-4e23-bf70-68574326a028 .
+
+camssa:b6e43218-f86c-4daa-a83e-b3d2e4289b37 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d9b9ce1d270550422a8ea6097d2ffa1d923267fd681c56280e3b7810a14a580a ;
+    cav:value "100"^^xsd:int .
+
+camssa:bcb264a1-9541-40a6-837d-fcae554e9d99 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'DNS is independent of any specification and can be implemented without relying on other technologies.
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html'"""@en ;
+    cav:refersTo camssa:2e03c3e0-a709-4bba-908a-669dbd4c0899 .
+
+camssa:bcf40db9-6a03-4894-8fd0-235414094377 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-3beae22dd24b0dbc955ce74a9fe755390983d8436a45b401461ceaaa7a5d1609 ;
+    cav:value "100"^^xsd:int .
+
+camssa:bde1ad1c-286f-49ec-bcf3-58d68205e5e8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'UBL fosters digital exchange of business documents and invoices by establising a commonly agreed vocabulary of business information transfer. An example of a project implementing UBL for such purpose is ESPD, whose main objective is to create a single procurement document for all European Member States.
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html
+
+ESPD Handbook:
+https://docs.ted.europa.eu/ESPD-EDM/3.0.1/xml_business_handbook.html'"""@en ;
+    cav:refersTo camssa:0dea4c54-cf27-4bd9-b331-cfea9b0d2710 .
+
+camssa:bff4fbad-0e8f-48b1-870e-ac9ce63d1d1d a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a6184fb705cfed44856c7b9594b492926f7a63a128a5a2be7b896294d8c79838 ;
+    cav:value "100"^^xsd:int .
+
+camssa:c1de63b4-4c92-4ac9-ac95-6caeded259cd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d83a73b3287a82d85b1bd3f5b18089e9794b091b6c6457992a77d5be6bc1500a ;
+    cav:value "100"^^xsd:int .
+
+camssa:cbac8576-bab0-41c1-8db5-453699150e81 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-245e5eb8db3a19aebfdf9ccc2c2ac0467bebccc76339696f519452e8bbd393ad ;
+    cav:value "80"^^xsd:int .
+
+camssa:ccba2207-d1d7-4931-b6b0-523763e668b8 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-7d12b846c487e7201dbcf395866b5abc0bb5fa040b1f519127b6a5f56d447257 ;
+    cav:value "100"^^xsd:int .
+
+camssa:cffc87bb-5e8b-4c03-92fc-db4c205e8927 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-17a2b7a0ca372f407c300b69049faf9d92cbf274964290ba278b18cf10bf5dbf ;
+    cav:value "20"^^xsd:int .
+
+camssa:d18d73d7-c5b5-4e23-bf70-68574326a028 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-583a0f52df591048a41be40620830a70260e77855364174d91ba159970d8488e ;
+    cav:value "100"^^xsd:int .
+
+camssa:d1ccb4ba-d05a-4ca5-bb8f-96c5021617ea a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-a60f86e868fe2bdcf0c5c47111455d1d5b59498172688e36f23a77baa347d916 ;
+    cav:value "100"^^xsd:int .
+
+camssa:d57aa6eb-1c0c-47ff-a927-80b2a6d4ce09 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'UBL is included in 3 national catalogues of recommended specifications.  They belong to Greece Malta and The Netherlands.  The National Interoperability Framework of the Netherlands is fully aligned with 3 out of the 3 sections according to the European Interoperability Framework Observatory (NIFO)  factsheets, while Greece is placed on the European average (2 out of 3) and Malta scores below average (1 out of 3).
+
+NIFO factsheets:
+https://joinup.ec.europa.eu/collection/nifo-national-interoperability-framework-observatory/digital-public-administration-factsheets-2021
+
+National Catalogue of the Netherlands:
+https://www.forumstandaardisatie.nl/open-standaarden/aanbevolen
+
+National Catalogue of Malta:
+https://mccaa.org.mt/Section/Content?contentId=1243
+
+National Catalogue of Greece
+http://www.e-gif.gov.gr/portal/pls/portal/docs/1/211041.PDF'"""@en ;
+    cav:refersTo camssa:364d1c4f-db08-4c5b-a524-fa794da98f96 .
+
+camssa:d668d7f7-c4e8-43c3-931d-a222640f0f47 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-d520eae57650560dd54723cdcdd166243c9a0b1458a4afdc331175b5c1cada7e ;
+    cav:value "80"^^xsd:int .
+
+camssa:d9c66fb3-b48e-4c98-8782-0bb283deb136 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The purpose of UBL is other than ensuring the protection of personal data.  Therefore this criterion is not applicable to this specification.
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html'"""@en ;
+    cav:refersTo camssa:9ab3bd6c-0214-43d2-a401-943066f21f1b .
+
+camssa:d9fc9db2-f2f8-4b8c-ae2a-93056914b2e2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'In the section 6 of the specification, there is detailed information about its validation.  Moreover, there exist validation services such as CEF eInvoicing, a test infrastructure that allows solution and service providers and public entities to check the compliance of their eInvoicing solution against the standard in a specific syntax: ISO/IEC 19845:2015 (UBL 2.1) or UN/CEFACT CII.  CEF eInvoicing provides a ready to use testing platform, and supports the users of the CEF eInvoicing Conformance Testing service during the entire testing process. There can also be found the ESPD interoperability test bed platform to validate business rules and requirements.
+
+CEF e-invoicing conformance testing:
+https://github.com/ConnectingEurope/eInvoicing-EN16931/releases/tag/validation-1.3.8
+
+ESPD Test bed:
+https://github.com/OP-TED/ESPD-EDM/wiki/Validation'"""@en ;
+    cav:refersTo camssa:60d075a6-597d-42e3-a3e9-37dea90d51cf .
+
+camssa:dabbc8a8-ee87-46f0-8a14-9b6227ea6faf a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-fb2c0a4ddb03b09ecd5450c5a1d6aeed4e51c2a0387709a95a89cd850a7dd180 ;
+    cav:value "100"^^xsd:int .
+
+camssa:e1479c72-d19c-446d-955b-9986f3b8e587 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'UBL is an open standard based on XML.  
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html
+
+Tim Berners-Lee 5-star schema for Open Data: 
+https://5stardata.info/en/'"""@en ;
+    cav:refersTo camssa:6dfb4370-222e-4e3d-9854-5e8ac9509d32 .
+
+camssa:e48d66b9-d890-4a3a-8232-11eaf6a8a4c8 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'UBL is maintained and developed by OASIS, which is an international community developing open 
+standards; specifically, by the Technical Committee (TC). The specification maintenance is transparent, and 
+even if its development and the approval process is restricted to the specification TC, anyone can contribute 
+by submitting feedback to the mailing list. All the contributions are publicly available.
+
+Developer community OASIS: 
+https://www.oasis-open.org/org/'"""@en ;
+    cav:refersTo camssa:dabbc8a8-ee87-46f0-8a14-9b6227ea6faf .
+
+camssa:e5834787-2e9f-416a-acb9-cb021b6cc5bd a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-26aeec3cf5b3b4879325e85fcd751d0c17f62c6c3113109fb100883a553ec0af ;
+    cav:value "100"^^xsd:int .
+
+camssa:e63d15f3-c0eb-4cc1-a378-9a328c90e09a a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'The hub format of the UBL is well suited to the public sector. A single adapter interfaces all suppliers to a common consumer and vice versa. It also interfaces all businesses to tax authorities, custom agents, transporters and accountants.  Therefore, UBL can be considered a strong enabler of external interfaces for European Public Services. For instance, in the ESPD project, UBL XML behaves as an interface document between tenders and public administrations.\\xa0
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html
+
+ESPD reference, Legal framework and context section:
+https://docs.ted.europa.eu/ESPD-EDM/3.0.1/xml_business_handbook.html#_i_1_1_legal_framework_and_context'"""@en ;
+    cav:refersTo camssa:ef80a3f2-29a3-4b57-931b-f8dbfe6ce975 .
+
+camssa:e896a792-ccdf-461b-a4f5-5f7fb3535665 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'UBL is designed to plug directly into existing business, accounting, legal, auditing, and records management practices, eliminating the re-keying of data required by traditional fax, scanned-image and paper-based supply chains and in doing so provides an entry point into electronic business for small and medium-sized businesses.  This means that UBL is an enhancer of internal and external visibility of administrative procedures and data as well as it eases the deliery of european public services, as is the case of the ESPD project.
+
+Developer community OASIS. UBL functionalities:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ubl#functionality
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html
+
+ESPD reference, Legal framework and context section:
+https://docs.ted.europa.eu/ESPD-EDM/3.0.1/xml_business_handbook.html#_i_1_1_legal_framework_and_context'"""@en ;
+    cav:refersTo camssa:e5834787-2e9f-416a-acb9-cb021b6cc5bd .
+
+camssa:ef80a3f2-29a3-4b57-931b-f8dbfe6ce975 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-bb5b5da7c1dc98a64c6a6f22f8fc539a8f80702f896697e985dd2c06d4ab68aa ;
+    cav:value "80"^^xsd:int .
+
+camssa:f2bd9a77-3758-489e-a31d-21fac9111252 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'As defined on the OASIS Technical Committee (TC), only TC members are involved in the development of 
+the UBL specification. External contribution to this committee is possible through open channels.
+
+UBL OASIS Technical Committee reference:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ubl
+
+UBL v2.3:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html'"""@en ;
+    cav:refersTo camssa:d668d7f7-c4e8-43c3-931d-a222640f0f47 .
+
+camssa:f31d687e-3888-4b35-92d6-eaa3a67d3aa2 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Although designed for use in business supply chains it can be (and has been) adapted for other contexts of use. This is because all the business document constructs in a UBL are drawn from a single library of reusable components. Therefore, UBL can be used across business domains.
+
+UBL v2.3 reference:
+http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html
+
+Developer community OASIS. UBL functionalities:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ubl#functionality'"""@en ;
+    cav:refersTo camssa:f9bff38c-7690-4014-99b1-7224bfb31a24 .
+
+camssa:f5fb3b26-82ea-42dc-9f8e-669b00ef37a0 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-9694ffda6be83e507b6d3395cb411581d91419db0107726873a0a9018eab6a54 ;
+    cav:value "100"^^xsd:int .
+
+camssa:f93278e9-996e-412d-9a3b-11dc9a3328d3 a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'Among others, UBL has been used to develop the PEPPOL specifiaction, a  which enables businesses across Europe to communicate electronically with public buyers in various stages of the procurement process. PEPPOL  provides a set of technical specifications that can be implemented in existing eProcurement solutions and eBusiness exchange services to make them interoperable between disparate systems across Europe.
+
+PEPPOL website:
+https://peppol.eu/what-is-peppol/'"""@en ;
+    cav:refersTo camssa:bff4fbad-0e8f-48b1-870e-ac9ce63d1d1d .
+
+camssa:f998a005-0440-4ba9-a9a8-7fb0f049f93b a cav:Statement,
+        owl:NamedIndividual ;
+    cav:judgement """'UBL is the product of an open and accountable OASIS Technical Committee with participation from a variety of international and industry data standards organizations. It was originally approved as an OASIS standard in 2004 and is among the most mature and widely implemented OASIS Standards. In 2014 the European Commission declared UBL 2.1 was officially eligible for referencing in tenders from public administrations. UBL is also integrated in the European Single Procurement Document (ESPD), a self-declaration form that aims to ease tendering processes in procurement.  
+
+Developer community OASIS. UBL functionalities:
+https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=ubl#sanction
+
+UBL in ESPD project:
+https://ec.europa.eu/growth/single-market/public-procurement/digital-procurement/european-single-procurement-document-and-ecertis_en
+
+UBL adoption in ESPD:
+https://docs.ted.europa.eu/ESPD-EDM/3.0.1/xml_technical_handbook.html#_adoption_of_ubl_2_3'"""@en ;
+    cav:refersTo camssa:d1ccb4ba-d05a-4ca5-bb8f-96c5021617ea .
+
+camssa:f9bff38c-7690-4014-99b1-7224bfb31a24 a cav:Score,
+        owl:NamedIndividual ;
+    cav:assignedTo sc:c-50ab6a29689585b917f7b2972d2c41e8c8c52723c2d58eb9b92109c938d4e825 ;
+    cav:value "100"^^xsd:int .
+
+camssa:fb3a3abd-910e-4c2c-984d-924897e1b830 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    schema:email "DIGIT-CAMSS@ec.europa.eu" .
+
