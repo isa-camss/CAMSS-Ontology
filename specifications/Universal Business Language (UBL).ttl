@@ -1,0 +1,29 @@
+@prefix cssv: <http://data.europa.eu/2sa/cssv#> .
+@prefix cssvrsc: <http://data.europa.eu/2sa/cssv/rsc/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+cssvrsc:606cbdce-a6ff-43f6-9cf6-1246e3ebf275 a schema:ContactPoint,
+        owl:NamedIndividual ;
+    cssv:isContactPointOf cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    schema:email "NaN"^^xsd:double .
+
+cssvrsc:b059e5051bb83f9abf3009b747716a429d552c29ffec38039c830dbe2f45a1b9 a cssv:Specification,
+        owl:NamedIndividual ;
+    cssv:isMaintainedBy cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b ;
+    dct:title "Universal Business Language (UBL)"@en ;
+    dcat:distribution cssvrsc:7898e8e9-a243-4357-b800-757e20668eb3 .
+
+cssvrsc:7898e8e9-a243-4357-b800-757e20668eb3 a owl:NamedIndividual,
+        dcat:Distribution ;
+    dcat:accessURL "http://docs.oasis-open.org/ubl/os-UBL-2.3/UBL-2.3.html"^^xsd:anyURI .
+
+cssvrsc:2ea8014113d1baad45397361a10c5b39e782ca8b5765b0f8144aea8615fa552b a owl:NamedIndividual,
+        org:Organization ;
+    skos:prefLabel "OASIS (https://www.oasis-open.org/)"^^xsd:string .
+
